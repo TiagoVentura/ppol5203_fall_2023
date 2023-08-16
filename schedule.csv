@@ -1,0 +1,15 @@
+Weeks,Topic,Date
+Week 1,"Introductions, Installations, IDEs, Command line",29-Aug-23
+Week 2,"Version Control, Workflow and Reproducibility: Or just Git & GitHub",12-Sep-23
+Week 3,"Intro to Python - OOP, Data Types, Control Statements and Functions",19-Sep-23
+Week 4,"From Nested Lists to Data Frames",26-Sep-23
+Week 5,"Pandas I: Data Manipulation",3-Oct-23
+Week 6,"Pandas II: Advanced Data Manipulation and Visualization",10-Oct-23
+Week 7,"Scrapping: Drawing from (Un-)Structured Data Sources",17-Oct-23
+Week 8,"Text as data I: Data Mining",24-Oct-23
+Week 9,"Introduction to Statistical Learning",31-Oct-23
+Week 10,"Text as Data II: Topics + Supervised Models",7-Nov-23
+Week 11,"Invited Speaker: Dr. Eric Dunford  (META) - Introduction to Algorithms + Coding Interview",14-Nov-23
+Week 12,"Training Machines and collecting data with Selenium",21-Nov-23
+Week 13,"SQL + Spark",28-Nov-23
+Week 14,"Final Presentations",5-Dec-23

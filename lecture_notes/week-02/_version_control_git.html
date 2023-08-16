@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>PPOL564 - Data Science I: Foundations</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="_version_control_git_files/libs/clipboard/clipboard.min.js"></script>
+<script src="_version_control_git_files/libs/quarto-html/quarto.js"></script>
+<script src="_version_control_git_files/libs/quarto-html/popper.min.js"></script>
+<script src="_version_control_git_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="_version_control_git_files/libs/quarto-html/anchor.min.js"></script>
+<link href="_version_control_git_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="_version_control_git_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="_version_control_git_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="_version_control_git_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="_version_control_git_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">PPOL564 - Data Science I: Foundations</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<pre><code>Using Jupyter Notebooks, Magic Commands, &amp; Extensions
+
+Tiago Ventura</code></pre>
+<hr>
+<section id="learning-goals" class="level2">
+<h2 class="anchored" data-anchor-id="learning-goals">Learning goals</h2>
+<p>Today we will discuss Version Control, Workflow and Reproducibility in Data Science. It means we will pretty much learn how to incorporate Git and Github to our day-to-day data science workflow.</p>
+<p>These are the main concepts we will learn:</p>
+<ul>
+<li>Reproducibility in Data Science</li>
+<li>Conceptualize what version control and how it works;</li>
+<li>Basics of <code>git</code> and operating it with command line arguments;</li>
+<li>Generating repositories on <code>Github</code>;</li>
+<li>Linking local repositories with online remotes;</li>
+<li>Dealing with merge conflicts;</li>
+<li>Advanced functionality:
+<ul>
+<li>Branching</li>
+</ul></li>
+</ul>
+<p>I will cover some of the concepts here. However, I expect you to do the weekly readings to fully grasp the concepts I will describe here and cover during the lecture</p>
+<section id="cheatsheets" class="level3">
+<h3 class="anchored" data-anchor-id="cheatsheets">Cheatsheets</h3>
+<p>Note that the purpose of this notebook is to serve as a cheatsheet/reference for future use. Though there are better one out there than what I’ve outlined here. I’ve listed a few below for your use.</p>
+<ul>
+<li><a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"><strong>Github Cheatsheet (A)</strong></a></li>
+<li><a href="https://education.github.com/git-cheat-sheet-education.pdf"><strong>Github Cheatsheet (B)</strong></a></li>
+</ul>
+</section>
+</section>
+<section id="reproducibility" class="level2">
+<h2 class="anchored" data-anchor-id="reproducibility">Reproducibility</h2>
+<p>Your data science workflow will generally involve:</p>
+<ul>
+<li>Think about a research question/data analysis</li>
+<li>Collect data</li>
+<li>Clean the data</li>
+<li>Run models</li>
+<li>Visualize the results</li>
+<li>Explain in plain language the substantive importance of your results.</li>
+</ul>
+<p>Some key challenges will emerge as you evolve in your carreer as a data scientist:</p>
+<ul>
+<li><p>Your projects will grow.</p>
+<ul>
+<li>When projects scale-up, <strong>you need to keep track of your work</strong>. Sometimes you decide to experiment with a different model, share you code with a colleagues who suggested you to try a different approach, work with some different visualization. All of this, ideally, without altering the previous draft of your results.</li>
+</ul></li>
+<li><p>Data Science is a collaborative field</p>
+<ul>
+<li>Data Science is a new and very collaborative field, both in academia and industry. Most of your projects will be shared with other data scientists, and you will want to be able to work at the same time in the project, pushing your ideas in different directions, without affecting what you have already consolidated.</li>
+</ul></li>
+<li><p>You will be constantly checking you code and others’ code.</p>
+<ul>
+<li>To do so, you need codes to be well-documented, transparent, and check how the code changed over time</li>
+</ul></li>
+<li><p>Projects will come and go.</p>
+<ul>
+<li>Sometimes a project will slow down, and you will return to it a few months later. Trust me, you will thank you past self if you code is well documented, transparent, and your steps are fully reproducible.</li>
+</ul></li>
+</ul>
+<p>These challenges will appear across different projects, but, most importantly, you are very likely to repeat these tasks for the different iterations of the same project. As you do this, you need to make sure your results are <a href="https://en.wikipedia.org/wiki/Reproducibility#:~:text=For%20the%20findings%20of%20a,when%20the%20study%20is%20replicated.">reproducible</a>.</p>
+<section id="best-practices-for-reproducibility" class="level3">
+<h3 class="anchored" data-anchor-id="best-practices-for-reproducibility">Best Practices for Reproducibility</h3>
+<p><strong>Reproducibility is fundamental to the scientific method</strong>. As you publish a article/data report/data analysis you need to make sure others (or even you in the future) would be able to easily keep a record of your actions as in the data (cleaning, measurement choices, models), the presentation of the results, all in a reproducible way.</p>
+<p>Here are some suggestions for you to overcome these challenges will minimal headaches:</p>
+<p><strong>Documentation</strong></p>
+<ul>
+<li>Use <code>#</code> to describe every single step of your code</li>
+</ul>
+<p><strong>Readability</strong></p>
+<ul>
+<li>Make you code readable in plain english. This usually mean giving names to your variables and functions that fully describe what your intents are.</li>
+<li>Avoid:
+<ul>
+<li>Abbreviation</li>
+<li>Generice Names</li>
+<li>Misleading names</li>
+</ul></li>
+</ul>
+<p><strong>Naming</strong></p>
+<ul>
+<li>Use meaningful names for your code/data/notebooks.
+<ul>
+<li>File names should be meaningful</li>
+<li>DO NOT USE SPACES. Use <a href="https://en.wikipedia.org/wiki/Snake_case">snake case</a> <code>(_)</code> style for you files and code</li>
+</ul></li>
+</ul>
+<p><strong>Portability</strong></p>
+<ul>
+<li>Use computational environments for your projects. (<a href="https://github.com/pyenv/pyenv#installation">pyenv</a></li>
+<li>Avoid specific file paths</li>
+<li>Keep track of the version of your package/libraries versions</li>
+</ul>
+<p><strong>Use Self-Contained Projects</strong></p>
+<ul>
+<li>Organize each data analysis into a specific folder on your computer.</li>
+<li>In my case, every project folder has the following subfolders:
+<ul>
+<li>/code</li>
+<li>/data</li>
+<li>/outputs</li>
+<li>/literature</li>
+<li>/text</li>
+<li>/misc</li>
+</ul></li>
+</ul>
+<p><strong>Version Control</strong></p>
+<ul>
+<li><p>A system that records changes to a file or set of files over time so that you can recall specific versions later. It keeps a complete record of changes to a single file, a folder of material, or a whole project.</p></li>
+<li><p>Easily handle collaboration</p></li>
+<li><p>Avoids version file names</p></li>
+<li><p>Allows you to “rewind the tape” to earlier incarnations of your notes, drafts, papers and code</p></li>
+<li><p>It is like Microsoft Word track changes but for your entire project</p></li>
+</ul>
+<p>Version control is the most complex and most important of the best practices described here for reproducibility in data science. It requires us to learn a tool to perform version control. We will use <code>Git</code> to do so.</p>
+<p><code>Git</code> is one of many option for version control, but it has become the standard for version control in data science. <code>Git</code> is a local tool, that you install in your machine. <code>GitHub</code> is a public remote host for Git repositories is a place where software developers and social scientists make their work available, and where you can contribute to ongoing projects or make public your own.</p>
+</section>
+</section>
+<section id="git-github" class="level2">
+<h2 class="anchored" data-anchor-id="git-github">Git &amp; Github</h2>
+<p><strong><code>Git</code></strong>: one of many options for version control in data science. You hardly hear abour other options though as has become the standard for version control</p>
+<p><strong>Github</strong>: is a public remote host for Git repositories. It works as a place where software developers and social scientists make their work available, and where you can contribute to ongoing projects or make public your own.</p>
+<p>In a nutshell, you will <code>git</code> locally, and share and collaborate with others using Github.</p>
+<section id="git-basic-workflow-in-words" class="level3">
+<h3 class="anchored" data-anchor-id="git-basic-workflow-in-words">Git basic workflow in words</h3>
+<p>Git has three main states that your files can reside in:</p>
+<ul>
+<li><strong>Modified</strong> - changed the file but have not committed it to the database yet.</li>
+<li><strong>Staged</strong> - marked a modified file in its current version to go into the next commit snapshot.</li>
+<li><strong>Committed</strong> - data is safely stored in your local database.</li>
+</ul>
+<p>The fundamental Git process can be paraphrased as follows:</p>
+<ul>
+<li><p>You alter files within your working directory.</p></li>
+<li><p>You deliberately choose and stage only the modifications that you plan to include in your upcoming commit, transferring these changes to the staging area.</p></li>
+<li><p>You make a commit, which captures the current state of the files in the staging area and permanently records that version into your Git directory</p></li>
+</ul>
+</section>
+</section>
+<section id="git-in-practice" class="level2">
+<h2 class="anchored" data-anchor-id="git-in-practice">Git in Practice</h2>
+<p>The code below cover what we did in class. It shows you the basics of using git for local version control.</p>
+<section id="create-an-empty-directory-to-be-our-git-walkthrough" class="level4">
+<h4 class="anchored" data-anchor-id="create-an-empty-directory-to-be-our-git-walkthrough">1) Create an empty directory to be our git walkthrough</h4>
+<p>Open you command line.</p>
+<p>Check your home directory or where you are when you open your terminal</p>
+<ul>
+<li><code>pwd</code> <em>writes to standard output the full path name of your current directory</em></li>
+<li><code>mkdir gitwalkthrough</code> <em>creates a new folder</em></li>
+</ul>
+<p>Change working directory</p>
+<ul>
+<li><code>cd gitwalkthrough</code> <em>change working directory</em></li>
+</ul>
+</section>
+<section id="check-if-you-have-a-git" class="level4">
+<h4 class="anchored" data-anchor-id="check-if-you-have-a-git">2) Check if you have a git</h4>
+<p>Let’s make sure you have a git repository here (you know you do not because you just started this folder)</p>
+<ul>
+<li><code>git status</code> <em>get the current status of the repository</em>
+<ul>
+<li>returns: <code>fatal: not a git repository (or any of the parent directories): .git</code></li>
+</ul></li>
+</ul>
+<p>Create your first git repository. This command creates a local version control for this project. This is different from creating a database in the server, like on github</p>
+<ul>
+<li><code>git init</code> <em>start a new repository from a working directory</em></li>
+</ul>
+<p>If you want to see what is going on behind the hood, this command creates a hidden directory <code>.git</code> in your folder. This directory tracks your version control.</p>
+</section>
+<section id="tracking-and-staging-new-files" class="level4">
+<h4 class="anchored" data-anchor-id="tracking-and-staging-new-files">3) Tracking and staging new files</h4>
+<p>Now we have a git repo created, let make our first commit.</p>
+<p>First, let’s create some random file using the command line. I will use vim as a text editor here.</p>
+<ul>
+<li><code>vim test1.txt</code> <em>to open and edit the file</em></li>
+</ul>
+<p>Remember, git has three basic states: untracked, tracked and stagged files. To move between these states, we use the add command.</p>
+<ul>
+<li><code>git status</code> <em>gonna tell us we have a new untracked filed.</em></li>
+<li><code>git add test1.txt</code> <em>start tracking/stage the file test1.txt</em></li>
+<li><code>git status</code> <em>see we have tracked and staged our files</em></li>
+</ul>
+<p>Let create a new file and modify our test1.txt</p>
+<ul>
+<li><code>vim test1.txt</code> <em>modify as you wish</em></li>
+<li><code>vim test2.txt</code> <em>create a new file</em></li>
+<li><code>git status</code> *check the output now, you have a new untracked file, and also unstagged changes in the old file</li>
+<li><code>git add test1.txt test2.txt</code> <em>to track and stage all</em></li>
+</ul>
+</section>
+<section id="first-commit" class="level4">
+<h4 class="anchored" data-anchor-id="first-commit">4) First commit</h4>
+<p>With all our changes made, we are ready to make the first commit. Or, in other words, take the first snapshot of our directory</p>
+<ul>
+<li><code>git commit -m 'first commit'</code> <em>make your first commit</em></li>
+<li><code>git log</code> *see the history of your commits</li>
+</ul>
+</section>
+<section id="returning-to-a-previous-snapshot" class="level4">
+<h4 class="anchored" data-anchor-id="returning-to-a-previous-snapshot">5) Returning to a previous snapshot</h4>
+<p>Let’s see here how we can use to move back and forth at different stages of our project.</p>
+<p>First, create a new test3.txt file</p>
+<ul>
+<li><code>vim test3.txt</code></li>
+<li><code>git add .</code> <em>track and stage</em></li>
+<li><code>git commit -m 'second commit'</code> *second commit</li>
+</ul>
+<p>Check the log and moving back</p>
+<ul>
+<li><code>git log</code></li>
+<li><code>git checkout &lt;hash&gt;</code> *to move to a past different snapshot</li>
+</ul>
+<p>Where is file 3?</p>
+<ul>
+<li><code>ls</code> *no file test3.txt. we moved bck to our first commit.</li>
+</ul>
+<p>Oh I didn’t want miss file 3! No problemo!</p>
+<ul>
+<li><code>git log --reflog</code> *gets the reference log</li>
+<li><code>git checkout &lt;hash&gt;</code></li>
+</ul>
+</section>
+</section>
+<section id="git-branchinch-and-merging." class="level2">
+<h2 class="anchored" data-anchor-id="git-branchinch-and-merging.">Git: Branchinch and Merging.</h2>
+<p>Branching allows us to work on different paths in Git. It is very useful for two purposes:</p>
+<ul>
+<li><p>Experimenting with code</p></li>
+<li><p>Collaborating with colleagues.</p></li>
+</ul>
+<p>An interesting way to visualize what branching means is by using the <a href="https://git-school.github.io/visualizing-git/">Visualize Git tool</a></p>
+<p>Below you can see basics of the commands to create braches and merge in git.</p>
+<ul>
+<li><p>Create a new branch</p>
+<ul>
+<li><code>git checkout -b &lt;branch-name&gt;</code></li>
+</ul></li>
+<li><p>write code or create new files</p>
+<ul>
+<li><code>vim test4.txt</code></li>
+</ul></li>
+<li><p>Stage and commit</p>
+<ul>
+<li><code>git add .</code></li>
+<li><code>git commit -m " hello from alternative world"</code></li>
+</ul></li>
+<li><p>Check status across different branches</p>
+<ul>
+<li><code>ls</code> <em>test4.txt should be here</em></li>
+<li><code>git checkout master</code> <em>move back to the master branch</em></li>
+<li><code>ls</code> *no test4.txt</li>
+</ul></li>
+<li><p>Then we can merge our branches. Here we are doing a fast-forward merge, moving our master to keep up with the alternative branch</p>
+<ul>
+<li><code>git merge alter [new branch]</code></li>
+</ul></li>
+</ul>
+<p>In general, at this stage, you would use <code>git push</code> to merge your local branch into your remote reposity (usually on github), and <code>git pull</code> to bring your remote to your local branch. You can understand <code>git push</code>| <code>git pull</code> as a merging step of your branch into the remote master branch.</p>
+</section>
+<section id="git-remotes-git-github." class="level2">
+<h2 class="anchored" data-anchor-id="git-remotes-git-github.">Git Remotes: Git + Github.</h2>
+<p>Most times, you will use git integrated with Github. This is because the way git is more useful is by allowing multiple researchers to write and share code at the same time.</p>
+<p>This is the workflow we went through in class. It is usually how I use git in my day to day work. This is also insipiered by a tutorial we developed at the Center for Social Media and Politics (CSMaP), where I worked as a Postdoctoral Researcher.</p>
+<section id="starting-a-new-project" class="level3">
+<h3 class="anchored" data-anchor-id="starting-a-new-project">Starting a New Project</h3>
+<p>Before you write any code:</p>
+<ul>
+<li><p>Go to your github, and create a new repository</p></li>
+<li><p>Open your terminal, and clone the project</p>
+<ul>
+<li><code>git clone &lt;url&gt;</code></li>
+</ul></li>
+<li><p>Move your working directory to this new folder</p>
+<ul>
+<li><code>cd &lt;project-directory&gt;</code></li>
+</ul></li>
+<li><p>Most times, you will want to create a new branch for you to work on this project</p>
+<ul>
+<li><code>git checkout -b &lt;branch-name&gt;</code></li>
+</ul></li>
+<li><p>Write code!</p></li>
+<li><p>Track your changes: <code>git add .</code></p></li>
+<li><p>Commit your changes <code>git commit -m 'describe your commit'</code></p></li>
+<li><p>Push the changes in your local repository to GitHub:</p>
+<ul>
+<li><code>git push -u origin [branch-name]</code> <em>if this is a branch protected repo, you need to do a PR</em></li>
+</ul></li>
+</ul>
+<p>Say now you already have the directory cloned, and you have a colleagues working in the code. Now you want to work on your part of the project. Then you pretty much follow the same sequence as above, but instead of clonning at your first step, you will do a pull from the git repo.</p>
+<ul>
+<li><p><code>cd &lt;gitrepo&gt;</code></p></li>
+<li><p>`git pull</p></li>
+</ul>
+</section>
+</section>
+<section id="git-conflicts" class="level2">
+<h2 class="anchored" data-anchor-id="git-conflicts">Git: Conflicts</h2>
+<p>When merging across different branches, sometimes there are <strong><em>conflicts</em></strong> between branches or remote versions of a repository. This can happen with you experimenting using different branches, but it is very often when collaboration on large scale projects. Say you changed the some part of a file by deleting a function and a colleague changed the same file by modifying the function. This would be an example of a conflict.</p>
+<p>Git does not know which version is the correct one, so it will <strong>mark the file as having a conflict</strong> using a special delimiter.</p>
+<pre><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+ADD EXAMPLE FROM class
+=======
+ADD EXAMPLE FROM CLASS
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; new-branch</code></pre>
+<p><strong>What these delimiters mean?</strong></p>
+<ul>
+<li><p>the top half is the branch you a merging into</p></li>
+<li><p>the bottom half is from the commit that you are trying to merge in</p></li>
+</ul>
+<p><strong>How to solvea a conflict?</strong></p>
+<ul>
+<li><p>Open your text editor and navigate to the file that has merge conflicts.</p></li>
+<li><p>Solve the conflict (which may incorporate changes from both branches) and delete the conflict markers &lt;&lt;&lt;&lt;&lt;&lt;&lt;, =======, &gt;&gt;&gt;&gt;&gt;&gt;&gt; and make the changes you want in the final merge.</p></li>
+<li><p>Stage your changes (<code>git add</code>)</p></li>
+<li><p>Commit your changes (<code>git commit</code>)</p></li>
+</ul>
+<p>Let’s work through an example:</p>
+<section id="create-a-new-branch-change-an-file-and-commit" class="level4">
+<h4 class="anchored" data-anchor-id="create-a-new-branch-change-an-file-and-commit">1) Create a new branch, change an file, and commit</h4>
+<ul>
+<li><code>git checkout -b "new"</code> : create a branch call new, checkout directly</li>
+<li><code>vim test1.txt</code>: make some modification</li>
+<li><code>git add test1.txt</code></li>
+<li><code>git commit -m "new file 1</code>: commit your changes</li>
+</ul>
+</section>
+<section id="now-lets-do-the-same-in-the-master-branch" class="level4">
+<h4 class="anchored" data-anchor-id="now-lets-do-the-same-in-the-master-branch">2) Now, let’s do the same in the master branch</h4>
+<ul>
+<li><code>git checkout "master"</code> : create a branch call new, checkout directly</li>
+<li><code>vim test1.txt</code>: make some modification and see that the old modification is not here</li>
+<li><code>git add test1.txt</code></li>
+<li><code>git commit -m "new file 1 from master</code>: commit your changes</li>
+</ul>
+</section>
+<section id="merge-and-solve-conflict" class="level4">
+<h4 class="anchored" data-anchor-id="merge-and-solve-conflict">3) Merge and solve conflict</h4>
+<p>Because we are at the master branch, we just need to merge the new branck to the master</p>
+<ul>
+<li><code>git merge new</code>: this merges new to the master. if we wanted to do the opposite, then we would need to checkout to new, and use <code>git merge master</code></li>
+</ul>
+<p><strong>We got an error. each branch has a difference in the same file</strong></p>
+<p>See the error:</p>
+<ul>
+<li><p><code>vim test1.txt</code>: see the new file is a combination of each of the different versions of the files in each branch.</p></li>
+<li><p>Fix the issue in your text editor</p></li>
+<li><p><code>git add test1.txt</code></p></li>
+<li><p><code>git commit -m "fixed conflict</code>: commit your changes</p></li>
+<li><p><code>git log</code>: to see your merge complete</p></li>
+</ul>
+</section>
+</section>
+<section id="git-commands" class="level2">
+<h2 class="anchored" data-anchor-id="git-commands">Git Commands</h2>
+<p>Below I summarize a list of git commands we saw in class. This should work as a cheetshet for you.</p>
+<p>Remember of the other tutorial I suggested in the beggining of this notebook:</p>
+<ul>
+<li><a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"><strong>Github Cheatsheet (A)</strong></a></li>
+<li><a href="https://education.github.com/git-cheat-sheet-education.pdf"><strong>Github Cheatsheet (B)</strong></a></li>
+</ul>
+<section id="basic-git-commands" class="level3">
+<h3 class="anchored" data-anchor-id="basic-git-commands">Basic Git commands</h3>
+<p><strong>Set up your identity</strong> - <code>git config --global user.name "myname"</code>: set your user name - <code>git config --global user.email your-email@georgetown.edu</code>: set your email account</p>
+<p><strong>Starting or getting a git repository on your machine</strong> - <code>git init</code>: start a new repository from a working directory - <code>git clone &lt;url or location to repository&gt;</code>: clone an existing repository - <code>git status</code>: get the current status of the repository.</p>
+<p><strong>Staging any changes you made</strong> - <code>git add &lt;file&gt;</code>: stage a file to be committed - <code>git add .</code>: stage <em>all files</em> to be committed - <code>git reset HEAD &lt;file&gt;</code>: un-stage all files to be committed</p>
+<p><strong>Saving the staged changes</strong> - <code>git commit -m "some message"</code>: commit staged changes to repository - <code>git commit</code>: commit staged changes to repository (will be prompted to leave a message)</p>
+<p><strong>Getting current state from the remote (Github) or sending changes to it.</strong> - <code>git fetch</code>: download recent changes in the remote repository (but do not explicitly merge with your local version) - <code>git pull</code>: download recent changes in the remote repository and merge with your local version) - <code>git push</code>: push commits to remote (e.g.&nbsp;github repository)</p>
+<p><strong>Getting Help</strong> - <code>git help &lt;verb&gt;</code> - <code>man git-&lt;verb&gt;</code></p>
+</section>
+</section>
+<section id="advanced-git-commands" class="level2">
+<h2 class="anchored" data-anchor-id="advanced-git-commands">Advanced Git commands</h2>
+<p><strong>Accessing the logs → who did what to which file and when?</strong></p>
+<ul>
+<li><code>git log</code>: look at the commit history
+<ul>
+<li>Useful arguments:
+<ul>
+<li><code>--oneline</code>: view a condensed summary</li>
+<li><code>--all</code>: view the entire commit history</li>
+<li><code>--graph</code>: view a text graph of the commit sequence</li>
+<li><code>--stat</code>: abbreviated stats for each commit</li>
+<li><code>--since=2.weeks</code>: review commits within some temporal range</li>
+</ul></li>
+<li>Easily format the log
+<ul>
+<li><code>git log --pretty=format:"%h - %an, %ar : %s"</code></li>
+<li>see <a href="https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History">Git Basics on Viewing the Commit History</a> for more insight into the different possible configurations and customizations</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><strong>Tracking Differences</strong> - <code>git diff</code> : explore the differences between files - Use the hash hexidecimal code to compare commits + e.g.&nbsp;<code>git diff 44d14b2 2adbea3</code> - <code>git whatchanged</code></p>
+<p><strong>Tracking Movement</strong>: If we were to just rename or move a file, Git doesn’t necessarily know that it was already tracking that file.</p>
+<ul>
+<li><code>git mv old-file-location new-file-location</code>: Move files around so that the git history is retained</li>
+<li><code>git mv old-file-name new-file-name</code>: Rename files so that the git history is retained</li>
+</ul>
+<p><strong>Time Traveling</strong></p>
+<ul>
+<li><code>git checkout &lt;commit-hash&gt;</code>: Move to prior snapshots of the project</li>
+<li><code>git revert &lt;commit-hash&gt;</code>: Revert the project to a prior point</li>
+</ul>
+<p><strong>Branching</strong>: A branch in Git is a lightweight, movable pointer to a commit. Default branch is named “<em>master</em>”</p>
+<ul>
+<li><code>git branch &lt;name-of-new-branch&gt;</code>: create a new branch</li>
+<li><code>git checkout &lt;name-of-branch&gt;</code>: checkout a branch</li>
+<li><code>git checkout -b &lt;name-of-new-branch&gt;</code>: create &amp; checkout a branch simultaneously</li>
+<li><code>git merge &lt;name-of-main-branch&gt; &lt;name-of-branch-to-be-merged&gt;</code>: merging branches</li>
+<li><code>git branch -d &lt;name-of-branch&gt;</code>: deleting branches</li>
+<li><code>git branch -v</code>: seeing the last commit on each branch</li>
+</ul>
+<section id="git-remotes" class="level3">
+<h3 class="anchored" data-anchor-id="git-remotes">Git Remotes</h3>
+<p><strong>Git Remote</strong> - <code>git remote add origin https://github.com/user/repo.git</code>: connect a local git repository to a Github repository - generic version: <code>git remote add &lt;name-of-our-remote&gt; &lt;REMOTE_URL&gt;</code> - We can add another remote to say another git repository service, like <a href="https://bitbucket.org/">bitbucket</a>.</p>
+<p><strong>Looking at our different remotes</strong> - <code>git remote</code>: print available remotes in the console - <code>git ls-remote</code>: Displays references available in a remote repository along with the associated commit IDs. - <code>git remote -v</code>: shows the URL of the remotes</p>
+<p><strong>Fetching from a remote</strong> - <code>git fetch &lt;remote-name&gt;</code></p>
+<p><strong>Pushing changes to the remote</strong> - <code>git push -u &lt;remote&gt; &lt;branch&gt;</code>: telling it which remote we are pushing to. - <code>git push -u origin master</code>: telling it which remote we are pushing to.</p>
+<p><strong>Inspecting Remotes</strong> - <code>git remote show origin</code> - <code>git remote show</code></p>
+<p><strong>Renaming Remotes</strong> - <code>git remote rename origin my-go-to-remote</code></p>
+<p><strong>Removing Remotes</strong> - <code>git remote remove &lt;remote-name&gt;</code></p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
