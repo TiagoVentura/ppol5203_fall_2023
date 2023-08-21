@@ -1,0 +1,7 @@
+---
+title: "Week 02"
+dateassigned: "09/12/2023"
+duedate: "Before EOD Friday Week 3"
+content: "Version Control, Workflow and Reproducibility: Or a bit of Git & GitHub"
+tbl-colwidths: [10,30,20, 20]
+---

@@ -22,6 +22,8 @@ website:
         text: Syllabus
       - href: schedule.qmd
         text: Schedule
+      - href: problemset.qmd
+        text: Problem Sets
       - section: "Materials"
         contents: 
           - href: weeks/week-01.qmd

@@ -5,8 +5,7 @@ subtitle: "McCourt School for Public Polcy, Georgetown University"
 
 ## Course Description
 
-
-This first course in the core data science sequence teaches Data Science for Public Policy (DSPP) students how to synthesize disparate, possibly unstructured data in order to draw meaningful insights. Topics covered include the fundamentals of object-oriented programming in Python; literate programming; an introduction to algorithms and data types; data wrangling, visualization, and extraction;  an introduction to machine learning methods, and text analysis. In addition, students will be exposed to Git and Github for version control and reproducible research. The objective of the course is to teach students how incorporate data into their decision-making and analysis. No prior programming experience is assumed or required.
+This first course in the core data science sequence teaches Data Science for Public Policy (DSPP) students how to synthesize disparate, possibly unstructured data in order to draw meaningful insights. Topics covered include the fundamentals of object-oriented programming in Python; literate programming; an introduction to algorithms and data types; data wrangling, visualization, and extraction; an introduction to machine learning methods, and text analysis. In addition, students will be exposed to Git and Github for version control and reproducible research. The objective of the course is to teach students how incorporate data into their decision-making and analysis. No prior programming experience is assumed or required.
 
 This is not the first time this course is taught at DSPP (Although it is my first time taching it). For this reason, several of the materials here are borrowed from previous iterations of this PPOL 564 taught by [Dr. Rebecca Johnson](https://www.rebeccajohnson.io/) and [Dr. Eric Dunford](http://ericdunford.com/)
 
@@ -26,7 +25,7 @@ After completing this course, the students will be able to:
 
 -   Get some intuition of modeling text data in Python.
 
--   Learn the basics of machine learning as a modeling approach. 
+-   Learn the basics of machine learning as a modeling approach.
 
 -   Learn basics of using SQL to query databases.
 
@@ -37,23 +36,29 @@ After completing this course, the students will be able to:
 -   Pronouns: He/Him
 -   Email: [tv186\@georgetown.edu](mailto:tv186@georgetown.edu)
 -   Office hours:
-    -  Time: Every Thursday, 4pm - 6pm 
-    - Location: Maguire 312
+    -   Time: Every Thursday, 4pm - 6pm
+    -   Location: Old North, 312
 
 ::: callout-note
-## About the Office Hours
+## Should I go to your office hours?
 
-No need to schedule with me before going on office hours. Just stop by and I will be in my office. You are all welcome to the office hours. You can come to the office hours: drink some coffee, talk about soccer, ask what I am doing research at, or ask questions about our class. All are valid options!
+No need to schedule with me before going on office hours. Just stop by and I will be in my office. You are all welcome to the office hours. 
 
+You can come to the office hours to: 
+- drink some coffee, 
+- talk about soccer, 
+- ask what I am doing research at, 
+- ask any question about our class. 
+
+All are valid options!
 :::
 
-### TA: Jiaqin Wu (DSPP, Second Year)
+### TA: Sierra Sikorski (DSPP, Second Year)
 
--   Email: jw2104\@georgetown.edu
+-   Email: sps126\@georgetown.edu\@georgetown.edu
 -   Office Hours:
-    - Every Tuesday 10 am.
-    - Every Friday 10 am.  
--   Location:
+    -   Every Tuesday 2pm  (in person, old north)
+    -   Every Wednesday 2pm (remote via Zoom)
 
 ### Course Infra-structure
 

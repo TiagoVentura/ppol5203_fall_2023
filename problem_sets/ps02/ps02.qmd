@@ -1,0 +1,7 @@
+---
+title: "Problem Set 02"
+dateassigned: "09/26/2023"
+duedate: "Before EOD Friday Week 5"
+content: "Core Programming Concepts in Python"
+tbl-colwidths: [10,30,20, 20]
+---

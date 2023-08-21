@@ -69,15 +69,18 @@ In either case, the output of this command should be something like Python 3.8.5
 
 Once you have Python3 on your computer, you can install a Jupyter Notebook. If you downloaded Python3 using Anaconda, then Jupyter Notebook comes with the distribution and requires no further installation on your part. If you are not using Anaconda, you can install Jupyter notebook running the following code using your commandline.
 
-```{bash,eval=F}
-pip install notebook
-```
+``` markdown
+# on your command line
+pip install jupyter
 
+```
 You can then activate a Jupyter Notebook from the commandline by typing:
 
-```{bash,eval=F}
+``` markdown
+# on your command line
 jupyter notebook
 ```
+
 
 ### Workflow to work with Juyter Notebooks
 
@@ -89,13 +92,17 @@ Here is my workflow to open Jupyter Notebooks using the commandline.
 
 3.  Open the notebook (`jupyter notebook`)
 
-This looks like this if I were to open a notebook in the folder I have for this course
+It looks like this if I were to open a notebook in the folder I have for this course
 
-```{bash,eval=F}
+``` markdown
 # open terminal
 cd ppol_5203
 jupyter notebook
 ```
+
+### Workflow with Anaconda. 
+
+If you installed Python using Anaconda distribution system (here: https://www.anaconda.com/products/individual). You can open Jupyter through a point-and-click system. It take forever, but it works!
 
 In the lecture notes, you can also find a Introduction to Jupyter notebook. We will cover this in the first class of the course.
 
@@ -103,11 +110,11 @@ In the lecture notes, you can also find a Introduction to Jupyter notebook. We w
 
 **A quick digression of the R vs Python debate**
 
-For some of your classes in the Data Science and Public Policy Masters, you will be using R. Some data scientists and computational social scientists have strong beleifs as to which langugae is better. I, and the DSPP faculty, do not subscribeto that view. Most techniques that are relevent for applied data science can be done in either language.
+For some of your classes in the Data Science and Public Policy Masters, you will be using R. Some data scientists and computational social scientists have strong beleifs as to which langugae is better. I, and the DSPP faculty, do not subscribe to that view. Most techniques that are relevent for applied data science can be done in either language.
 
-In my personal opinion, R overperforms Python in data manipulation tasks, visualization and statistical modeling. This is because R started out as a statistical programming environment, and that heritage is still visible. Meanwhile, Python started our a general purpose programming language, which was heavily adopted by computer scientists, which means Python overperforms on abstraction, machine learning taks, working with more complex data types.
+In my personal opinion, R outperforms Python in data manipulation tasks, visualization and statistical modeling. This is because R started out as a statistical programming environment, and that heritage is still visible. Meanwhile, Python started our a general purpose programming language, which was heavily adopted by computer scientists, which means Python outperforms on abstraction, machine learning tasks, working with more complex data types.
 
-Most importantly, you will be using more one language compared to the other conditional on your career path and the type of tasks you end up working with. If you end up in a team full of computer scientists, it is more likely Python will be your favored language. If you move to work more with social scientists, R will probably be more heavily used. There is no need to chose now. Learn both and broad your horizons. As general programing languages, learning both requires almost the same amoutn of effort of learning one in isolation.
+Most importantly, you will be using more one language compared to the other conditional on your career path and the type of tasks you end up working with. If you end up in a team full of computer scientists, it is more likely Python will be your favored language. If you move to work more with social scientists, R will probably be more heavily used. There is no need to chose now. Learn both and broad your horizons. As general programming languages, learning both requires almost the same amount of effort of learning one in isolation.
 
 **Back to the course infrastructure**
 

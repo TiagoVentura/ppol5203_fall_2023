@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Course Website: PPOL 5203 - Data Science I: Foundations - Introduction to Pset 02</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Introduction to Pset 02</li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../images/logo4.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+    <a href="https://github.com/TiagoVentura/ppol_564_fall2023" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../syllabus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Syllabus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../schedule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schedule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../problemset.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Problem Sets</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Materials</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../weeks/week-01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 1: Intro</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#writing-functions-10-pts" id="toc-writing-functions-10-pts" class="nav-link active" data-scroll-target="#writing-functions-10-pts">1. Writing functions (10 pts)</a></li>
+  <li><a href="#practice-with-numpy-arrays-20pts" id="toc-practice-with-numpy-arrays-20pts" class="nav-link" data-scroll-target="#practice-with-numpy-arrays-20pts">2. Practice with numpy arrays (20pts)</a>
+  <ul class="collapse">
+  <li><a href="#converting-a-list-to-an-array" id="toc-converting-a-list-to-an-array" class="nav-link" data-scroll-target="#converting-a-list-to-an-array">2.1 Converting a list to an array</a></li>
+  <li><a href="#subsetting-arrays-using-truefalse-boolean-indicators-2-points" id="toc-subsetting-arrays-using-truefalse-boolean-indicators-2-points" class="nav-link" data-scroll-target="#subsetting-arrays-using-truefalse-boolean-indicators-2-points">2.2 Subsetting arrays using True/False (boolean) indicators (2 points)</a></li>
+  <li><a href="#adding-to-an-array-2-points" id="toc-adding-to-an-array-2-points" class="nav-link" data-scroll-target="#adding-to-an-array-2-points">2.3 Adding to an array (2 points)</a>
+  <ul class="collapse">
+  <li><a href="#numpy-mathemathics." id="toc-numpy-mathemathics." class="nav-link" data-scroll-target="#numpy-mathemathics.">2.4 Numpy Mathemathics.</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#practice-with-iterationlist-comprehension-20pts" id="toc-practice-with-iterationlist-comprehension-20pts" class="nav-link" data-scroll-target="#practice-with-iterationlist-comprehension-20pts">3. Practice with iteration/list comprehension (20pts)</a>
+  <ul class="collapse">
+  <li><a href="#using-list-comprehension-to-keep-all-elements-transform-them-3-points" id="toc-using-list-comprehension-to-keep-all-elements-transform-them-3-points" class="nav-link" data-scroll-target="#using-list-comprehension-to-keep-all-elements-transform-them-3-points">3.1 Using list comprehension to keep all elements / transform them (3 points)</a></li>
+  <li><a href="#using-list-comprehension-to-subset-a-list-3-points" id="toc-using-list-comprehension-to-subset-a-list-3-points" class="nav-link" data-scroll-target="#using-list-comprehension-to-subset-a-list-3-points">3.2 Using list comprehension to subset a list (3 points)</a></li>
+  <li><a href="#dictionary-comprehension" id="toc-dictionary-comprehension" class="nav-link" data-scroll-target="#dictionary-comprehension">3.3 Dictionary Comprehension</a></li>
+  <li><a href="#generators-30pts" id="toc-generators-30pts" class="nav-link" data-scroll-target="#generators-30pts">4 - Generators (30pts)</a></li>
+  </ul></li>
+  <li><a href="#creating-pandas-dataframes-20-points" id="toc-creating-pandas-dataframes-20-points" class="nav-link" data-scroll-target="#creating-pandas-dataframes-20-points">5 - Creating Pandas Dataframes (20 points)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Introduction to Pset 02</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<h1>
+<center>
+PPOL 5203 Data Science I: Foundations <br><br> <font color="grey">Problem Sets II<br><br> Tiago Ventura
+</font></center><font color="grey">
+
+<h1>
+<p>This problem set will focus on:</p>
+<ul>
+<li>Writing functions<br>
+</li>
+<li>List comprehension</li>
+<li>Generators</li>
+<li>Numpy</li>
+<li>Intro to pandas</li>
+</ul>
+<section id="writing-functions-10-pts" class="level1">
+<h1>1. Writing functions (10 pts)</h1>
+<p>Using the following data, write a function called mutate() that takes the nested list data and a new list input and returns a new nested list with combining the input list to the nested list. Notice, your single function must support concatenating the nested list with the input list by row or by columne.</p>
+<p>Important points:</p>
+<ul>
+<li><p>You should use an argument called axis to indicate the row-wise or column-wise option.</p></li>
+<li><p>Make sure the function can deal with inputs of different size.</p></li>
+<li><p>Make sure you include a docstring with your function</p></li>
+</ul>
+<div class="cell" data-execution_count="21">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># input data</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> [</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  [<span class="st">"Var1"</span>,<span class="st">"Var2"</span>,<span class="st">"Var3"</span>],</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  [<span class="dv">1</span>,<span class="st">"Apples"</span>,<span class="va">True</span>],</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  [<span class="dv">4</span>,<span class="st">"Horses"</span>,<span class="va">None</span>],</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  [<span class="op">-</span><span class="dv">1</span>,<span class="st">"Small Birds"</span>,<span class="va">False</span>],</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution_count="18">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Add your response here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="practice-with-numpy-arrays-20pts" class="level1">
+<h1>2. Practice with numpy arrays (20pts)</h1>
+<section id="converting-a-list-to-an-array" class="level2">
+<h2 class="anchored" data-anchor-id="converting-a-list-to-an-array">2.1 Converting a list to an array</h2>
+<p>We provide you with a list names roles_list_of_lists</p>
+<ul>
+<li>A. Transform the roles_list_of_lists into a 2D numpy array; call it roles_array</li>
+<li>B. Print the shape/dimensions of <code>roles_array</code></li>
+</ul>
+<div class="cell" data-execution_count="23">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">## your code here</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>roles_list_of_lists <span class="op">=</span> [[<span class="st">"Tiago"</span>, <span class="st">"Ventura"</span>, <span class="st">"Professor"</span>], </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>                      [<span class="st">"Jiaqin"</span>, <span class="st">"Wu"</span>, <span class="st">"Teaching Assistant"</span>]]</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># response</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="subsetting-arrays-using-truefalse-boolean-indicators-2-points" class="level2">
+<h2 class="anchored" data-anchor-id="subsetting-arrays-using-truefalse-boolean-indicators-2-points">2.2 Subsetting arrays using True/False (boolean) indicators (2 points)</h2>
+<ul>
+<li>A. Create a boolean indicator for rows where the role (third column) == ‘Teaching Assistant’ and print that indicator</li>
+<li>B. Use that boolean indicator to subset roles_array store the array as roles_TA</li>
+<li>C. Print the <code>roles_TA</code> array and its dimensions (should be 2x2)</li>
+</ul>
+<div class="cell" data-execution_count="24">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">## your code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-scrolled="true" data-execution_count="34">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">## your code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution_count="25">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">## your code here </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="adding-to-an-array-2-points" class="level2">
+<h2 class="anchored" data-anchor-id="adding-to-an-array-2-points">2.3 Adding to an array (2 points)</h2>
+<ul>
+<li>A. Use np.append (google the documentation) to add the following column with the netids of the two TA to the roles_TA array as the last column</li>
+<li>B. Store as role_TA_net</li>
+<li>C. Print the dimensions (should be 2x3)</li>
+</ul>
+<div class="cell" data-execution_count="37">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">## column to add </span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>netids <span class="op">=</span> np.array([[<span class="st">'yl1374'</span>]])</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(netids)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[['yl1374']]</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="26">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">## your code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution_count="40">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">## your code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="40">
+<pre><code>(4,)</code></pre>
+</div>
+</div>
+<section id="numpy-mathemathics." class="level3">
+<h3 class="anchored" data-anchor-id="numpy-mathemathics.">2.4 Numpy Mathemathics.</h3>
+<p>The 2-d array below gives you data with the number of goals scored by a country in six editions of the Fifa Soccer World Cup.</p>
+<p>Here is the data as a nested list</p>
+<div class="cell" data-execution_count="8">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># rows and columns</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>rows <span class="op">=</span> [<span class="st">"Argentina"</span>, <span class="st">"Brazil"</span>, <span class="st">"Germany"</span>, <span class="st">"Spain"</span>, <span class="st">"France"</span>, <span class="st">"Japan"</span>, <span class="st">"Uruguay"</span>]</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>cols <span class="op">=</span> [<span class="st">"1990"</span>, <span class="st">"1994"</span>, <span class="st">"1998"</span>, <span class="st">"2002"</span>, <span class="st">"2006"</span>, <span class="st">"2010"</span>, <span class="st">"2014"</span>]</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="co"># matrix of goals</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>goals<span class="op">=</span> [[<span class="dv">8</span>,<span class="dv">10</span>, <span class="dv">2</span>, <span class="dv">11</span>, <span class="dv">10</span>, <span class="dv">10</span>], </span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>         [<span class="dv">11</span>, <span class="dv">14</span>, <span class="dv">18</span>, <span class="dv">10</span>, <span class="dv">9</span>, <span class="dv">15</span>], </span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>         [<span class="dv">9</span>, <span class="dv">8</span>, <span class="dv">14</span> , <span class="dv">14</span>, <span class="dv">16</span>, <span class="dv">29</span>],</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>         [<span class="dv">10</span>, <span class="dv">8</span>, <span class="dv">10</span>, <span class="dv">9</span>, <span class="dv">8</span>, <span class="dv">4</span>],  </span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>         [<span class="dv">0</span>, <span class="dv">15</span>, <span class="dv">0</span>, <span class="dv">9</span>, <span class="dv">1</span>, <span class="dv">12</span>],</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>         [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">5</span>, <span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">2</span>],</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>         [<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">4</span>, <span class="dv">0</span>, <span class="dv">11</span>, <span class="dv">4</span>]]       </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Using only numpy functions (don’t try to convert to a panda dataframe), give me the following:</p>
+<ul>
+<li><ol type="A">
+<li>How many goals each country scored summing across all the world cup editions?</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>How many goals were scored in each edition summing across all the countries?</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>Which country scored more goals?</li>
+</ol></li>
+<li><ol start="4" type="a">
+<li>Which world cup edition had more goals?</li>
+</ol></li>
+</ul>
+<div class="cell" data-execution_count="62">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># your code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="62">
+<pre><code>'2010'</code></pre>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="practice-with-iterationlist-comprehension-20pts" class="level1">
+<h1>3. Practice with iteration/list comprehension (20pts)</h1>
+<p>Here, we provide you with a list containing the course codes for different McCourt/Georgetown</p>
+<div class="cell" data-execution_count="65">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">## course code list </span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>course_codes <span class="op">=</span> [<span class="st">"PPOL 506"</span>, <span class="st">"PPOL 560"</span>, <span class="st">"PPOL 564"</span>, <span class="st">"SOCI 393"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="using-list-comprehension-to-keep-all-elements-transform-them-3-points" class="level2">
+<h2 class="anchored" data-anchor-id="using-list-comprehension-to-keep-all-elements-transform-them-3-points">3.1 Using list comprehension to keep all elements / transform them (3 points)</h2>
+<ul>
+<li>A. Create a new list—course_codes_ns– that removes the spaces in each course code— eg PPOL 506 should become PPOL506</li>
+<li>B. Print <code>course_codes_ns</code></li>
+</ul>
+<div class="cell" data-execution_count="66">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">## your code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="66">
+<pre><code>['PPOL506', 'PPOL560', 'PPOL564', 'SOCI393']</code></pre>
+</div>
+</div>
+</section>
+<section id="using-list-comprehension-to-subset-a-list-3-points" class="level2">
+<h2 class="anchored" data-anchor-id="using-list-comprehension-to-subset-a-list-3-points">3.2 Using list comprehension to subset a list (3 points)</h2>
+<ul>
+<li>A. using course_codes_ns, create a new list just with courses with ppol in the name; store it as <code>course_codes_ppol</code></li>
+</ul>
+<div class="cell" data-execution_count="67">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">## your code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="67">
+<pre><code>['PPOL506', 'PPOL560', 'PPOL564']</code></pre>
+</div>
+</div>
+</section>
+<section id="dictionary-comprehension" class="level2">
+<h2 class="anchored" data-anchor-id="dictionary-comprehension">3.3 Dictionary Comprehension</h2>
+<ul>
+<li>A. Create a second list with the grades you which to have in each of these courses</li>
+<li>B. Use a dictionary Comprehension to create a dictionary with keys for the course number, and values for your grade</li>
+<li>C. Convert the dictionary to a pandas dataframe</li>
+</ul>
+<div class="cell" data-execution_count="68">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">## your code here</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{'PPOL 506': 'A+', 'PPOL 560': 'A+', 'PPOL 564': 'A', 'SOCI 393': 'C'}</code></pre>
+</div>
+</div>
+</section>
+<section id="generators-30pts" class="level2">
+<h2 class="anchored" data-anchor-id="generators-30pts">4 - Generators (30pts)</h2>
+<p>In class, I argued that generators are extremely memory-efficient tool to build repeated tasks in Python. This happens because a generator is a special kind of function that leverages lazy evaluation, and do not store their contents in memory as you would expect a typical iterable to do. Instead, it only computes the element on demand.</p>
+<p>Being suspicious of non-evidence based claim as a data scientist needs to be, you decided to write code to verify this assumption.</p>
+<p>So prove to me with your code that iterating over <code>range(N)</code> is indeed more efficient in memory aspects than iterating of a <code>list(N)</code> object of the same size.</p>
+<div class="alert alert-block alert-info">
+<p><strong>Tip:</strong> you can use the function <code>sys.getsizeof()</code> from the module <code>sys</code> to calcule the size of a object in Python</p>
+</div>
+</section>
+</section>
+<section id="creating-pandas-dataframes-20-points" class="level1">
+<h1>5 - Creating Pandas Dataframes (20 points)</h1>
+<p>Now, similar to the problem above, assume you have a spreadsheet with the following information:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Students</th>
+<th>Grades_PPOL101</th>
+<th>Grades_PPOL202</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Alice</td>
+<td>85</td>
+<td>82</td>
+</tr>
+<tr class="even">
+<td>Bob</td>
+<td>90</td>
+<td>87</td>
+</tr>
+<tr class="odd">
+<td>Charlie</td>
+<td>78</td>
+<td>80</td>
+</tr>
+<tr class="even">
+<td>David</td>
+<td>92</td>
+<td>94</td>
+</tr>
+<tr class="odd">
+<td>Eve</td>
+<td>88</td>
+<td>89</td>
+</tr>
+</tbody>
+</table>
+<p>Show me how to create this spreadsheet using:</p>
+<ul>
+<li>A row-wise approach</li>
+<li>A column-wise Approach</li>
+</ul>
+
+
+</section>
+
+</h1></font></h1></main><font color="grey"> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</font></div><font color="grey"> <!-- /content -->
+
+
+
+</font></body></html>

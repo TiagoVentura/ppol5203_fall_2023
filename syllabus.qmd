@@ -21,7 +21,7 @@ listing:
 
 This first course in the core data science sequence teaches Data Science for Public Policy (DSPP) students how to synthesize disparate, possibly unstructured data in order to draw meaningful insights. Topics covered include the fundamentals of object-oriented programming in Python; literate programming; an introduction to algorithms and data types; data wrangling, visualization, and extraction; an introduction to machine learning methods, and text analysis. In addition, students will be exposed to Git and Github for version control and reproducible research. The objective of the course is to teach students how incorporate data into their decision-making and analysis. No prior programming experience is assumed or required.
 
-**Class Website**: [XXXXXX]()
+**Class Website**: [https://tiagoventura.github.io/ppol5203_fall_2023](https://tiagoventura.github.io/ppol5203_fall2023)
 
 ## Learning Goals
 
@@ -52,21 +52,14 @@ After completing this course, the students will be able to:
 -   Email: [tv186\@georgetown.edu](mailto:tv186@georgetown.edu)
 -   Office hours:
     -   Time: Every Thursday, 4pm - 6pm
-    -   Location: Maguire 312
+    -   Location: Old North, 312
 
-### TAs
+## Teaching Assistant: Sierra Sikorski (DSPP Second-Year Student)
 
-TA: Jiaqin Wu
-
--   Email: jw2104\\\@georgetown.edu
-
+-   Email: sps126@georgetown.edu\@georgetown.edu
 -   Office Hours:
-
-    -   
-
-    -   
-
--   Location:
+    -   Every Tuesday 2pm  (in person, old north)
+    -   Every Wednesday 2pm (remote via Zoom)
 
 ## Our classes
 
@@ -90,15 +83,17 @@ Note that this class is scheduled to meet weekly for 2.5 hours. I will do my bes
 
 -   **Salganik, M. 2017. Bit by Bit: Social Research in the Digital Age. Princeton, NJ: Princeton University Press.**
 
--   ***Additional readings will be posted for each class and can be found on the course website***. Most reading material is open source and available via a link on the reading list, otherwise it can be found on Canvas.
+**Additional readings will be posted for each class and can be found on the course website**. Most reading materials are open source and available via a link on the weekly schedule. Otherwise it can be found on Canvas.
 
-**Class Website**: A class website [XXXXXXXXXXXXX]() will be used throughout the course and should be checked on a regular basis for lecture materials and required readings.
+## Course Infrastructure
+
+**Class Website**: A class website [https://tiagoventura.github.io/ppol5203_fall_2023](https://tiagoventura.github.io/ppol5203_fall_2023) will be used throughout the course and should be checked on a regular basis for lecture materials and required readings.
 
 **Class Slack Channel**: The class also has a dedicated slack channel (ppol-564-fall-2023.slack.com). The channel serves as an open forum to discuss, collaborate, pose problems/questions, and offer solutions. Students are encouraged to pose any questions they have there as this will provide the professor and TA the means of answering the question so that all can see the response. If you're unfamiliar with, please consult the following start-up tutorial (https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-members). Please follow the [***invite link***](https://join.slack.com/t/ppol-564-fall-2021/shared_invite/zt-ukj26377-a00MPhjVTkh2rs8VSTrmzw) to be added to the Slack channel.
 
-**Canvas**: A Canvas site (http://canvas.georgetown.edu) will be used throughout the course and should be checked on a regular basis for announcements, readings, and assignments. All readings and assignments will be posted on Canvas; they will not be distributed in class or by e-mail. Support for Canvas is available at (202) 687-4949
+**Canvas**: A Canvas site (http://canvas.georgetown.edu) will be used throughout the course and should be checked on a regular basis for announcements. ll announcements for the assignments and classes will be posted on Canvas; they will not be distributed in class or by e-mail. Support for Canvas is available at (202) 687-4949
 
-**NOTE: Students are encouraged to run lecture code on their own machines. If you do not have access to a laptop on which you can install `python3`, please contact the professor and/or TA for assistance. Only `python3` will be used in this course.**
+NOTE: Students are encouraged to run lecture code on their own machines. If you do not have access to a laptop on which you can install `python3`, please contact the professor and/or TA for assistance. Only `python3` will be used in this course.
 
 ## Weekly Schedule
 
@@ -111,8 +106,8 @@ Note that this class is scheduled to meet weekly for 2.5 hours. I will do my bes
 |--------------------------|:-----------------------:|
 | Participation/Attendance |           5%            |
 | Coding Discussion        |           5%            |
-| Problem sets             |           60%           |
-| Final Project            |           30%           |
+| Problem sets             |           50%           |
+| Final Project            |           40%           |
 
 **Participation and Attendance** (5%):
 
@@ -130,7 +125,7 @@ Data science is an cooperative endeavor, and it's crucial to view your fellow cl
 
 Every class will involve some lecture time, and some coding time. The coding time will be divided between me showing you things, and you working on small problem sets. These problem sets are purposefully constructed to help you understand the concepts we go through in class. You participation and involvement in these group exercises will also be part of your grade.
 
-**Problem Sets** (60%)
+**Problem Sets** (50%)
 
 Students will be assigned five problem sets over the course of the semesters. While you are encouraged to discuss the problem sets with your peers and/or consult online resources, **the finished product must be your own work**. The goal of the assignment is to reinforce the student's comprehension of the materials covered in each section.
 
@@ -192,7 +187,7 @@ Due dates and breakdowns for the project are as follows:
 
 -   For the presentation, You will have 10-15 minutes in our last class of the semester to present you project.
 
--   **Take the final project seriously**. After you finish your Masters, in any path you take, you will need to show concrete examples of your
+-   **Take the final project seriously**. After you finish your Masters, in any path you take, you will need to show concrete examples of your portfolio. This is a good opportunity to start building it.
 
 -   Your groups will be randomly assigned.
 
@@ -214,7 +209,7 @@ The end product should be a github repository that contains:
 
     -   A set of code files that transform that data into a form usable to answer the question you have posed in your descriptive research proposal.
 
-    -   Your final 10 pages report
+    -   Your final 10 pages report (I will share a template later in the semester)
 
 Of course, no commits after the due date will be considered in the assessment.
 
