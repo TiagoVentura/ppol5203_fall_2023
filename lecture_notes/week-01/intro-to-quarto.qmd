@@ -9,7 +9,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Course Tools
+# Learning goals
 
 The purpose of this notebook is to show case the use of `Quarto` notebooks. It will cover:
 
@@ -36,15 +36,13 @@ As in R Markdown, Quarto is an unified authoring framework. It combines **code, 
 
 Quarto was developed by Posit (the new name of RStudio). It represents the effort of RStudio to become a language agnostic IDE for Data Science.
 
-Quarto main promise is to allow data scientists to run many different languages using the same notebook structure.
+Quarto main promise is to allow data scientists to run many different languages using the same notebook structure. For the purpose of our course, we will use mostly Jupyter Notebooks, since those are still dominant among Python developers.
 
-For the purpose of our course, we will keep iterating between Jupyter and Quarto Notebooks. This is important because Jupyter Notebooks are dominant among Python developers.
-
-However, as you are learning Python and R at the same time throughout your DSPP courses, I strongly advice you to be confortable with Quarto and use it the same tool to run both R and Python.
+However, as you are learning Python and R at the same time throughout your DSPP courses, I advice you to be comfortable with Quarto and use it the same tool to run both R and Python.
 
 # Installing
 
-Quarto is the notebook framework for Rstudio. You can also use Quarto inside of JupyterLab, but that seems absolutely inneficient for me.
+Quarto is the notebook framework for Rstudio. You can also use Quarto inside of JupyterLab, but that seems absolutely inefficient for me.
 
 To use Quarto, you should then just install RStudio:
 

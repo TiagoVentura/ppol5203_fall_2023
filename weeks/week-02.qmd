@@ -62,5 +62,3 @@ tbl-colwidths: [10,50,40]
         -   Read [Ch. 6](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration) for more information regarding Git + Github.
     -   [GitHub for Atom](https://github.atom.io/) - github.atom.io
     -   [Ch. 13 Detect Git from RStudio -Happy Git with R](https://happygitwithr.com/rstudio-see-git.html) - Bryan, Jenny & Jim Hester
-
-

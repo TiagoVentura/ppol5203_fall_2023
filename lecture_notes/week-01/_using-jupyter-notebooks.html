@@ -13089,12 +13089,9 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="PPOL-5203-Data-Science-I:-Foundations">PPOL 5203 Data Science I: Foundations<a class="anchor-link" href="#PPOL-5203-Data-Science-I:-Foundations">&#182;</a></h1>
-<pre><code>Using Jupyter Notebooks, Magic Commands, &amp; Extensions &lt;
-
-Tiago Ventura
-
-</code></pre>
+<p><h1><center> PPOL 5203 Data Science I: Foundations <br><br> 
+<font color='grey'>    Using Jupyter Notebooks, Magic Commands, & Extensions <br><br>
+Tiago Ventura</center>&lt;/center&gt; <h1></p>
 <hr>
 
 </div>
@@ -13103,14 +13100,7 @@ Tiago Ventura
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="What-is-a-Notebook-and-why-use-it?">What is a Notebook and why use it?<a class="anchor-link" href="#What-is-a-Notebook-and-why-use-it?">&#182;</a></h1>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The Jupyter Notebook is an open-source web application that allows you to <strong>create and share documents</strong> that contain</p>
+<h2 id="What-is-a-Notebook">What is a Notebook<a class="anchor-link" href="#What-is-a-Notebook">&#182;</a></h2><p>The Jupyter Notebook is an open-source web application that allows you to <strong>create and share documents</strong> that contain</p>
 <ul>
 <li>live code, </li>
 <li>equations, </li>
@@ -13118,7 +13108,16 @@ Tiago Ventura
 <li>narrative text. </li>
 </ul>
 <p>Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.</p>
-<p><strong>Pros</strong>:</p>
+<h3 id=".ipynb-is-really-a-JSON-file"><code>.ipynb</code> is really a <code>JSON</code> file<a class="anchor-link" href="#.ipynb-is-really-a-JSON-file">&#182;</a></h3><p>At it's core, an Jupyter notebook is a <a href="https://en.wikipedia.org/wiki/JSON">JSON (JavaScript Object Notation) file</a>.</p>
+<p>Open a notebook with a text editor and you will see it!</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Pros-and-Cons-of-Jupyter-Noteboks">Pros and Cons of Jupyter Noteboks<a class="anchor-link" href="#Pros-and-Cons-of-Jupyter-Noteboks">&#182;</a></h2><p><strong>Pros</strong>:</p>
 <ul>
 <li>Notebooks are <strong>ubiquitous</strong>, </li>
 <li>Reproducible: transmitting and conveying results</li>
@@ -13127,11 +13126,10 @@ Tiago Ventura
 </ul>
 <p><strong>Cons</strong>:</p>
 <ul>
-<li><em>Non-linear</em>: sometimes we can fall out of sequence when writing code. E.g. write code dependencies <em>after</em> we first need to use them.</li>
 <li>There is a process to spinning a Notebook up.</li>
 <li>For those used to working with a text editor, writing code in cells on notebook can be frustating. </li>
+<li><em>Non-linear</em>: sometimes we can fall out of sequence when writing code. E.g. write code dependencies <em>after</em> we first need to use them.</li>
 </ul>
-<h3 id=".ipynb-is-really-a-JSON-file"><code>.ipynb</code> is really a <code>JSON</code> file<a class="anchor-link" href="#.ipynb-is-really-a-JSON-file">&#182;</a></h3><p>At it's core, an Jupyter notebook is a <a href="https://en.wikipedia.org/wiki/JSON">JSON (JavaScript Object Notation) file</a>.  Let's see what the notebook that we are currently using looks like:</p>
 
 </div>
 </div>
@@ -13159,15 +13157,26 @@ Tiago Ventura
 </ul>
 </li>
 </ol>
+<ul>
+<li><strong>Jupyter lab</strong></li>
+</ul>
+<p>Instead of using the simple jupyter notebooks, you can also follow the same steps above using JupyterLab. Jupyter notebook only offers a very simple interface. <strong>Jupyter lab</strong>  offers a more interactive interface that includes notebooks, consoles, terminals, CSV editors, markdown editors, interactive maps, and more.</p>
+<p>To use Jupyter labÇ</p>
+<ul>
+<li><a href="https://pypi.org/project/jupyterlab/">Install JupyterLab</a></li>
+<li>Go into the terminal</li>
+<li>Type <code>jupyter lab</code></li>
+<li>Navigate to your folder, and code. </li>
+</ul>
 <ol>
-<li><strong>Via the command line + Jupyter-Lab</strong> </li>
+<li><strong>Point and Click with Anaconda Distribution</strong></li>
 </ol>
-<p>Instead of using the simple jupyter notebooks, you can also follow the same steps above using JupyterLab. Jupyter notebook only offers a very simple interface using which users can open notebooks, terminals, and text files.  Jupyter lab offers a very interactive interface that includes notebooks, consoles, terminals, CSV editors, markdown editors, interactive maps, and more.</p>
-<p>To do so, you need first to <a href="https://pypi.org/project/jupyterlab/">install JupyterLab</a>. Then:</p>
-
-<pre><code>- Go into the terminal
-- Type `jupyter lab`
-- Navigate to your folder, and code. </code></pre>
+<p>If you prefer point-and-click, you can start jupyter notebook through your anaconda distribution.</p>
+<ul>
+<li>Make sure Anaconda is installed </li>
+<li>Go to Applications and click on the Anaconda-Navigator icon</li>
+<li>Click on the Launch icon under Jupyter Notebook</li>
+</ul>
 
 </div>
 </div>
@@ -13506,7 +13515,7 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> my_fib_func.py
@@ -13536,8 +13545,8 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Writing my_fib_func.py
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>UsageError: Line magic function `%writefile` not found (But cell magic `%%writefile` exists, did you mean that instead?).
 </pre>
 </div>
 </div>
@@ -13548,7 +13557,7 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">ls</span> # list files ( see our function)
@@ -13568,7 +13577,11 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>my_fib_func.py                 using-jupyter-notebooks.ipynb
+<pre>_basics_of_cmd.html             intro-to-quarto.qmd
+_basics_of_cmd.ipynb            <span class="ansi-blue-fg">intro-to-quarto_files</span>/
+_using-jupyter-notebooks.html   minimal_example_python.qmd
+_using-jupyter-notebooks.ipynb  my_fib_func.py
+course_infrastructure.qmd
 </pre>
 </div>
 </div>
@@ -13586,7 +13599,7 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># %load my_fib_func.py</span>
@@ -13617,7 +13630,7 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">run</span> my_fib_func.py
@@ -13638,7 +13651,7 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">time</span> fib(10)
@@ -13658,15 +13671,15 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>CPU times: user 6 µs, sys: 0 ns, total: 6 µs
-Wall time: 10 µs
+<pre>CPU times: user 10 µs, sys: 1 µs, total: 11 µs
+Wall time: 16.2 µs
 </pre>
 </div>
 </div>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[12]:</div>
+    <div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -13691,11 +13704,10 @@ Wall time: 10 µs
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%time</span>it
-<span class="n">fib</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">timeit</span> fib(10)
 </pre></div>
 
     </div>
@@ -13711,39 +13723,9 @@ Wall time: 10 µs
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
-Cell <span class="ansi-green-fg">In[5], line 1</span>
-<span class="ansi-green-fg">----&gt; 1</span> <span class="ansi-yellow-bg">get_ipython</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">run_cell_magic</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#39;</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">timeit</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#39;</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#39;</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#39;</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#39;</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">fib(10)</span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(175,95,0)">\n</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#39;</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-fg">/opt/homebrew/lib/python3.11/site-packages/IPython/core/interactiveshell.py:2478</span>, in <span class="ansi-cyan-fg">InteractiveShell.run_cell_magic</span><span class="ansi-blue-fg">(self, magic_name, line, cell)</span>
-<span class="ansi-green-intense-fg ansi-bold">   2476</span> <span class="ansi-bold" style="color: rgb(0,135,0)">with</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>builtin_trap:
-<span class="ansi-green-intense-fg ansi-bold">   2477</span>     args <span style="color: rgb(98,98,98)">=</span> (magic_arg_s, cell)
-<span class="ansi-green-fg">-&gt; 2478</span>     result <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">fn</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">   2480</span> <span style="color: rgb(95,135,135)"># The code below prevents the output from being displayed</span>
-<span class="ansi-green-intense-fg ansi-bold">   2481</span> <span style="color: rgb(95,135,135)"># when using magics with decodator @output_can_be_silenced</span>
-<span class="ansi-green-intense-fg ansi-bold">   2482</span> <span style="color: rgb(95,135,135)"># when the last Python token in the expression is a &#39;;&#39;.</span>
-<span class="ansi-green-intense-fg ansi-bold">   2483</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">getattr</span>(fn, magic<span style="color: rgb(98,98,98)">.</span>MAGIC_OUTPUT_CAN_BE_SILENCED, <span class="ansi-bold" style="color: rgb(0,135,0)">False</span>):
-
-File <span class="ansi-green-fg">/opt/homebrew/lib/python3.11/site-packages/IPython/core/magics/execution.py:1170</span>, in <span class="ansi-cyan-fg">ExecutionMagics.timeit</span><span class="ansi-blue-fg">(self, line, cell, local_ns)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1168</span> <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> index <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> <span style="color: rgb(0,135,0)">range</span>(<span style="color: rgb(98,98,98)">0</span>, <span style="color: rgb(98,98,98)">10</span>):
-<span class="ansi-green-intense-fg ansi-bold">   1169</span>     number <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(98,98,98)">10</span> <span style="color: rgb(98,98,98)">*</span><span style="color: rgb(98,98,98)">*</span> index
-<span class="ansi-green-fg">-&gt; 1170</span>     time_number <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">timer</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">timeit</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">number</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1171</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> time_number <span style="color: rgb(98,98,98)">&gt;</span><span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(98,98,98)">0.2</span>:
-<span class="ansi-green-intense-fg ansi-bold">   1172</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">break</span>
-
-File <span class="ansi-green-fg">/opt/homebrew/lib/python3.11/site-packages/IPython/core/magics/execution.py:158</span>, in <span class="ansi-cyan-fg">Timer.timeit</span><span class="ansi-blue-fg">(self, number)</span>
-<span class="ansi-green-intense-fg ansi-bold">    156</span> gc<span style="color: rgb(98,98,98)">.</span>disable()
-<span class="ansi-green-intense-fg ansi-bold">    157</span> <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
-<span class="ansi-green-fg">--&gt; 158</span>     timing <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">inner</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">it</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">timer</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">    159</span> <span class="ansi-bold" style="color: rgb(0,135,0)">finally</span>:
-<span class="ansi-green-intense-fg ansi-bold">    160</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> gcold:
-
-File <span class="ansi-green-fg">&lt;magic-timeit&gt;:1</span>, in <span class="ansi-cyan-fg">inner</span><span class="ansi-blue-fg">(_it, _timer)</span>
-
-<span class="ansi-red-fg">NameError</span>: name &#39;fib&#39; is not defined</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>1.24 µs ± 11.4 ns per loop (mean ± std. dev. of 7 runs, 1,000,000 loops each)
+</pre>
 </div>
 </div>
 
@@ -13760,7 +13742,7 @@ File <span class="ansi-green-fg">&lt;magic-timeit&gt;:1</span>, in <span class="
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">main_dat</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
@@ -13776,7 +13758,7 @@ File <span class="ansi-green-fg">&lt;magic-timeit&gt;:1</span>, in <span class="
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">psearch</span> main*
@@ -13847,10 +13829,10 @@ jupyter nbextensions_configurator enable --user</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>--execute<span class="w"> </span>--to<span class="w"> </span>html<span class="w"> </span>_using-jupyter-notebooks.ipynb
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>_using-jupyter-notebooks.ipynb<span class="w"> </span>--to<span class="w"> </span>html<span class="w"> </span>--template<span class="w"> </span>classic
 </pre></div>
 
     </div>
@@ -13868,7 +13850,7 @@ jupyter nbextensions_configurator enable --user</code></pre>
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>[NbConvertApp] Converting notebook _using-jupyter-notebooks.ipynb to html
-[NbConvertApp] Writing 614957 bytes to _using-jupyter-notebooks.html
+[NbConvertApp] Writing 305612 bytes to _using-jupyter-notebooks.html
 </pre>
 </div>
 </div>

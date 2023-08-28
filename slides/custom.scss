@@ -1,3 +1,9 @@
+/*-- scss:defaults --*/
+$presentation-font-size-root: 40px;
+$presentation-heading-color: #012169;
+
+/*-- scss:rules --*/
+
 .reveal .slides > section > section { 
   text-align:left; 
 }
@@ -12,7 +18,6 @@
   font-weight: bold;
 }
 
-.center h1 h2 h3 h4 {
+.center h1 {
   text-align: center;
-  margin: auto
 }
