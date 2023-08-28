@@ -43,15 +43,15 @@ After completing this course, the students will be able to:
 ## When should I go to your office hours?
 :::
 
-**You are all welcome to the office hours.** You can come to the office hours to: 
+**You are all welcome to the office hours.** You can come to the office hours to:
 
-- drink some coffee;
+-   drink some coffee;
 
-- talk about soccer;
+-   talk about soccer;
 
-- Ask what I am doing research at;
+-   Ask what I am doing research at;
 
-- Ask any question about our class.
+-   Ask any question about our class.
 
 All are valid options! And no need to schedule time with me!
 
@@ -70,4 +70,4 @@ All are valid options! And no need to schedule time with me!
 
 **Canvas:** A Canvas site <http://canvas.georgetown.edu> will be used throughout the course and should be checked on a regular basis for announcements. Materials will be posted here, and not on canvas, or distributed in class or by e-mail. Support for Canvas is available at (202) 687-4949
 
-**Datacamp:** As part of this course, you will have access to a DataCamp classroom that you can use to take Datacamp modules for free. Datacamp courses can be a useful tool for you to practice the concepts we see in class. Although I will not assign specific courses for you,, you can use Datacamp courses to review the topics we cover in class. The lecture notes will cover in details all our in-class discussions. Datacamp courses will be considered additional material. 
+**Datacamp:** As part of this course, you will have access to a DataCamp classroom that you can use to take Datacamp modules for free. Datacamp courses can be a useful tool for you to practice the concepts we see in class. Although I will not assign specific courses for you,, you can use Datacamp courses to review the topics we cover in class. The lecture notes will cover in details all our in-class discussions. Datacamp courses will be considered additional material.
