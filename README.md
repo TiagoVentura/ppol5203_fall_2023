@@ -10,7 +10,7 @@ This first course in the core data science sequence teaches Data Science for Pub
 This is not the first time this course is taught at DSPP. For this reason, several of the materials here are borrowed from previous iterations of this PPOL 564 taught by Dr. Rebecca Johnson and Dr. Eric Dunford
 
 
-**Class Website**: [https://tiagoventura.github.io/ppol5203_fall_2023](https://tiagoventura.github.io/ppol5203_fall2023)
+**Class Website**: [https://tiagoventura.github.io/ppol5203_fall_2023](https://tiagoventura.github.io/ppol5203_fall_2023)
 
 ## Instructors and TAs
 

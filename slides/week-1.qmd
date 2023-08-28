@@ -24,9 +24,9 @@ format:
 
 ## Plans for Today
 
-<br> 
+<br>
 
--   [Data Science for Public Policy]{.blue},  [Computational Social Science]{.blue}, or why are we here?!
+-   [Data Science for Public Policy]{.blue}, [Computational Social Science]{.blue}, or why are we here?!
 
 -   Goals of the course
 
@@ -39,12 +39,11 @@ format:
 
 -   Introduction to Commandline
 
-
 # Why are we here? {background-color="#447099"}
 
 ## Rise of the digital information age
 
-```{r  echo=FALSE, out.width = "60%", fig.align="center"}
+```{r  echo=FALSE, out.width = "50%", fig.align="center"}
 knitr::include_graphics("week1_figs/digital.jpeg") 
 ```
 
@@ -54,13 +53,13 @@ https://www.washingtonpost.com/wp-dyn/content/graphic/2011/02/11/GR2011021100614
 
 ## Real Time Data: Mobility, Credit Card Usage, Expenses...
 
-```{r  echo=FALSE, out.width = "100%", fig.align="center"}
+```{r  echo=FALSE, out.width = "80%", fig.align="center"}
 knitr::include_graphics("week1_figs/mob_01.png") 
 ```
 
 ## Social Media Data
 
-```{r  echo=FALSE, out.width = "100%", fig.align="center"}
+```{r  echo=FALSE, out.width = "80%", fig.align="center"}
 knitr::include_graphics("week1_figs/redes.png") 
 ```
 
@@ -82,13 +81,13 @@ knitr::include_graphics("week1_figs/imagescnn.png")
 
 ## Online Research
 
-```{r  echo=FALSE, out.width = "100%", fig.align="center"}
+```{r  echo=FALSE, out.width = "80%", fig.align="center"}
 knitr::include_graphics("week1_figs/survey.png") 
 ```
 
-## Powerful Computers
+## Powerful and Cheap Computer Power
 
-```{r  echo=FALSE, out.width = "100%", fig.align="center"}
+```{r  echo=FALSE, out.width = "80%", fig.align="center"}
 knitr::include_graphics("week1_figs/collab.png") 
 ```
 
@@ -100,7 +99,7 @@ knitr::include_graphics("week1_figs/collab.png")
 
     -   New ways to answer old, long-standing research questions
 
--   New technologies also have social implications and can generate important policy questions. 
+-   New technologies also have social implications and can generate important policy questions.
 
     -   Privacy issues
 
@@ -110,7 +109,7 @@ knitr::include_graphics("week1_figs/collab.png")
 
     -   etc...
 
-- Policy scholars need to be equipped for these challenges
+-   Policy scholars need to be equipped for these challenges
 
 ## An example: Merging Voter Files with Twitter Data
 
@@ -146,11 +145,9 @@ knitr::include_graphics("week1_figs/resl2.png")
 
 ## Data Science for Public Policy
 
+[Data Scientist for Public Policy]{.red} focuses on **computational approaches** to solve/understand **Policy Problems**.
 
-[Data Scientist for Public Policy]{.red} focuses on **computational approaches** to solve/understand **Policy Problems**. 
-
-
-- A part of a larger field on [computational social scientist](https://en.wikipedia.org/wiki/Computational_social_science) with a more policy-focus.
+-   A part of a larger field on [computational social scientist](https://en.wikipedia.org/wiki/Computational_social_science) with a more policy-focus.
 
 -   **What is social science?** It refers to a domain of study - social phenomena:
 
@@ -193,25 +190,24 @@ The goal of this course is to teach you:
 
 -   **Communication**: via slack. Join the [channel!](https://join.slack.com/t/ppol5203fall2023/shared_invite/zt-1z99dee8l-jxY3HCwfEkxY1H6ZUNedEA)
 
--   **All materials**: hosted on the class website: [https://tiagoventura.github.io/ppol5203_fall_2023/](https://tiagoventura.github.io/ppol5203_fall_2023/)
+-   **All materials**: hosted on the class website: <https://tiagoventura.github.io/ppol5203_fall_2023/>
 
--   **Syllabus**: also on the website. 
+-   **Syllabus**: also on the website.
 
 -   **My Office Hours**: Every thursday from 4 to 6pm. Just stop by!
 
-- **Canvas**: Only for communication! Materials will be hosted in the website!
+-   **Canvas**: Only for communication! Materials will be hosted in the website!
 
-- **Datacamp**: Additional exercises! I will [not]{.red} assign modules for you!
+-   **Datacamp**: Additional exercises! I will [not]{.red} assign modules for you!
 
 ## TA {.center}
 
 **Sierra Sikorski**
 
-- Email: sps126\@georgetown.edu
-- Office Hours:
-    -   Every Tuesday 2pm  (in person, old north)
+-   Email: sps126\@georgetown.edu
+-   Office Hours:
+    -   Every Tuesday 2pm (in person, old north)
     -   Every Wednesday 2pm (remote via Zoom)
-
 
 ## Evaluation
 
@@ -226,26 +222,25 @@ The goal of this course is to teach you:
 
 Individual submission through GitHub.
 
-| Assignment | Date Assigned |            Date Due             |
-|:----------:|:-------------:|:-------------------------------:|
-|   No. 1    |    Week 2     | Before EOD of Friday of Week 3  |
-|   No. 2    |    Week 4     | Before EOD of Friday of Week 5  |
-|   No. 3    |    Week 6     | Before EOD of Friday of Week 7  |
-|   No. 4    |    week 8     | Before EOD of Friday of Week 9 |
+| Assignment | Date Assigned |             Date Due             |
+|:----------:|:-------------:|:--------------------------------:|
+|   No. 1    |    Week 2     |  Before EOD of Friday of Week 3  |
+|   No. 2    |    Week 4     |  Before EOD of Friday of Week 5  |
+|   No. 3    |    Week 6     |  Before EOD of Friday of Week 7  |
+|   No. 4    |    week 8     |  Before EOD of Friday of Week 9  |
 |   No. 5    |  November 10  | Before EOD of Friday of Week 111 |
-
 
 # [EOD = 11:59pm!]{.red}
 
 ## Final Project
 
-- [You will work on **randomly assigned groups!**]{.red}
+-   [You will work on **randomly assigned groups!**]{.red}
 
-- The project is composed of three parts:
+-   The project is composed of three parts:
 
-  -   a 2 page project proposal: (which should be discussed and approved by me)
-  -   an in-class presentation,
-  -   A 10-page project report.
+    -   a 2 page project proposal: (which should be discussed and approved by me)
+    -   an in-class presentation,
+    -   A 10-page project report.
 
 ## Due dates and Points:
 
@@ -265,7 +260,7 @@ You are allowed to use ChatGPT as you would use google in this class. This means
 
 -   If your entire homework comes straight from chatgpt, I will consider it plagiarism.
 
-- If you use chatgpt, I ask you to mention on your code how chatgpt worked for you.
+-   If you use chatgpt, I ask you to mention on your code how chatgpt worked for you.
 
 # [Be mature and make smart decisions. You will not be able to cheat on a coding interview, remember you are a master student now!]{.red}
 
@@ -278,7 +273,7 @@ You are allowed to use ChatGPT as you would use google in this class. This means
 
     -   Assistant Professor at McCourt School.
     -   Political Science Ph.D.
-    -   Postdoc at Center for Social Media and Politics at NYU. 
+    -   Postdoc at Center for Social Media and Politics at NYU.
     -   Researcher at Twitter.
 
 -   **Research Interests:**
@@ -298,12 +293,11 @@ You are allowed to use ChatGPT as you would use google in this class. This means
 
 ### Which programming language did I use the most at?
 
-- **PhD**
+-   **PhD**
 
-- **Postdoc**
+-   **Postdoc**
 
-- **Twitter**
-
+-   **Twitter**
 
 ## Your turn!
 
@@ -319,7 +313,7 @@ You are allowed to use ChatGPT as you would use google in this class. This means
 
 # `r fontawesome::fa("laptop-code")` Transiton: Coding!
 
-## Jupyter: 
+## Jupyter:
 
 [See Jupyter Notebook in the Class Website]{.red}
 
@@ -330,6 +324,5 @@ You are allowed to use ChatGPT as you would use google in this class. This means
 ## Command Line
 
 [See Command Line Tutorial in the Class Website]{.red}
-
 
 # See you in two weeks!
