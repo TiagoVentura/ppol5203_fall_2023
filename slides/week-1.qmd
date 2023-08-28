@@ -1,6 +1,6 @@
 ---
-title: "<span style = 'font-size: 80%;'> PPOL 5203 - Data Science I: Foundations </span>"
-subtitle: "<span style = 'font-size: 80%;'> Week 1: Introductions, Installations, IDEs, Command line </span>"
+title: "<span style = 'font-size: 100%;'> PPOL 5203 - Data Science I: Foundations </span>"
+subtitle: "<span style = 'font-size: 100%;'> Week 1: Introductions, Installations, IDEs, Command line </span>"
 author: "Professor: Tiago Ventura"
 date: "08/29/2023"
 format:
@@ -291,13 +291,17 @@ You are allowed to use ChatGPT as you would use google in this class. This means
 
 ## **Quiz!** {background-color="#447099"}
 
-### Which programming language did I use the most at?
+**Which programming language did I use the most at?**
 
 -   **PhD**
 
 -   **Postdoc**
 
 -   **Twitter**
+
+## A comment from the pre-course survey
+
+> Hi professor Ventura! I noticed that we gonna learn multiple data analysis tool this semester and I am definitely a novice of data science. I am little worried about how can I master all of them without being confused, because some commands might be very similar.
 
 ## Your turn!
 
@@ -307,9 +311,38 @@ You are allowed to use ChatGPT as you would use google in this class. This means
 
 -   If you could have any data source at your disposal, what would it be?
 
-#  {background-position="center" background-size="auto 50%"}
+# Let's take a break!
 
-![](https://media.giphy.com/media/eKDp7xvUdbCrC/giphy.gif)
+```{r}
+library(countdown)
+countdown(minutes = 10, seconds = 0, 
+          left = 0, right = 0,
+          top=0,
+          padding = "100px",
+          margin = "10%",
+          font_size = "6em")
+```
+
+# `r fontawesome::fa("book-open")` Survey Results
+
+## Summary of the survey
+
+- 75% of you have [some]{.red} experience with Python. 
+
+- 42% of you have [some]{.red} with SQL and 42% have none (which is great for the intro purposes of this course!)
+
+- [NONE]{.red} of you were using primarily Python in your work before!
+  
+  - 30% using R and 30% using Stata.
+
+- A few still do not have Python/Jupyter/Github in your laptops. If you are having issue after today, talk to Sierra. 
+
+- Main Policy Areas: 
+
+  - Social Media/Tech (Thank you, my dear students. Not so much for you Elon!)
+  - International Development (let's talk war, peace and RCTs)
+  - Education (Gonna get some data with Professor Johnson)
+
 
 # `r fontawesome::fa("laptop-code")` Transiton: Coding!
 

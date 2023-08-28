@@ -7,13 +7,13 @@ website:
   title: "Course Website: PPOL 5203 - Data Science I: Foundations"
   sidebar:
     background: primary
-    logo: "images/logo4.png"
+    logo: "images/logo5.png"
     pinned: true
     align: center
-    tools:
-      - icon: github
-        href: https://github.com/TiagoVentura/ppol_564_fall2023
-        text: GitHub
+    # tools:
+    #   - icon: github
+    #     href: https://github.com/TiagoVentura/ppol5203_fall_2023
+    #     text: GitHub
     style: docked
     contents:
       - href: index.qmd
