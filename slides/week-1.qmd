@@ -32,7 +32,7 @@ format:
 
 -   Course Logistics
 
--   Introductions    
+-   Introductions
 
 -   IDEs
 
@@ -137,13 +137,20 @@ knitr::include_graphics("week1_figs/resl2.png")
 
     -   HPC + Python
 
--   [Step 3]{.blue}: Estimate/Impute Ideology for voters and  neighboors
+-   [Step 3]{.blue}: Estimate/Impute Ideology for voters and neighboors
 
     -   Juggles across multiple dataset (census, precincts, twitter networks) + Python and R
 
 -   [Step 4]{.blue}: Run the analysis
 
     -   R
+
+# Discussion: New Questions vs Social Implications vs Ethical Challenges
+
+```{r  echo=FALSE, out.width = "100%", fig.align="center"}
+knitr::include_graphics("week1_figs/l2.png") 
+```
+
 
 ## Data Science for Public Policy
 
@@ -201,6 +208,15 @@ The goal of this course is to teach you:
 -   **Canvas**: Only for communication! Materials will be hosted in the website!
 
 -   **Datacamp**: Additional exercises! I will [not]{.red} assign modules for you!
+
+```{r}
+library(countdown)
+countdown(minutes = 5, seconds = 0, 
+          right = 0, left=0,
+          bottom=0,        
+          margin = "-2em",
+          font_size = "2em")
+```
 
 ## TA {.center}
 
@@ -329,22 +345,21 @@ countdown(minutes = 10, seconds = 0,
 
 ## Summary of the survey
 
-- 75% of you have [some]{.red} experience with Python. 
+-   75% of you have [some]{.red} experience with Python.
 
-- 42% of you have [some]{.red} with SQL and 42% have none (which is great for the intro purposes of this course!)
+-   42% of you have [some]{.red} with SQL and 42% have none (which is great for the intro purposes of this course!)
 
-- [NONE]{.red} of you were using primarily Python in your work before!
-  
-  - 30% using R and 30% using Stata.
+-   [NONE]{.red} of you were using primarily Python in your work before!
 
-- A few still do not have Python/Jupyter/Github in your laptops. If you are having issue after today, talk to Sierra. 
+    -   30% using R and 30% using Stata.
 
-- Main Policy Areas: 
+-   A few still do not have Python/Jupyter/Github in your laptops. If you are having issue after today, talk to Sierra.
 
-  - Social Media/Tech (Thank you, my dear students. Not so much for you Elon!)
-  - International Development (let's talk war, peace and RCTs)
-  - Education (Gonna get some data with Professor Johnson)
+-   Main Policy Areas:
 
+    -   Social Media/Tech (Thank you, my dear students. Not so much for you Elon!)
+    -   International Development (let's talk war, peace and RCTs)
+    -   Education (Gonna get some data with Professor Johnson)
 
 # `r fontawesome::fa("laptop-code")` Transiton: Coding!
 

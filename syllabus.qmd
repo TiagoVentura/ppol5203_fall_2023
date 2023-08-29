@@ -255,8 +255,6 @@ That being said, ChatGPT does not replace your training as a data scientist. If 
 
 **If you use chatgpt, I ask you to mention on your code how chatgpt worked for you.**
 
-
-
 ## Electronic Devices
 
 When meeting in-person: the use of laptops, tablets, or other mobile devices is permitted *only for class-related work*. Audio and video recording is not allowed unless prior approval is given by the professor. Please mute all electronic devices during class.
