@@ -403,7 +403,7 @@
     "href": "slides/week-1.html#plans-for-today",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Plans for Today",
-    "text": "Plans for Today\n\n\nData Science for Public Policy, Computational Social Science, or why are we here?!\nGoals of the course\nCourse Logistics\nIDEs\n\nJupyter\nQuarto\n\nIntroduction to Commandline"
+    "text": "Plans for Today\n\n\nData Science for Public Policy, Computational Social Science, or why are we here?!\nGoals of the course\nCourse Logistics\nIntroductions\nIDEs\n\nJupyter\nQuarto\n\nIntroduction to Commandline"
   },
   {
     "objectID": "slides/week-1.html#rise-of-the-digital-information-age",
@@ -473,7 +473,7 @@
     "href": "slides/week-1.html#all-the-steps-tools-....-so-far-...",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "All the steps + Tools .... so far ...",
-    "text": "All the steps + Tools .... so far ...\n\n\nStep 1: Processing 180M voter files ~ 5terabytes\n\nHPC + Python + Spark\n\nStep 2: Find Matches between voters and Twitter users and Neighboors\n\nHPC + Python\n\nStep 3: Estimate/Impute Ideology for voters and Neighboors\n\nJuggles across multiple dataset (census, precincts, twitter networks) + Python and R\n\nStep 4: Run the analysis\n\nR"
+    "text": "All the steps + Tools .... so far ...\n\n\nStep 1: Processing 180M voter files ~ 5 terabytes\n\nHPC + Python + Spark\n\nStep 2: Find Matches between voters and Twitter users and Neighboors\n\nHPC + Python\n\nStep 3: Estimate/Impute Ideology for voters and neighboors\n\nJuggles across multiple dataset (census, precincts, twitter networks) + Python and R\n\nStep 4: Run the analysis\n\nR"
   },
   {
     "objectID": "slides/week-1.html#data-science-for-public-policy",
@@ -768,5 +768,12 @@
     "title": "Schedule",
     "section": "",
     "text": "Week\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nFrom Nested Lists to Data Frames\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nPandas I: Data Manipulation\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Advanced Manipulation and Visualization\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nScrapping: Drawing from (Un-)Structured Data Sources\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nText as data I: Data Mining\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nIntroduction to Statistical Learning\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nText as Data II: Topics + Supervised Models\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "slides/week-1.html#readings",
+    "href": "slides/week-1.html#readings",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Readings",
+    "text": "Readings\n\nBit by Bit: Social Research in the Digital Age By Mathew Salganik\n\nIntroduction\nObserving Behavior"
   }
 ]

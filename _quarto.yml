@@ -4,7 +4,7 @@ project:
   
 
 website:
-  title: "Course Website: PPOL 5203 - Data Science I: Foundations"
+  title: "PPOL 5203 - Data Science I: Foundations"
   sidebar:
     background: primary
     logo: "images/logo5.png"

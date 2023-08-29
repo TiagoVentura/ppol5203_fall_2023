@@ -32,6 +32,8 @@ format:
 
 -   Course Logistics
 
+-   Introductions    
+
 -   IDEs
 
     -   Jupyter
@@ -127,7 +129,7 @@ knitr::include_graphics("week1_figs/resl2.png")
 
 <br>
 
--   [Step 1]{.blue}: Processing 180M voter files \~ 5terabytes
+-   [Step 1]{.blue}: Processing 180M voter files \~ 5 terabytes
 
     -   HPC + Python + Spark
 
@@ -135,7 +137,7 @@ knitr::include_graphics("week1_figs/resl2.png")
 
     -   HPC + Python
 
--   [Step 3]{.blue}: Estimate/Impute Ideology for voters and Neighboors
+-   [Step 3]{.blue}: Estimate/Impute Ideology for voters and  neighboors
 
     -   Juggles across multiple dataset (census, precincts, twitter networks) + Python and R
 
@@ -158,7 +160,7 @@ knitr::include_graphics("week1_figs/resl2.png")
 
     -   Use often large-scale data + algorithms to answer questions
 
-## Reading
+## Readings
 
 <br>
 
