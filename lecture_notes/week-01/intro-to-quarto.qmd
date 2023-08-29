@@ -23,9 +23,9 @@ See [Quarto's website](https://quarto.org/) for a more in-depth coverage of the 
 
 # Intro to Quarto
 
-Quarto is the next-generation version of R Markdown. If you're an R Markdown user, you will see how Quarto is just an extension of the capabilities that were previously provided by R Markdown. Now, instead of `.rmd` files, we have `.qmd` files.
+Quarto is the **next-generation version of R Markdown**. If you're an R Markdown user, you will see how Quarto is just an extension of the capabilities that were previously provided by R Markdown. Now, instead of `.rmd` files, we have `.qmd` files.
 
-As in R Markdown, Quarto is an unified authoring framework. It combines **code, results, and text**. These combinations can be rendered as PDFs, Word Files, HTMLs, and more. Quarto use case. Quarto use cases include:
+As in R Markdown, Quarto is **an unified authoring framework**. It combines **code, results, and text**. These combinations can be rendered as PDFs, Word Files, HTMLs, and more. Quarto use case. Quarto use cases include:
 
 -   Technical reports that demonstrate or utilize the features of a current code base.
 -   Slide decks that provide an overview of up-to-date data and are generated on a regular basis.
@@ -38,11 +38,11 @@ Quarto was developed by Posit (the new name of RStudio). It represents the effor
 
 Quarto main promise is to allow data scientists to run many different languages using the same notebook structure. For the purpose of our course, we will use mostly Jupyter Notebooks, since those are still dominant among Python developers.
 
-However, as you are learning Python and R at the same time throughout your DSPP courses, I advice you to be comfortable with Quarto and use it the same tool to run both R and Python.
+As you are learning Python and R at the same time throughout your DSPP courses, I advice you to take a look at Quarto. You might find it a useful tool to run both R and Python.
 
 # Installing
 
-Quarto is the notebook framework for Rstudio. You can also use Quarto inside of JupyterLab, but that seems absolutely inefficient for me.
+Quarto is the notebook framework for Rstudio. That being said, you can also use Quarto inside of JupyterLab, but that seems absolutely inefficient for me.
 
 To use Quarto, you should then just install RStudio:
 

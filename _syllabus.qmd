@@ -21,7 +21,7 @@ This first course in the core data science sequence teaches Data Science for Pub
 
 -   Email: sps126\@georgetown.edu
 -   Office Hours:
-    -   Every Tuesday 2pm  (in person, old north)
+    -   Every Tuesday 2pm (in person, old north)
     -   Every Wednesday 2pm (remote via Zoom)
 
 <!-- add zoom link for virtual office hours -->
@@ -211,7 +211,7 @@ The end product should be a github repository that contains:
     -   Output: if the file produces any outputs (e.g., a cleaned dataset; a figure or graph).
 
     -   A set of code files that transform that data into a form usable to answer the question you have posed in your descriptive research proposal.
-   
+
     -   Your final 10 pages report (I will share a template later in the semester)
 
 Of course, no commits after the due date will be considered in the assessment.
