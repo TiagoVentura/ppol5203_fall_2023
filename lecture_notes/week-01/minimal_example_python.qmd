@@ -16,6 +16,10 @@ Here you add your text as markdown.
 
 You will use the same code block for any language. You just need to change language inside of the brackets `{}`
 
+```{r}
+
+```
+
 ```{python}
 
 import matplotlib.pyplot as plt

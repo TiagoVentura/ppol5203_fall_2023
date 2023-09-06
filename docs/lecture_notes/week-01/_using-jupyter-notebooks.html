@@ -13090,8 +13090,8 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><h1><center> PPOL 5203 Data Science I: Foundations <br><br> 
-<font color='grey'>    Using Jupyter Notebooks, Magic Commands, & Extensions <br><br>
-Tiago Ventura</center> <h1></p>
+<font color='grey'>    Using Jupyter Notebooks, Magic Commands, &amp; Extensions <br><br>
+Tiago Ventura <h1></p>
 <hr>
 
 </div>
@@ -13231,7 +13231,21 @@ Tiago Ventura</center> <h1></p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Shortcuts">Shortcuts<a class="anchor-link" href="#Shortcuts">&#182;</a></h2><p>As with most user interfaces, Jupyter Notebooks have developed their own way of doing things. Thus there are a number of useful shortcuts that you can employ to help perform useful tasks.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>We can access a full (searchable) list of keyboard shortcuts by pressing <code>p</code> when in Command Mode, or by clicking the keyboard icon in the tools.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>Important ones while in Command Mode:</p>
 <ul>
 <li><code>a</code>: create a new code chunk <em>above</em> the current one.</li>
@@ -13267,7 +13281,7 @@ Tiago Ventura</center> <h1></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">lsmagic</span>
@@ -13283,7 +13297,7 @@ Tiago Ventura</center> <h1></p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[1]:</div>
+    <div class="prompt output_prompt">Out[2]:</div>
 
 
 
@@ -13314,7 +13328,7 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">quickref</span>
@@ -13371,10 +13385,10 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> ~/Desktop
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cd</span> <span class="o">~/</span><span class="n">Dropbox</span>
 </pre></div>
 
     </div>
@@ -13391,7 +13405,7 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>/Users/tiagoventura/Desktop
+<pre>/Users/tiagoventura/Dropbox
 </pre>
 </div>
 </div>
@@ -13402,10 +13416,10 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">pwd</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pwd</span>
 </pre></div>
 
     </div>
@@ -13418,7 +13432,7 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[5]:</div>
+    <div class="prompt output_prompt">Out[12]:</div>
 
 
 
@@ -13497,7 +13511,7 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&#39;/Users/tiagoventura/Dropbox/courses/ppol564_fall2023/lecture_notes/week-1&#39;</pre>
+<pre>&#39;/Users/tiagoventura/Desktop&#39;</pre>
 </div>
 
 </div>
@@ -13516,10 +13530,10 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> my_fib_func.py
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">writefile</span> <span class="n">my_fib_func</span><span class="o">.</span><span class="n">py</span>
 <span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">'''Fibonacci Sequence'''</span>
     <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">n</span>
@@ -13546,8 +13560,12 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Overwriting my_fib_func.py
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-cyan-fg">  Cell </span><span class="ansi-green-fg">In[14], line 1</span>
+<span class="ansi-red-fg">    writefile my_fib_func.py</span>
+              ^
+<span class="ansi-red-fg">SyntaxError</span><span class="ansi-red-fg">:</span> invalid syntax
 </pre>
 </div>
 </div>
@@ -13558,7 +13576,7 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">ls</span> # list files ( see our function)
@@ -13578,11 +13596,119 @@ Automagic is ON, % prefix IS NOT needed for line magics.</pre>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>_basics_of_cmd.html             intro-to-quarto.qmd
-_basics_of_cmd.ipynb            <span class="ansi-blue-fg">intro-to-quarto_files</span>/
-_using-jupyter-notebooks.html   minimal_example_python.qmd
-_using-jupyter-notebooks.ipynb  my_fib_func.py
-course_infrastructure.qmd
+<pre>20_DesignPickle_Zoom_Background-22.jpg
+<span class="ansi-blue-fg">Aleatorios</span>/
+<span class="ansi-blue-fg">Application_grants_scholarship</span>/
+<span class="ansi-blue-fg">Apps</span>/
+Banco_Democracia_Novembro_v2.sav
+<span class="ansi-blue-fg">Bibliotecas</span>/
+<span class="ansi-blue-fg">BigDataWeb-BSOS</span>/
+<span class="ansi-blue-fg">Birnir Calvo Waguespack</span>/
+<span class="ansi-blue-fg">CalvoTiago</span>/
+<span class="ansi-blue-fg">CalvoTimonedaChapter</span>/
+<span class="ansi-blue-fg">Camera Uploads</span>/
+Cantu_groceries_for_votes.pdf
+<span class="ansi-blue-fg">Class_and_Workshops</span>/
+<span class="ansi-blue-fg">Covid Funding</span>/
+<span class="ansi-blue-fg">Datasets</span>/
+<span class="ansi-blue-fg">Documentos</span>/
+<span class="ansi-blue-fg">Encuesta y Codigo</span>/
+<span class="ansi-blue-fg">Exemplar papers</span>/
+<span class="ansi-blue-fg">Experimental_methods</span>/
+File Sep 04, 5 16 20 PM.pdf
+Homicídios dolosos praticados por policiais X Letalidade Policial (1).pps
+<span class="ansi-blue-fg">Human Subjects UMD</span>/
+<span class="ansi-blue-fg">IDB-iLCSS Compartido</span>/
+<span class="ansi-blue-fg">IESP</span>/
+Icon?
+Malhorota_hurricanes.pdf
+New Recording 2.m4a
+<span class="ansi-blue-fg">Old Folders</span>/
+Path_to_Fake__Who_Goes_and_How_Did_They_Get_There_-5.pdf
+<span class="ansi-blue-fg">PhD</span>/
+<span class="ansi-blue-fg">RA Laura</span>/
+Rage from within SVV (1).pdf
+Rage from within SVV.pdf
+<span class="ansi-blue-fg">Reviews</span>/
+<span class="ansi-blue-fg">SICSS_Rio</span>/
+<span class="ansi-blue-fg">SSRC Covid</span>/
+<span class="ansi-blue-fg">Summer_training</span>/
+<span class="ansi-blue-fg">Templates</span>/
+Tese Tiago (REVISÃO CONCLUÍDA) - com ficha.pdf
+The_participants___descriptive.pdf
+Untitled.ipynb
+Untitled1.ipynb
+Willnat and Weaver-2018-Social Media and U S Journalists.pdf
+<span class="ansi-blue-fg">apis_keys</span>/
+art.odt
+<span class="ansi-blue-fg">artigos</span>/
+asimovic_effects_of_facebook_on_ethnically_polarized_setting.pdf
+basedosdados.py
+bigquery.R
+brasililegis.R
+<span class="ansi-blue-fg">buzzsumo</span>/
+code_auxilio.R
+<span class="ansi-blue-fg">conferences</span>/
+connective_effeverscence.pdf
+<span class="ansi-blue-fg">courses</span>/
+cv.pdf
+dados_pnad_rafaela.R
+dem_debates.pdf
+<span class="ansi-blue-fg">desktop</span>/
+<span class="ansi-blue-fg">fgv_capes_print</span>/
+finefoods.txt.gz
+fontsrladies.css
+game theory.R
+geckodriver.exe
+<span class="ansi-blue-fg">georgetown</span>/
+glove.6B.zip
+grad_lab_scrap_zap.Rdata
+<span class="ansi-blue-fg">headshots</span>/
+html_source_951_spain.RData
+<span class="ansi-blue-fg">ilcss_workingpaper</span>/
+install_r.R
+<span class="ansi-blue-fg">irb_certificates</span>/
+<span class="ansi-blue-fg">literature_spreedshet</span>/
+<span class="ansi-blue-fg">me_at_conferences</span>/
+<span class="ansi-blue-fg">methods</span>/
+mod.jags
+mod.stan
+moreira.pdf
+mydraft.Rmd
+nick_geom_tile.R
+notebook.Rmd
+notebook.nb.html
+obterprop.csv
+<span class="ansi-blue-fg">packages</span>/
+<span class="ansi-blue-fg">pipeline_phd</span>/
+<span class="ansi-blue-fg">python_learning_materials</span>/
+<span class="ansi-blue-fg">rafaela_pnad</span>/
+res_google.Rdata
+res_lo.jpg
+result_sf.Rdata
+s
+save.csv
+scrap_spain.R
+<span class="ansi-blue-fg">sorelle</span>/
+sp_crime.Rdata
+<span class="ansi-blue-fg">study_group_multilingual_NLP</span>/
+survey_flow.png
+<span class="ansi-blue-fg">talks</span>/
+theocharis.pdf
+tiago_bibtex.bib
+<span class="ansi-blue-fg">tiagoventura.rbind.io</span>/
+<span class="ansi-blue-fg">tiagoventura.rbind.io-bundle</span>/
+to_do.txt
+topology.jpeg
+<span class="ansi-blue-fg">twitter</span>/
+<span class="ansi-blue-fg">twitter_idb</span>/
+umd_drive_backup.zip
+unt.Rmd
+ventura.jpg
+ventura_cv.pdf
+w2vec.h5
+<span class="ansi-blue-fg">website_redirect</span>/
+<span class="ansi-blue-fg">website_redirect_</span>/
 </pre>
 </div>
 </div>
@@ -13851,7 +13977,7 @@ jupyter nbextensions_configurator enable --user</code></pre>
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>[NbConvertApp] Converting notebook _using-jupyter-notebooks.ipynb to html
-[NbConvertApp] Writing 304809 bytes to _using-jupyter-notebooks.html
+[NbConvertApp] Writing 309211 bytes to _using-jupyter-notebooks.html
 </pre>
 </div>
 </div>
