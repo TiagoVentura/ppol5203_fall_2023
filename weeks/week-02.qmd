@@ -36,19 +36,21 @@ tbl-colwidths: [10,50,40]
 
 # Lecture Notes
 
-Version Control, Workflow and Reproducibility: Or a bit of Git & GitHub: [html](/lecture_notes/week-02/_version_control_git.html), <a href="/lecture_notes/week-02/_version_control_git.ipynb" download> notebook </a>
+-   Version Control, Workflow and Reproducibility: Or a bit of Git & GitHub: [html](/lecture_notes/week-02/_version_control_git.html), <a href="/lecture_notes/week-02/_version_control_git.ipynb" download> notebook </a>
 
 # Slides
 
-TBD
+-   [Version Control, Workflow and Reproducibility: Or a bit of Git & GitHub](/slides/week-2.html)
 
-<!-- -   Version Control, Workflow and Reproducibility: Or a bit of Git & GitHub: [Notebook](/lecture_notes/week-2/_version_control_git.html), <a href="/lecture_notes/week-2/_version_control_git.ipynb" download> Download </a> -->
+<!-- # Practice Exercises -->
+
+<!-- -   <a href="/practice_exercises/_week-02-exercises.ipynb" download> Download notebook </a> -->
 
 # Readings
 
 ***Required Readings***
 
--   [The Plain Person's Guide to Plain Text Social Science](http://plain-text.co/) - Healy, Kieran 
+-   [The Plain Person's Guide to Plain Text Social Science](http://plain-text.co/) - Healy, Kieran
 
     -   Ch. 1: Introduction;
 
@@ -56,10 +58,9 @@ TBD
 
     -   Ch. 3: Write and Edit;
 
-    -    Ch. 4: Reproduce Work.
+    -   Ch. 4: Reproduce Work.
 
-
-- [Pro Git](https://git-scm.com/book/en/v2) - Chacon & Straub
+-   [Pro Git](https://git-scm.com/book/en/v2) - Chacon & Straub
 
     -   [Ch. 1: Getting Started](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control); Read 1.1 - 1.3
 

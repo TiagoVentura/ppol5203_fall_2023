@@ -13091,7 +13091,7 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><h1><center> PPOL 5203 Data Science I: Foundations <br><br> 
 <font color='grey'>Reproducibility, Version Control, Git/Github <br><br>
-Tiago Ventura</center>&lt;/center&gt; <h1></p>
+Tiago Ventura </center> <h1></p>
 <hr>
 
 </div>
@@ -13160,7 +13160,14 @@ Tiago Ventura</center>&lt;/center&gt; <h1></p>
 </li>
 </ul>
 <p>These challenges will appear across different projects, but, most importantly, you are very likely to repeat these tasks for the different iterations of the same project.  As you do this, you need to make sure your results are <a href="https://en.wikipedia.org/wiki/Reproducibility#:~:text=For%20the%20findings%20of%20a,when%20the%20study%20is%20replicated.">reproducible</a>.</p>
-<h3 id="Best-Practices-for-Reproducibility">Best Practices for Reproducibility<a class="anchor-link" href="#Best-Practices-for-Reproducibility">&#182;</a></h3><p><strong>Reproducibility is fundamental to the scientific method</strong>. As you publish a article/data report/data analysis you need to make sure others (or even you in the future) would be able to easily keep a record of your actions as in the data (cleaning, measurement choices, models), the presentation of the results, all in a reproducible way.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Best-Practices-for-Reproducibility-and-Project-Management">Best Practices for Reproducibility and Project Management<a class="anchor-link" href="#Best-Practices-for-Reproducibility-and-Project-Management">&#182;</a></h3><p><strong>Reproducibility is fundamental to the scientific method</strong>. As you publish a article/data report/data analysis you need to make sure others (or even you in the future) would be able to easily keep a record of your actions as in the data (cleaning, measurement choices, models), the presentation of the results, all in a reproducible way.</p>
 <p>Here are some suggestions for you to overcome these challenges will minimal headaches:</p>
 <p><strong>Documentation</strong></p>
 <ul>
@@ -13187,7 +13194,7 @@ Tiago Ventura</center>&lt;/center&gt; <h1></p>
 <p><strong>Portability</strong></p>
 <ul>
 <li>Use computational environments for your projects. (<a href="https://github.com/pyenv/pyenv#installation">pyenv</a></li>
-<li>Avoid specific file paths</li>
+<li>Avoid absolute file paths</li>
 <li>Keep track of the version of your package/libraries versions</li>
 </ul>
 <p><strong>Use Self-Contained Projects</strong></p>
@@ -13203,9 +13210,16 @@ Tiago Ventura</center>&lt;/center&gt; <h1></p>
 </ul>
 </li>
 </ul>
-<p><strong>Version Control</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Version-Control">Version Control<a class="anchor-link" href="#Version-Control">&#182;</a></h2><p>Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. It keeps a complete record of changes to a single file, a folder of material, or a whole project.</p>
 <ul>
-<li><p>A system that records changes to a file or set of files over time so that you can recall specific versions later. It keeps a complete record of changes to a single file, a folder of material, or a whole project.</p>
+<li><p>Version control avoids: <code>file1.doc, file1_mod.doc, file1_modagain.doc, file1_mod_thelast.doc, etc..</code></p>
 </li>
 <li><p>Easily handle collaboration</p>
 </li>
@@ -13217,7 +13231,6 @@ Tiago Ventura</center>&lt;/center&gt; <h1></p>
 </li>
 </ul>
 <p>Version control is the most complex and most important of the best practices described here for reproducibility in data science. It requires us to learn a tool to perform version control. We will use <code>Git</code> to do so.</p>
-<p><code>Git</code> is one of many option for version control, but it has become the standard for version control in data science. <code>Git</code> is a local tool, that you install in your machine. <code>GitHub</code> is a public remote host for Git repositories  is a place where software developers and social scientists make their work available, and where you can contribute to ongoing projects or make public your own.</p>
 
 </div>
 </div>
@@ -13250,7 +13263,47 @@ Tiago Ventura</center>&lt;/center&gt; <h1></p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Git-in-Practice">Git in Practice<a class="anchor-link" href="#Git-in-Practice">&#182;</a></h2><p>The code below cover what we did in class. It shows you the basics of using git for local version control.</p>
+<h3 id="Basic-Git-commands">Basic Git commands<a class="anchor-link" href="#Basic-Git-commands">&#182;</a></h3><p><strong>Set up your identity</strong></p>
+<ul>
+<li><code>git config --global user.name "myname"</code>: set your user name</li>
+<li><code>git config --global user.email your-email@georgetown.edu</code>: set your email account</li>
+</ul>
+<p><strong>Starting or getting a git repository on your machine</strong></p>
+<ul>
+<li><code>git init</code>: start a new repository from a working directory</li>
+<li><code>git clone &lt;url or location to repository&gt;</code>: clone an existing repository</li>
+<li><code>git status</code>: get the current status of the repository.</li>
+</ul>
+<p><strong>Staging any changes you made</strong></p>
+<ul>
+<li><code>git add &lt;file&gt;</code>: stage a file to be committed </li>
+<li><code>git add .</code>: stage <em>all files</em> to be committed</li>
+<li><code>git reset HEAD &lt;file&gt;</code>: un-stage all files to be committed</li>
+</ul>
+<p><strong>Saving the staged changes</strong></p>
+<ul>
+<li><code>git commit -m "some message"</code>: commit staged changes to repository </li>
+<li><code>git commit</code>: commit staged changes to repository (will be prompted to leave a message)</li>
+</ul>
+<p><strong>Getting current state from the remote (Github) or sending changes to it.</strong></p>
+<ul>
+<li><code>git fetch</code>: download recent changes in the remote repository (but do not explicitly merge with your local version)</li>
+<li><code>git pull</code>: download recent changes in the remote repository and merge with your local version)</li>
+<li><code>git push</code>: push commits to remote (e.g. github repository)</li>
+</ul>
+<p><strong>Getting Help</strong></p>
+<ul>
+<li><code>git help &lt;verb&gt;</code></li>
+<li><code>man git-&lt;verb&gt;</code></li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Git-in-Practice">Git in Practice<a class="anchor-link" href="#Git-in-Practice">&#182;</a></h2><p>The code below cover what we will do  in class. It shows you the basics of using git for local version control.</p>
 <h4 id="1)-Create-an-empty-directory-to-be-our-git-walkthrough">1) Create an empty directory to be our git walkthrough<a class="anchor-link" href="#1)-Create-an-empty-directory-to-be-our-git-walkthrough">&#182;</a></h4><p>Open you command line.</p>
 <p>Check your home directory or where you are when you open your terminal</p>
 <ul>
@@ -13359,7 +13412,7 @@ Tiago Ventura</center>&lt;/center&gt; <h1></p>
 </li>
 <li><p>Then we can merge our branches. Here we are doing a fast-forward merge, moving our master to keep up with the alternative branch</p>
 <ul>
-<li><code>git merge alter [new branch]</code></li>
+<li><code>git merge new branch</code></li>
 </ul>
 </li>
 </ul>
@@ -13372,7 +13425,7 @@ Tiago Ventura</center>&lt;/center&gt; <h1></p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Git-Remotes:-Git-+-Github.">Git Remotes: Git + Github.<a class="anchor-link" href="#Git-Remotes:-Git-+-Github.">&#182;</a></h2><p>Most times, you will use git integrated with Github. This is because the way git is more useful is by allowing multiple researchers to write and share code at the same time.</p>
-<p>This is the workflow we went through in class. It is usually how I use git in my day to day work. This is also insipiered by a tutorial we developed at the Center for Social Media and Politics (CSMaP), where I worked as a Postdoctoral Researcher.</p>
+<p>This is the workflow we willgo through in class. It is usually how I use git in my day to day work. This is also insipiered by a tutorial we developed at the Center for Social Media and Politics (CSMaP), where I worked as a Postdoctoral Researcher.</p>
 <h3 id="Starting-a-New-Project">Starting a New Project<a class="anchor-link" href="#Starting-a-New-Project">&#182;</a></h3><p>Before you write any code:</p>
 <ul>
 <li><p>Go to your github, and create a new repository</p>
@@ -13385,11 +13438,6 @@ Tiago Ventura</center>&lt;/center&gt; <h1></p>
 <li><p>Move your working directory to this new folder</p>
 <ul>
 <li><code>cd &lt;project-directory&gt;</code></li>
-</ul>
-</li>
-<li><p>Most times, you will want to create a new branch for you to work on this project</p>
-<ul>
-<li><code>git checkout -b &lt;branch-name&gt;</code></li>
 </ul>
 </li>
 <li><p>Write code!</p>
@@ -13433,7 +13481,7 @@ ADD EXAMPLE FROM CLASS
 <li><p>the bottom half is from the commit that you are trying to merge in</p>
 </li>
 </ul>
-<p><strong>How to solvea a conflict?</strong></p>
+<p><strong>How to solve a conflict?</strong></p>
 <ul>
 <li><p>Open your text editor and navigate to the file that has merge conflicts.</p>
 </li>
@@ -13449,15 +13497,15 @@ ADD EXAMPLE FROM CLASS
 <li><code>git checkout -b "new"</code> : create a branch call new, checkout directly</li>
 <li><code>vim test1.txt</code>: make some modification</li>
 <li><code>git add test1.txt</code></li>
-<li><code>git commit -m "new file 1</code>: commit your changes</li>
+<li><code>git commit -m "new file 1"</code>: commit your changes</li>
 </ul>
 <h4 id="2)-Now,-let's-do-the-same-in-the-master-branch">2) Now, let's do the same in the master branch<a class="anchor-link" href="#2)-Now,-let's-do-the-same-in-the-master-branch">&#182;</a></h4><ul>
-<li><code>git checkout "master"</code> : create a branch call new, checkout directly</li>
+<li><code>git checkout "master"</code> : move back to master</li>
 <li><code>vim test1.txt</code>: make some modification and see that the old modification is not here</li>
 <li><code>git add test1.txt</code></li>
 <li><code>git commit -m "new file 1 from master</code>: commit your changes</li>
 </ul>
-<h4 id="3)-Merge-and-solve-conflict">3) Merge and solve conflict<a class="anchor-link" href="#3)-Merge-and-solve-conflict">&#182;</a></h4><p>Because we are at the master branch, we just need to merge the new branck to the master</p>
+<h4 id="3)-Merge-and-solve-conflict">3) Merge and solve conflict<a class="anchor-link" href="#3)-Merge-and-solve-conflict">&#182;</a></h4><p>Because we are at the master branch, we just need to merge the new branch to the master</p>
 <ul>
 <li><code>git merge new</code>: this merges new to the master. if we wanted to do the opposite, then we would need to checkout to new, and use <code>git merge master</code></li>
 </ul>
@@ -13470,7 +13518,7 @@ ADD EXAMPLE FROM CLASS
 </li>
 <li><p><code>git add test1.txt</code></p>
 </li>
-<li><p><code>git commit -m "fixed conflict</code>: commit your changes</p>
+<li><p><code>git commit -m "fixed conflict"</code>: commit your changes</p>
 </li>
 <li><p><code>git log</code>: to see your merge complete</p>
 </li>
@@ -13482,45 +13530,13 @@ ADD EXAMPLE FROM CLASS
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Git-Commands">Git Commands<a class="anchor-link" href="#Git-Commands">&#182;</a></h2><p>Below I summarize a list of git commands we saw in class. This should work as a cheetshet for you.</p>
-<p>Remember of the other tutorial I suggested in the beggining of this notebook:</p>
-<ul>
-<li><a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"><strong>Github Cheatsheet (A)</strong></a></li>
-<li><a href="https://education.github.com/git-cheat-sheet-education.pdf"><strong>Github Cheatsheet (B)</strong></a></li>
-</ul>
-<h3 id="Basic-Git-commands">Basic Git commands<a class="anchor-link" href="#Basic-Git-commands">&#182;</a></h3><p><strong>Set up your identity</strong></p>
-<ul>
-<li><code>git config --global user.name "myname"</code>: set your user name</li>
-<li><code>git config --global user.email your-email@georgetown.edu</code>: set your email account</li>
-</ul>
-<p><strong>Starting or getting a git repository on your machine</strong></p>
-<ul>
-<li><code>git init</code>: start a new repository from a working directory</li>
-<li><code>git clone &lt;url or location to repository&gt;</code>: clone an existing repository</li>
-<li><code>git status</code>: get the current status of the repository.</li>
-</ul>
-<p><strong>Staging any changes you made</strong></p>
-<ul>
-<li><code>git add &lt;file&gt;</code>: stage a file to be committed </li>
-<li><code>git add .</code>: stage <em>all files</em> to be committed</li>
-<li><code>git reset HEAD &lt;file&gt;</code>: un-stage all files to be committed</li>
-</ul>
-<p><strong>Saving the staged changes</strong></p>
-<ul>
-<li><code>git commit -m "some message"</code>: commit staged changes to repository </li>
-<li><code>git commit</code>: commit staged changes to repository (will be prompted to leave a message)</li>
-</ul>
-<p><strong>Getting current state from the remote (Github) or sending changes to it.</strong></p>
-<ul>
-<li><code>git fetch</code>: download recent changes in the remote repository (but do not explicitly merge with your local version)</li>
-<li><code>git pull</code>: download recent changes in the remote repository and merge with your local version)</li>
-<li><code>git push</code>: push commits to remote (e.g. github repository)</li>
-</ul>
-<p><strong>Getting Help</strong></p>
-<ul>
-<li><code>git help &lt;verb&gt;</code></li>
-<li><code>man git-&lt;verb&gt;</code></li>
-</ul>
+<h2 id=".gitignore:-ignoring-specific-files-or-file-types">.gitignore: ignoring specific files or file types<a class="anchor-link" href="#.gitignore:-ignoring-specific-files-or-file-types">&#182;</a></h2><p>Sometimes we do not want to track certain file types.</p>
+<p>For example, Github has an upload rate of 100mb, meaning that we wouldn't want to push really big data sources up to the repository. We might want to avoid uploading <em>any</em> data files to our Github repository for this reason. To do this, we may want to ignore specific file types, such as <code>.csv</code> (comma separated values) or <code>.Rdata</code> (an R data file type). To do this, we need to make a special file that Git reads to tell it which files <em>not</em> to track.</p>
+<p>We can exclude these files by adding a <code>.gitignore</code> file to our project folder.</p>
+
+<pre><code>*.ipynb_checkpoints 
+*.Rdata
+*.csv</code></pre>
 
 </div>
 </div>
@@ -13626,13 +13642,32 @@ ADD EXAMPLE FROM CLASS
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>_version_control_git.ipynb<span class="w"> </span>--to<span class="w"> </span>html<span class="w"> </span>--template<span class="w"> </span>classic
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[NbConvertApp] Converting notebook _version_control_git.ipynb to html
+[NbConvertApp] Writing 302627 bytes to _version_control_git.html
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 

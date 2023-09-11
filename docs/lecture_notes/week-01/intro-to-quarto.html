@@ -292,8 +292,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p>Below you can see a minimal example of a <code>.qmd</code> file running Python</p>
 <div class="cell">
-<div class="cell-output cell-output-error">
-<pre><code>Error in loadNamespace(x): there is no package called 'readr'</code></pre>
+<div class="cell-output cell-output-stdout">
+<pre><code>---
+title: "Minimal Example Python"
+author: "Tiago Ventura"
+execute: 
+  error: true
+format:
+  html:
+    code-tools: true
+---
+
+## Minimal Example of using Python with Quarto
+
+Here you add your text as markdown.
+
+## Code
+
+You will use the same code block for any language. You just need to change language inside of the brackets `{}`
+
+```{r}
+
+```
+
+```{python}
+
+import matplotlib.pyplot as plt
+import numpy as np
+import scipy.stats as stats
+import math
+
+mu = 0
+variance = 1
+sigma = math.sqrt(variance)
+x = np.linspace(mu - 3*sigma, mu + 3*sigma, 100)
+plt.plot(x, stats.norm.pdf(x, mu, sigma))
+plt.show()
+```</code></pre>
 </div>
 </div>
 <p>It contains three important types of content:</p>

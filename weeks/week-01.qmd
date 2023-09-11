@@ -56,10 +56,11 @@ A more general introduction to data science from a applied perspective (which yo
 
 **Required Readings**
 
--   **Bit by Bit: Social Research in the Digital Age** By Mathew Salganik 
+-   **Bit by Bit: Social Research in the Digital Age** By Mathew Salganik
 
-  -  [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/) 
-  - [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
+-   [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/)
+
+-   [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
 
 -   [A Three-Step Guide to Training Computational Social Science Ph.D. Students for Academic and Non-Academic Careers](https://osf.io/preprints/socarxiv/kgjn2/) - By Aniket Kesari, Jae Yeon Kim, Sono Shah, Taylor Brown, Tiago Ventura and Tina Law
 

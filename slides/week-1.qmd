@@ -151,7 +151,6 @@ knitr::include_graphics("week1_figs/resl2.png")
 knitr::include_graphics("week1_figs/l2.png") 
 ```
 
-
 ## Data Science for Public Policy
 
 [Data Scientist for Public Policy]{.red} focuses on **computational approaches** to solve/understand **Policy Problems**.
