@@ -21,8 +21,8 @@ This first course in the core data science sequence teaches Data Science for Pub
 
 -   Email: sps126\@georgetown.edu
 -   Office Hours:
-    -   Every Tuesday 2pm (in person, old north)
-    -   Every Wednesday 2pm (remote via Zoom)
+    -   Wednesdays, 12:30 to 1:30 pm, at Old North Lounge
+    -   Thursday, 1:00pm to 2:00 pm, via Zoom
 
 <!-- add zoom link for virtual office hours -->
 

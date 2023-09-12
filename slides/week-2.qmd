@@ -21,6 +21,19 @@ format:
     footer: "Data science I: Foundations"
     theme: [simple,custom.scss]
 ---
+## Announcements
+
+
+- Sierra Office Hours
+
+    - In person: Wednesdays, 12:30 to 1:30 pm
+    - Virtual: Thursday, 1:00pm to 2:00 pm
+
+- This is our classroom 
+
+    - I will get some power cords
+  
+
 
 ## Plans for Today
 
@@ -55,7 +68,7 @@ format:
 knitr::include_graphics("week1_figs/resl2.png") 
 ```
 
-## But we often don'teach students how to organize the mess behind it. {.centered}
+## But we often don't teach students how to organize the mess behind it. {.centered}
 
 <br>
 
