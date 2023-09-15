@@ -1,7 +1,8 @@
-# PPOL 5203 -  Data Science Foundations
+# PPOL 5203 - Data Science Foundations
 
 Repo for Georgetown McCourt's School of Public Policy's Data Science I (PPOL 5203) in Fall of 2023
 
+And the students are awesome!
 
 ## Course Description
 
@@ -9,8 +10,7 @@ This first course in the core data science sequence teaches Data Science for Pub
 
 This is not the first time this course is taught at DSPP. For this reason, several of the materials here are borrowed from previous iterations of this PPOL 564 taught by Dr. Rebecca Johnson and Dr. Eric Dunford
 
-
-**Class Website**: [https://tiagoventura.github.io/ppol5203_fall_2023](https://tiagoventura.github.io/ppol5203_fall_2023)
+**Class Website**: <https://tiagoventura.github.io/ppol5203_fall_2023>
 
 ## Instructors and TAs
 
@@ -25,7 +25,7 @@ This is not the first time this course is taught at DSPP. For this reason, sever
 
 ## Teaching Assistant: Sierra Sikorski (DSPP Second-Year Student)
 
--   Email: sps126@georgetown.edu\@georgetown.edu
+-   Email: sps126\@georgetown.edu\@georgetown.edu
 -   Office Hours:
-    -   Every Tuesday 2pm  (in person, old north)
+    -   Every Tuesday 2pm (in person, old north)
     -   Every Wednesday 2pm (remote via Zoom)
