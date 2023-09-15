@@ -1,0 +1,58 @@
+---
+title: "<span style = 'font-size: 100%;'> PPOL 5203 - Data Science I: Foundations </span>"
+subtitle: "<span style = 'font-size: 100%;'> Week 3: Intro to Python - OOP, Data Types, Control Statements and Functions </span>"
+author: "Professor: Tiago Ventura"
+date: "09/19/2023"
+format:
+  revealjs: 
+    transition: slide
+    background-transition: fade
+    width: 1600
+    height: 900
+    center: true
+    slide-number: true
+    incremental: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    #logo: images/quarto.png
+    footer: "Data science I: Foundations"
+    theme: [simple,custom.scss]
+---
+
+## Plans for Today
+
+<br>
+
+-   In-class exercise about Git
+
+-   Intro to Python
+
+  - 101 Object-Oriented Programming
+  
+  - Data Types in Python
+  
+  - Control statements
+  
+  - Functions
+
+# Git in Class Exercise {background-color="#447099"}
+
+```{r}
+library(countdown)
+countdown(minutes = 20, seconds = 0, 
+          left = 0, right = 0,
+          top=0,
+          padding = "100px",
+          margin = "10%",
+          font_size = "6em")
+```
+
+#  `r fontawesome::fa("laptop-code")`  Solution
+
+
+# Any questions?
+
+# Introduction to Python {background-color="#447099"}
+
+## 
