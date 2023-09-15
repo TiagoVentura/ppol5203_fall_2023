@@ -254,8 +254,10 @@ We just learned in practive how loops work. Let's break down a bit more so that 
 
 First, let's fully understand the syntax of a loop. A loop had the following syntax:
 
-    for <var> in <iterable>:
-        <statement(s)>
+```         
+for <var> in <iterable>:
+    <statement(s)>
+```
 
 -   `<iterable>`: is a collection of objects. This is the container through which our loop is navigating element-wise
 -   `<statement(s)>`: this is the juice. It is a sequence of code that describes what is the action our program wants to repeat for each component of the iterable. Notice, `<statements>` in the loop body are denoted by indentation, as with all Python control structures.
@@ -405,11 +407,15 @@ help(square)
 
 Arguments are all the input values that lie inside the parentheses.
 
-    `def fun(argument_1,argument_2):`
+```         
+`def fun(argument_1,argument_2):`
+```
 
 We can supply **default values** to one or all arguments; in doing so, we've specified a default argument.
 
-    `def fun(argument_1 = "default 1",argument_2 = "default 2"):`
+```         
+`def fun(argument_1 = "default 1",argument_2 = "default 2"):`
+```
 
 ```{python}
 def fun(a,b=""):
@@ -542,8 +548,10 @@ Refer to the python documentation for a more [detailed outline](https://python-t
 
 In addition to user defined functions, Python also supports the use of **anonymous functions**, or so-called **lambda functions**. These are essentially straightforward functions that comprise only one statement, and the value returned by that statement becomes the function's result. These functions are referred to as anonymous because they lack a formal name or identifier. To define such functions, the lambda keyword is employed, which serves the sole purpose of indicating the declaration of an anonymous function.
 
-      `lambda x: x*2`
-      `lambda args: return value`
+```         
+  `lambda x: x*2`
+  `lambda args: return value`
+```
 
 ```{python}
 # user-defined
