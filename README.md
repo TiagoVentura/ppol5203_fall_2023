@@ -1,6 +1,8 @@
 # PPOL 5203 - Data Science Foundations
 
-Repo for Georgetown McCourt's School of Public Policy's Data Science I (PPOL 5203) in Fall of 2023
+Repository for Georgetown McCourt's School of Public Policy's Data Science I (PPOL 5203) in Fall of 2023
+
+And the students are awesome!
 
 And the students are awesome!
 
