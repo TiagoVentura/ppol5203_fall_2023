@@ -543,13 +543,24 @@ Any programming language needs statements that controls the sequence of executio
 **Definition:** Conditional execution.
 
 ```         
-#| eval: false
+
 if <logical statement>:
+ 
+ 
   ~~~~ CODE ~~~~
+
+
 elif <logical statement>:
+
+
   ~~~~ CODE ~~~~
+
+
 else:
+
   ~~~~ CODE ~~~~
+
+
 ```
 
 ## For loops
