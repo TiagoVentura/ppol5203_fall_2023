@@ -44,7 +44,7 @@ Intro to Python II - Control Statements and Functions: [html](/lecture_notes/wee
 
 ## Slides
 
-<!-- -   TBD -->
+[Week 3 - Intro do Python: OOP, Control Statements and Functions](/slides/week-3.html)
 
 ## Required Readings
 

@@ -1,6 +1,8 @@
 /*-- scss:defaults --*/
-$presentation-font-size-root: 40px;
+$presentation-font-size-root: 35px;
 $presentation-heading-color: #012169;
+$code-block-bg:#F0F0F0;
+
 /*-- scss:rules --*/
 
 .reveal .slides > section > section { 
@@ -29,5 +31,10 @@ $presentation-heading-color: #012169;
 }
 .centered p {
   text-align: center;
+}
+
+code {
+  font-size: 1.6em;
+  /* or try font-size: xx-large; */
 }
 
