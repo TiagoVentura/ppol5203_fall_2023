@@ -82,14 +82,11 @@ We will take a different route starting with a deeper understanding of Python's 
 
 ## Python: Object-oriented programming (OOP)
 
-
 Python is an object-oriented programming language (OOP) meaning that the object plays a more fundamental role for how we structure a program.
-
 
 <br>
 
 ::: fragment
-
 #### Python OOP
 
 ```{python}
@@ -105,7 +102,6 @@ s.mean()
 
 ```
 
-
 <br>
 
 #### R Function Programming in Practice
@@ -116,14 +112,12 @@ vec <- c(1, 2, 3, 4, 5)
 mean(vec)
 ```
 
-- Objects are the core of Python. 
-- From the objects, you will access functions that will make Python work.
-- And data
-
+-   Objects are the core of Python.
+-   From the objects, you will access functions that will make Python work.
+-   And data
 :::
 
-
-##
+## 
 
 ### Basics: Creating an object in Python.
 
@@ -141,7 +135,7 @@ x = 4
 id(x)
 ```
 
-##
+## 
 
 **Action 2** An objects type is defined at runtime
 
@@ -233,7 +227,6 @@ me.name
 me.hello() 
 ```
 
-
 # Data types: native object in Python
 
 ## Data Type
@@ -244,17 +237,15 @@ Python comes with a number of built-in data types. Two major data types groups i
 
 -   **collection types**: hold multiple pieces of information
 
-
 There are two ways of instantiating a data class in Python:
 
 -   **Literals:** syntatic representation in Python, e.g. \[\]
 -   **Constructors:** class constructors, e.g. list()
 
-
 ## Scalar
 
 | *Type*  | *Description*                                   | *Example* |  *Literal*  | *Constructor* |
-|:-----------:|:---------------------|:-----------:|:-----------:|:-----------:|
+|:------------:|:----------------|:------------:|:------------:|:------------:|
 |  `int`  | integer types                                   |    `4`    |   `x = 4`   |   `int(4)`    |
 | `float` | 64-bit floating point numbers                   |  `4.567`  | `x = 4.567` |  `float(4)`   |
 | `bool`  | boolean logical values                          |  `True`   | `x = True`  |   `bool(0)`   |
@@ -279,16 +270,13 @@ There are two ways of instantiating a data class in Python:
 
 Let's practice with lists first. One way to explore data structures is to learn their methods. Check all the methods of a list by running 'dir()' on a list object. Let's explore these functions using the following list object, by answering the below questions. See [here](https://www.w3schools.com/python/python_ref_list.asp) for list methods:
 
-
 <br>
-
 
 ```{python}
 #| eval: false
 list_exercise = ["Ramy", "Victorie", "Letty", "Robin", "Antoine", "Griffin"] 
 
 ```
-
 
 <br>
 
@@ -375,7 +363,6 @@ dict_exercise = {"Ramy": "India",
 dict_exercise
 
 ```
-
 
 <br>
 
@@ -501,8 +488,7 @@ countdown(minutes = 10, seconds = 0,
 
 We will go over some concepts that are very general over any programming language.
 
-::: {.incremental}
-
+::: incremental
 -   Using logical operators for comparisons.
 
 -   Control the behavior of code when iterating using control statements.
@@ -510,9 +496,7 @@ We will go over some concepts that are very general over any programming languag
 -   Explore iterating through containers using loops
 
 -   Defining functions to make code more flexible, debuggable, and readable. (Probably for next week)
-
 :::
-
 
 ## Comparison Operators
 
@@ -559,7 +543,6 @@ elif <logical statement>:
 else:
 
   ~~~~ CODE ~~~~
-
 
 ```
 

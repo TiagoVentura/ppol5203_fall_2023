@@ -1,0 +1,514 @@
+---
+title: "<span style = 'font-size: 100%;'> PPOL 5203 - Data Science I: Foundations </span>"
+subtitle: "<span style = 'font-size: 100%;'> Week 4: Intro to Python - Control Statements, Comprehensions, Nested Lists, and Numpy </span>"
+author: "Professor: Tiago Ventura"
+date: "09/19/2023"
+execute: 
+  echo: true
+  error: true
+format:
+  revealjs: 
+    transition: slide
+    background-transition: fade
+    code-line-numbers: false
+    width: 1600
+    height: 900
+    center: false
+    slide-number: true
+    incremental: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    footer: "Data science I: Foundations"
+    theme: [simple, custom.scss]
+---
+
+<!-- # The winner - Pipoca -->
+<!-- <br> -->
+
+<!-- ```{r, fig.align='center'} -->
+<!-- #| echo: false -->
+<!-- knitr::include_graphics("week4_figs/pipoca.jpeg") -->
+<!-- ``` -->
+
+
+<!-- # And that's Brisa, my dog.  -->
+
+<!-- <br> -->
+
+<!-- ```{r, fig.align='center'} -->
+<!-- #| echo: false -->
+<!-- knitr::include_graphics("week4_figs/brisa.jpeg") -->
+<!-- ``` -->
+
+
+## Plans for Today
+
+<br>
+
+-   Finish Part I of Intro to Python
+
+    -  Control statements
+
+    -  Functions
+
+
+-   Intro do Python - Part II
+
+    -  Importing modules in Python
+
+    -   List Comprehension + Generators
+
+    -   File Management
+    
+    -   Numpy
+
+
+# Important: Follow up with the lecture notes and readings. Most coding will be there! {background-color="#fb6767"}
+
+
+## Class Part II: Control Statements, Loops and Functions
+
+We will go over some concepts that are very general over any programming language.
+
+::: incremental
+-   Using logical operators for comparisons.
+
+-   Control the behavior of code when iterating using control statements.
+
+-   Explore iterating through containers using loops
+
+-   Defining functions to make code more flexible, debuggable, and readable. (Probably for next week)
+:::
+
+## Comparison Operators
+
+| Operator     | Property                |
+|--------------|-------------------------|
+| **`==`**     | (value) equivalence     |
+| **`>`**      | greater than            |
+| **`<`**      | strictly less than      |
+| **`<=`**     | less than or equal      |
+| **`>`**      | strictly greater than   |
+| **`>=`**     | greater than or equal   |
+| **`!=`**     | Not Equals              |
+| **`is`**     | object identity         |
+| **`is not`** | negated object identity |
+| **`in`**     | membership in           |
+| **`not in`** | negated membership in   |
+
+## Control Statements
+
+Any programming language needs statements that controls the sequence of execution of a particular piece of code.
+
+-   if-else statements
+-   for loops
+-   while loops
+
+## Ifelse Statements
+
+**Definition:** Conditional execution.
+
+```         
+
+if <logical statement>:
+ 
+ 
+  ~~~~ CODE ~~~~
+
+
+elif <logical statement>:
+
+
+  ~~~~ CODE ~~~~
+
+
+else:
+
+  ~~~~ CODE ~~~~
+
+```
+
+## For loops
+
+**Definition:** Taking one item at a time from a collection. We start at the beginning of the collection and mover through it until we reach the end.
+
+In python, we can iterate over:
+
+-   lists
+
+-   strings
+
+-   dictionaries
+
+-   file connections
+
+-   grouped pandas df
+
+## Example:
+
+```{python}
+# create a list
+my_list = [1, 2, 3, 4, 5]
+
+# iterate with a for loop:
+for m in my_list:
+  print(m)
+
+
+```
+
+## While Loops
+
+-   While loops are all about repetitions. Instead of a sequence, the operation will repeat up according to the conditional statement in the loop.
+
+```{python}
+# while loops
+x = 0
+while x < 5:
+    print("This")
+    x += 1
+```
+
+# [Notebook for Control Statements](/lecture_notes/week-03/_week-03_iter_control_functions.html)
+
+
+# User Defined Functions {background-color="#447099"}
+
+
+## How do we start coding? 
+
+
+:::{.incremental}
+
+
+- write code sequentially to solve your immediate needs
+
+- reuse this code for similar tasks.
+
+- Have very long and repetitive codes
+
+:::
+
+
+## Problems with this approach
+
+:::{.incremental}
+
+-   Lack of general utility.
+-   Need to edit/copy/paste your code every time you want to **reuse it.**
+-   Need to re-write the code when you need to make small extenstion
+-   Likely to raise errors
+
+:::
+
+
+## Functions
+
+<br>
+
+```{python}
+#| eval: false
+def square(x):
+  '''
+  Takes the square of a number
+  input: int object
+  outpur: int object
+  '''
+  y = x*x
+  return y
+```
+
+<br>
+
+The code block above has the following elements:
+
+- [def](): keyword for generating a function
+
+- [docstring](): to explain your function
+
+- [arguments](): things we want to feed into the function and do something to.
+
+- [return](): keyword for returning a specific value from a function
+
+## Comparing Python and R
+
+```{python}
+#| eval: false
+def square(x):
+  '''
+  Takes the square of a number
+  input: int object
+  outpur: int object
+  '''
+  y = x*x
+  return y
+```
+
+<br>
+
+```{r}
+
+square <- function(x){
+#  Takes the square of a number
+#  input: int object
+#  outpur: int object
+y = x*x
+return(y)
+}
+```
+
+- In Python, you don't need to assign a object to a function
+
+- The identation blocks your statement. It replaces the curly braces
+
+# [Notebook for Functions](/lecture_notes/week-03/_week-03_iter_control_functions.html)
+
+## Intro to Python- Part II.
+
+For the second part of this lecture, we will see: 
+
+- Importing modules in Python
+
+- Comprehension and Generators
+
+- File management in Python
+
+- Numpy
+
+Notice, we have lecture notes for each of these topics!
+
+## Importing modules in Python
+
+The beauty of open-sourced programming languages is being able build on the shoulders of other colleagues. 
+
+We do this pretty much by importing libraries other programmers developed and made available.
+
+To import a module in Python, you need to explicitly tell python to do it. This works like the **library** function in R. 
+
+Python allows you to import: 
+
+- The full module with the original name
+
+- The full module with a different name
+
+- Some functions from the module
+
+- All methods from the module as independent functions
+
+
+## The full module and its functions
+
+<br>
+```{python}
+# import module
+import math
+
+# access methods from the module
+math.pi
+```
+<br>
+```{python}
+# this will throw you an error
+pi
+```
+
+
+## The full module and its functions with another name
+
+<br>
+```{python}
+# import module
+import math as m
+
+# access methods from the module
+m.pi
+m.factorial(5)
+
+```
+
+## Some functions from the module
+
+<br>
+```{python}
+# import some functions
+from math import pi
+
+# run
+pi
+```
+
+## All methods from the module as independent functions
+
+```{python}
+# all methods as independent functions
+from math import *
+
+# run
+factorial(5)
+```
+
+## Comprehensions
+
+- Provide a readable and effective way of performing a particular expression on a iterable series of items.
+
+![](https://python-3-patterns-idioms-test.readthedocs.io/en/latest/_images/listComprehensions.gif)
+
+
+### With a loop
+
+```{python}
+a_list =[0, 1, 2, 3, 4, "hey"]
+result = []
+for e in a_list:
+    if type(e) == int:  # use int for Python 3
+        result.append(e**2)
+result
+```
+
+## Why it matters?
+
+- Elegant and cleaner way to perform iterations
+
+- Flexible: allows working with lists, dictionaries, and sets
+
+- Faster than loops. 
+
+# [Notebook for Comprehensions](/lecture_notes/week-04/_week_4_comprehension_generators.html)
+
+
+## Generators
+
+Python has this very nice data type called **generators**. We use these functions a lot, but hardly talk about them.
+
+:::{.incremental}
+
+- **Purpose:** Generators allow for generating a sequence of values over time
+
+- **Main Advantage:** do not have to create the entire sequence at once and allocate memory
+
+- **Lazy Evaluation:** Returns a value at time. When requested. It is LAZY!!! We love LAZY!
+
+:::
+
+## Example of Generators
+
+You can build your own generators. That's a bit advanced, and you probably will not need to use. 
+
+But we will see some pre-built "generators":
+
+:::{.incremental}
+
+- `range()`: generate the corresponding sequence of integers. Commonly used with for loops. 
+
+- `zip()`: syncs two series of numbers up into tuples.
+
+- `enumerate()`: generates an index and value tuple pairing 
+
+:::
+
+# [Notebook for Generators](/lecture_notes/week-04/_week_4_comprehension_generators.html)
+
+## File Management in Python
+
+<br>
+
+### Main question: how do we read files from our computer in python?
+
+- connection management: open(), close()
+- Reading/writing files
+- using with to manage connections.
+- Reading .csvs
+
+## TLDR:
+
+- Most often we will use high-level functions from Pandas to load data into Python objects.
+
+- Why are we learning these tools then?
+
+  - Very pythonic
+  
+  - No direct equivalent in R or Stata
+  
+  - Important when working non-tabular data - text, json, images, etc..
+
+- **Reading:** Check Section 3.3 of [Python for Data Analysis](https://wesmckinney.com/book/python-builtin.html) to learn more about the topics covered in the notebook. 
+
+## Summary
+
+- **open()**: opens a **connection** with files on our system.
+    - **open()** returns a special item type *_io.TextIOWrapper*
+    - This item is a iterator. We need to go through to convert inputs to a objectin python. 
+    
+- **close()**: closes the connection. 
+
+- **write()**: writes files on your system. Also line by line. 
+
+- **with()**: wrapper for open and close that allows alias. 
+
+# [Notebook for File Management](/lecture_notes/week-04/_week_4_file_management.html)
+
+
+## Motivating Numpy
+
+So far, all our datatypes are geared towards unidimensional data. We can get over with this using a nested list:
+
+```{python}
+# Read in the gapminder data 
+import csv
+with open("../lecture_notes/week-04/gapminder.csv",mode="rt") as file:
+    data = [row for row in csv.reader(file)]
+
+
+```
+
+
+## Nested Lists
+
+<br>
+
+```{python}
+# let's see the data
+
+data[:10]
+
+```
+
+<br>
+
+**This is a weird data structure. Why??**
+
+## Here comes numpy ...
+
+
+![](week4_figs/numpy_arrays.png)
+
+:::aside
+source: [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html)
+:::
+
+## Why should you learn? Holds Python together!
+
+![](week4_figs/numpy_dc.png)
+
+
+## Efficiency
+
+
+- Numpy leans toward less flexibility and more efficiency.
+
+- Lists gives you more flexibility and less efficiency.
+
+- Allows for easy vectorization of functions
+
+- Broadcasting for working with arrays with different dimensions
+
+
+## Materials 
+
+- [Notebook for numpy](/lecture_notes/week-04/_week_4_numpy_for_class.html)
+
+- [Documentation](https://numpy.org/doc/stable/)
+
+- [Cheatsheet Numpy](https://images.datacamp.com/image/upload/v1676302459/Marketing/Blog/Numpy_Cheat_Sheet.pdf)
+
