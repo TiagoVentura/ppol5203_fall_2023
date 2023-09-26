@@ -13090,8 +13090,8 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><h1><center> PPOL 5203 Data Science I: Foundations <br><br> 
-<font color='grey'>Comprehensions <br><br>
-Tiago Ventura</center>&lt;/center&gt; <h1></p>
+<font color='grey'>Comprehensions & Generators <br><br>
+Tiago Ventura </center> <h1></p>
 <hr>
 
 </div>
@@ -13951,13 +13951,8 @@ for e in a_list:
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
 <h1 id="Generators">Generators<a class="anchor-link" href="#Generators">&#182;</a></h1><p>We will now introduce an important tool in Python called <code>generators</code>.</p>
-<div class="alert alert-block alert-info"> 
-
-**Definition:** 
-
-Generators are a special type of function in Python that behaves like an iterator. It allows you to generate a series of values over time, rather than computing them at once and holding them in memory. 
-
-</div><h2 id="Compare-with-list">Compare with list<a class="anchor-link" href="#Compare-with-list">&#182;</a></h2><p>Let's compare the idea of a generator with a simple iterable object, a list. A list readily stores all of its members; you can access any of its contents via indexing, or iterating over them with a loop.  A generator, on the other hand, works with lazy evalution, and only create contents as request. A generator produces one value at a time, on the fly, only when you ask for it.</p>
+<p><strong>Definition:</strong>  Generators are a special type of function in Python that create an iterator. It allows you to generate a series of values over time, rather than computing them at once and holding them in memory.</p>
+<h2 id="Compare-with-list">Compare with list<a class="anchor-link" href="#Compare-with-list">&#182;</a></h2><p>Let's compare the idea of a generator with a simple iterable object, a list. A list readily stores all of its members; you can access any of its contents via indexing, or iterating over them with a loop.  A generator, on the other hand, works with lazy evalution, and only create contents as request. A generator produces one value at a time, on the fly, only when you ask for it.</p>
 <p><strong>The whole point of this is that you can use a generator to produce a long sequence of items, without having to store them all in memory</strong></p>
 
 </div>
@@ -13976,96 +13971,9 @@ Generators are a special type of function in Python that behaves like an iterato
 
 </code></pre>
 <p>As a generator, <code>range</code> will generate the corresponding sequence of integers (from start to stop, using the step size) upon iteration. But remember, this will be a lazy evaluation.</p>
-<p>Consider the following example usages of range:</p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># create a range</span>
-<span class="n">r</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># type</span>
-<span class="nb">type</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[23]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>range</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># lazy</span>
-<span class="nb">next</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">TypeError</span>                                 Traceback (most recent call last)
-Cell <span class="ansi-green-fg">In[24], line 2</span>
-<span class="ansi-green-intense-fg ansi-bold">      1</span> <span style="color: rgb(95,135,135)"># lazy</span>
-<span class="ansi-green-fg">----&gt; 2</span> <span style="color: rgb(0,135,0)">next</span>(r)
-
-<span class="ansi-red-fg">TypeError</span>: &#39;range&#39; object is not an iterator</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -14156,6 +14064,22 @@ Cell <span class="ansi-green-fg">In[24], line 2</span>
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Generators are similar to functions; however, rather than use the <code>return</code> keyword, we leverage the <code>yield</code> keyword. If you use the <code>yield</code> keyword once in a function, then that function is a generator.</p>
+<p><strong>Understanding yield function</strong></p>
+<p>When a generator function calls yield, the "state" of the generator function is frozen; the values of all variables are saved and the next line of code to be executed is recorded, until the generator is called again. Once it is, it picks up where it left off and continues execution until it hits another yield statement.</p>
+<p>To recap, Generators:</p>
+<ul>
+<li>Specify an iterable sequence that you evaluate lazily (compute on demand). </li>
+<li>All generators are iterators</li>
+<li>Can model infinite sequences (such as data streams with no definite end)</li>
+</ul>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -14305,15 +14229,13 @@ Cell <span class="ansi-green-fg">In[15], line 1</span>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="To-keep-in-mind:">To keep in mind:<a class="anchor-link" href="#To-keep-in-mind:">&#182;</a></h3><p>A generator is a simple way to construct a new iterator object, and evaluate lazily. You can feed a non-iterable object, and make it iterable with a generator.</p>
 <p>That flexibility gives Python many different ways to create iterable objects.</p>
-<p>Let's see some examples of two built-in modules that return <strong>generators</strong>. Notice that when a function returns a generator, it doesn't have to generate all the output at once. Instead, it generates each item one at a time on-the-fly as you iterate over the generator. This means that a generator can generate a very large, or even infinite, amount of output while using very little memory.</p>
+<p>Let's see some examples of three built-in modules that return <strong>generators</strong>. Notice that when a function returns a generator, it doesn't have to generate all the output at once. Instead, it generates each item one at a time on-the-fly as you iterate over the generator. This means that a generator can generate a very large, or even infinite, amount of output while using very little memory.</p>
 <p>We will focus on two that are heavily used in data science:</p>
 <ul>
 <li><code>range()</code></li>
 <li><code>zip()</code> </li>
 <li><code>enumerate()</code></li>
 </ul>
-<p>The <code>range()</code> returns a special range object, which is a type of iterable, not a list. You can iterate over the elements of the range object just like you would with a list, but the range object generates the numbers on-the-fly as you iterate over them, rather than storing them all in a list. This is why you can do something like range(10**12) without running out of memory.</p>
-<p>Likewise, <code>zip()</code> returns a zip object, which is also an iterable that generates its elements on-the-fly as you iterate over them.</p>
 
 </div>
 </div>
@@ -14416,14 +14338,23 @@ Cell <span class="ansi-green-fg">In[15], line 1</span>
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="zip()"><code>zip()</code><a class="anchor-link" href="#zip()">&#182;</a></h2><p>syncs two series of numbers up into tuples.</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[85]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># or loop</span>
-<span class="k">for</span> <span class="n">r_</span> <span class="ow">in</span> <span class="n">r</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">r_</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+<span class="n">b</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span>
+<span class="n">sync</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="c1"># It's own object type</span>
+<span class="n">sync</span>
 </pre></div>
 
     </div>
@@ -14436,49 +14367,24 @@ Cell <span class="ansi-green-fg">In[15], line 1</span>
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+    <div class="prompt output_prompt">Out[85]:</div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>0
-2
-4
-6
-8
-</pre>
-</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;zip at 0x11110b440&gt;</pre>
 </div>
 
 </div>
-</div>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="zip()"><code>zip()</code><a class="anchor-link" href="#zip()">&#182;</a></h2><p>syncs two series of numbers up into tuples.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
-<span class="n">b</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span>
-<span class="n">sync</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="c1"># It's own object type</span>
-</pre></div>
-
-    </div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[86]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">next</span><span class="p">(</span><span class="n">sync</span><span class="p">)</span>
@@ -14494,13 +14400,13 @@ Cell <span class="ansi-green-fg">In[15], line 1</span>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[33]:</div>
+    <div class="prompt output_prompt">Out[86]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>(3, -7)</pre>
+<pre>(0, -10)</pre>
 </div>
 
 </div>
@@ -14511,7 +14417,7 @@ Cell <span class="ansi-green-fg">In[15], line 1</span>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[80]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">item</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)]</span>
@@ -14527,7 +14433,7 @@ Cell <span class="ansi-green-fg">In[15], line 1</span>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[34]:</div>
+    <div class="prompt output_prompt">Out[80]:</div>
 
 
 
@@ -14553,7 +14459,7 @@ Cell <span class="ansi-green-fg">In[15], line 1</span>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[83]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># you can also unpack those</span>
@@ -15045,7 +14951,7 @@ element a: 9 element b: -1
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[87]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>_week_4_comprehension_generators.ipynb<span class="w"> </span>--to<span class="w"> </span>html<span class="w"> </span>--template<span class="w"> </span>classic
@@ -15066,7 +14972,7 @@ element a: 9 element b: -1
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>[NbConvertApp] Converting notebook _week_4_comprehension_generators.ipynb to html
-[NbConvertApp] Writing 342775 bytes to _week_4_comprehension_generators.html
+[NbConvertApp] Writing 336906 bytes to _week_4_comprehension_generators.html
 </pre>
 </div>
 </div>

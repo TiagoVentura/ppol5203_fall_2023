@@ -13146,7 +13146,7 @@ At the implementation level, the array essentially contains a single pointer to 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># import numpy library</span>
@@ -13172,45 +13172,11 @@ At the implementation level, the array essentially contains a single pointer to 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># from a list of int elements</span>
 <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[3]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([1, 4, 2, 5, 3])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># you can specify the type</span>
-<span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="s1">'float32'</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13229,7 +13195,7 @@ At the implementation level, the array essentially contains a single pointer to 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([1., 2., 3., 4.], dtype=float32)</pre>
+<pre>array([1, 4, 2, 5, 3])</pre>
 </div>
 
 </div>
@@ -13241,6 +13207,40 @@ At the implementation level, the array essentially contains a single pointer to 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># you can specify the type</span>
+<span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="s1">'float32'</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[5]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([1., 2., 3., 4.], dtype=float32)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># unlikely lists, NumPy arrays can explicitly be multidimensional</span>
@@ -13258,7 +13258,7 @@ At the implementation level, the array essentially contains a single pointer to 
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[5]:</div>
+    <div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -13291,7 +13291,7 @@ At the implementation level, the array essentially contains a single pointer to 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># lists support heterogenous data types. It needs to store this information somewhere for every element!</span>
@@ -13313,7 +13313,7 @@ At the implementation level, the array essentially contains a single pointer to 
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[6]:</div>
+    <div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -13358,45 +13358,11 @@ At the implementation level, the array essentially contains a single pointer to 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Arange a incremental sequence</span>
 <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[7]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># array with equally spaced intervals</span>
-<span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span> 
 </pre></div>
 
     </div>
@@ -13415,8 +13381,7 @@ At the implementation level, the array essentially contains a single pointer to 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([1.        , 1.44444444, 1.88888889, 2.33333333, 2.77777778,
-       3.22222222, 3.66666667, 4.11111111, 4.55555556, 5.        ])</pre>
+<pre>array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])</pre>
 </div>
 
 </div>
@@ -13430,8 +13395,8 @@ At the implementation level, the array essentially contains a single pointer to 
 <div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># array filled with 0 values with the specified shape.</span>
-<span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># array with equally spaced intervals</span>
+<span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span> 
 </pre></div>
 
     </div>
@@ -13450,6 +13415,41 @@ At the implementation level, the array essentially contains a single pointer to 
 
 
 <div class="output_text output_subarea output_execute_result">
+<pre>array([1.        , 1.44444444, 1.88888889, 2.33333333, 2.77777778,
+       3.22222222, 3.66666667, 4.11111111, 4.55555556, 5.        ])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># array filled with 0 values with the specified shape.</span>
+<span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[10]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
 <pre>array([[0., 0., 0.],
        [0., 0., 0.],
        [0., 0., 0.]])</pre>
@@ -13463,7 +13463,7 @@ At the implementation level, the array essentially contains a single pointer to 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># an array filled with 1 values</span>
@@ -13480,7 +13480,7 @@ At the implementation level, the array essentially contains a single pointer to 
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[10]:</div>
+    <div class="prompt output_prompt">Out[11]:</div>
 
 
 
@@ -13518,46 +13518,11 @@ At the implementation level, the array essentially contains a single pointer to 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># from a random sequence between 0 and 1</span>
 <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[11]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([[0.05947006, 0.11346484, 0.8237448 , 0.03354165, 0.39716646],
-       [0.02217318, 0.88734182, 0.30858054, 0.44430203, 0.37699383]])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># from a normal distribution</span>
-<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -13576,9 +13541,8 @@ At the implementation level, the array essentially contains a single pointer to 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[ 2.08921769,  0.62995561,  1.93912845],
-       [ 0.18393533, -0.61179591, -1.04329294],
-       [ 1.18086326,  0.01786502, -1.60867201]])</pre>
+<pre>array([[0.11200241, 0.9525024 , 0.13002056, 0.54637411, 0.99076604],
+       [0.78905229, 0.94401186, 0.30721975, 0.11085805, 0.79922662]])</pre>
 </div>
 
 </div>
@@ -13592,8 +13556,8 @@ At the implementation level, the array essentially contains a single pointer to 
 <div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># random integers from a pre-defined interval</span>
-<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># from a normal distribution</span>
+<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -13612,9 +13576,45 @@ At the implementation level, the array essentially contains a single pointer to 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[9, 0, 2],
-       [3, 0, 0],
-       [8, 8, 5]])</pre>
+<pre>array([[-0.8996011 , -1.16138096,  2.22583843],
+       [-1.14357556, -0.85923598,  0.4499315 ],
+       [-0.47680814,  2.02929798, -0.40186935]])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># random integers from a pre-defined interval</span>
+<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[14]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[0, 2, 9],
+       [3, 3, 8],
+       [0, 2, 3]])</pre>
 </div>
 
 </div>
@@ -13637,7 +13637,7 @@ At the implementation level, the array essentially contains a single pointer to 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># generate a 3-d array from a nested list</span>
@@ -13692,7 +13692,7 @@ size:  24
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># new 2d array</span>
@@ -13709,7 +13709,7 @@ size:  24
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[15]:</div>
+    <div class="prompt output_prompt">Out[16]:</div>
 
 
 
@@ -13729,7 +13729,7 @@ size:  24
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># or 6d array</span>
@@ -13746,7 +13746,7 @@ size:  24
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[18]:</div>
+    <div class="prompt output_prompt">Out[17]:</div>
 
 
 
@@ -13768,7 +13768,7 @@ size:  24
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## but you need to provide the proper dimension</span>
@@ -13792,7 +13792,7 @@ size:  24
 <pre>
 <span class="ansi-red-fg">---------------------------------------------------------------------------</span>
 <span class="ansi-red-fg">ValueError</span>                                Traceback (most recent call last)
-Cell <span class="ansi-green-fg">In[17], line 2</span>
+Cell <span class="ansi-green-fg">In[18], line 2</span>
 <span class="ansi-green-intense-fg ansi-bold">      1</span> <span style="color: rgb(95,135,135)">## but you need to provide the proper dimension</span>
 <span class="ansi-green-fg">----&gt; 2</span> array_3d<span style="color: rgb(98,98,98)">.</span>reshape(<span style="color: rgb(98,98,98)">6</span>, <span style="color: rgb(98,98,98)">6</span>)
 
@@ -13806,7 +13806,7 @@ Cell <span class="ansi-green-fg">In[17], line 2</span>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## transpose an array. Very common property in matrix operations. </span>
@@ -13823,16 +13823,27 @@ Cell <span class="ansi-green-fg">In[17], line 2</span>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[22]:</div>
+    <div class="prompt output_prompt">Out[19]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[ 1,  2, -1],
-       [ 2,  3,  1],
-       [ 3,  4,  2],
-       [ 4,  1,  1]])</pre>
+<pre>array([[[ 1,  1],
+        [ 2,  2],
+        [-1, -1]],
+
+       [[ 2,  2],
+        [ 3,  3],
+        [ 1,  1]],
+
+       [[ 3,  3],
+        [ 4,  4],
+        [ 2,  2]],
+
+       [[ 4,  4],
+        [ 1,  1],
+        [ 1,  1]]])</pre>
 </div>
 
 </div>
@@ -13858,12 +13869,118 @@ Cell <span class="ansi-green-fg">In[17], line 2</span>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># create an 5d array</span>
 <span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
 <span class="n">X</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[20]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[89, 16, 53, 52, 68],
+       [29, 45, 43, 34, 32],
+       [34, 63, 48, 25, 68],
+       [65, 33, 62, 23, 30],
+       [98, 84, 68, 11, 41]])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># index first row </span>
+<span class="n">X</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[21]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([89, 16, 53, 52, 68])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># index first column</span>
+<span class="n">X</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[22]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([89, 29, 34, 65, 98])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># index a specific cell </span>
+<span class="n">X</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span> 
 </pre></div>
 
     </div>
@@ -13882,11 +13999,7 @@ Cell <span class="ansi-green-fg">In[17], line 2</span>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[86, 29, 79, 45, 89],
-       [73, 27, 76, 39, 31],
-       [38, 77, 29, 57, 21],
-       [94, 98,  0, 26, 71],
-       [92, 27, 59, 33, 33]])</pre>
+<pre>89</pre>
 </div>
 
 </div>
@@ -13900,8 +14013,8 @@ Cell <span class="ansi-green-fg">In[17], line 2</span>
 <div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># index first row </span>
-<span class="n">X</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># slice rows and columns</span>
+<span class="n">X</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span> 
 </pre></div>
 
     </div>
@@ -13920,7 +14033,9 @@ Cell <span class="ansi-green-fg">In[17], line 2</span>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([86, 29, 79, 45, 89])</pre>
+<pre>array([[89, 16, 53],
+       [29, 45, 43],
+       [34, 63, 48]])</pre>
 </div>
 
 </div>
@@ -13934,8 +14049,8 @@ Cell <span class="ansi-green-fg">In[17], line 2</span>
 <div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># index first column</span>
-<span class="n">X</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># last row</span>
+<span class="n">X</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,:]</span> 
 </pre></div>
 
     </div>
@@ -13954,111 +14069,7 @@ Cell <span class="ansi-green-fg">In[17], line 2</span>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([86, 73, 38, 94, 92])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># index a specific cell </span>
-<span class="n">X</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[26]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>86</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># slice rows and columns</span>
-<span class="n">X</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[27]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([[86, 29, 79],
-       [73, 27, 76],
-       [38, 77, 29]])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># last row</span>
-<span class="n">X</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,:]</span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[28]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([92, 27, 59, 33, 33])</pre>
+<pre>array([98, 84, 68, 11, 41])</pre>
 </div>
 
 </div>
@@ -14084,7 +14095,7 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Start creating a array</span>
@@ -14102,7 +14113,7 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[22]:</div>
+    <div class="prompt output_prompt">Out[26]:</div>
 
 
 
@@ -14128,7 +14139,7 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Reassign data values by referencing positions</span>
@@ -14140,10 +14151,39 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[27]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[999.,   0.,   0.,   0.,   0.],
+       [  0.,   0.,   0.,   0.,   0.],
+       [  0.,   0.,   0.,   0.,   0.],
+       [  0.,   0.,   0.,   0.,   0.],
+       [  0.,   0.,   0.,   0.,   0.],
+       [  0.,   0.,   0.,   0.,   0.],
+       [  0.,   0.,   0.,   0.,   0.],
+       [  0.,   0.,   0.,   0.,   0.],
+       [  0.,   0.,   0.,   0.,   0.],
+       [  0.,   0.,   0.,   0.,   0.]])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Reassign whole ranges of values</span>
@@ -14165,7 +14205,7 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[23]:</div>
+    <div class="prompt output_prompt">Out[28]:</div>
 
 
 
@@ -14191,7 +14231,7 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Reassignment using boolean values. </span>
@@ -14209,22 +14249,22 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[25]:</div>
+    <div class="prompt output_prompt">Out[29]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[0., 0., 0., 0., 0.],
-       [0., 1., 0., 1., 0.],
-       [0., 0., 1., 0., 1.],
-       [1., 0., 1., 1., 0.],
-       [0., 0., 0., 1., 0.],
-       [1., 1., 0., 1., 0.],
-       [0., 0., 1., 0., 0.],
-       [1., 1., 1., 1., 0.],
-       [0., 0., 1., 0., 1.],
-       [0., 0., 0., 1., 0.]])</pre>
+<pre>array([[-0.4, -0.7,  1.9,  1.6, -0.4],
+       [ 0.5, -0.2, -1.2,  0.4, -1.6],
+       [-0.5,  0.5, -0. , -1.6,  1.8],
+       [-0.2, -0.6,  0.7, -0.6, -1. ],
+       [ 0.6,  0.5,  0. ,  0.7,  1.6],
+       [ 2. , -1.3,  2. ,  0.5, -0.4],
+       [-0. , -0.5, -2. , -0.9,  0.9],
+       [-0.7,  0.9, -1.1, -0.3,  0.2],
+       [ 0.1,  1.3,  1.4,  0.7,  0.4],
+       [-0.1, -0.4,  0.9, -1.8,  1.5]])</pre>
 </div>
 
 </div>
@@ -14235,7 +14275,7 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># reassignment</span>
@@ -14248,10 +14288,39 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[30]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[0., 0., 1., 1., 0.],
+       [1., 0., 0., 1., 0.],
+       [0., 1., 0., 0., 1.],
+       [0., 0., 1., 0., 0.],
+       [1., 1., 0., 1., 1.],
+       [1., 0., 1., 1., 0.],
+       [0., 0., 0., 0., 1.],
+       [0., 1., 0., 0., 1.],
+       [1., 1., 1., 1., 1.],
+       [0., 0., 1., 0., 1.]])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Using where "ifelse()-like" method</span>
@@ -14270,22 +14339,22 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[26]:</div>
+    <div class="prompt output_prompt">Out[31]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[1, 1, 0, 0, 1],
-       [1, 1, 1, 0, 0],
-       [0, 0, 0, 1, 0],
+<pre>array([[0, 1, 0, 0, 0],
+       [0, 0, 0, 0, 0],
        [1, 0, 1, 0, 0],
-       [0, 0, 1, 0, 1],
-       [1, 0, 1, 1, 0],
+       [0, 1, 1, 1, 0],
+       [0, 0, 0, 0, 1],
+       [1, 1, 0, 0, 0],
+       [1, 1, 0, 0, 1],
+       [0, 0, 0, 0, 1],
        [0, 0, 0, 1, 0],
-       [1, 1, 1, 0, 1],
-       [0, 0, 1, 0, 1],
-       [0, 0, 0, 0, 1]])</pre>
+       [1, 0, 1, 0, 0]])</pre>
 </div>
 
 </div>
@@ -14296,7 +14365,7 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># np.select allow  for element-wise selection reassignment, just like case_when from R</span>
@@ -14322,22 +14391,22 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[27]:</div>
+    <div class="prompt output_prompt">Out[32]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[&#39;1&#39;, &#39;1&#39;, &#39;-1&#39;, &#39;-1&#39;, &#39;1&#39;],
-       [&#39;1&#39;, &#39;1&#39;, &#39;1&#39;, &#39;-1&#39;, &#39;0&#39;],
+<pre>array([[&#39;-1&#39;, &#39;1&#39;, &#39;-1&#39;, &#39;-1&#39;, &#39;-1&#39;],
+       [&#39;-1&#39;, &#39;-1&#39;, &#39;-1&#39;, &#39;-1&#39;, &#39;-1&#39;],
+       [&#39;1&#39;, &#39;-1&#39;, &#39;1&#39;, &#39;0&#39;, &#39;-1&#39;],
+       [&#39;-1&#39;, &#39;1&#39;, &#39;1&#39;, &#39;1&#39;, &#39;-1&#39;],
+       [&#39;-1&#39;, &#39;-1&#39;, &#39;-1&#39;, &#39;-1&#39;, &#39;1&#39;],
+       [&#39;1&#39;, &#39;1&#39;, &#39;-1&#39;, &#39;-1&#39;, &#39;-1&#39;],
+       [&#39;1&#39;, &#39;1&#39;, &#39;-1&#39;, &#39;-1&#39;, &#39;1&#39;],
+       [&#39;-1&#39;, &#39;0&#39;, &#39;-1&#39;, &#39;-1&#39;, &#39;1&#39;],
        [&#39;-1&#39;, &#39;-1&#39;, &#39;-1&#39;, &#39;1&#39;, &#39;-1&#39;],
-       [&#39;1&#39;, &#39;-1&#39;, &#39;1&#39;, &#39;-1&#39;, &#39;-1&#39;],
-       [&#39;-1&#39;, &#39;-1&#39;, &#39;1&#39;, &#39;0&#39;, &#39;1&#39;],
-       [&#39;1&#39;, &#39;-1&#39;, &#39;1&#39;, &#39;1&#39;, &#39;-1&#39;],
-       [&#39;-1&#39;, &#39;-1&#39;, &#39;-1&#39;, &#39;1&#39;, &#39;0&#39;],
-       [&#39;1&#39;, &#39;1&#39;, &#39;1&#39;, &#39;-1&#39;, &#39;1&#39;],
-       [&#39;-1&#39;, &#39;-1&#39;, &#39;1&#39;, &#39;-1&#39;, &#39;1&#39;],
-       [&#39;-1&#39;, &#39;-1&#39;, &#39;-1&#39;, &#39;-1&#39;, &#39;1&#39;]], dtype=&#39;&lt;U21&#39;)</pre>
+       [&#39;1&#39;, &#39;-1&#39;, &#39;1&#39;, &#39;-1&#39;, &#39;-1&#39;]], dtype=&#39;&lt;U21&#39;)</pre>
 </div>
 
 </div>
@@ -14361,7 +14430,7 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># create arrays</span>
@@ -14376,7 +14445,7 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># rbind</span>
@@ -14393,22 +14462,22 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[30]:</div>
+    <div class="prompt output_prompt">Out[34]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[58, 94],
-       [ 6, 52],
-       [75, 84],
-       [89, 16],
-       [35, 31],
-       [30, 29],
-       [36, 26],
-       [11, 96],
-       [58, 31],
-       [90, 82]])</pre>
+<pre>array([[61, 60],
+       [99, 14],
+       [89, 28],
+       [26, 94],
+       [11, 40],
+       [74, 11],
+       [29, 36],
+       [36, 16],
+       [49, 21],
+       [21, 87]])</pre>
 </div>
 
 </div>
@@ -14419,7 +14488,7 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># cbind</span>
@@ -14436,17 +14505,17 @@ Using numpy for reassignment will be at the core of your data wrangling work wit
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[31]:</div>
+    <div class="prompt output_prompt">Out[35]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[58, 94, 30, 29],
-       [ 6, 52, 36, 26],
-       [75, 84, 11, 96],
-       [89, 16, 58, 31],
-       [35, 31, 90, 82]])</pre>
+<pre>array([[61, 60, 74, 11],
+       [99, 14, 29, 36],
+       [89, 28, 36, 16],
+       [26, 94, 49, 21],
+       [11, 40, 21, 87]])</pre>
 </div>
 
 </div>
@@ -14472,7 +14541,7 @@ we <strong><em>do not copy the array</em></strong>, rather we get a "<strong>vie
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># from lists</span>
@@ -14511,7 +14580,7 @@ we <strong><em>do not copy the array</em></strong>, rather we get a "<strong>vie
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># for arrays</span>
@@ -14541,7 +14610,7 @@ we <strong><em>do not copy the array</em></strong>, rather we get a "<strong>vie
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[1000   16   85   95   90]] [[1000   16   85   95   90]]
+<pre>[[1000   24   54   80    4]] [[1000   24   54   80    4]]
 </pre>
 </div>
 </div>
@@ -14552,7 +14621,7 @@ we <strong><em>do not copy the array</em></strong>, rather we get a "<strong>vie
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># need to copy</span>
@@ -14583,7 +14652,7 @@ we <strong><em>do not copy the array</em></strong>, rather we get a "<strong>vie
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[12 10 67 63 42]] [[1000   10   67   63   42]]
+<pre>[[18 69 16  2 70]] [[1000   69   16    2   70]]
 </pre>
 </div>
 </div>
@@ -14604,7 +14673,7 @@ we <strong><em>do not copy the array</em></strong>, rather we get a "<strong>vie
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -14631,7 +14700,7 @@ we <strong><em>do not copy the array</em></strong>, rather we get a "<strong>vie
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[35]:</div>
+    <div class="prompt output_prompt">Out[39]:</div>
 
 
 
@@ -14648,65 +14717,29 @@ we <strong><em>do not copy the array</em></strong>, rather we get a "<strong>vie
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># simple implementation</span>
 <span class="n">big_array</span> <span class="o">=</span> <span class="n">rng</span><span class="o">.</span><span class="n">integers</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">1000000</span><span class="p">)</span>
-<span class="o">%</span><span class="k">timeit</span> compute_reciprocals(big_array)
+<span class="o">%</span><span class="k">timeit</span> -n 1000 compute_reciprocals(big_array)
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>1.34 s ± 9.68 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># vectorize implementation</span>
-<span class="o">%</span><span class="k">timeit</span> (1.0 / big_array) # notice the `/` here implements the method np.divide, which is a vectorize function. 
+<span class="o">%</span><span class="k">timeit</span> -n 1000 (1.0 / big_array) # notice the `/` here implements the method np.divide, which is a vectorize function. 
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>608 µs ± 5.03 µs per loop (mean ± std. dev. of 7 runs, 1,000 loops each)
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -14908,7 +14941,7 @@ Cell <span class="ansi-green-fg">In[38], line 2</span>, in <span class="ansi-cya
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[185]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Advantage II: vectorize, means faster</span>
@@ -14930,23 +14963,25 @@ Cell <span class="ansi-green-fg">In[38], line 2</span>, in <span class="ansi-cya
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">time</span> 
-
-<span class="c1"># Generating some random data</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Generating some random data</span>
 <span class="n">a_collection</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">1000000</span><span class="p">)</span>
 <span class="n">b</span> <span class="o">=</span> <span class="mf">0.5</span>
+</pre></div>
 
-<span class="c1"># Timing the functions</span>
-<span class="n">start_time</span> <span class="o">=</span> <span class="n">timeit</span><span class="o">.</span><span class="n">default_timer</span><span class="p">()</span>
-<span class="n">vec_bigsmall</span><span class="p">(</span><span class="n">big_array</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Time taken by vec_bigsmall:"</span><span class="p">,</span> <span class="n">timeit</span><span class="o">.</span><span class="n">default_timer</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span><span class="p">)</span>
+    </div>
+</div>
+</div>
 
-<span class="n">start_time</span> <span class="o">=</span> <span class="n">timeit</span><span class="o">.</span><span class="n">default_timer</span><span class="p">()</span>
-<span class="n">bigsmall_el_wise</span><span class="p">(</span><span class="n">big_array</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Time taken by bigsmall_el_wise:"</span><span class="p">,</span> <span class="n">timeit</span><span class="o">.</span><span class="n">default_timer</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span><span class="p">)</span>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[191]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">timeit</span> -n 1000 vec_bigsmall(big_array, b)
 </pre></div>
 
     </div>
@@ -14963,8 +14998,38 @@ Cell <span class="ansi-green-fg">In[38], line 2</span>, in <span class="ansi-cya
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Time taken by vec_bigsmall: 2.6456308340000305
-Time taken by bigsmall_el_wise: 12.764597041000002
+<pre>119 µs ± 12.6 µs per loop (mean ± std. dev. of 7 runs, 1,000 loops each)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[192]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">timeit</span> -n 1000 bigsmall_el_wise(big_array, b)
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>577 µs ± 13.5 µs per loop (mean ± std. dev. of 7 runs, 1,000 loops each)
 </pre>
 </div>
 </div>
@@ -16128,6 +16193,38 @@ Cell <span class="ansi-green-fg">In[61], line 1</span>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>_week_4_numpy.ipynb<span class="w"> </span>--to<span class="w"> </span>html<span class="w"> </span>--template<span class="w"> </span>classic
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[NbConvertApp] Converting notebook _week_4_numpy.ipynb to html
+[NbConvertApp] Writing 384958 bytes to _week_4_numpy.html
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
     </div>
   </div>

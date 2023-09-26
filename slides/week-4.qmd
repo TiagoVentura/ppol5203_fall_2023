@@ -25,7 +25,6 @@ format:
 
 # Questions about ther homework? {background-color="#447099"}
 
-
 ## Plans for Today
 
 <br>
@@ -233,9 +232,9 @@ return(y)
 
 ## Additional topics on functions
 
-- Scoping
+-   Scoping
 
-- lambda functions
+-   lambda functions
 
 # [Notebook for Functions](/lecture_notes/week-03/_week-03_iter_control_functions.html)
 
@@ -255,21 +254,20 @@ Notice, we have lecture notes for each of these topics!
 
 ## Importing librarys in Python
 
-:::{.incremental}
-- The beauty of open-sourced programming languages is being able to stand on the shoulders of other colleagues. We call those Python libraries (or Packages)
+::: incremental
+-   The beauty of open-sourced programming languages is being able to stand on the shoulders of other colleagues. We call those Python libraries (or Packages)
 
-- To import a library in Python, you need to explicitly tell python to do it. This works like the **library** function in R in theory, but not in practice
+-   To import a library in Python, you need to explicitly tell python to do it. This works like the **library** function in R in theory, but not in practice
 
-- Python allows you to import:
+-   Python allows you to import:
 
-  -   The full library with the original name
+    -   The full library with the original name
 
-  -   The full library with an alias
+    -   The full library with an alias
 
-  -   Some functions from the library
+    -   Some functions from the library
 
-  -   All methods from the library as independent functions
-
+    -   All methods from the library as independent functions
 :::
 
 ## The full library and its functions
@@ -329,7 +327,7 @@ factorial(5)
 
 ## Comprehensions
 
-- Provide a readable and effective way to construct new sequences (such as lists, sets, dictionaries, etc.) based on a sequence of elements
+-   Provide a readable and effective way to construct new sequences (such as lists, sets, dictionaries, etc.) based on a sequence of elements
 
 ![](https://python-3-patterns-idioms-test.readthedocs.io/en/latest/_images/listComprehensions.gif)
 
@@ -346,16 +344,14 @@ result
 
 ## Why it matters?
 
-:::{.incremental}
-
--   Elegant and cleaner way to perform iterations 
+::: incremental
+-   Elegant and cleaner way to perform iterations
 
 -   Automatically create new objects -- no need to a container in the loop
 
 -   Flexible: allows working with lists, dictionaries, and sets
 
 -   Faster than loops.
-
 :::
 
 # [Notebook for Comprehensions](/lecture_notes/week-04/_week_4_comprehension_generators.html)
@@ -430,7 +426,7 @@ But we will see some pre-built "generators":
 
 ## Motivating Numpy
 
-So far, all our datatypes are geared towards unidimensional data. We can get over with this using a nested list:
+So far, all our datatypes are geared towards kind of unidimensional data. We can get over with this using a nested list:
 
 ```{python}
 # Read in the gapminder data 
@@ -448,7 +444,7 @@ with open("../lecture_notes/week-04/gapminder.csv",mode="rt") as file:
 ```{python}
 # let's see the data
 
-data[:10]
+print(data)
 
 ```
 
@@ -458,7 +454,9 @@ data[:10]
 
 ## Here comes numpy ...
 
-![](week4_figs/numpy_arrays.png)
+<br>
+
+![](week4_figs/numpy_arrays.png){fig-align="center"}
 
 ::: aside
 source: [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html)
@@ -466,7 +464,9 @@ source: [Python Programming for Data Science](https://www.tomasbeuzen.com/python
 
 ## Why should you learn? Holds Python together!
 
-![](week4_figs/numpy_dc.png)
+<br>
+
+![](week4_figs/numpy_dc.png){fig-align="center"}
 
 ## Efficiency
 
@@ -480,7 +480,7 @@ source: [Python Programming for Data Science](https://www.tomasbeuzen.com/python
 
 ## Materials
 
--   [Notebook for numpy](/lecture_notes/week-04/_week_4_numpy_for_class.html)
+-   [Notebook for numpy](/lecture_notes/week-04/_week_4_numpy.html)
 
 -   [Documentation](https://numpy.org/doc/stable/)
 

@@ -62,7 +62,7 @@ Download the datasets <a href="/lecture_notes/week-04/data_week4.zip" download> 
 
 ## Slides
 
--   
+-   [Control Statements, Comprehensions, Nested Lists, and Numpy](/slides/week-4.html)
 
 ## Readings
 
