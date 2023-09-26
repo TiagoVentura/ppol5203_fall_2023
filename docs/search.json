@@ -4,14 +4,14 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: From Nested Lists to Data Frames: Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nPandas I: Data Manipulation\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Advanced Manipulation and Visualization\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nScrapping: Drawing from (Un-)Structured Data Sources\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nText as data I: Data Mining\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nIntroduction to Statistical Learning\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nText as Data II: Topics + Supervised Models\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Week\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nPandas I: Data Manipulation\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Advanced Manipulation and Visualization\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nScrapping: Drawing from (Un-)Structured Data Sources\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nText as data I: Data Mining\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nIntroduction to Statistical Learning\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nText as Data II: Topics + Supervised Models\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "schedule.html#weekly-schedule",
     "href": "schedule.html#weekly-schedule",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: From Nested Lists to Data Frames: Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nPandas I: Data Manipulation\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Advanced Manipulation and Visualization\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nScrapping: Drawing from (Un-)Structured Data Sources\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nText as data I: Data Mining\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nIntroduction to Statistical Learning\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nText as Data II: Topics + Supervised Models\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Week\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nPandas I: Data Manipulation\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Advanced Manipulation and Visualization\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nScrapping: Drawing from (Un-)Structured Data Sources\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nText as data I: Data Mining\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nIntroduction to Statistical Learning\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nText as Data II: Topics + Supervised Models\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "slides/week-3.html#plans-for-today",
@@ -53,7 +53,7 @@
     "href": "slides/week-3.html#what-happens-upon-assignment",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "What happens upon assignment?",
-    "text": "What happens upon assignment?\nAction 1: A reference is assigned to an object, with an id number in memory\n\nid(x)\n\n5107393544"
+    "text": "What happens upon assignment?\nAction 1: A reference is assigned to an object, with an id number in memory\n\nid(x)\n\n5197571080"
   },
   {
     "objectID": "slides/week-3.html#section-1",
@@ -172,14 +172,14 @@
     "href": "slides/week-4.html#plans-for-today",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Plans for Today",
-    "text": "Plans for Today\n\n\nFinish Part I of Intro to Python\n\nControl statements\nFunctions\n\nIntro do Python - Part II\n\nImporting modules in Python\nList Comprehension + Generators\nFile Management\nNumpy"
+    "text": "Plans for Today\n\n\nFinish Part I of Intro to Python\n\nControl statements (if, for and while loops)\nFunctions\n\nIntro do Python - Part II\n\nImporting librarys in Python\nList Comprehension + Generators\nFile Management\nNumpy"
   },
   {
     "objectID": "slides/week-4.html#class-part-ii-control-statements-loops-and-functions",
     "href": "slides/week-4.html#class-part-ii-control-statements-loops-and-functions",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Class Part II: Control Statements, Loops and Functions",
-    "text": "Class Part II: Control Statements, Loops and Functions\nWe will go over some concepts that are very general over any programming language.\n\n\nUsing logical operators for comparisons.\nControl the behavior of code when iterating using control statements.\nExplore iterating through containers using loops\nDefining functions to make code more flexible, debuggable, and readable. (Probably for next week)"
+    "text": "Class Part II: Control Statements, Loops and Functions\nWe will go over some concepts that are very general for any programming language.\n\n\nUsing logical operators for comparisons.\nControl the behavior of code when iterating using control statements.\nExplore iterating through containers using loops\nDefining functions to make code more flexible, debuggable, and readable. (Probably for next week)"
   },
   {
     "objectID": "slides/week-4.html#comparison-operators",
@@ -207,7 +207,7 @@
     "href": "slides/week-4.html#for-loops",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "For loops",
-    "text": "For loops\nDefinition: Taking one item at a time from a collection. We start at the beginning of the collection and mover through it until we reach the end.\nIn python, we can iterate over:\n\nlists\nstrings\ndictionaries\nfile connections\ngrouped pandas df"
+    "text": "For loops\nDefinition: Taking one item at a time from a collection. We start at the beginning of the collection and mover through it until we reach the end.\nIn python, we can iterate over:\n\nlists\nstrings\ndictionaries items\nfile connections\ngrouped pandas df"
   },
   {
     "objectID": "slides/week-4.html#example",
@@ -249,77 +249,84 @@
     "href": "slides/week-4.html#comparing-python-and-r",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Comparing Python and R",
-    "text": "Comparing Python and R\n\ndef square(x):\n  '''\n  Takes the square of a number\n  input: int object\n  outpur: int object\n  '''\n  y = x*x\n  return y\n\n\n\nsquare &lt;- function(x){\n#  Takes the square of a number\n#  input: int object\n#  outpur: int object\ny = x*x\nreturn(y)\n}\n\n\nIn Python, you don’t need to assign a object to a function\nThe identation blocks your statement. It replaces the curly braces"
+    "text": "Comparing Python and R\n\ndef square(x):\n  '''\n  Takes the square of a number\n  input: int object\n  outpur: int object\n  '''\n  y = x*x\n  return y\n\n\n\nsquare &lt;- function(x){\n#  Takes the square of a number\n#  input: int object\n#  outpur: int object\ny = x*x\nreturn(y)\n}\n\n\nIn Python, you don’t need to assign an object to a function\nThe indentation blocks your statement. It replaces the curly braces"
+  },
+  {
+    "objectID": "slides/week-4.html#additional-topics-on-functions",
+    "href": "slides/week-4.html#additional-topics-on-functions",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Additional topics on functions",
+    "text": "Additional topics on functions\n\nScoping\nlambda functions"
   },
   {
     "objectID": "slides/week-4.html#intro-to-python--part-ii.",
     "href": "slides/week-4.html#intro-to-python--part-ii.",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Intro to Python- Part II.",
-    "text": "Intro to Python- Part II.\nFor the second part of this lecture, we will see:\n\nImporting modules in Python\nComprehension and Generators\nFile management in Python\nNumpy\n\nNotice, we have lecture notes for each of these topics!"
+    "text": "Intro to Python- Part II.\nFor the second part of this lecture, we will see:\n\nImporting libraries in Python\nComprehension and Generators\nFile management in Python\nNumpy\n\nNotice, we have lecture notes for each of these topics!"
   },
   {
-    "objectID": "slides/week-4.html#importing-modules-in-python",
-    "href": "slides/week-4.html#importing-modules-in-python",
+    "objectID": "slides/week-4.html#importing-librarys-in-python",
+    "href": "slides/week-4.html#importing-librarys-in-python",
     "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "Importing modules in Python",
-    "text": "Importing modules in Python\nThe beauty of open-sourced programming languages is being able build on the shoulders of other colleagues.\nWe do this pretty much by importing libraries other programmers developed and made available.\nTo import a module in Python, you need to explicitly tell python to do it. This works like the library function in R.\nPython allows you to import:\n\nThe full module with the original name\nThe full module with a different name\nSome functions from the module\nAll methods from the module as independent functions"
+    "section": "Importing librarys in Python",
+    "text": "Importing librarys in Python\n\n\nThe beauty of open-sourced programming languages is being able to stand on the shoulders of other colleagues. We call those Python libraries (or Packages)\nTo import a library in Python, you need to explicitly tell python to do it. This works like the library function in R in theory, but not in practice\nPython allows you to import:\n\nThe full library with the original name\nThe full library with an alias\nSome functions from the library\nAll methods from the library as independent functions"
   },
   {
-    "objectID": "slides/week-4.html#the-full-module-and-its-functions",
-    "href": "slides/week-4.html#the-full-module-and-its-functions",
+    "objectID": "slides/week-4.html#the-full-library-and-its-functions",
+    "href": "slides/week-4.html#the-full-library-and-its-functions",
     "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "The full module and its functions",
-    "text": "The full module and its functions\n\n\n# import module\nimport math\n\n# access methods from the module\nmath.pi\n\n3.141592653589793\n\n\n\n\n# this will throw you an error\npi\n\nname 'pi' is not defined"
+    "section": "The full library and its functions",
+    "text": "The full library and its functions\n\n\n# import library\nimport math\n\n# access methods from the library\nmath.pi\n\n3.141592653589793\n\n\n\n\n# this will throw you an error\npi\n\nname 'pi' is not defined"
   },
   {
-    "objectID": "slides/week-4.html#the-full-module-and-its-functions-with-another-name",
-    "href": "slides/week-4.html#the-full-module-and-its-functions-with-another-name",
+    "objectID": "slides/week-4.html#the-full-library-with-an-alias",
+    "href": "slides/week-4.html#the-full-library-with-an-alias",
     "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "The full module and its functions with another name",
-    "text": "The full module and its functions with another name\n\n\n# import module\nimport math as m\n\n# access methods from the module\nm.pi\n\n3.141592653589793\n\nm.factorial(5)\n\n120"
+    "section": "The full library with an alias",
+    "text": "The full library with an alias\n\n\n# import library\nimport math as m\n\n# access methods from the library\nm.pi\n\n3.141592653589793\n\nm.factorial(5)\n\n120"
   },
   {
-    "objectID": "slides/week-4.html#some-functions-from-the-module",
-    "href": "slides/week-4.html#some-functions-from-the-module",
+    "objectID": "slides/week-4.html#some-functions-from-the-library",
+    "href": "slides/week-4.html#some-functions-from-the-library",
     "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "Some functions from the module",
-    "text": "Some functions from the module\n\n\n# import some functions\nfrom math import pi\n\n# run\npi\n\n3.141592653589793"
+    "section": "Some functions from the library",
+    "text": "Some functions from the library\n\n\n# import some functions\nfrom math import pi\n\n# run\npi\n\n3.141592653589793"
   },
   {
-    "objectID": "slides/week-4.html#all-methods-from-the-module-as-independent-functions",
-    "href": "slides/week-4.html#all-methods-from-the-module-as-independent-functions",
+    "objectID": "slides/week-4.html#all-methods-from-the-library-as-independent-functions",
+    "href": "slides/week-4.html#all-methods-from-the-library-as-independent-functions",
     "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "All methods from the module as independent functions",
-    "text": "All methods from the module as independent functions\n\n# all methods as independent functions\nfrom math import *\n\n# run\nfactorial(5)\n\n120"
+    "section": "All methods from the library as independent functions",
+    "text": "All methods from the library as independent functions\n\n# all methods as independent functions\nfrom math import *\n\n# run\nfactorial(5)\n\n120"
   },
   {
     "objectID": "slides/week-4.html#comprehensions",
     "href": "slides/week-4.html#comprehensions",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Comprehensions",
-    "text": "Comprehensions\n\nProvide a readable and effective way of performing a particular expression on a iterable series of items.\n\n\nWith a loop\n\na_list =[0, 1, 2, 3, 4, \"hey\"]\nresult = []\nfor e in a_list:\n    if type(e) == int:  # use int for Python 3\n        result.append(e**2)\nresult\n\n[0, 1, 4, 9, 16]"
+    "text": "Comprehensions\n\nProvide a readable and effective way to construct new sequences (such as lists, sets, dictionaries, etc.) based on a sequence of elements\n\n\nComparaed a loop\n\na_list =[0, 1, 2, 3, 4, \"hey\"]\nresult = []\nfor e in a_list:\n    if type(e) == int:  # use int for Python 3\n        result.append(e**2)\nresult\n\n[0, 1, 4, 9, 16]"
   },
   {
     "objectID": "slides/week-4.html#why-it-matters",
     "href": "slides/week-4.html#why-it-matters",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Why it matters?",
-    "text": "Why it matters?\n\nElegant and cleaner way to perform iterations\nFlexible: allows working with lists, dictionaries, and sets\nFaster than loops."
+    "text": "Why it matters?\n\n\nElegant and cleaner way to perform iterations\nAutomatically create new objects – no need to a container in the loop\nFlexible: allows working with lists, dictionaries, and sets\nFaster than loops."
   },
   {
     "objectID": "slides/week-4.html#generators",
     "href": "slides/week-4.html#generators",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Generators",
-    "text": "Generators\nPython has this very nice data type called generators. We use these functions a lot, but hardly talk about them.\n\n\nPurpose: Generators allow for generating a sequence of values over time\nMain Advantage: do not have to create the entire sequence at once and allocate memory\nLazy Evaluation: Returns a value at time. When requested. It is LAZY!!! We love LAZY!"
+    "text": "Generators\nPython has this very nice data type called generators. We use these functions a lot, but hardly talk about them.\n\n\nPurpose: Generators allow for generating a sequence of values at each time\nMain Advantage: do not have to create the entire sequence at once and allocate memory\nLazy Evaluation: Returns a value at time. When requested. It is LAZY!!! We love LAZY!"
   },
   {
     "objectID": "slides/week-4.html#example-of-generators",
     "href": "slides/week-4.html#example-of-generators",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Example of Generators",
-    "text": "Example of Generators\nYou can build your own generators. That’s a bit advanced, and you probably will not need to use.\nBut we will see some pre-built “generators”:\n\n\nrange(): generate the corresponding sequence of integers. Commonly used with for loops.\nzip(): syncs two series of numbers up into tuples.\nenumerate(): generates an index and value tuple pairing"
+    "text": "Example of Generators\nYou can build your own generators. That’s a bit advanced, and you probably will not need to use for our purposes\nBut we will see some pre-built “generators”:\n\n\nrange(): generate the corresponding sequence of integers. Commonly used with for loops.\nzip(): syncs two series of numbers up into tuples.\nenumerate(): generates an index and value tuple’s pairing"
   },
   {
     "objectID": "slides/week-4.html#file-management-in-python",
@@ -382,7 +389,7 @@
     "href": "slides/week-4.html#materials",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Materials",
-    "text": "Materials\n\nNotebook for numpy\nDocumentation\nCheatsheet Numpy\n\n\n\nData science I: Foundations"
+    "text": "Materials\n\nNotebook for numpy\nDocumentation\nCheatsheet Numpy"
   },
   {
     "objectID": "lecture_notes/week-06/week-6-data-visualization.html",
@@ -641,7 +648,7 @@
     "href": "weeks/week-04.html#slides",
     "title": "Week 04",
     "section": "Slides",
-    "text": "Slides\n\nTBD"
+    "text": "Slides"
   },
   {
     "objectID": "weeks/week-04.html#readings",
@@ -1313,7 +1320,7 @@
     "href": "syllabus.html#weekly-schedule",
     "title": "Syllabus: PPOL 5203 - Data Science I: Foundations",
     "section": "Weekly Schedule",
-    "text": "Weekly Schedule\n\n\n\n\n\n\nWeek\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: From Nested Lists to Data Frames: Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nPandas I: Data Manipulation\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Advanced Manipulation and Visualization\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nScrapping: Drawing from (Un-)Structured Data Sources\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nText as data I: Data Mining\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nIntroduction to Statistical Learning\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nText as Data II: Topics + Supervised Models\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Weekly Schedule\n\n\n\n\n\n\nWeek\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nPandas I: Data Manipulation\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Advanced Manipulation and Visualization\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nScrapping: Drawing from (Un-)Structured Data Sources\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nText as data I: Data Mining\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nIntroduction to Statistical Learning\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nText as Data II: Topics + Supervised Models\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "syllabus.html#course-requirements",

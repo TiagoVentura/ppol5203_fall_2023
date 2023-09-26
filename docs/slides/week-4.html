@@ -406,20 +406,10 @@ Professor: Tiago Ventura
 
   <p class="date">2023-09-19</p>
 </section>
-<section class="slide level2">
+<section>
+<section id="questions-about-ther-homework" class="title-slide slide level1 center" data-background-color="#447099">
+<h1>Questions about ther homework?</h1>
 
-<!-- # The winner - Pipoca -->
-<!-- <br> -->
-<!-- ```{r, fig.align='center'} -->
-<!-- #| echo: false -->
-<!-- knitr::include_graphics("week4_figs/pipoca.jpeg") -->
-<!-- ``` -->
-<!-- # And that's Brisa, my dog.  -->
-<!-- <br> -->
-<!-- ```{r, fig.align='center'} -->
-<!-- #| echo: false -->
-<!-- knitr::include_graphics("week4_figs/brisa.jpeg") -->
-<!-- ``` -->
 </section>
 <section id="plans-for-today" class="slide level2">
 <h2>Plans for Today</h2>
@@ -427,26 +417,26 @@ Professor: Tiago Ventura
 <ul>
 <li><p>Finish Part I of Intro to Python</p>
 <ul>
-<li><p>Control statements</p></li>
+<li><p>Control statements (if, for and while loops)</p></li>
 <li><p>Functions</p></li>
 </ul></li>
 <li><p>Intro do Python - Part II</p>
 <ul>
-<li><p>Importing modules in Python</p></li>
+<li><p>Importing librarys in Python</p></li>
 <li><p>List Comprehension + Generators</p></li>
 <li><p>File Management</p></li>
 <li><p>Numpy</p></li>
 </ul></li>
 </ul>
-</section>
+</section></section>
 <section>
-<section id="important-follow-up-with-the-lecture-notes-and-readings.-most-coding-will-be-there" class="title-slide slide level1 center" data-background-color="#fb6767">
-<h1>Important: Follow up with the lecture notes and readings. Most coding will be there!</h1>
+<section id="follow-up-with-the-lecture-notes-and-readings.-most-coding-will-be-there" class="title-slide slide level1 center" data-background-color="#fb6767">
+<h1>Follow up with the lecture notes and readings. Most coding will be there!</h1>
 
 </section>
 <section id="class-part-ii-control-statements-loops-and-functions" class="slide level2">
 <h2>Class Part II: Control Statements, Loops and Functions</h2>
-<p>We will go over some concepts that are very general over any programming language.</p>
+<p>We will go over some concepts that are very general for any programming language.</p>
 <div>
 <ul>
 <li class="fragment"><p>Using logical operators for comparisons.</p></li>
@@ -540,8 +530,7 @@ elif &lt;logical statement&gt;:
 
 else:
 
-  ~~~~ CODE ~~~~
-</code></pre>
+  ~~~~ CODE ~~~~</code></pre>
 </section>
 <section id="for-loops" class="slide level2">
 <h2>For loops</h2>
@@ -550,7 +539,7 @@ else:
 <ul>
 <li><p>lists</p></li>
 <li><p>strings</p></li>
-<li><p>dictionaries</p></li>
+<li><p>dictionaries items</p></li>
 <li><p>file connections</p></li>
 <li><p>grouped pandas df</p></li>
 </ul>
@@ -669,8 +658,15 @@ This</code></pre>
 <span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
-<li><p>In Python, you don’t need to assign a object to a function</p></li>
-<li><p>The identation blocks your statement. It replaces the curly braces</p></li>
+<li><p>In Python, you don’t need to assign an object to a function</p></li>
+<li><p>The <strong>indentation blocks your statement</strong>. It replaces the curly braces</p></li>
+</ul>
+</section>
+<section id="additional-topics-on-functions" class="slide level2">
+<h2>Additional topics on functions</h2>
+<ul>
+<li><p>Scoping</p></li>
+<li><p>lambda functions</p></li>
 </ul>
 </section></section>
 <section>
@@ -682,34 +678,37 @@ This</code></pre>
 <h2>Intro to Python- Part II.</h2>
 <p>For the second part of this lecture, we will see:</p>
 <ul>
-<li><p>Importing modules in Python</p></li>
+<li><p>Importing libraries in Python</p></li>
 <li><p>Comprehension and Generators</p></li>
 <li><p>File management in Python</p></li>
 <li><p>Numpy</p></li>
 </ul>
 <p>Notice, we have lecture notes for each of these topics!</p>
 </section>
-<section id="importing-modules-in-python" class="slide level2">
-<h2>Importing modules in Python</h2>
-<p>The beauty of open-sourced programming languages is being able build on the shoulders of other colleagues.</p>
-<p>We do this pretty much by importing libraries other programmers developed and made available.</p>
-<p>To import a module in Python, you need to explicitly tell python to do it. This works like the <strong>library</strong> function in R.</p>
-<p>Python allows you to import:</p>
+<section id="importing-librarys-in-python" class="slide level2">
+<h2>Importing librarys in Python</h2>
+<div>
 <ul>
-<li><p>The full module with the original name</p></li>
-<li><p>The full module with a different name</p></li>
-<li><p>Some functions from the module</p></li>
-<li><p>All methods from the module as independent functions</p></li>
+<li class="fragment"><p>The beauty of open-sourced programming languages is being able to stand on the shoulders of other colleagues. We call those Python libraries (or Packages)</p></li>
+<li class="fragment"><p>To import a library in Python, you need to explicitly tell python to do it. This works like the <strong>library</strong> function in R in theory, but not in practice</p></li>
+<li class="fragment"><p>Python allows you to import:</p>
+<ul>
+<li class="fragment"><p>The full library with the original name</p></li>
+<li class="fragment"><p>The full library with an alias</p></li>
+<li class="fragment"><p>Some functions from the library</p></li>
+<li class="fragment"><p>All methods from the library as independent functions</p></li>
+</ul></li>
 </ul>
+</div>
 </section>
-<section id="the-full-module-and-its-functions" class="slide level2">
-<h2>The full module and its functions</h2>
+<section id="the-full-library-and-its-functions" class="slide level2">
+<h2>The full library and its functions</h2>
 <p><br></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import module</span></span>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import library</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># access methods from the module</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># access methods from the library</span></span>
 <span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>math.pi</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>3.141592653589793</code></pre>
@@ -724,14 +723,14 @@ This</code></pre>
 </div>
 </div>
 </section>
-<section id="the-full-module-and-its-functions-with-another-name" class="slide level2">
-<h2>The full module and its functions with another name</h2>
+<section id="the-full-library-with-an-alias" class="slide level2">
+<h2>The full library with an alias</h2>
 <p><br></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import module</span></span>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import library</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math <span class="im">as</span> m</span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co"># access methods from the module</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co"># access methods from the library</span></span>
 <span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>m.pi</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>3.141592653589793</code></pre>
@@ -742,8 +741,8 @@ This</code></pre>
 </div>
 </div>
 </section>
-<section id="some-functions-from-the-module" class="slide level2">
-<h2>Some functions from the module</h2>
+<section id="some-functions-from-the-library" class="slide level2">
+<h2>Some functions from the library</h2>
 <p><br></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import some functions</span></span>
@@ -756,8 +755,8 @@ This</code></pre>
 </div>
 </div>
 </section>
-<section id="all-methods-from-the-module-as-independent-functions" class="slide level2">
-<h2>All methods from the module as independent functions</h2>
+<section id="all-methods-from-the-library-as-independent-functions" class="slide level2">
+<h2>All methods from the library as independent functions</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># all methods as independent functions</span></span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> math <span class="im">import</span> <span class="op">*</span></span>
@@ -772,10 +771,10 @@ This</code></pre>
 <section id="comprehensions" class="slide level2">
 <h2>Comprehensions</h2>
 <ul>
-<li>Provide a readable and effective way of performing a particular expression on a iterable series of items.</li>
+<li>Provide a readable and effective way to construct new sequences (such as lists, sets, dictionaries, etc.) based on a sequence of elements</li>
 </ul>
 
-<img data-src="https://python-3-patterns-idioms-test.readthedocs.io/en/latest/_images/listComprehensions.gif" class="r-stretch"><h3 id="with-a-loop">With a loop</h3>
+<img data-src="https://python-3-patterns-idioms-test.readthedocs.io/en/latest/_images/listComprehensions.gif" class="r-stretch"><h3 id="comparaed-a-loop">Comparaed a loop</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>a_list <span class="op">=</span>[<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="st">"hey"</span>]</span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> []</span>
@@ -790,11 +789,14 @@ This</code></pre>
 </section>
 <section id="why-it-matters" class="slide level2">
 <h2>Why it matters?</h2>
+<div>
 <ul>
-<li><p>Elegant and cleaner way to perform iterations</p></li>
-<li><p>Flexible: allows working with lists, dictionaries, and sets</p></li>
-<li><p>Faster than loops.</p></li>
+<li class="fragment"><p>Elegant and cleaner way to perform iterations</p></li>
+<li class="fragment"><p>Automatically create new objects – no need to a container in the loop</p></li>
+<li class="fragment"><p>Flexible: allows working with lists, dictionaries, and sets</p></li>
+<li class="fragment"><p>Faster than loops.</p></li>
 </ul>
+</div>
 </section></section>
 <section>
 <section id="notebook-for-comprehensions" class="title-slide slide level1 center">
@@ -806,7 +808,7 @@ This</code></pre>
 <p>Python has this very nice data type called <strong>generators</strong>. We use these functions a lot, but hardly talk about them.</p>
 <div>
 <ul>
-<li class="fragment"><p><strong>Purpose:</strong> Generators allow for generating a sequence of values over time</p></li>
+<li class="fragment"><p><strong>Purpose:</strong> Generators allow for generating a sequence of values at each time</p></li>
 <li class="fragment"><p><strong>Main Advantage:</strong> do not have to create the entire sequence at once and allocate memory</p></li>
 <li class="fragment"><p><strong>Lazy Evaluation:</strong> Returns a value at time. When requested. It is LAZY!!! We love LAZY!</p></li>
 </ul>
@@ -814,13 +816,13 @@ This</code></pre>
 </section>
 <section id="example-of-generators" class="slide level2">
 <h2>Example of Generators</h2>
-<p>You can build your own generators. That’s a bit advanced, and you probably will not need to use.</p>
+<p>You can build your own generators. That’s a bit advanced, and you probably will not need to use for our purposes</p>
 <p>But we will see some pre-built “generators”:</p>
 <div>
 <ul>
 <li class="fragment"><p><code>range()</code>: generate the corresponding sequence of integers. Commonly used with for loops.</p></li>
 <li class="fragment"><p><code>zip()</code>: syncs two series of numbers up into tuples.</p></li>
-<li class="fragment"><p><code>enumerate()</code>: generates an index and value tuple pairing</p></li>
+<li class="fragment"><p><code>enumerate()</code>: generates an index and value tuple’s pairing</p></li>
 </ul>
 </div>
 </section></section>
@@ -922,11 +924,14 @@ This</code></pre>
 <li><p><a href="https://numpy.org/doc/stable/">Documentation</a></p></li>
 <li><p><a href="https://images.datacamp.com/image/upload/v1676302459/Marketing/Blog/Numpy_Cheat_Sheet.pdf">Cheatsheet Numpy</a></p></li>
 </ul>
+</section></section>
+<section id="survey-start-stop-continue.-answer-here" class="title-slide slide level1 center">
+<h1>Survey: Start, Stop, Continue. <a href="https://forms.gle/q2Dd2iaUJpnky4ok6">Answer here</a></h1>
 
 <div class="footer footer-default">
 <p>Data science I: Foundations</p>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 

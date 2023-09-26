@@ -1,6 +1,6 @@
 ---
 title: "Week 04"
-subtitle: "Python II: From Nested Lists to Data Frames: Comprehensions, Nested Lists, and Numpy"
+subtitle: "Python II: Control Statements, Comprehensions, Nested Lists, and Numpy"
 description: ""
 author: "Tiago Ventura"
 date: "09/26/2023"
@@ -62,7 +62,7 @@ Download the datasets <a href="/lecture_notes/week-04/data_week4.zip" download> 
 
 ## Slides
 
--   TBD
+-   
 
 ## Readings
 
