@@ -50,7 +50,7 @@ We will cover these notebooks
 
 -   Data as Nested lists - [html](/lecture_notes/week-04/_week_4_nested_lists.html) -- <a href="/lecture_notes/week-04/_week_4_nested_lists.ipynb" download> Jupyter Notebook </a>
 
--   Numpy: [html](/lecture_notes/week-04/_week_4_numpy.html) -- <a href="/lecture_notes/week-04/_week_4_numpy.ipynb" download> Jupyter Notebook </a>
+-   Numpy: [html](/lecture_notes/week-05/_week_5_numpy.html) -- <a href="/lecture_notes/week-05/_week_5_numpy.ipynb" download> Jupyter Notebook </a>
 
 ## Datasets
 

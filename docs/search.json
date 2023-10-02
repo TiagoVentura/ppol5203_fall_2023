@@ -53,7 +53,7 @@
     "href": "slides/week-3.html#what-happens-upon-assignment",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "What happens upon assignment?",
-    "text": "What happens upon assignment?\nAction 1: A reference is assigned to an object, with an id number in memory\n\nid(x)\n\n4955350024"
+    "text": "What happens upon assignment?\nAction 1: A reference is assigned to an object, with an id number in memory\n\nid(x)\n\n5658944520"
   },
   {
     "objectID": "slides/week-3.html#section-1",
@@ -1412,6 +1412,20 @@
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Homework.",
     "text": "Homework.\nYour homework will be posted today on slack and canvas.\n\nSame structure of the in-class exercise.\nDeadline: September 22, midnight EST.\nQuestions? Come to my/Sierra office hours, ask on slack.\n\n\n\nData science I: Foundations"
+  },
+  {
+    "objectID": "problem_sets/ps01/ps01.html",
+    "href": "problem_sets/ps01/ps01.html",
+    "title": "Problem Set 1",
+    "section": "",
+    "text": "Github Classroom Link\nSolution + Rubric"
+  },
+  {
+    "objectID": "problem_sets/ps01/ps01.html#materials",
+    "href": "problem_sets/ps01/ps01.html#materials",
+    "title": "Problem Set 1",
+    "section": "",
+    "text": "Github Classroom Link\nSolution + Rubric"
   },
   {
     "objectID": "syllabus.html",
