@@ -1,6 +1,6 @@
 ---
 title: "Week 05"
-subtitle: "Pandas I:  Data Manipulation"
+subtitle: "Numpy and Intro to Pandas"
 description: ""
 author: "Tiago Ventura"
 date: "10/03/2023"
@@ -36,15 +36,18 @@ tbl-colwidths: [10,50,40]
 
 ## Lectures Notes:
 
-<!-- -   [Intro do Pandas](/lecture_notes/week-05/_week_5a_intro_to_pandas.html) -- <a href="/lecture_notes/week-05/_week_5a_intro_to_pandas.ipynb" download> Jupyter Notebook </a> -->
+Today, we will go over three notebooks:
 
-<!-- -   [Loading and Writing Data in Pandas](/lecture_notes/week-05/_week-5b-pandas_data_loading.html) -- <a href="/lecture_notes/week-05/_week-5b-pandas_data_loading.ipynb" download> Jupyter Notebook </a> -->
+-   Data as Nested lists - [html](/lecture_notes/week-04/_week_4_nested_lists.html) -- <a href="/lecture_notes/week-04/_week_4_nested_lists.ipynb" download> Jupyter Notebook </a>
 
-<!-- -   [Tidy Data and Data Wrangling in Pandas](/lecture_notes/week-05/_week-5c-data_wrangling_pandas.html) -- <a href="/lecture_notes/week-05/_week-5c-data_wrangling_pandas.ipynb" download> Jupyter Notebook </a> -->
+-   Numpy: [html](/lecture_notes/week-04/_week_4_numpy.html) -- <a href="/lecture_notes/week-05/_week_5_numpy.ipynb" download> Jupyter Notebook </a>
 
-<!-- -   [Joining Data in Pandas](/lecture_notes/week-05/_week-5d-joining_data.html) -- <a href="/lecture_notes/week-05/_week-5d-joining_data.ipynb" download> Jupyter Notebook </a> -->
+- Intro do Pandas: [html](/lecture_notes/week-05/_week_5a_intro_to_pandas.html) -- <a href="/lecture_notes/week-05/_week_5a_intro_to_pandas.ipynb" download> Jupyter Notebook </a> 
 
-<!-- -   [Miscelanneous: Piping, Missing data and others](/lecture_notes/week-05/_week-5e-miscelanneous.html) -- <a href="/lecture_notes/week-05/_week-5e-miscelanneous.ipynb" download> Jupyter Notebook </a> -->
+
+## Datasets
+
+Download the datasets <a href="/lecture_notes/week-05/data_week5.zip" download> here </a>
 
 ## Slides
 
@@ -52,28 +55,35 @@ TBD
 
 ## Readings
 
-**Suggested Readings**
+-   ***Suggested Reading for Numpy***
 
-<!-- -   PDS VanderPlas -->
+-   PDS VanderPlas
 
-<!-- -   [Ch. 4: Data Manipulation with Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html) -->
+    -   [Ch. 2: Introduction to Numpy](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) - Python Data Science Handbook - VanderPlas, Jake
 
-<!-- -   [Tidy Data in Python](https://www.jeannicholashould.com/tidy-data-in-python.html) -->
 
-<!-- -   [Tidy Data by Hadley Wickham in R](https://r4ds.hadley.nz/data-tidy.html) -->
+**Suggested Readings for Pandas**
 
-<!-- And all our lecture notes! -->
+-   PDS VanderPlas
 
-<!-- -   **Additional Resources and Suggested Materials** -->
+-   [Ch. 4: Data Manipulation with Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html)
 
-<!--     -   [Python Pandas Tutorial: A Complete Introduction for Beginners](https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/#) -->
+-   [Tidy Data in Python](https://www.jeannicholashould.com/tidy-data-in-python.html)
 
-<!--     -   [Data Wrangling with Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) - pandas.pydata.org -->
+-   [Tidy Data by Hadley Wickham in R](https://r4ds.hadley.nz/data-tidy.html)
 
-<!--     -   [dplyr-style Data Manipulation with Pipes in Python](https://towardsdatascience.com/dplyr-style-data-manipulation-with-pipes-in-python-380dcb137000) - Allen, Akinkunle -->
+And all our lecture notes!
 
-<!--     -   [Python Pandas vs. R Dplyr - The Full Cheatsheet](https://medium.com/towards-data-science/python-pandas-vs-r-dplyr-5b5081945ccb) - Martin Šiklar -->
+-   **Additional Resources and Suggested Materials**
 
-<!--     -   [Methods Chaining in Pandas](https://medium.com/@ulriktpedersen/modern-pandas-streamlining-your-workflow-with-method-chaining-f65e75deb193) -->
+    -   [Python Pandas Tutorial: A Complete Introduction for Beginners](https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/#)
 
-<!-- -   [Exercises in Pandas](https://github.com/guipsamora/pandas_exercises) -->
+    -   [Data Wrangling with Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) - pandas.pydata.org
+
+    -   [dplyr-style Data Manipulation with Pipes in Python](https://towardsdatascience.com/dplyr-style-data-manipulation-with-pipes-in-python-380dcb137000) - Allen, Akinkunle
+
+    -   [Python Pandas vs. R Dplyr - The Full Cheatsheet](https://medium.com/towards-data-science/python-pandas-vs-r-dplyr-5b5081945ccb) - Martin Šiklar
+
+    -   [Methods Chaining in Pandas](https://medium.com/@ulriktpedersen/modern-pandas-streamlining-your-workflow-with-method-chaining-f65e75deb193)
+
+-   [Exercises in Pandas](https://github.com/guipsamora/pandas_exercises)

@@ -1,7 +1,7 @@
 ---
 title: "Problem Set 03"
-dateassigned: "10/10/2023"
-duedate: "Before EOD Friday Week 7"
+dateassigned: "10/17/2023"
+duedate: "Before EOD Friday Week 8"
 content: "Data Wrangling in Pandas"
 tbl-colwidths: [10,30,20, 20]
 ---

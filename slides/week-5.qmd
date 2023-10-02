@@ -1,0 +1,143 @@
+---
+title: "<span style = 'font-size: 100%;'> PPOL 5203 - Data Science I: Foundations </span>"
+subtitle: "<span style = 'font-size: 100%;'> Week 4: Numpy and Intro do Pandas </span>"
+author: "Professor: Tiago Ventura"
+date: "09/19/2023"
+execute: 
+  echo: true
+  error: true
+format:
+  revealjs: 
+    transition: slide
+    background-transition: fade
+    code-line-numbers: false
+    width: 1600
+    height: 900
+    center: false
+    slide-number: true
+    incremental: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    footer: "Data science I: Foundations"
+    theme: [simple, custom.scss]
+---
+
+
+## Plans for Today
+
+<br>
+
+-   Discuss your final project. 
+
+-   Numpy
+
+-   Intro do Pandas
+
+  - Creating DataFrames
+  
+  - Loading data on pandas
+
+## Final Project
+
+- **What is it?**: A data science project, applying concepts learned throughout the course.
+
+- Involves collecting data, cleaning and analyzing it, and presenting your findings
+
+- The project is composed of three parts:
+
+  - a 2 page project proposal: (which should be discussed and approved by me)
+
+  - an in-class presentation,
+
+  - A 10-page project report.
+  
+## Deadlines and Logistics
+
+
+| **Requirement**  | **Due**     | **Length**    | **Percentage** |
+|------------------|-------------|---------------|----------------|
+| Project Proposal | October 31  | 2 pages       | 5%             |
+| Presentation     | December 5  | 10-15 minutes | 10%            |
+| Project Report   | December 12 | 10 pages      | 25%            |
+
+- Groups of three students. You pick your groups. 
+
+- Before October 24, you should have meet with me to discuss your proposal. 
+
+- At lest one hour before our meeting, send me a draft of your proposal. 
+  
+# Numpy
+
+## Motivating Numpy
+
+So far, all our datatypes are geared towards kind of unidimensional data. We can get over with this using a nested list:
+
+```{python}
+# Read in the gapminder data 
+import csv
+with open("../lecture_notes/week-04/gapminder.csv",mode="rt") as file:
+    data = [row for row in csv.reader(file)]
+
+
+```
+
+## Nested Lists
+
+<br>
+
+```{python}
+# let's see the data
+
+print(data)
+
+```
+
+<br>
+
+**This is a weird data structure. Why??**
+
+## Here comes numpy ...
+
+<br>
+
+![](week4_figs/numpy_arrays.png){fig-align="center"}
+
+::: aside
+source: [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html)
+:::
+
+## Why should you learn? Holds Python together!
+
+<br>
+
+![](week4_figs/numpy_dc.png){fig-align="center"}
+
+## Efficiency
+
+-   Numpy leans toward less flexibility and more efficiency.
+
+-   Lists gives you more flexibility and less efficiency.
+
+-   Allows for easy vectorization of functions
+
+-   Broadcasting for working with arrays with different dimensions
+
+## Materials
+
+-   [Notebook for numpy](/lecture_notes/week-04/_week_4_numpy.html)
+
+-   [Documentation](https://numpy.org/doc/stable/)
+
+-   [Cheatsheet Numpy](https://images.datacamp.com/image/upload/v1676302459/Marketing/Blog/Numpy_Cheat_Sheet.pdf)
+
+# Pandas
+
+## Intro to Pandas
+
+
+## Data Loading in Pandas
+
+# Survey: Start, Stop, Continue. [Answer here](https://forms.gle/q2Dd2iaUJpnky4ok6)
+
+# In-class Exercise: your homework. 
