@@ -47,7 +47,7 @@ Today, we will go over three notebooks:
 
 ## Datasets
 
-Download the datasets <a href="/lecture_notes/week-05/data_week5.zip" download> here </a>
+Download the datasets <a href="/lecture_notes/week-04/data_week4.zip" download> here </a>
 
 ## Slides
 

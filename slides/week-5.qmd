@@ -162,7 +162,7 @@ source: [Python Programming for Data Science](https://www.tomasbeuzen.com/python
 
 :::{.incremental}
 
-- `numpy]() offers a great flexibility and efficiency when dealing with data matrices. 
+- `numpy` offers a great flexibility and efficiency when dealing with data matrices. 
 
 - Great for Mathematical operations. 
 

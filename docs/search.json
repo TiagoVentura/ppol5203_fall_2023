@@ -935,7 +935,7 @@
     "href": "slides/week-5.html#why-pandas",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Why Pandas?",
-    "text": "Why Pandas?\n\n\n`numpy]() offers a great flexibility and efficiency when dealing with data matrices.\nGreat for Mathematical operations.\nBad for data wrangling tasks (Numpy only accepts the same data type)\nThe pandas package was designed to deal with this limitation by providing data structures to deal with retangular heterogenous data type.\nMain Data Structure: Series and DataFrames"
+    "text": "Why Pandas?\n\n\nnumpy offers a great flexibility and efficiency when dealing with data matrices.\nGreat for Mathematical operations.\nBad for data wrangling tasks (Numpy only accepts the same data type)\nThe pandas package was designed to deal with this limitation by providing data structures to deal with retangular heterogenous data type.\nMain Data Structure: Series and DataFrames"
   },
   {
     "objectID": "slides/week-5.html#pandas-series",
