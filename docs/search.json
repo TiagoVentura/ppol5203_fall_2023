@@ -14,6 +14,20 @@
     "text": "Week\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nNumpy and Intro to Pandas\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Advanced Manipulation and Visualization\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nScrapping: Drawing from (Un-)Structured Data Sources\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nText as data I: Data Mining\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nIntroduction to Statistical Learning\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nText as Data II: Topics + Supervised Models\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "problem_sets/ps02/ps02.html",
+    "href": "problem_sets/ps02/ps02.html",
+    "title": "Problem Set 02",
+    "section": "",
+    "text": "Github Classroom Link"
+  },
+  {
+    "objectID": "problem_sets/ps02/ps02.html#materials",
+    "href": "problem_sets/ps02/ps02.html#materials",
+    "title": "Problem Set 02",
+    "section": "",
+    "text": "Github Classroom Link"
+  },
+  {
     "objectID": "slides/week-3.html#plans-for-today",
     "href": "slides/week-3.html#plans-for-today",
     "title": " PPOL 5203 - Data Science I: Foundations ",
@@ -53,7 +67,7 @@
     "href": "slides/week-3.html#what-happens-upon-assignment",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "What happens upon assignment?",
-    "text": "What happens upon assignment?\nAction 1: A reference is assigned to an object, with an id number in memory\n\nid(x)\n\n5658944520"
+    "text": "What happens upon assignment?\nAction 1: A reference is assigned to an object, with an id number in memory\n\nid(x)\n\n5155628040"
   },
   {
     "objectID": "slides/week-3.html#section-1",
@@ -171,8 +185,8 @@
     "objectID": "slides/week-4.html#plans-for-today",
     "href": "slides/week-4.html#plans-for-today",
     "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "",
-    "text": "Finish Part I of Intro to Python\n\nControl statements (if, for and while loops)\nFunctions\n\nIntro do Python - Part II\n\nImporting librarys in Python\nList Comprehension + Generators\nFile Management\nNumpy"
+    "section": "Plans for Today",
+    "text": "Plans for Today\n\n\nFinish Part I of Intro to Python\n\nControl statements (if, for and while loops)\nFunctions\n\nIntro do Python - Part II\n\nImporting librarys in Python\nList Comprehension + Generators\nFile Management\nNumpy"
   },
   {
     "objectID": "slides/week-4.html#class-part-ii-control-statements-loops-and-functions",
@@ -305,7 +319,7 @@
     "href": "slides/week-4.html#comprehensions",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Comprehensions",
-    "text": "Comprehensions\n\nProvide a readable and effective way to construct new sequences (such as lists, sets, dictionaries, etc.) based on a sequence of elements\n\n\n\nComparaed a loop\n\na_list =[0, 1, 2, 3, 4, \"hey\"]\nresult = []\nfor e in a_list:\n    if type(e) == int:  # use int for Python 3\n        result.append(e**2)\nresult\n\n[0, 1, 4, 9, 16]"
+    "text": "Comprehensions\n\nProvide a readable and effective way to construct new sequences (such as lists, sets, dictionaries, etc.) based on a sequence of elements\n\n\nComparaed a loop\n\na_list =[0, 1, 2, 3, 4, \"hey\"]\nresult = []\nfor e in a_list:\n    if type(e) == int:  # use int for Python 3\n        result.append(e**2)\nresult\n\n[0, 1, 4, 9, 16]"
   },
   {
     "objectID": "slides/week-4.html#why-it-matters",
@@ -333,7 +347,7 @@
     "href": "slides/week-4.html#file-management-in-python",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "File Management in Python",
-    "text": "File Management in Python\n\n\nMain question: how do we read files from our computer in python?\n\nconnection management: open(), close()\nReading/writing files\nusing with to manage connections.\nReading .csvs"
+    "text": "File Management in Python\n\nMain question: how do we read files from our computer in python?\n\nconnection management: open(), close()\nReading/writing files\nusing with to manage connections.\nReading .csvs"
   },
   {
     "objectID": "slides/week-4.html#tldr",
@@ -917,18 +931,46 @@
     "text": "Materials\n\nNotebook for numpy\nDocumentation\nCheatsheet Numpy"
   },
   {
-    "objectID": "slides/week-5.html#intro-to-pandas",
-    "href": "slides/week-5.html#intro-to-pandas",
+    "objectID": "slides/week-5.html#why-pandas",
+    "href": "slides/week-5.html#why-pandas",
     "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "Intro to Pandas",
-    "text": "Intro to Pandas"
+    "section": "Why Pandas?",
+    "text": "Why Pandas?\n\n\n`numpy]() offers a great flexibility and efficiency when dealing with data matrices.\nGreat for Mathematical operations.\nBad for data wrangling tasks (Numpy only accepts the same data type)\nThe pandas package was designed to deal with this limitation by providing data structures to deal with retangular heterogenous data type.\nMain Data Structure: Series and DataFrames"
   },
   {
-    "objectID": "slides/week-5.html#data-loading-in-pandas",
-    "href": "slides/week-5.html#data-loading-in-pandas",
+    "objectID": "slides/week-5.html#pandas-series",
+    "href": "slides/week-5.html#pandas-series",
     "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "Data Loading in Pandas",
-    "text": "Data Loading in Pandas"
+    "section": "Pandas Series",
+    "text": "Pandas Series\nA pandas series is a one-dimensional labeled array.\n\n\nCapable of holding different data types (e.g. integer, boolean, strings, etc.).\nIt holds two key components:\n\nindex: names in the axis\nvalues: values in the series\n\n\nAt it’s core, a Pandas Series is nothing but a column in an excel sheet or an R data.frame."
+  },
+  {
+    "objectID": "slides/week-5.html#pandas-series-constructor",
+    "href": "slides/week-5.html#pandas-series-constructor",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Pandas Series Constructor",
+    "text": "Pandas Series Constructor\n\nimport pandas as pd\ns = pd.Series([\"Argentina\", \"France\", \"Germany\",\"Spain\", \"Italy\", \"Brazil\"],\n                 index=[2022, 2018, 2014, 2010, 2006, 2002])\nprint(s)\n\n2022    Argentina\n2018       France\n2014      Germany\n2010        Spain\n2006        Italy\n2002       Brazil\ndtype: object\n\n\nYou can feed to the constructor:\n\nlist\ndictionaries\nscalar values\nndarray"
+  },
+  {
+    "objectID": "slides/week-5.html#pandas-dataframes",
+    "href": "slides/week-5.html#pandas-dataframes",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Pandas DataFrames",
+    "text": "Pandas DataFrames\nA pandasDataFrame is a two dimensional, relational data structure with the capacity to handle heterogeneous data types.\n\nrelational: each column value contained within a row entry corresponds with the same observation.\ntwo dimensional: a matrix data structure\nheterogeneous: different data types can be contained across each column series."
+  },
+  {
+    "objectID": "slides/week-5.html#constructor",
+    "href": "slides/week-5.html#constructor",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Constructor",
+    "text": "Constructor\n\nimport pandas as pd\n# create a simple series\nseries = pd.Series([\"Argentina\", \"France\", \"Germany\",\"Spain\", \"Italy\", \"Brazil\"],\n                 index=[2022, 2018, 2014, 2010, 2006, 2002])\n# create the dataframe\ndf = pd.DataFrame(series)\nprint(df)\n\n              0\n2022  Argentina\n2018     France\n2014    Germany\n2010      Spain\n2006      Italy\n2002     Brazil"
+  },
+  {
+    "objectID": "slides/week-5.html#important-concepts",
+    "href": "slides/week-5.html#important-concepts",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Important concepts:",
+    "text": "Important concepts:\n\nIndexing for Accessing Data Frames in Python\n\nNo implict indexing (d[1,2]) will throw you an error.\n.iloc[] = use the numerical index position to call to locations in the DataFrame.\n.loc[] = use the labels to call to the location in the data frame.\n\nCreating Dataframes\n\nrow-wise: using a list of dictionaries\ncolumn-wise: using a dictionaries of lists"
   },
   {
     "objectID": "slides/week-1.html#plans-for-today",
@@ -1524,68 +1566,5 @@
     "title": "Syllabus: PPOL 5203 - Data Science I: Foundations",
     "section": "Georgetown Policies",
     "text": "Georgetown Policies\n\nDisability\nIf you believe you have a disability, then you should contact the Academic Resource Center (arc@georgetown.edu) for further information. The Center is located in the Leavey Center, Suite 335 (202-687-8354). The Academic Resource Center is the campus office responsible for reviewing documentation provided by students with disabilities and for determining reasonable accommodations in accordance with the Americans with Disabilities Act (ASA) and University policies. For more information, go to http://academicsupport.georgetown.edu/disability/\n\n\nImportant Academic Policies and Academic Integrity\nMcCourt School students are expected to uphold the academic policies set forth by Georgetown University and the Graduate School of Arts and Sciences. Students should therefore familiarize themselves with all the rules, regulations, and procedures relevant to their pursuit of a Graduate School degree. The policies are located at: http://grad.georgetown.edu/academics/policies/\nApplied to this course, while I encourage collaboration on assignments and use of resources like StackOverflow, the problem sets will ask you to list who you worked on the problem set with and cite StackOverflow if it is the direct source of a code snippet.\n\n\nStatement on Sexual Misconduct\nGeorgetown University and its faculty are committed to supporting survivors and those impacted by sexual misconduct, which includes sexual assault, sexual harassment, relationship violence, and stalking. Georgetown requires faculty members, unless otherwise designated as confidential, to report all disclosures of sexual misconduct to the University Title IX Coordinator or a Deputy Title IX Coordinator. If you disclose an incident of sexual misconduct to a professor in or outside of the classroom (with the exception of disclosures in papers), that faculty member must report the incident to the Title IX Coordinator, or Deputy Title IX Coordinator. The coordinator will, in turn, reach out to the student to provide support, resources, and the option to meet. [Please note that the student is not required to meet with the Title IX coordinator.]. More information about reporting options and resources can be found on the Sexual Misconduct\nWebsite: https://sexualassault.georgetown.edu/resourcecenter\nIf you would prefer to speak to someone confidentially, Georgetown has a number of fully confidential professional resources that can provide support and assistance. These resources include: Health Education Services for Sexual Assault Response and Prevention: confidential email: sarp[at]georgetown.edu\nCounseling and Psychiatric Services (CAPS): 202.687.6985 or after hours, call (833) 960-3006 to reach Fonemed, a telehealth service; individuals may ask for the on-call CAPS clinician\nMore information about reporting options and resources can be found on the Sexual Misconduct Website.\n\n\nProvost’s Policy on Religious Observances\nGeorgetown University promotes respect for all religions. Any student who is unable to attend classes or to participate in any examination, presentation, or assignment on a given day because of the observance of a major religious holiday or related travel shall be excused and provided with the opportunity to make up, without unreasonable burden, any work that has been missed for this reason and shall not in any other way be penalized for the absence or rescheduled work. Students will remain responsible for all assigned work. Students should notify professors in writing at the beginning of the semester of religious observances that conflict with their classes. The Office of the Provost, in consultation with Campus Ministry and the Registrar, will publish, before classes begin for a given term, a list of major religious holidays likely to affect Georgetown students. The Provost and the Main Campus Executive Faculty encourage faculty to accommodate students whose bona fide religious observances in other ways impede normal participation in a course. Students who cannot be accommodated should discuss the matter with an advising dean."
-  },
-  {
-    "objectID": "slides/week-5.html#why-pandas",
-    "href": "slides/week-5.html#why-pandas",
-    "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "Why Pandas?",
-    "text": "Why Pandas?\n\n\n`numpy]() offers a great flexibility and efficiency when dealing with data matrices.\nGreat for Mathematical operations.\nBad for data wrangling tasks (Numpy only accepts the same data type)\nThe pandas package was designed to deal with this limitation by providing data structures to deal with retangular heterogenous data type.\nMain Data Structure: Series and DataFrames"
-  },
-  {
-    "objectID": "slides/week-5.html#pandas-series",
-    "href": "slides/week-5.html#pandas-series",
-    "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "Pandas Series",
-    "text": "Pandas Series\nA pandas series is a one-dimensional labeled array.\n\n\nCapable of holding different data types (e.g. integer, boolean, strings, etc.).\nIt holds two key components:\n\nindex: names in the axis\nvalues: values in the series\n\n\nAt it’s core, a Pandas Series is nothing but a column in an excel sheet or an R data.frame."
-  },
-  {
-    "objectID": "slides/week-5.html#pandas-series-constructor",
-    "href": "slides/week-5.html#pandas-series-constructor",
-    "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "Pandas Series Constructor",
-    "text": "Pandas Series Constructor\n\nimport pandas as pd\ns = pd.Series([\"Argentina\", \"France\", \"Germany\",\"Spain\", \"Italy\", \"Brazil\"],\n                 index=[2022, 2018, 2014, 2010, 2006, 2002])\nprint(s)\n\n2022    Argentina\n2018       France\n2014      Germany\n2010        Spain\n2006        Italy\n2002       Brazil\ndtype: object\n\n\nYou can feed to the constructor:\n\nlist\ndictionaries\nscalar values\nndarray"
-  },
-  {
-    "objectID": "slides/week-5.html#pandas-dataframes",
-    "href": "slides/week-5.html#pandas-dataframes",
-    "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "Pandas DataFrames",
-    "text": "Pandas DataFrames\nA pandasDataFrame is a two dimensional, relational data structure with the capacity to handle heterogeneous data types.\n\nrelational: each column value contained within a row entry corresponds with the same observation.\ntwo dimensional: a matrix data structure\nheterogeneous: different data types can be contained across each column series."
-  },
-  {
-    "objectID": "slides/week-5.html#constructor",
-    "href": "slides/week-5.html#constructor",
-    "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "Constructor",
-    "text": "Constructor\n\nimport pandas as pd\n# create a simple series\nseries = pd.Series([\"Argentina\", \"France\", \"Germany\",\"Spain\", \"Italy\", \"Brazil\"],\n                 index=[2022, 2018, 2014, 2010, 2006, 2002])\n# create the dataframe\ndf = pd.DataFrame(series)\nprint(df)\n\n              0\n2022  Argentina\n2018     France\n2014    Germany\n2010      Spain\n2006      Italy\n2002     Brazil"
-  },
-  {
-    "objectID": "slides/week-5.html#important-concepts",
-    "href": "slides/week-5.html#important-concepts",
-    "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "Important concepts:",
-    "text": "Important concepts:\n\nIndexing for Accessing Data Frames in Python\n\nNo implict indexing (d[1,2]) will throw you an error.\n.iloc[] = use the numerical index position to call to locations in the DataFrame.\n.loc[] = use the labels to call to the location in the data frame.\n\nCreating Dataframes\n\nrow-wise: using a list of dictionaries\ncolumn-wise: using a dictionaries of lists"
-  },
-  {
-    "objectID": "slides/week-4.html",
-    "href": "slides/week-4.html",
-    "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "",
-    "text": "Finish Part I of Intro to Python\n\nControl statements (if, for and while loops)\nFunctions\n\nIntro do Python - Part II\n\nImporting librarys in Python\nList Comprehension + Generators\nFile Management\nNumpy"
-  },
-  {
-    "objectID": "problem_sets/ps02/ps02.html",
-    "href": "problem_sets/ps02/ps02.html",
-    "title": "Problem Set 02",
-    "section": "",
-    "text": "Github Classroom Link"
-  },
-  {
-    "objectID": "problem_sets/ps02/ps02.html#materials",
-    "href": "problem_sets/ps02/ps02.html#materials",
-    "title": "Problem Set 02",
-    "section": "",
-    "text": "Github Classroom Link"
   }
 ]

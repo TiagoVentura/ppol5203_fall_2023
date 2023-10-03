@@ -13111,7 +13111,7 @@ Tiago Ventura</center> <h1></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[107]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -13137,7 +13137,7 @@ Tiago Ventura</center> <h1></p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Series"><code>Series</code><a class="anchor-link" href="#Series">&#182;</a></h2><p>A <code>pandas</code> series is a <strong>one-dimensional</strong> labeled array.</p>
-<p>It is capable of holding <strong>heterogeneous data types</strong> (e.g. integer, boolean, strings, etc.).</p>
+<p>It is capable of holding <strong>different data types</strong> (e.g. integer, boolean, strings, etc.).</p>
 <p>The axis in a series as <strong>"index"</strong> --- similar to a list or <code>numpy</code> array--- however, we can use other data types to serve as an index, which allows for some powerful ways for manipulating the array.</p>
 <p>At it's core, a <code>Pandas</code> <code>Series</code> is nothing but a column in an excel sheet or an <code>R</code> <code>data.frame</code>.</p>
 
@@ -13156,7 +13156,7 @@ Tiago Ventura</center> <h1></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[108]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -13175,7 +13175,7 @@ Tiago Ventura</center> <h1></p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[108]:</div>
+    <div class="prompt output_prompt">Out[4]:</div>
 
 
 
@@ -13198,10 +13198,10 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[109]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># notice series are homogenous</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># notice series are homogenous and it gets implicit indexes</span>
 <span class="n">s_no_index</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="s2">"Argentina"</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="s2">"Germany"</span><span class="p">,</span><span class="s2">"Spain"</span><span class="p">,</span> <span class="s2">"Italy"</span><span class="p">,</span> <span class="s2">"Brazil"</span><span class="p">])</span>
 <span class="n">s_no_index</span>
 </pre></div>
@@ -13216,7 +13216,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[109]:</div>
+    <div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -13259,7 +13259,7 @@ dtype: object</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Series index come on three flavors:</p>
+<p>Indexing with Pandas series come on three flavors:</p>
 <ul>
 <li>explicit index</li>
 <li>implicit (deprecated)</li>
@@ -13271,7 +13271,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[110]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span><span class="o">.</span><span class="n">index</span>
@@ -13287,7 +13287,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[110]:</div>
+    <div class="prompt output_prompt">Out[18]:</div>
 
 
 
@@ -13304,10 +13304,10 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[111]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># explicit</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># explicit indix</span>
 <span class="n">s</span><span class="p">[</span><span class="mi">2022</span><span class="p">]</span>
 </pre></div>
 
@@ -13321,7 +13321,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[111]:</div>
+    <div class="prompt output_prompt">Out[8]:</div>
 
 
 
@@ -13338,10 +13338,10 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[112]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># implicit -&gt; Deprecated</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># implicit position</span>
 <span class="n">s</span><span class="p">[:]</span>
 </pre></div>
 
@@ -13355,7 +13355,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[112]:</div>
+    <div class="prompt output_prompt">Out[19]:</div>
 
 
 
@@ -13378,7 +13378,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[113]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># masking with a boolean</span>
@@ -13395,7 +13395,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[113]:</div>
+    <div class="prompt output_prompt">Out[13]:</div>
 
 
 
@@ -13412,7 +13412,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[114]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span><span class="p">[</span><span class="n">s</span><span class="o">.</span><span class="n">index</span><span class="o">&gt;</span><span class="mi">2016</span><span class="p">]</span>
@@ -13428,7 +13428,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[114]:</div>
+    <div class="prompt output_prompt">Out[14]:</div>
 
 
 
@@ -13447,7 +13447,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[115]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># with or, which requires a weird set of parenthesis</span>
@@ -13464,7 +13464,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[115]:</div>
+    <div class="prompt output_prompt">Out[15]:</div>
 
 
 
@@ -13490,7 +13490,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[116]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span><span class="o">.</span><span class="n">values</span>
@@ -13506,14 +13506,47 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[116]:</div>
+    <div class="prompt output_prompt">Out[23]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([&#39;Argentina&#39;, &#39;France&#39;, &#39;Germany&#39;, &#39;Spain&#39;, &#39;Italy&#39;, &#39;Brazil&#39;],
-      dtype=object)</pre>
+<pre>numpy.ndarray</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># it is an numpy array</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[24]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>numpy.ndarray</pre>
 </div>
 
 </div>
@@ -13559,7 +13592,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[117]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_dict</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"A"</span><span class="p">:[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">],</span><span class="s2">"B"</span><span class="p">:[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mf">.3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span><span class="s2">"C"</span><span class="p">:[</span><span class="s1">'a'</span><span class="p">,</span><span class="s1">'b'</span><span class="p">,</span><span class="s1">'c'</span><span class="p">,</span><span class="s1">'d'</span><span class="p">,</span><span class="s1">'e'</span><span class="p">,</span><span class="s1">'f'</span><span class="p">]}</span>
@@ -13576,7 +13609,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[117]:</div>
+    <div class="prompt output_prompt">Out[25]:</div>
 
 
 
@@ -13660,7 +13693,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[118]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_dict</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"A"</span><span class="p">:[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">],</span><span class="s2">"B"</span><span class="p">:[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mf">.3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span><span class="s2">"C"</span><span class="p">:[</span><span class="s1">'a'</span><span class="p">,</span><span class="s1">'b'</span><span class="p">,</span><span class="s1">'c'</span><span class="p">]}</span>
@@ -13684,7 +13717,7 @@ dtype: object</pre>
 <pre>
 <span class="ansi-red-fg">---------------------------------------------------------------------------</span>
 <span class="ansi-red-fg">ValueError</span>                                Traceback (most recent call last)
-Cell <span class="ansi-green-fg">In[118], line 2</span>
+Cell <span class="ansi-green-fg">In[26], line 2</span>
 <span class="ansi-green-intense-fg ansi-bold">      1</span> my_dict <span style="color: rgb(98,98,98)">=</span> {<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">A</span><span style="color: rgb(175,0,0)">&#34;</span>:[<span style="color: rgb(98,98,98)">1</span>,<span style="color: rgb(98,98,98)">2</span>,<span style="color: rgb(98,98,98)">3</span>,<span style="color: rgb(98,98,98)">4</span>,<span style="color: rgb(98,98,98)">5</span>,<span style="color: rgb(98,98,98)">6</span>],<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">B</span><span style="color: rgb(175,0,0)">&#34;</span>:[<span style="color: rgb(98,98,98)">2</span>,<span style="color: rgb(98,98,98)">3</span>,<span style="color: rgb(98,98,98)">1</span>,<span style="color: rgb(98,98,98)">.3</span>,<span style="color: rgb(98,98,98)">4</span>,<span style="color: rgb(98,98,98)">1</span>],<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">C</span><span style="color: rgb(175,0,0)">&#34;</span>:[<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">a</span><span style="color: rgb(175,0,0)">&#39;</span>,<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">b</span><span style="color: rgb(175,0,0)">&#39;</span>,<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">c</span><span style="color: rgb(175,0,0)">&#39;</span>]}
 <span class="ansi-green-fg">----&gt; 2</span> pd<span style="color: rgb(98,98,98)">.</span>DataFrame(my_dict)
 
@@ -13739,7 +13772,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[119]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="nb">dict</span><span class="p">(</span><span class="n">A</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span><span class="n">B</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'a'</span><span class="p">,</span><span class="s1">'b'</span><span class="p">,</span><span class="s1">'c'</span><span class="p">]))</span>
@@ -13755,7 +13788,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[119]:</div>
+    <div class="prompt output_prompt">Out[27]:</div>
 
 
 
@@ -13817,7 +13850,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[120]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span>
@@ -13834,7 +13867,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[120]:</div>
+    <div class="prompt output_prompt">Out[28]:</div>
 
 
 
@@ -13893,14 +13926,14 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The same holds if we feed in a nest list structure.</p>
+<p>The same holds if we feed in a nested list structure.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[121]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">nested_list</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">25</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
@@ -13917,17 +13950,17 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[121]:</div>
+    <div class="prompt output_prompt">Out[30]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[[7, 9, 4, 4, 6],
- [2, 2, 8, 4, 5],
- [2, 7, 2, 7, 6],
- [3, 2, 8, 5, 9],
- [5, 3, 6, 7, 9]]</pre>
+<pre>[[8, 5, 6, 5, 9],
+ [5, 3, 5, 4, 4],
+ [6, 9, 9, 8, 3],
+ [4, 6, 9, 1, 3],
+ [5, 2, 6, 6, 1]]</pre>
 </div>
 
 </div>
@@ -13938,7 +13971,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[122]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">nested_list</span><span class="p">)</span>
@@ -13954,7 +13987,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[122]:</div>
+    <div class="prompt output_prompt">Out[31]:</div>
 
 
 
@@ -13986,43 +14019,43 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
   <tbody>
     <tr>
       <th>0</th>
-      <td>7</td>
-      <td>9</td>
-      <td>4</td>
-      <td>4</td>
+      <td>8</td>
+      <td>5</td>
       <td>6</td>
+      <td>5</td>
+      <td>9</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2</td>
-      <td>2</td>
-      <td>8</td>
-      <td>4</td>
       <td>5</td>
+      <td>3</td>
+      <td>5</td>
+      <td>4</td>
+      <td>4</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2</td>
-      <td>7</td>
-      <td>2</td>
-      <td>7</td>
       <td>6</td>
+      <td>9</td>
+      <td>9</td>
+      <td>8</td>
+      <td>3</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>3</td>
-      <td>2</td>
-      <td>8</td>
-      <td>5</td>
+      <td>4</td>
+      <td>6</td>
       <td>9</td>
+      <td>1</td>
+      <td>3</td>
     </tr>
     <tr>
       <th>4</th>
       <td>5</td>
-      <td>3</td>
+      <td>2</td>
       <td>6</td>
-      <td>7</td>
-      <td>9</td>
+      <td>6</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
@@ -14044,7 +14077,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[123]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">col_names</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s1">'Var</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s1">'</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">6</span><span class="p">)]</span>
@@ -14061,7 +14094,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[123]:</div>
+    <div class="prompt output_prompt">Out[32]:</div>
 
 
 
@@ -14078,7 +14111,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[124]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">D</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">nested_list</span><span class="p">,</span><span class="n">columns</span><span class="o">=</span><span class="n">col_names</span><span class="p">)</span>
@@ -14095,7 +14128,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[124]:</div>
+    <div class="prompt output_prompt">Out[33]:</div>
 
 
 
@@ -14127,43 +14160,43 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
   <tbody>
     <tr>
       <th>0</th>
-      <td>7</td>
-      <td>9</td>
-      <td>4</td>
-      <td>4</td>
+      <td>8</td>
+      <td>5</td>
       <td>6</td>
+      <td>5</td>
+      <td>9</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2</td>
-      <td>2</td>
-      <td>8</td>
-      <td>4</td>
       <td>5</td>
+      <td>3</td>
+      <td>5</td>
+      <td>4</td>
+      <td>4</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2</td>
-      <td>7</td>
-      <td>2</td>
-      <td>7</td>
       <td>6</td>
+      <td>9</td>
+      <td>9</td>
+      <td>8</td>
+      <td>3</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>3</td>
-      <td>2</td>
-      <td>8</td>
-      <td>5</td>
+      <td>4</td>
+      <td>6</td>
       <td>9</td>
+      <td>1</td>
+      <td>3</td>
     </tr>
     <tr>
       <th>4</th>
       <td>5</td>
-      <td>3</td>
+      <td>2</td>
       <td>6</td>
-      <td>7</td>
-      <td>9</td>
+      <td>6</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
@@ -14185,13 +14218,14 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[125]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">area</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s1">'California'</span><span class="p">:</span> <span class="mi">423967</span><span class="p">,</span> <span class="s1">'Texas'</span><span class="p">:</span> <span class="mi">695662</span><span class="p">,</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># create a series</span>
+<span class="n">area</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s1">'California'</span><span class="p">:</span> <span class="mi">423967</span><span class="p">,</span> <span class="s1">'Texas'</span><span class="p">:</span> <span class="mi">695662</span><span class="p">,</span>
                   <span class="s1">'Florida'</span><span class="p">:</span> <span class="mi">170312</span><span class="p">,</span> <span class="s1">'New York'</span><span class="p">:</span> <span class="mi">141297</span><span class="p">,</span>
                   <span class="s1">'Pennsylvania'</span><span class="p">:</span> <span class="mi">119280</span><span class="p">})</span>
-
+<span class="c1"># see areas</span>
 <span class="n">area</span>
 </pre></div>
 
@@ -14205,7 +14239,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[125]:</div>
+    <div class="prompt output_prompt">Out[35]:</div>
 
 
 
@@ -14227,7 +14261,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[126]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">area</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">"area"</span><span class="p">])</span>
@@ -14243,7 +14277,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[126]:</div>
+    <div class="prompt output_prompt">Out[36]:</div>
 
 
 
@@ -14328,7 +14362,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[144]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># create a dictionary of lists</span>
@@ -14351,7 +14385,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[144]:</div>
+    <div class="prompt output_prompt">Out[37]:</div>
 
 
 
@@ -14440,7 +14474,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[145]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># create a dictionary of lists</span>
@@ -14459,7 +14493,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[146]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># create a dataframe</span>
@@ -14477,7 +14511,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[146]:</div>
+    <div class="prompt output_prompt">Out[39]:</div>
 
 
 
@@ -14561,7 +14595,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[130]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># list of lists + list of names</span>
@@ -14582,7 +14616,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[131]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># create a dataframe</span>
@@ -14599,7 +14633,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[131]:</div>
+    <div class="prompt output_prompt">Out[41]:</div>
 
 
 
@@ -14692,7 +14726,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[147]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">D</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
@@ -14733,7 +14767,7 @@ File <span class="ansi-green-fg">pandas/_libs/hashtable_class_helper.pxi:5753</s
 The above exception was the direct cause of the following exception:
 
 <span class="ansi-red-fg">KeyError</span>                                  Traceback (most recent call last)
-Cell <span class="ansi-green-fg">In[147], line 1</span>
+Cell <span class="ansi-green-fg">In[42], line 1</span>
 <span class="ansi-green-fg">----&gt; 1</span> D[<span style="color: rgb(98,98,98)">1</span>]
 
 File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas/core/frame.py:3807</span>, in <span class="ansi-cyan-fg">DataFrame.__getitem__</span><span class="ansi-blue-fg">(self, key)</span>
@@ -14771,7 +14805,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[133]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">D</span><span class="p">[</span><span class="s1">'names'</span><span class="p">]</span>
@@ -14787,7 +14821,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[133]:</div>
+    <div class="prompt output_prompt">Out[43]:</div>
 
 
 
@@ -14817,7 +14851,7 @@ Name: names, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[134]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Row index</span>
@@ -14834,7 +14868,7 @@ Name: names, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[134]:</div>
+    <div class="prompt output_prompt">Out[44]:</div>
 
 
 
@@ -14851,7 +14885,7 @@ Name: names, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[135]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># column index</span>
@@ -14868,7 +14902,7 @@ Name: names, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[135]:</div>
+    <div class="prompt output_prompt">Out[45]:</div>
 
 
 
@@ -14899,7 +14933,7 @@ Name: names, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[148]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># index</span>
@@ -14917,7 +14951,7 @@ Name: names, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[148]:</div>
+    <div class="prompt output_prompt">Out[46]:</div>
 
 
 
@@ -14993,12 +15027,11 @@ Name: names, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[149]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># slice</span>
-<span class="n">D_</span> <span class="o">=</span> <span class="n">D</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">"names"</span><span class="p">)</span>
-<span class="n">D_</span><span class="p">[</span><span class="s2">"Darrow"</span><span class="p">:</span><span class="s2">"Sevro"</span><span class="p">]</span>
+<span class="n">D</span><span class="p">[:</span><span class="mi">3</span><span class="p">]</span>
 </pre></div>
 
     </div>
@@ -15011,7 +15044,95 @@ Name: names, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[149]:</div>
+    <div class="prompt output_prompt">Out[48]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>names</th>
+      <th>nickname</th>
+      <th>house</th>
+      <th>color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Darrow</td>
+      <td>The Reaper</td>
+      <td>Mars</td>
+      <td>red</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Adrius</td>
+      <td>Jakal</td>
+      <td>Venus</td>
+      <td>gold</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Sevro</td>
+      <td>Goblin</td>
+      <td>Mars</td>
+      <td>gold</td>
+    </tr>
+  </tbody>
+</table>
+</div></div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Such slices can also refer to rows by number rather than by index:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># slice with a modified index</span>
+<span class="n">D_index_name</span> <span class="o">=</span> <span class="n">D</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">"names"</span><span class="p">)</span>
+<span class="n">D_index_name</span><span class="p">[</span><span class="s2">"Darrow"</span><span class="p">:</span><span class="s2">"Sevro"</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[49]:</div>
 
 
 
@@ -15076,18 +15197,17 @@ Name: names, dtype: object</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Such slices can also refer to rows by number rather than by index:</p>
+<h3 id="Acessing-with-Boolean">Acessing with Boolean<a class="anchor-link" href="#Acessing-with-Boolean">&#182;</a></h3><p>We can use boolean masks as in series to access elements of the <code>DataFrames</code></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[151]:</div>
+<div class="prompt input_prompt">In&nbsp;[81]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># slice with the original index</span>
-<span class="n">D_index_names</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">D</span><span class="p">[</span><span class="n">D</span><span class="p">[</span><span class="s2">"house"</span><span class="p">]</span><span class="o">==</span><span class="s2">"Mars"</span><span class="p">]</span>
 </pre></div>
 
     </div>
@@ -15100,7 +15220,7 @@ Name: names, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[151]:</div>
+    <div class="prompt output_prompt">Out[81]:</div>
 
 
 
@@ -15127,24 +15247,17 @@ Name: names, dtype: object</pre>
       <th>house</th>
       <th>color</th>
     </tr>
-    <tr>
-      <th>names</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
   </thead>
   <tbody>
     <tr>
-      <th>Adrius</th>
-      <td>Adrius</td>
-      <td>Jakal</td>
-      <td>Venus</td>
-      <td>gold</td>
+      <th>0</th>
+      <td>Darrow</td>
+      <td>The Reaper</td>
+      <td>Mars</td>
+      <td>red</td>
     </tr>
     <tr>
-      <th>Sevro</th>
+      <th>2</th>
       <td>Sevro</td>
       <td>Goblin</td>
       <td>Mars</td>
@@ -15163,7 +15276,7 @@ Name: names, dtype: object</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="-Alert:--loc-and-iloc?"><span style="color:red"> Alert: </span> loc and iloc?<a class="anchor-link" href="#-Alert:--loc-and-iloc?">&#182;</a></h3><p>To <strong>access</strong> the indices in a <code>DataFrame</code>, we need to use two build-in methods:</p>
+<h3 id="-Better-methods-for-acessing-elements:--loc-and-iloc"><span style="color:red"> Better methods for acessing elements: </span> loc and iloc<a class="anchor-link" href="#-Better-methods-for-acessing-elements:--loc-and-iloc">&#182;</a></h3><p>To <strong>access</strong> the indices in a <code>DataFrame</code>, we need to use two build-in methods:</p>
 <ul>
 <li><code>.iloc[]</code> = use the numerical index position to call to locations in the <code>DataFrame</code>. (<em>The <code>i</code> is short for <code>index</code>.</em>)</li>
 <li><code>.loc[]</code> = use the labels to call to the location in the data frame. </li>
@@ -15174,10 +15287,11 @@ Name: names, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[152]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">D</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span> <span class="c1"># D.iloc[row,column]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># numerical position</span>
+<span class="n">D</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span> <span class="c1"># D.iloc[row,column]</span>
 </pre></div>
 
     </div>
@@ -15190,7 +15304,7 @@ Name: names, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[152]:</div>
+    <div class="prompt output_prompt">Out[50]:</div>
 
 
 
@@ -15207,10 +15321,11 @@ Name: names, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[153]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">D</span><span class="o">.</span><span class="n">loc</span><span class="p">[:</span><span class="mi">3</span><span class="p">,[</span><span class="s1">'names'</span><span class="p">,</span><span class="s1">'house'</span><span class="p">]]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># index labels</span>
+<span class="n">D</span><span class="o">.</span><span class="n">loc</span><span class="p">[:</span><span class="mi">3</span><span class="p">,[</span><span class="s1">'names'</span><span class="p">,</span><span class="s1">'house'</span><span class="p">]]</span>
 </pre></div>
 
     </div>
@@ -15223,7 +15338,7 @@ Name: names, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[153]:</div>
+    <div class="prompt output_prompt">Out[52]:</div>
 
 
 
@@ -15294,7 +15409,7 @@ Name: names, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[154]:</div>
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">D</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="s1">'names'</span><span class="p">:</span><span class="s1">'house'</span><span class="p">]</span>
@@ -15310,7 +15425,7 @@ Name: names, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[154]:</div>
+    <div class="prompt output_prompt">Out[53]:</div>
 
 
 
@@ -15378,17 +15493,89 @@ Name: names, dtype: object</pre>
 </div>
 
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[85]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># boolean masks also work here</span>
+<span class="n">D</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">D</span><span class="p">[</span><span class="s2">"house"</span><span class="p">]</span><span class="o">==</span><span class="s2">"Mars"</span><span class="p">,</span> <span class="p">:]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[85]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>names</th>
+      <th>nickname</th>
+      <th>house</th>
+      <th>color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Darrow</td>
+      <td>The Reaper</td>
+      <td>Mars</td>
+      <td>red</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Sevro</td>
+      <td>Goblin</td>
+      <td>Mars</td>
+      <td>gold</td>
+    </tr>
+  </tbody>
+</table>
+</div></div>
+
+</div>
+
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>As with a <code>series</code>, we can redefine the row and column indices.</p>
+<p>We can redefine the row indices.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[155]:</div>
+<div class="prompt input_prompt">In&nbsp;[55]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dict_</span>
@@ -15404,7 +15591,7 @@ Name: names, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[155]:</div>
+    <div class="prompt output_prompt">Out[55]:</div>
 
 
 
@@ -15424,7 +15611,7 @@ Name: names, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[157]:</div>
+<div class="prompt input_prompt">In&nbsp;[56]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">D2</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">dict_</span><span class="p">,</span>
@@ -15442,7 +15629,7 @@ Name: names, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[157]:</div>
+    <div class="prompt output_prompt">Out[56]:</div>
 
 
 
@@ -15518,7 +15705,7 @@ Name: names, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[158]:</div>
+<div class="prompt input_prompt">In&nbsp;[57]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># We can use the named indices for look up (and as with numpy, column rearrangement).</span>
@@ -15535,7 +15722,7 @@ Name: names, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[158]:</div>
+    <div class="prompt output_prompt">Out[57]:</div>
 
 
 
@@ -15593,7 +15780,7 @@ Name: names, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[159]:</div>
+<div class="prompt input_prompt">In&nbsp;[58]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># notice, we cannot use the numbers with loc anymore</span>
@@ -15617,7 +15804,7 @@ Name: names, dtype: object</pre>
 <pre>
 <span class="ansi-red-fg">---------------------------------------------------------------------------</span>
 <span class="ansi-red-fg">TypeError</span>                                 Traceback (most recent call last)
-Cell <span class="ansi-green-fg">In[159], line 2</span>
+Cell <span class="ansi-green-fg">In[58], line 2</span>
 <span class="ansi-green-intense-fg ansi-bold">      1</span> <span style="color: rgb(95,135,135)"># notice, we cannot use the numbers with loc anymore</span>
 <span class="ansi-green-fg">----&gt; 2</span> D2<span style="color: rgb(98,98,98)">.</span>loc[<span style="color: rgb(98,98,98)">1</span>:<span style="color: rgb(98,98,98)">2</span>,<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">names</span><span style="color: rgb(175,0,0)">&#34;</span>:<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">house</span><span style="color: rgb(175,0,0)">&#34;</span>]
 
@@ -15710,7 +15897,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[160]:</div>
+<div class="prompt input_prompt">In&nbsp;[59]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># get our old series</span>
@@ -15727,7 +15914,7 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[160]:</div>
+    <div class="prompt output_prompt">Out[59]:</div>
 
 
 
@@ -15750,7 +15937,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[161]:</div>
+<div class="prompt input_prompt">In&nbsp;[60]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># iloc</span>
@@ -15767,7 +15954,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[161]:</div>
+    <div class="prompt output_prompt">Out[60]:</div>
 
 
 
@@ -15784,7 +15971,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[162]:</div>
+<div class="prompt input_prompt">In&nbsp;[61]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># loc</span>
@@ -15801,7 +15988,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[162]:</div>
+    <div class="prompt output_prompt">Out[61]:</div>
 
 
 
@@ -15826,7 +16013,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[163]:</div>
+<div class="prompt input_prompt">In&nbsp;[62]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dat</span> <span class="o">=</span> <span class="n">D</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'names'</span><span class="p">)</span>
@@ -15843,7 +16030,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[163]:</div>
+    <div class="prompt output_prompt">Out[62]:</div>
 
 
 
@@ -15919,7 +16106,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[164]:</div>
+<div class="prompt input_prompt">In&nbsp;[65]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dat</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s1">'Darrow'</span><span class="p">,:]</span>
@@ -15935,7 +16122,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[164]:</div>
+    <div class="prompt output_prompt">Out[65]:</div>
 
 
 
@@ -15963,7 +16150,7 @@ Name: Darrow, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[165]:</div>
+<div class="prompt input_prompt">In&nbsp;[66]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dat</span> <span class="o">=</span> <span class="n">dat</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
@@ -15980,7 +16167,7 @@ Name: Darrow, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[165]:</div>
+    <div class="prompt output_prompt">Out[66]:</div>
 
 
 
@@ -16063,7 +16250,7 @@ Name: Darrow, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[166]:</div>
+<div class="prompt input_prompt">In&nbsp;[68]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dat</span> <span class="o">=</span> <span class="n">D</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="n">keys</span><span class="o">=</span><span class="p">[</span><span class="s1">'names'</span><span class="p">,</span> <span class="s1">'house'</span><span class="p">])</span>
@@ -16080,7 +16267,7 @@ Name: Darrow, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[166]:</div>
+    <div class="prompt output_prompt">Out[68]:</div>
 
 
 
@@ -16164,7 +16351,7 @@ Name: Darrow, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[167]:</div>
+<div class="prompt input_prompt">In&nbsp;[69]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dat</span><span class="o">.</span><span class="n">index</span>
@@ -16180,7 +16367,7 @@ Name: Darrow, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[167]:</div>
+    <div class="prompt output_prompt">Out[69]:</div>
 
 
 
@@ -16210,7 +16397,7 @@ Name: Darrow, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[168]:</div>
+<div class="prompt input_prompt">In&nbsp;[73]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dat</span><span class="o">.</span><span class="n">loc</span><span class="p">[(</span><span class="s2">"Darrow"</span><span class="p">,</span><span class="s2">"Mars"</span><span class="p">),:]</span>
@@ -16226,7 +16413,7 @@ Name: Darrow, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[168]:</div>
+    <div class="prompt output_prompt">Out[73]:</div>
 
 
 
@@ -16253,7 +16440,7 @@ Name: (Darrow, Mars), dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[169]:</div>
+<div class="prompt input_prompt">In&nbsp;[72]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dat</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">dat</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">get_level_values</span><span class="p">(</span><span class="s1">'house'</span><span class="p">)</span><span class="o">==</span><span class="s2">"Jupiter"</span><span class="p">,:]</span>
@@ -16269,50 +16456,53 @@ Name: (Darrow, Mars), dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[169]:</div>
+    <div class="prompt"></div>
 
 
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">KeyError</span>                                  Traceback (most recent call last)
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas/core/indexes/base.py:3802</span>, in <span class="ansi-cyan-fg">Index.get_loc</span><span class="ansi-blue-fg">(self, key, method, tolerance)</span>
+<span class="ansi-green-intense-fg ansi-bold">   3801</span> <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
+<span class="ansi-green-fg">-&gt; 3802</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_engine<span style="color: rgb(98,98,98)">.</span>get_loc(casted_key)
+<span class="ansi-green-intense-fg ansi-bold">   3803</span> <span class="ansi-bold" style="color: rgb(0,135,0)">except</span> <span class="ansi-bold" style="color: rgb(215,95,95)">KeyError</span> <span class="ansi-bold" style="color: rgb(0,135,0)">as</span> err:
 
-<div class="output_html rendered_html output_subarea output_execute_result"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas/_libs/index.pyx:138</span>, in <span class="ansi-cyan-fg">pandas._libs.index.IndexEngine.get_loc</span><span class="ansi-blue-fg">()</span>
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas/_libs/index.pyx:165</span>, in <span class="ansi-cyan-fg">pandas._libs.index.IndexEngine.get_loc</span><span class="ansi-blue-fg">()</span>
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th></th>
-      <th>nickname</th>
-      <th>color</th>
-    </tr>
-    <tr>
-      <th>names</th>
-      <th>house</th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Victra</th>
-      <th>Jupiter</th>
-      <td>NaN</td>
-      <td>gold</td>
-    </tr>
-  </tbody>
-</table>
-</div></div>
+File <span class="ansi-green-fg">pandas/_libs/hashtable_class_helper.pxi:5745</span>, in <span class="ansi-cyan-fg">pandas._libs.hashtable.PyObjectHashTable.get_item</span><span class="ansi-blue-fg">()</span>
 
+File <span class="ansi-green-fg">pandas/_libs/hashtable_class_helper.pxi:5753</span>, in <span class="ansi-cyan-fg">pandas._libs.hashtable.PyObjectHashTable.get_item</span><span class="ansi-blue-fg">()</span>
+
+<span class="ansi-red-fg">KeyError</span>: &#39;house&#39;
+
+The above exception was the direct cause of the following exception:
+
+<span class="ansi-red-fg">KeyError</span>                                  Traceback (most recent call last)
+Cell <span class="ansi-green-fg">In[72], line 1</span>
+<span class="ansi-green-fg">----&gt; 1</span> dat<span style="color: rgb(98,98,98)">.</span>loc[dat[<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">house</span><span style="color: rgb(175,0,0)">&#34;</span>]<span style="color: rgb(98,98,98)">==</span><span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">Jupiter</span><span style="color: rgb(175,0,0)">&#34;</span>,:]
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas/core/frame.py:3807</span>, in <span class="ansi-cyan-fg">DataFrame.__getitem__</span><span class="ansi-blue-fg">(self, key)</span>
+<span class="ansi-green-intense-fg ansi-bold">   3805</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>columns<span style="color: rgb(98,98,98)">.</span>nlevels <span style="color: rgb(98,98,98)">&gt;</span> <span style="color: rgb(98,98,98)">1</span>:
+<span class="ansi-green-intense-fg ansi-bold">   3806</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_getitem_multilevel(key)
+<span class="ansi-green-fg">-&gt; 3807</span> indexer <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>columns<span style="color: rgb(98,98,98)">.</span>get_loc(key)
+<span class="ansi-green-intense-fg ansi-bold">   3808</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> is_integer(indexer):
+<span class="ansi-green-intense-fg ansi-bold">   3809</span>     indexer <span style="color: rgb(98,98,98)">=</span> [indexer]
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas/core/indexes/base.py:3804</span>, in <span class="ansi-cyan-fg">Index.get_loc</span><span class="ansi-blue-fg">(self, key, method, tolerance)</span>
+<span class="ansi-green-intense-fg ansi-bold">   3802</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_engine<span style="color: rgb(98,98,98)">.</span>get_loc(casted_key)
+<span class="ansi-green-intense-fg ansi-bold">   3803</span> <span class="ansi-bold" style="color: rgb(0,135,0)">except</span> <span class="ansi-bold" style="color: rgb(215,95,95)">KeyError</span> <span class="ansi-bold" style="color: rgb(0,135,0)">as</span> err:
+<span class="ansi-green-fg">-&gt; 3804</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">raise</span> <span class="ansi-bold" style="color: rgb(215,95,95)">KeyError</span>(key) <span class="ansi-bold" style="color: rgb(0,135,0)">from</span> <span class="ansi-bold" style="color: rgb(0,0,255)">err</span>
+<span class="ansi-green-intense-fg ansi-bold">   3805</span> <span class="ansi-bold" style="color: rgb(0,135,0)">except</span> <span class="ansi-bold" style="color: rgb(215,95,95)">TypeError</span>:
+<span class="ansi-green-intense-fg ansi-bold">   3806</span>     <span style="color: rgb(95,135,135)"># If we have a listlike key, _check_indexing_error will raise</span>
+<span class="ansi-green-intense-fg ansi-bold">   3807</span>     <span style="color: rgb(95,135,135)">#  InvalidIndexError. Otherwise we fall through and re-raise</span>
+<span class="ansi-green-intense-fg ansi-bold">   3808</span>     <span style="color: rgb(95,135,135)">#  the TypeError.</span>
+<span class="ansi-green-intense-fg ansi-bold">   3809</span>     <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_check_indexing_error(key)
+
+<span class="ansi-red-fg">KeyError</span>: &#39;house&#39;</pre>
+</div>
 </div>
 
 </div>
@@ -16860,13 +17050,32 @@ File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>_week_5a_intro_to_pandas.ipynb<span class="w"> </span>--to<span class="w"> </span>html<span class="w"> </span>--template<span class="w"> </span>classic
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[NbConvertApp] Converting notebook _week_5a_intro_to_pandas.ipynb to html
+[NbConvertApp] Writing 403875 bytes to _week_5a_intro_to_pandas.html
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
