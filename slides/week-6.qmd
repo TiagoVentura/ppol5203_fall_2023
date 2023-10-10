@@ -12,7 +12,7 @@ format:
     background-transition: fade
     code-line-numbers: false
     width: 1600
-    height: 900
+    height: 1200
     center: false
     slide-number: true
     incremental: false
@@ -125,7 +125,7 @@ format:
 :::
 
 
-# `r fontawesome::fa("laptop-code")` Pandas: Loading Data
+#  Pandas Notebooks
 
 
 
