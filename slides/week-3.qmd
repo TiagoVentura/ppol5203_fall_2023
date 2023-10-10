@@ -245,7 +245,7 @@ There are two ways of instantiating a data class in Python:
 ## Scalar
 
 | *Type*  | *Description*                                   | *Example* |  *Literal*  | *Constructor* |
-|:------------:|:----------------|:------------:|:------------:|:------------:|
+|:-------------:|:--------------|:-------------:|:-------------:|:-------------:|
 |  `int`  | integer types                                   |    `4`    |   `x = 4`   |   `int(4)`    |
 | `float` | 64-bit floating point numbers                   |  `4.567`  | `x = 4.567` |  `float(4)`   |
 | `bool`  | boolean logical values                          |  `True`   | `x = True`  |   `bool(0)`   |
@@ -543,7 +543,6 @@ elif <logical statement>:
 else:
 
   ~~~~ CODE ~~~~
-
 ```
 
 ## For loops

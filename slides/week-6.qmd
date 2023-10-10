@@ -1,0 +1,133 @@
+---
+title: "<span style = 'font-size: 100%;'> PPOL 5203 - Data Science I: Foundations </span>"
+subtitle: "<span style = 'font-size: 100%;'> Week 6: Data Wrangling in Pandas </span>"
+author: "Professor: Tiago Ventura"
+date: "10/10/2023"
+execute: 
+  echo: true
+  error: true
+format:
+  revealjs: 
+    transition: slide
+    background-transition: fade
+    code-line-numbers: false
+    width: 1600
+    height: 900
+    center: false
+    slide-number: true
+    incremental: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    footer: "Data science I: Foundations"
+    theme: [simple, custom.scss]
+---
+
+
+## Plans for Today
+
+<br>
+
+-   Feedback from survey
+
+-   Data Wrangling in Pandas
+
+    -  Loading and Writing Data
+    
+    -  Data Processsing: row, columns, and grouped
+
+    - Tidying and Joining
+    
+    - Miscelanneous (Work by yourselves in the notebook)
+  
+
+# Feedback in the survey
+
+
+## Continue Doing
+
+> **comparison with R**
+
+> **I think your class notebooks are very help. I have some experience in Python before, but going back to the basics and building out of those basics allow me to have a solid understanding of Python syntax. I appreciate that.**
+
+> **Posting notebook and class notes for each class in Jupyter Notebook format!**
+
+> **I like the balance of learning the concepts on the slides and applying them in Jupyter notebook.**
+
+> **Theory matters! keep on with the pace.**
+
+> **Giving more examples of good data science practices and experiences**
+
+## Stop Doing
+
+> **Pushing back assignments is really stressful**
+
+> **I think everything so far is good. But I just feel like meeting once per week is not a good idea. I prefer splitting 3 hours into two 1.5-hour classes. But I know this is not the thing we can change hhh.**
+
+
+> **Good, love the class so far** 
+
+## Start Doing
+
+> **More collaborative coding, step by step coding examples**
+
+> **Probably doing a couple more in-class exercise or problem sets**
+
+> **More in class exercises, maybe in groups**
+
+> **I think that it would help to write the code ourselves in class. Perhaps this could be simple tasks spread throughout the lectures that we should complete on our own or as a class in real time. Maybe after each major concept.**
+
+
+> **Working with some different datasets. We could start working on datasets related to policies or do problem sets related to policies. For some problem sets, it could help to see an example of the desired result**
+
+
+## Taking actions on your feedback:
+
+<br>
+
+::: {.fragment}
+
+#### DataCamp courses
+
+- I will start assigning related datacamp courses every week. 
+
+- Amazing tool for practicing
+
+:::
+
+::: {.fragment}
+
+#### In-class exercises
+
+- Switch up for more small exercises throughout the class, instead of a big one at the end.
+
+:::
+
+::: {.fragment}
+
+#### Problem Sets
+
+- I will not delay problem sets anymore. Will adjust them accordingly
+:::
+
+::: {.fragment}
+
+#### Pace
+
+- Keep a somewhat similar pace. Still good in the syllabus. Work on your notebooks and readings. This is key. 
+:::
+
+::: {.fragment}
+
+#### Datasets
+
+- We will mostly work with real, policy related datasets from now on. Impossible to cover building blocks (loops, functions, generators, numpy) using big, messy datasets. 
+:::
+
+
+# `r fontawesome::fa("laptop-code")` Pandas: Loading Data
+
+
+
+
+

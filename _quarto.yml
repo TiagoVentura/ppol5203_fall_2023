@@ -38,8 +38,8 @@ website:
             text: "Week 4: From Nested Collectors to DataFrames"
           - href: weeks/week-05.qmd
             text: "Week 5: Numpy & Intro to Pandas"
-          # - href: weeks/week-06.qmd
-          #   text: "Week 6: Pandas II"
+          - href: weeks/week-06.qmd
+            text: "Week 6: Pandas II: Data Wrangling"
           # - href: weeks/week-07.qmd
           #   text: "Week 7: Scrapping"
           # - href: weeks/week-08.qmd

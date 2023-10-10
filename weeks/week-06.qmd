@@ -1,6 +1,6 @@
 ---
 title: "Week 06"
-subtitle: "Pandas II: Advanced Manipulation and Visualization"
+subtitle: "Pandas II: Data Wrangling"
 description: ""
 author: "Tiago Ventura"
 date: "10/10/2023"
@@ -36,38 +36,50 @@ tbl-colwidths: [10,50,40]
 
 # Lectures Notes:
 
-```{=html}
-<!--For Pandas, we will finish materials from the last lecture. Our focus will be on Tidying your data to prepare for visualization. 
+Today, we will go over three notebooks and you have a additional notebook to work by yourselves:
 
+-   Pandas - Data Loading and Writing: [html](/lecture_notes/week-06/_week-6c-data_wrangling_pandas.html) -- <a href="/lecture_notes/week-06/_week-6c-data_wrangling_pandas.ipynb" download> Jupyter Notebook </a>
 
-These lecture notes draws from materials developed by Eric Dunford on previous iterations of PPOL 5203.
+-   Pandas - data wrangling: [html](/lecture_notes/week-06/_week-6b-pandas_data_loading.html) -- <a href="/lecture_notes/week-06/_week-6b-pandas_data_loading.ipynb" download> Jupyter Notebook </a>
 
-- [Data Visualization](/lecture_notes/week-06/_week_6_dataviz.html) -- <a href="/lecture_notes/week-06/_week_6_dataviz.ipynb" download> Jupyter Notebook </a> 
--->
-```
-# Slides
+-   Pandas - Joining Data : [html](/lecture_notes/week-06/_week-5c-joining_data.html) -- <a href="/lecture_notes/week-06/_week-5c-joining_data.ipynb" download> Jupyter Notebook </a>
 
-```{=html}
-<!---   [Week 06:Data Visualization](/slides/week-6.html)
--->
-```
-# Readings
+-   Pandas Miscellaneous: [html](/lecture_notes/week-06/_week-6e-miscelanneous.html) -- <a href="/lecture_notes/week-06/_week-6e-miscelanneous.ipynb" download> Jupyter Notebook </a>
 
--   ***Required Readings***
-    -   Theory
-        -   [Ch. 2: Visualizing data: Mapping data onto aesthetics](https://serialmentor.com/dataviz/aesthetic-mapping.html) - Fundamentals of Data Visualization - Wilke, Claus
-        -   [Ch. 4: Color scales](https://serialmentor.com/dataviz/color-basics.html) - Fundamentals of Data Visualization - Wilke, Claus
-        -   [Ch. 5: Directory of Visualizations](https://serialmentor.com/dataviz/directory-of-visualizations.html) - `datviz`
-    -   In-Practice
-        -   [Making Plots With `plotnine`](https://datacarpentry.org/python-ecology-lesson/07-visualization-ggplot-python.html) - i.e. `ggplot` in Python
-        -   [Ch. 4: Visualization with Matplotlib](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) - Python Data Science Handbook - VanderPlas, Jake - i.e. `matplotlib` and `seaborn` libraries
-    -   [Grammar of Graphics: How ggplot works](https://socviz.co/makeplot.html#makeplot) by Kieran Healy
+## Datasets
 
-<br>
+Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> here </a>
 
--   <font color = "grey">***Additional Resources and Suggested Materials***</font>
-    -   [The Python Graph Gallery](https://python-graph-gallery.com/)
-    -   Bokeh - For interactive Graphics
-        -   [Bokeh User Guide](https://docs.bokeh.org/en/latest/docs/user_guide.html#userguide)
-        -   [Bokeh Tutorial](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb)
--   Either [Fundamentals of Data Visualization - Wilke, Claus](https://clauswilke.com/dataviz/) or [Data Visualization: A practical introduction by Kieran Healy](https://socviz.co/index.html#preface) are amazing sources you can consult frequently <br>
+## Slides
+
+-   [Pandas: Data Wrangling](/slides/week-6.html)
+
+## Readings
+
+**Suggested Readings for Pandas**
+
+-   PDS VanderPlas
+
+-   [Ch. 4: Data Manipulation with Pandas](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html)
+
+-   [Tidy Data in Python](https://www.jeannicholashould.com/tidy-data-in-python.html)
+
+-   [Tidy Data by Hadley Wickham in R](https://r4ds.hadley.nz/data-tidy.html)
+
+And all our lecture notes!
+
+-   **Additional Resources and Suggested Materials**
+
+    -   [Python Pandas Tutorial: A Complete Introduction for Beginners](https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/#)
+
+    -   [Data Wrangling with Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) - pandas.pydata.org
+
+    -   [dplyr-style Data Manipulation with Pipes in Python](https://towardsdatascience.com/dplyr-style-data-manipulation-with-pipes-in-python-380dcb137000) - Allen, Akinkunle
+
+    -   [Python Pandas vs. R Dplyr - The Full Cheatsheet](https://medium.com/towards-data-science/python-pandas-vs-r-dplyr-5b5081945ccb) - Martin Šiklar
+
+    -   [Methods Chaining in Pandas](https://medium.com/@ulriktpedersen/modern-pandas-streamlining-your-workflow-with-method-chaining-f65e75deb193)
+
+    -   [The Pandas Assign Method and Chaining](https://ponder.io/professional-pandas-the-pandas-assign-method-and-chaining/)
+
+-   [Exercises in Pandas](https://github.com/guipsamora/pandas_exercises)
