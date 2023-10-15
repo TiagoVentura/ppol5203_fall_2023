@@ -36,22 +36,13 @@ tbl-colwidths: [10,50,40]
 
 # Lectures Notes:
 
-- [Data Visualization](/lecture_notes/week-06/_week_6_dataviz.html) -- <a href="/lecture_notes/week-06/_week_6_dataviz.ipynb" download> Jupyter Notebook </a> 
+-   Pandas - Joining Data : [html](/lecture_notes/week-06/_week-5c-joining_data.html) -- <a href="/lecture_notes/week-06/_week-5c-joining_data.ipynb" download> Jupyter Notebook </a>
 
+-   Data Visualization: [html](/lecture_notes/week-07/_week_6_dataviz.html) -- <a href="/lecture_notes/week-07/_week_6_dataviz.ipynb" download> Jupyter Notebook </a>
 
 # Slides
 
 # Readings
-
-<!-- https://www.wired.com/story/reddit-api-changes-ai-labor/ -->
-
-<!-- https://www.varonis.com/blog/what-is-oauth -->
-
-<!-- https://dl.acm.org/doi/pdf/10.1145/3290605.3300683 -->
-
-<!-- https://dl.acm.org/doi/pdf/10.1145/3290605.3300683 -->
-
-<!-- https://arxiv.org/abs/2203.10666 -->
 
 
 -   ***Required Readings***
@@ -59,10 +50,12 @@ tbl-colwidths: [10,50,40]
         -   [Ch. 2: Visualizing data: Mapping data onto aesthetics](https://serialmentor.com/dataviz/aesthetic-mapping.html) - Fundamentals of Data Visualization - Wilke, Claus
         -   [Ch. 4: Color scales](https://serialmentor.com/dataviz/color-basics.html) - Fundamentals of Data Visualization - Wilke, Claus
         -   [Ch. 5: Directory of Visualizations](https://serialmentor.com/dataviz/directory-of-visualizations.html) - `datviz`
+            -   [Grammar of Graphics: How ggplot works](https://socviz.co/makeplot.html#makeplot) by Kieran Healy
+
     -   In-Practice
+    
         -   [Making Plots With `plotnine`](https://datacarpentry.org/python-ecology-lesson/07-visualization-ggplot-python.html) - i.e. `ggplot` in Python
         -   [Ch. 4: Visualization with Matplotlib](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) - Python Data Science Handbook - VanderPlas, Jake - i.e. `matplotlib` and `seaborn` libraries
-    -   [Grammar of Graphics: How ggplot works](https://socviz.co/makeplot.html#makeplot) by Kieran Healy
 
 <br>
 
