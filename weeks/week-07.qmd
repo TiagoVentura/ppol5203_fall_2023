@@ -1,6 +1,6 @@
 ---
 title: "Week 07"
-subtitle: "Scrapping: Drawing from (Un-)Structured Data Sources"
+subtitle: "Joining, Tidying and Visualizing Data"
 description: ""
 author: "Tiago Ventura"
 date: "10/17/2023"
@@ -38,22 +38,28 @@ tbl-colwidths: [10,50,40]
 
 -   Pandas - Joining Data : [html](/lecture_notes/week-06/_week-5c-joining_data.html) -- <a href="/lecture_notes/week-06/_week-5c-joining_data.ipynb" download> Jupyter Notebook </a>
 
--   Data Visualization: [html](/lecture_notes/week-07/_week_6_dataviz.html) -- <a href="/lecture_notes/week-07/_week_6_dataviz.ipynb" download> Jupyter Notebook </a>
+-   Data Visualization: [html](/lecture_notes/week-07/_week-6-data-visualization.html) -- <a href="/lecture_notes/week-07/_week-6-data-visualization.ipynb" download> Jupyter Notebook </a>
 
-# Slides
+## Datasets
+
+Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> here </a>
+
+## Slides
+
+-   [Joining, Tidying and Visualizing Data](/slides/week-7.html)
 
 # Readings
 
-
 -   ***Required Readings***
     -   Theory
+
         -   [Ch. 2: Visualizing data: Mapping data onto aesthetics](https://serialmentor.com/dataviz/aesthetic-mapping.html) - Fundamentals of Data Visualization - Wilke, Claus
         -   [Ch. 4: Color scales](https://serialmentor.com/dataviz/color-basics.html) - Fundamentals of Data Visualization - Wilke, Claus
         -   [Ch. 5: Directory of Visualizations](https://serialmentor.com/dataviz/directory-of-visualizations.html) - `datviz`
             -   [Grammar of Graphics: How ggplot works](https://socviz.co/makeplot.html#makeplot) by Kieran Healy
 
     -   In-Practice
-    
+
         -   [Making Plots With `plotnine`](https://datacarpentry.org/python-ecology-lesson/07-visualization-ggplot-python.html) - i.e. `ggplot` in Python
         -   [Ch. 4: Visualization with Matplotlib](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) - Python Data Science Handbook - VanderPlas, Jake - i.e. `matplotlib` and `seaborn` libraries
 

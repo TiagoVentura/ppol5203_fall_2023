@@ -4,7 +4,7 @@ subtitle: "<span style = 'font-size: 100%;'> Week 7: Joining, Tidying and Visual
 author: "Professor: Tiago Ventura"
 date: "10/10/2023"
 execute: 
-  echo: true
+  echo: false
   error: true
 format:
   revealjs: 
@@ -38,10 +38,13 @@ format:
 ## Datacamp
 
 ```{r}
-knitr::include_graphics("")
+knitr::include_graphics("week7_figs/datacamp.png")
 ```
 
+# Solutions for in-class exercise last week have been posted. Try to understand them!
+
 # Readings for this week are very important!!
+
 
 # [Pandas Notebook Join and Tidy]("./_week-5c-joining_data.html")
 
@@ -71,14 +74,14 @@ knitr::include_graphics("")
 
 
 ```{r}
-knitr::include_graphics("global_res_no_band.png")
+knitr::include_graphics("week7_figs/global_res_no_band.png")
 ```
 
 ## Aesthetics
 
 The key aspect on data visualization is **to take data points** and convert them **visual elements**. 
 
-> All data visualizations map data values into quantifiable features of the resulting graphic. We refer to these features as aesthetics. Fundamentals of Data Visualization, Claus Wilke
+> All data visualizations map data values into quantifiable features of the resulting graphic. We refer to these features as aesthetics. *Fundamentals of Data Visualization, Claus Wilke*
 
 ```{r}
 knitr::include_graphics("https://clauswilke.com/dataviz/aesthetic_mapping_files/figure-html/common-aesthetics-1.png")
@@ -97,27 +100,27 @@ knitr::include_graphics("https://clauswilke.com/dataviz/coordinate_systems_axes_
 
 
 ```{r}
-knitr::include_graphics("../lecture_notes/week-7/global_no_aes.png")
+knitr::include_graphics("week7_figs/global_no_aes.png")
 ```
 
 ## Color Aesthetics to Distinguish
 
 
 ```{r}
-knitr::include_graphics("../lecture_notes/week-7/global_color_to_distinguish.png")
+knitr::include_graphics("week7_figs/global_color_to_distinguish.png")
 ```
 
 ## Color Aesthetics to Highlight
 
 ```{r}
-knitr::include_graphics("../lecture_notes/week-7/global_color_to_highlight.png")
+knitr::include_graphics("week7_figs/global_color_to_highlight.png")
 ```
 
 
 ## To represent visually a sequence of data points
 
 ```{r}
-knitr::include_graphics("../lecture_notes/week-7/global_color_to_values.png")
+knitr::include_graphics("week7_figs/global_color_to_values.png")
 ```
 
 ## Grammar of Graphics
@@ -154,9 +157,10 @@ knitr::include_graphics("../lecture_notes/week-7/global_color_to_values.png")
 
     - Theme: Control the finer presentation details like font size, background color, grid line styles, etc.
     
+## Gapminder
 
 ```{python}
-#| echo: false
+#| echo: true
 
 import pandas as pd
 import numpy as np
@@ -242,3 +246,6 @@ ggplot(data=gapminder) +
 ### `+` 
 
 ### `labels`
+
+
+# Notebook for Data Viz - Practice!

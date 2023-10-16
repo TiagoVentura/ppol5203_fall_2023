@@ -40,8 +40,8 @@ website:
             text: "Week 5: Numpy & Intro to Pandas"
           - href: weeks/week-06.qmd
             text: "Week 6: Pandas II: Data Wrangling"
-          # - href: weeks/week-07.qmd
-          #   text: "Week 7: Scrapping"
+          - href: weeks/week-07.qmd
+            text: "Week 7: Joinining, Tidying and Visualizing Data"
           # - href: weeks/week-08.qmd
           #   text: "Week 8: Text I"
           # - href: weeks/week-09.qmd
