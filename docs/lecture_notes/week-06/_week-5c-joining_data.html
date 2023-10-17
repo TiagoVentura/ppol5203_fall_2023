@@ -13112,7 +13112,7 @@ Tiago Ventura</center> <h1></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -13128,7 +13128,7 @@ Tiago Ventura</center> <h1></p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Tidy-Data">Tidy Data<a class="anchor-link" href="#Tidy-Data">&#182;</a></h2><p>Data can be organized in many different ways and can target many different concepts. Having an consistent and well-established procedures for data organization will make your workflow will faster, more efficient and less prone to errors.</p>
-<p>On tasks related to data visualization and data wrangling, we will organize our datasets following a <code>tidy data format</code> proposed by <a href="https://vita.had.co.nz/papers/tidy-data.pdf">Hadley Wickham in his 2014 article</a>.</p>
+<p>On tasks related to data visualization and data wrangling, we will often try to organize our datasets following a <code>tidy data format</code> proposed by <a href="https://vita.had.co.nz/papers/tidy-data.pdf">Hadley Wickham in his 2014 article</a>.</p>
 <p>Consider the following 4 ways to organize the same data (<em>example pulled from <a href="https://r4ds.had.co.nz/tidy-data.html">R4DS</a></em>).</p>
 
 </div>
@@ -13401,7 +13401,7 @@ You don't need to be convinced in theory of these advantages. You will get in pr
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[107]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">base_url</span> <span class="o">=</span> <span class="s2">"https://github.com/byuidatascience/data4python4ds/raw/master/data-raw/"</span>
@@ -13420,7 +13420,7 @@ You don't need to be convinced in theory of these advantages. You will get in pr
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[108]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># see</span>
@@ -13437,7 +13437,7 @@ You don't need to be convinced in theory of these advantages. You will get in pr
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[108]:</div>
+    <div class="prompt output_prompt">Out[4]:</div>
 
 
 
@@ -13545,7 +13545,7 @@ You don't need to be convinced in theory of these advantages. You will get in pr
 </li>
 <li><p>A string for the new column with the variable names.</p>
 </li>
-<li><p>A string for the nes columns with the values.</p>
+<li><p>A string for the new column with the values.</p>
 </li>
 </ul>
 
@@ -13554,7 +13554,7 @@ You don't need to be convinced in theory of these advantages. You will get in pr
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[94]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># untidy - wide</span>
@@ -13590,7 +13590,7 @@ You don't need to be convinced in theory of these advantages. You will get in pr
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[102]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># tidy - from wide to long</span>
@@ -13607,7 +13607,7 @@ You don't need to be convinced in theory of these advantages. You will get in pr
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[102]:</div>
+    <div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -13687,6 +13687,153 @@ You don't need to be convinced in theory of these advantages. You will get in pr
 </table>
 </div></div>
 
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">help</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">melt</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Help on function melt in module pandas.core.reshape.melt:
+
+melt(frame: &#39;DataFrame&#39;, id_vars=None, value_vars=None, var_name=None, value_name=&#39;value&#39;, col_level=None, ignore_index: &#39;bool&#39; = True) -&gt; &#39;DataFrame&#39;
+    Unpivot a DataFrame from wide to long format, optionally leaving identifiers set.
+    
+    This function is useful to massage a DataFrame into a format where one
+    or more columns are identifier variables (`id_vars`), while all other
+    columns, considered measured variables (`value_vars`), are &#34;unpivoted&#34; to
+    the row axis, leaving just two non-identifier columns, &#39;variable&#39; and
+    &#39;value&#39;.
+    
+    Parameters
+    ----------
+    id_vars : tuple, list, or ndarray, optional
+        Column(s) to use as identifier variables.
+    value_vars : tuple, list, or ndarray, optional
+        Column(s) to unpivot. If not specified, uses all columns that
+        are not set as `id_vars`.
+    var_name : scalar
+        Name to use for the &#39;variable&#39; column. If None it uses
+        ``frame.columns.name`` or &#39;variable&#39;.
+    value_name : scalar, default &#39;value&#39;
+        Name to use for the &#39;value&#39; column.
+    col_level : int or str, optional
+        If columns are a MultiIndex then use this level to melt.
+    ignore_index : bool, default True
+        If True, original index is ignored. If False, the original index is retained.
+        Index labels will be repeated as necessary.
+    
+        .. versionadded:: 1.1.0
+    
+    Returns
+    -------
+    DataFrame
+        Unpivoted DataFrame.
+    
+    See Also
+    --------
+    DataFrame.melt : Identical method.
+    pivot_table : Create a spreadsheet-style pivot table as a DataFrame.
+    DataFrame.pivot : Return reshaped DataFrame organized
+        by given index / column values.
+    DataFrame.explode : Explode a DataFrame from list-like
+            columns to long format.
+    
+    Notes
+    -----
+    Reference :ref:`the user guide &lt;reshaping.melt&gt;` for more examples.
+    
+    Examples
+    --------
+    &gt;&gt;&gt; df = pd.DataFrame({&#39;A&#39;: {0: &#39;a&#39;, 1: &#39;b&#39;, 2: &#39;c&#39;},
+    ...                    &#39;B&#39;: {0: 1, 1: 3, 2: 5},
+    ...                    &#39;C&#39;: {0: 2, 1: 4, 2: 6}})
+    &gt;&gt;&gt; df
+       A  B  C
+    0  a  1  2
+    1  b  3  4
+    2  c  5  6
+    
+    &gt;&gt;&gt; pd.melt(df, id_vars=[&#39;A&#39;], value_vars=[&#39;B&#39;])
+       A variable  value
+    0  a        B      1
+    1  b        B      3
+    2  c        B      5
+    
+    &gt;&gt;&gt; pd.melt(df, id_vars=[&#39;A&#39;], value_vars=[&#39;B&#39;, &#39;C&#39;])
+       A variable  value
+    0  a        B      1
+    1  b        B      3
+    2  c        B      5
+    3  a        C      2
+    4  b        C      4
+    5  c        C      6
+    
+    The names of &#39;variable&#39; and &#39;value&#39; columns can be customized:
+    
+    &gt;&gt;&gt; pd.melt(df, id_vars=[&#39;A&#39;], value_vars=[&#39;B&#39;],
+    ...         var_name=&#39;myVarname&#39;, value_name=&#39;myValname&#39;)
+       A myVarname  myValname
+    0  a         B          1
+    1  b         B          3
+    2  c         B          5
+    
+    Original index values can be kept around:
+    
+    &gt;&gt;&gt; pd.melt(df, id_vars=[&#39;A&#39;], value_vars=[&#39;B&#39;, &#39;C&#39;], ignore_index=False)
+       A variable  value
+    0  a        B      1
+    1  b        B      3
+    2  c        B      5
+    0  a        C      2
+    1  b        C      4
+    2  c        C      6
+    
+    If you have multi-index columns:
+    
+    &gt;&gt;&gt; df.columns = [list(&#39;ABC&#39;), list(&#39;DEF&#39;)]
+    &gt;&gt;&gt; df
+       A  B  C
+       D  E  F
+    0  a  1  2
+    1  b  3  4
+    2  c  5  6
+    
+    &gt;&gt;&gt; pd.melt(df, col_level=0, id_vars=[&#39;A&#39;], value_vars=[&#39;B&#39;])
+       A variable  value
+    0  a        B      1
+    1  b        B      3
+    2  c        B      5
+    
+    &gt;&gt;&gt; pd.melt(df, id_vars=[(&#39;A&#39;, &#39;D&#39;)], value_vars=[(&#39;B&#39;, &#39;E&#39;)])
+      (A, D) variable_0 variable_1  value
+    0      a          B          E      1
+    1      b          B          E      3
+    2      c          B          E      5
+
+</pre>
+</div>
 </div>
 
 </div>
@@ -13965,7 +14112,7 @@ You don't need to be convinced in theory of these advantages. You will get in pr
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[128]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># simple string</span>
@@ -14003,7 +14150,7 @@ world
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[132]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">table3</span>
@@ -14019,7 +14166,7 @@ world
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[132]:</div>
+    <div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -14117,7 +14264,7 @@ world
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[133]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># all to upper</span>
@@ -14150,7 +14297,7 @@ world
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[133]:</div>
+    <div class="prompt output_prompt">Out[10]:</div>
 
 
 
@@ -14293,7 +14440,7 @@ world
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[134]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Two fake data frames</span>
@@ -14433,7 +14580,7 @@ world
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[135]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># chaining datasets</span>
@@ -14450,7 +14597,7 @@ world
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[135]:</div>
+    <div class="prompt output_prompt">Out[13]:</div>
 
 
 
@@ -14508,7 +14655,7 @@ world
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[136]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># calling the construct</span>
@@ -14525,7 +14672,7 @@ world
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[136]:</div>
+    <div class="prompt output_prompt">Out[14]:</div>
 
 
 
@@ -14596,7 +14743,7 @@ world
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[137]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># chaining datasets</span>
@@ -14613,7 +14760,7 @@ world
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[137]:</div>
+    <div class="prompt output_prompt">Out[15]:</div>
 
 
 
@@ -14684,7 +14831,7 @@ world
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[138]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># chaining datasets</span>
@@ -14701,7 +14848,7 @@ world
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[138]:</div>
+    <div class="prompt output_prompt">Out[16]:</div>
 
 
 
@@ -14777,7 +14924,7 @@ world
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[139]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># chaining datasets</span>
@@ -14794,7 +14941,7 @@ world
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[139]:</div>
+    <div class="prompt output_prompt">Out[17]:</div>
 
 
 
@@ -14853,7 +15000,7 @@ world
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[140]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># rename datasets</span>
@@ -14878,7 +15025,7 @@ world
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[140]:</div>
+    <div class="prompt output_prompt">Out[18]:</div>
 
 
 
@@ -14938,6 +15085,235 @@ world
 </div>
 
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">help</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Help on function merge in module pandas.core.reshape.merge:
+
+merge(left: &#39;DataFrame | Series&#39;, right: &#39;DataFrame | Series&#39;, how: &#39;str&#39; = &#39;inner&#39;, on: &#39;IndexLabel | None&#39; = None, left_on: &#39;IndexLabel | None&#39; = None, right_on: &#39;IndexLabel | None&#39; = None, left_index: &#39;bool&#39; = False, right_index: &#39;bool&#39; = False, sort: &#39;bool&#39; = False, suffixes: &#39;Suffixes&#39; = (&#39;_x&#39;, &#39;_y&#39;), copy: &#39;bool&#39; = True, indicator: &#39;bool&#39; = False, validate: &#39;str | None&#39; = None) -&gt; &#39;DataFrame&#39;
+    Merge DataFrame or named Series objects with a database-style join.
+    
+    A named Series object is treated as a DataFrame with a single named column.
+    
+    The join is done on columns or indexes. If joining columns on
+    columns, the DataFrame indexes *will be ignored*. Otherwise if joining indexes
+    on indexes or indexes on a column or columns, the index will be passed on.
+    When performing a cross merge, no column specifications to merge on are
+    allowed.
+    
+    .. warning::
+    
+        If both key columns contain rows where the key is a null value, those
+        rows will be matched against each other. This is different from usual SQL
+        join behaviour and can lead to unexpected results.
+    
+    Parameters
+    ----------
+    left : DataFrame
+    right : DataFrame or named Series
+        Object to merge with.
+    how : {&#39;left&#39;, &#39;right&#39;, &#39;outer&#39;, &#39;inner&#39;, &#39;cross&#39;}, default &#39;inner&#39;
+        Type of merge to be performed.
+    
+        * left: use only keys from left frame, similar to a SQL left outer join;
+          preserve key order.
+        * right: use only keys from right frame, similar to a SQL right outer join;
+          preserve key order.
+        * outer: use union of keys from both frames, similar to a SQL full outer
+          join; sort keys lexicographically.
+        * inner: use intersection of keys from both frames, similar to a SQL inner
+          join; preserve the order of the left keys.
+        * cross: creates the cartesian product from both frames, preserves the order
+          of the left keys.
+    
+          .. versionadded:: 1.2.0
+    
+    on : label or list
+        Column or index level names to join on. These must be found in both
+        DataFrames. If `on` is None and not merging on indexes then this defaults
+        to the intersection of the columns in both DataFrames.
+    left_on : label or list, or array-like
+        Column or index level names to join on in the left DataFrame. Can also
+        be an array or list of arrays of the length of the left DataFrame.
+        These arrays are treated as if they are columns.
+    right_on : label or list, or array-like
+        Column or index level names to join on in the right DataFrame. Can also
+        be an array or list of arrays of the length of the right DataFrame.
+        These arrays are treated as if they are columns.
+    left_index : bool, default False
+        Use the index from the left DataFrame as the join key(s). If it is a
+        MultiIndex, the number of keys in the other DataFrame (either the index
+        or a number of columns) must match the number of levels.
+    right_index : bool, default False
+        Use the index from the right DataFrame as the join key. Same caveats as
+        left_index.
+    sort : bool, default False
+        Sort the join keys lexicographically in the result DataFrame. If False,
+        the order of the join keys depends on the join type (how keyword).
+    suffixes : list-like, default is (&#34;_x&#34;, &#34;_y&#34;)
+        A length-2 sequence where each element is optionally a string
+        indicating the suffix to add to overlapping column names in
+        `left` and `right` respectively. Pass a value of `None` instead
+        of a string to indicate that the column name from `left` or
+        `right` should be left as-is, with no suffix. At least one of the
+        values must not be None.
+    copy : bool, default True
+        If False, avoid copy if possible.
+    indicator : bool or str, default False
+        If True, adds a column to the output DataFrame called &#34;_merge&#34; with
+        information on the source of each row. The column can be given a different
+        name by providing a string argument. The column will have a Categorical
+        type with the value of &#34;left_only&#34; for observations whose merge key only
+        appears in the left DataFrame, &#34;right_only&#34; for observations
+        whose merge key only appears in the right DataFrame, and &#34;both&#34;
+        if the observation&#39;s merge key is found in both DataFrames.
+    
+    validate : str, optional
+        If specified, checks if merge is of specified type.
+    
+        * &#34;one_to_one&#34; or &#34;1:1&#34;: check if merge keys are unique in both
+          left and right datasets.
+        * &#34;one_to_many&#34; or &#34;1:m&#34;: check if merge keys are unique in left
+          dataset.
+        * &#34;many_to_one&#34; or &#34;m:1&#34;: check if merge keys are unique in right
+          dataset.
+        * &#34;many_to_many&#34; or &#34;m:m&#34;: allowed, but does not result in checks.
+    
+    Returns
+    -------
+    DataFrame
+        A DataFrame of the two merged objects.
+    
+    See Also
+    --------
+    merge_ordered : Merge with optional filling/interpolation.
+    merge_asof : Merge on nearest keys.
+    DataFrame.join : Similar method using indices.
+    
+    Notes
+    -----
+    Support for specifying index levels as the `on`, `left_on`, and
+    `right_on` parameters was added in version 0.23.0
+    Support for merging named Series objects was added in version 0.24.0
+    
+    Examples
+    --------
+    &gt;&gt;&gt; df1 = pd.DataFrame({&#39;lkey&#39;: [&#39;foo&#39;, &#39;bar&#39;, &#39;baz&#39;, &#39;foo&#39;],
+    ...                     &#39;value&#39;: [1, 2, 3, 5]})
+    &gt;&gt;&gt; df2 = pd.DataFrame({&#39;rkey&#39;: [&#39;foo&#39;, &#39;bar&#39;, &#39;baz&#39;, &#39;foo&#39;],
+    ...                     &#39;value&#39;: [5, 6, 7, 8]})
+    &gt;&gt;&gt; df1
+        lkey value
+    0   foo      1
+    1   bar      2
+    2   baz      3
+    3   foo      5
+    &gt;&gt;&gt; df2
+        rkey value
+    0   foo      5
+    1   bar      6
+    2   baz      7
+    3   foo      8
+    
+    Merge df1 and df2 on the lkey and rkey columns. The value columns have
+    the default suffixes, _x and _y, appended.
+    
+    &gt;&gt;&gt; df1.merge(df2, left_on=&#39;lkey&#39;, right_on=&#39;rkey&#39;)
+      lkey  value_x rkey  value_y
+    0  foo        1  foo        5
+    1  foo        1  foo        8
+    2  foo        5  foo        5
+    3  foo        5  foo        8
+    4  bar        2  bar        6
+    5  baz        3  baz        7
+    
+    Merge DataFrames df1 and df2 with specified left and right suffixes
+    appended to any overlapping columns.
+    
+    &gt;&gt;&gt; df1.merge(df2, left_on=&#39;lkey&#39;, right_on=&#39;rkey&#39;,
+    ...           suffixes=(&#39;_left&#39;, &#39;_right&#39;))
+      lkey  value_left rkey  value_right
+    0  foo           1  foo            5
+    1  foo           1  foo            8
+    2  foo           5  foo            5
+    3  foo           5  foo            8
+    4  bar           2  bar            6
+    5  baz           3  baz            7
+    
+    Merge DataFrames df1 and df2, but raise an exception if the DataFrames have
+    any overlapping columns.
+    
+    &gt;&gt;&gt; df1.merge(df2, left_on=&#39;lkey&#39;, right_on=&#39;rkey&#39;, suffixes=(False, False))
+    Traceback (most recent call last):
+    ...
+    ValueError: columns overlap but no suffix specified:
+        Index([&#39;value&#39;], dtype=&#39;object&#39;)
+    
+    &gt;&gt;&gt; df1 = pd.DataFrame({&#39;a&#39;: [&#39;foo&#39;, &#39;bar&#39;], &#39;b&#39;: [1, 2]})
+    &gt;&gt;&gt; df2 = pd.DataFrame({&#39;a&#39;: [&#39;foo&#39;, &#39;baz&#39;], &#39;c&#39;: [3, 4]})
+    &gt;&gt;&gt; df1
+          a  b
+    0   foo  1
+    1   bar  2
+    &gt;&gt;&gt; df2
+          a  c
+    0   foo  3
+    1   baz  4
+    
+    &gt;&gt;&gt; df1.merge(df2, how=&#39;inner&#39;, on=&#39;a&#39;)
+          a  b  c
+    0   foo  1  3
+    
+    &gt;&gt;&gt; df1.merge(df2, how=&#39;left&#39;, on=&#39;a&#39;)
+          a  b  c
+    0   foo  1  3.0
+    1   bar  2  NaN
+    
+    &gt;&gt;&gt; df1 = pd.DataFrame({&#39;left&#39;: [&#39;foo&#39;, &#39;bar&#39;]})
+    &gt;&gt;&gt; df2 = pd.DataFrame({&#39;right&#39;: [7, 8]})
+    &gt;&gt;&gt; df1
+        left
+    0   foo
+    1   bar
+    &gt;&gt;&gt; df2
+        right
+    0   7
+    1   8
+    
+    &gt;&gt;&gt; df1.merge(df2, how=&#39;cross&#39;)
+       left  right
+    0   foo      7
+    1   foo      8
+    2   bar      7
+    3   bar      8
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -14956,7 +15332,7 @@ world
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[141]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># full of NAS because the second columnes do not have the same name</span>
@@ -14974,7 +15350,7 @@ world
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[141]:</div>
+    <div class="prompt output_prompt">Out[20]:</div>
 
 
 
@@ -15059,7 +15435,7 @@ world
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[145]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">data_x</span><span class="p">,</span><span class="n">data_y</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -15075,7 +15451,7 @@ world
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[145]:</div>
+    <div class="prompt output_prompt">Out[21]:</div>
 
 
 
@@ -15145,7 +15521,7 @@ world
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[147]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">data_x</span><span class="p">,</span><span class="n">data_y</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">sort_index</span><span class="p">()</span>
@@ -15161,7 +15537,7 @@ world
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[147]:</div>
+    <div class="prompt output_prompt">Out[22]:</div>
 
 
 
@@ -15245,7 +15621,7 @@ world
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[148]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">data_x</span><span class="p">,</span><span class="n">data_y</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">keys</span><span class="o">=</span><span class="p">[</span><span class="s2">"data_x"</span><span class="p">,</span><span class="s2">"data_y"</span><span class="p">])</span>
@@ -15261,7 +15637,7 @@ world
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[148]:</div>
+    <div class="prompt output_prompt">Out[23]:</div>
 
 
 
@@ -15348,7 +15724,7 @@ world
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[149]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">data_x</span><span class="p">,</span><span class="n">data_y</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">ignore_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -15364,7 +15740,7 @@ world
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[149]:</div>
+    <div class="prompt output_prompt">Out[24]:</div>
 
 
 
@@ -15445,7 +15821,7 @@ world
 <ol>
 <li><p>Select the following columns: MatchID, Year, Stage, Home Team Name, Away Team Name, Home Team Goals, Away Team Goals.</p>
 </li>
-<li><p>Clean the column names.</p>
+<li><p>Clean the column names converting all to lower case and removing spaces.</p>
 </li>
 <li><p>Convert this data to the long format, having: a) a single column for the teams playing; b) a single column for the goals scored.</p>
 </li>
@@ -15460,13 +15836,47 @@ world
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># open datasets</span>
+<span class="n">wc</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"WorldCups.csv"</span><span class="p">)</span>
+<span class="n">wc_matches</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"WorldCupMatches.csv"</span><span class="p">)</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>_week-5c-joining_data.ipynb<span class="w"> </span>--to<span class="w"> </span>html<span class="w"> </span>--template<span class="w"> </span>classic
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[NbConvertApp] Converting notebook _week-5c-joining_data.ipynb to html
+[NbConvertApp] Writing 356319 bytes to _week-5c-joining_data.html
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 

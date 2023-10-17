@@ -2,7 +2,7 @@
 title: "<span style = 'font-size: 100%;'> PPOL 5203 - Data Science I: Foundations </span>"
 subtitle: "<span style = 'font-size: 100%;'> Week 7: Joining, Tidying and Visualizing Data </span>"
 author: "Professor: Tiago Ventura"
-date: "10/10/2023"
+date: "10/17/2023"
 execute: 
   echo: false
   error: true
@@ -46,7 +46,7 @@ knitr::include_graphics("week7_figs/datacamp.png")
 # Readings for this week are very important!!
 
 
-# [Pandas Notebook Join and Tidy]("./_week-5c-joining_data.html")
+# [Pandas Notebook Join and Tidy]("https://tiagoventura.github.io/ppol5203_fall_2023/weeks/week-07.html")
 
 
 # Data Visualization
@@ -57,11 +57,12 @@ knitr::include_graphics("week7_figs/datacamp.png")
 
 - You have a full-semester ahead of you for Data Visualization
 
-- Here: cover the basics. 
+- Here -> cover the basics. 
 
-  - introduce native Python libraries (`matplotlib` and `seaborn`)
-  
   - focus more on grammar of graphics and `plotnine` - a ggplot2 implementation in Python
+  
+  - skimp through native Python libraries (`matplotlib` and `seaborn`)
+  
   
   
 ## What do you see?

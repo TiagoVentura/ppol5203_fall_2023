@@ -1,0 +1,43 @@
+/*-- scss:defaults --*/
+$presentation-font-size-root: 35px;
+$presentation-heading-color: #012169;
+$code-block-bg:#F0F0F0;
+/*-- scss:rules --*/
+
+.reveal .slides > section > section { 
+  text-align:left; 
+}
+
+.blue {
+  color: #041E42;
+  font-weight: bold;
+}
+
+.red {
+  color: #D50032;
+  font-weight: bold;
+}
+
+.center h1 {
+  text-align: center;
+}
+
+.centered h2 {
+  text-align: center;
+}
+.centered h3 {
+  text-align: center;
+}
+.centered p {
+  text-align: center;
+}
+
+code.sourceCode {
+  font-size: 1.6em;
+  /* or try font-size: xx-large; */
+}
+
+code {
+  font-size: 1.2em;
+  /* or try font-size: xx-large; */
+}
