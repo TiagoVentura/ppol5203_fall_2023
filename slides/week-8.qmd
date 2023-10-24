@@ -1,6 +1,6 @@
 ---
 title: "<span style = 'font-size: 100%;'> PPOL 5203 - Data Science I: Foundations </span>"
-subtitle: "<span style = 'font-size: 100%;'> Week 8:Parsing Unstructured Data: Scraping Static Websites </span>"
+subtitle: "<span style = 'font-size: 100%;'> Week 8: Parsing Unstructured Data: Scraping Static Websites </span>"
 author: "Professor: Tiago Ventura"
 date: "10/17/2023"
 execute: 
@@ -23,63 +23,54 @@ format:
     theme: [simple, custom.scss]
 ---
 
-
 ## Plans for Today
 
-- What have we done and we are we going!
+-   What have we done and we are we going!
 
-- Scraping Static Websites
+-   Scraping Static Websites
 
-   - different strategies to acquire digital data
-   - html data structure
-   - scrape static websites
-   - build a scraper programmatically
-   
-## {}
+    -   different strategies to acquire digital data
+    -   html data structure
+    -   scrape static websites
+    -   build a scraper programmatically
 
-<br>
-<br>
+## 
 
-:::: {.columns}
+<br> <br>
 
+::: columns
 ::: {.column width="50%"}
 ### A Python Toolkit
 
-- Data structures
+-   Data structures
 
-- Iterators, Functions and Control Statements
+-   Iterators, Functions and Control Statements
 
-- Matrices
+-   Matrices
 
-- Pandas
+-   Pandas
 
-- Visualization
-
+-   Visualization
 :::
 
 ::: {.column width="50%"}
-
 ### A Data Science Swiss Army Knife
 
-- Git & Github (Week 1)
+-   Git & Github (Week 1)
 
-- **Acquiring Digital Data (Week 8 and Week 9)**
+-   **Acquiring Digital Data (Week 8 and Week 9)**
 
-- Statistical Learning and Modeling (Week 10)
+-   Statistical Learning and Modeling (Week 10)
 
-- Text as Data (Week 11 and Week 12)
+-   Text as Data (Week 11 and Week 12)
 
-- SQL (Week 13)
-
+-   SQL (Week 13)
 :::
-
-::::
+:::
 
 # Acquiring Digital Data
 
-
 ## Why? Digital Era
-
 
 ```{r}
 knitr::include_graphics("http://media3.washingtonpost.com/wp-dyn/content/graphic/2011/02/11/GR2011021100614.jpg")
@@ -89,58 +80,51 @@ knitr::include_graphics("http://media3.washingtonpost.com/wp-dyn/content/graphic
 
 Consider the following developments from the past 12 months:
 
-- Elon Musk has eliminated free access to Twitter’s API, and [the only academically useful paid tiers far exceed most researchers’ budgets](https://www.theverge.com/2023/3/30/23662832/twitter-api-tiers-free-bot-novelty-accounts-basic-enterprice-monthly-price).
+-   Elon Musk has eliminated free access to Twitter's API, and [the only academically useful paid tiers far exceed most researchers' budgets](https://www.theverge.com/2023/3/30/23662832/twitter-api-tiers-free-bot-novelty-accounts-basic-enterprice-monthly-price).
 
+-   [Musk has also demanded that Decahose users delete all Twitter data acquired under previous agreements](https://inews.co.uk/news/twitter-researchers-delete-data-unless-pay-2364535)--whether this demand will be extended to Academic API users is currently unknown.
 
-- [Musk has also demanded that Decahose users delete all Twitter data acquired under previous agreements](https://inews.co.uk/news/twitter-researchers-delete-data-unless-pay-2364535)–whether this demand will be extended to Academic API users is currently unknown.
+-   [Reddit has denied access to its API for Pushshift](https://www.reddit.com/r/modnews/comments/134tjpe/reddit_data_api_update_changes_to_pushshift_access/), a popular service used by researchers to collect Reddit data. Popular Reddit app Apollo is facing API charges of \$1.7M per month to continue operating.
 
+-   TikTok released a new API for researchers, which among other things requires them ["to regularly refresh TikTok Research API Data at least every fifteen (15) days, and delete data that is not available from the TikTok Research API at the time of each refresh."](https://www.tiktok.com/legal/page/global/terms-of-service-research-api/en)
 
-- [Reddit has denied access to its API for Pushshift](https://www.reddit.com/r/modnews/comments/134tjpe/reddit_data_api_update_changes_to_pushshift_access/), a popular service used by researchers to collect Reddit data. Popular Reddit app Apollo is facing API charges of $1.7M per month to continue operating.
-
-
-- TikTok released a new API for researchers, which among other things requires them [“to regularly refresh TikTok Research API Data at least every fifteen (15) days, and delete data that is not available from the TikTok Research API at the time of each refresh."](https://www.tiktok.com/legal/page/global/terms-of-service-research-api/en)
-
-
-- Crowdtangle, Meta’s researcher tool for acquiring data from Facebook and Instagram, still exists as of this writing. [But rumors of its imminent demise have been reported in multiple reputable outlets.](https://www.bloomberg.com/news/articles/2022-06-23/meta-pulls-support-for-tool-used-to-keep-misinformation-in-check?leadSource=uverify%20wall)
-
+-   Crowdtangle, Meta's researcher tool for acquiring data from Facebook and Instagram, still exists as of this writing. [But rumors of its imminent demise have been reported in multiple reputable outlets.](https://www.bloomberg.com/news/articles/2022-06-23/meta-pulls-support-for-tool-used-to-keep-misinformation-in-check?leadSource=uverify%20wall)
 
 ## What does it mean to "scrape" something off the web?
 
+-   leveraging the structure of a website to grab it's contents
 
-- leveraging the structure of a website to grab it's contents
+-   using a programming environment (such as R, Python, Java, etc.) to systematically extract that content.
 
-- using a programming environment (such as R, Python, Java, etc.) to systematically extract that content.
+-   accomplishing the above in an "unobtrusive" and legal way.
 
-- accomplishing the above in an "unobtrusive" and legal way.
+## What have I scraped?
 
-## What have I scraped? 
+-   Electoral data from many different countries;
 
-- Electoral data from many different countries;
+-   Composition of elites around the world;
 
-- Composition of elites around the world;
+-   Wikipedia;
 
-- Wikipedia;
+-   Toutiao, a news aggregation from China;
 
-- Toutiao, a news aggregation from China;
+-   Political Manifestos in Brazil
 
-- Political Manifestos in Brazil
+-   Fact-Checking News
 
-- Fact-Checking News
+-   Facebook and Youtube Live Chats.
 
-- Facebook and Youtube Live Chats.
+-   Property Prices from Zillow.
 
-- Property Prices from Zillow.
-
-- News in Latin American
-
+-   News in Latin American
 
 ## What is a website?
 
-A website in general is a combination of HTML, CSS, XML, PHP, and Javascript. 
+A website in general is a combination of HTML, CSS, XML, PHP, and Javascript.
 
 <br><br>
 
-```
+```         
 <html>
 <head>
   <title> Michael Cohen's Email </title>
@@ -157,11 +141,12 @@ A website in general is a combination of HTML, CSS, XML, PHP, and Javascript.
 </html>
 ```
 
-<br>
-**We will care mostly about HTMLs and CSSs.**
+<br> **We will care mostly about HTMLs and CSSs.**
+
+# Scraping is all about finding tags and collecting the data associated with them
+
 
 ## Understanding the Tags
-
 
 ```{r}
 knitr::include_graphics("https://static.semrush.com/blog/uploads/media/59/fc/59fc528eecc00e43b1a3ed5d9b9933ee/4YA3vCJ_Hw6DucoVZ40FbKFRppAReJVOkLKHcZlDkO-9geydLO6tw9uzFJFZf5nam3QcT7p0hRdpFyL2uPhoDISD8CPZwfPE5GTqgpH53q9M99QWgDVhjgQrCMOlQI9fA1T2dCxJ5T2goCV3k1wo-Jc.webp")
@@ -169,29 +154,26 @@ knitr::include_graphics("https://static.semrush.com/blog/uploads/media/59/fc/59f
 
 ## Most common tags
 
-- **p** – paragraphs
-- **a href** – links
-- **div** – divisions
-- **h** – headings
-- **table** – tables
+-   **p** -- paragraphs
+-   **a href** -- links
+-   **div** -- divisions
+-   **h** -- headings
+-   **table** -- tables
 
 See [here for more about html tags](https://betterprogramming.pub/understanding-html-basics-for-web-scraping-ae351ee0b3f9)
-
-
-# Scraping is all about finding tags and collecting the data associated with them
 
 
 ## Scraping Routine
 
 Scraping often involves the following routine:
 
-- **Step 1:** Find a website with information you want to collect
+-   **Step 1:** Find a website with information you want to collect
 
-- **Step 2:** Understand and Decipher the website
+-   **Step 2:** Understand and Decipher the website
 
-- **Step 3:** Write code to collect **one* realization of the data
+-   **Step 3:** Write code to collect \*\*one\* realization of the data
 
-- **Step 4:** Build a scraper -- generalize you code into a function.
+-   **Step 4:** Build a scraper -- generalize you code into a function.
 
 We will cover these steps with code!!
 
@@ -201,14 +183,13 @@ Webscraping is legal as long as the **scraped data is publicly available** and t
 
 Here is a list of good practices for scraping:
 
+-   Don't hit servers too often and on peak hours
 
-- Don't hit servers too often and on peak hours
+-   Slow down your code to the speed humans would manually do
 
-- Slow down your code to the speed humans would manually do
+-   Use data responsibly (As academics often do)
 
-- Use data responsibly (As academics often do)
-
-- Respect robots.txt
+-   Respect robots.txt
 
 ```{python}
 #| eval: false
@@ -219,5 +200,4 @@ import time
 time.sleep(random.uniform(1,5))
 ```
 
-
-# [Notebook on Scraping]()
+# [Notebook on Scraping](/lecture_notes/week-08/_week-07_scraping_static.html)

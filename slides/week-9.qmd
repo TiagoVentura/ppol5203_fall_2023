@@ -1,0 +1,47 @@
+---
+title: "<span style = 'font-size: 100%;'> PPOL 5203 - Data Science I: Foundations </span>"
+subtitle: "<span style = 'font-size: 100%;'> Week 9: Introduction to Models and Statistical Learning </span>"
+author: "Professor: Tiago Ventura"
+date: "10/17/2023"
+execute: 
+  echo: false
+  error: true
+format:
+  revealjs: 
+    transition: slide
+    background-transition: fade
+    code-line-numbers: false
+    width: 1600
+    height: 1200
+    center: false
+    slide-number: true
+    incremental: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    footer: "Data science I: Foundations"
+    theme: [simple, custom.scss]
+---
+
+
+## Plans for Today
+
+- Introduction to Machine Learning
+
+  - Applications
+  
+  - Why do we build models in social science?
+  
+  - Inference vs Predictive Modelling
+  
+  - Statistical Learning: 
+  
+    + Supervised vs Unsupervised
+    + Regression vs Classification
+    + Bias and Variance Trade-off
+    + Training models
+    
+  - Coding: many many many models
+
+
+  
