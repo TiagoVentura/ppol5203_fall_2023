@@ -23,7 +23,6 @@ format:
     theme: [simple, custom.scss]
 ---
 
-
 ## Plans for Today
 
 <br>
@@ -32,17 +31,15 @@ format:
 
 -   Data Wrangling in Pandas
 
-    -  Loading and Writing Data
-    
-    -  Data Processsing: row, columns, and grouped
+    -   Loading and Writing Data
 
-    - Tidying and Joining
-    
-    - Miscelanneous (Work by yourselves in the notebook)
-  
+    -   Data Processsing: row, columns, and grouped
+
+    -   Tidying and Joining
+
+    -   Miscelanneous (Work by yourselves in the notebook)
 
 # Feedback in the survey
-
 
 ## Continue Doing
 
@@ -64,8 +61,7 @@ format:
 
 > **I think everything so far is good. But I just feel like meeting once per week is not a good idea. I prefer splitting 3 hours into two 1.5-hour classes. But I know this is not the thing we can change hhh.**
 
-
-> **Good, love the class so far** 
+> **Good, love the class so far**
 
 ## Start Doing
 
@@ -77,57 +73,42 @@ format:
 
 > **I think that it would help to write the code ourselves in class. Perhaps this could be simple tasks spread throughout the lectures that we should complete on our own or as a class in real time. Maybe after each major concept.**
 
-
 > **Working with some different datasets. We could start working on datasets related to policies or do problem sets related to policies. For some problem sets, it could help to see an example of the desired result**
-
 
 ## Taking actions on your feedback:
 
 <br>
 
-::: {.fragment}
-
+::: fragment
 #### DataCamp courses
 
-- I will start assigning related datacamp courses every week. 
+-   I will start assigning related datacamp courses every week.
 
-- Amazing tool for practicing
-
+-   Amazing tool for practicing
 :::
 
-::: {.fragment}
-
+::: fragment
 #### In-class exercises
 
-- Switch up for more small exercises throughout the class, instead of a big one at the end.
-
+-   Switch up for more small exercises throughout the class, instead of a big one at the end.
 :::
 
-::: {.fragment}
-
+::: fragment
 #### Problem Sets
 
-- I will not delay problem sets anymore. Will adjust them accordingly
+-   I will not delay problem sets anymore. Will adjust them accordingly
 :::
 
-::: {.fragment}
-
+::: fragment
 #### Pace
 
-- Keep a somewhat similar pace. Still good in the syllabus. Work on your notebooks and readings. This is key. 
+-   Keep a somewhat similar pace. Still good in the syllabus. Work on your notebooks and readings. This is key.
 :::
 
-::: {.fragment}
-
+::: fragment
 #### Datasets
 
-- We will mostly work with real, policy related datasets from now on. Impossible to cover building blocks (loops, functions, generators, numpy) using big, messy datasets. 
+-   We will mostly work with real, policy related datasets from now on. Impossible to cover building blocks (loops, functions, generators, numpy) using big, messy datasets.
 :::
 
-
-#  Pandas Notebooks
-
-
-
-
-
+# Pandas Notebooks

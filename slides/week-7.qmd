@@ -200,6 +200,8 @@ gapminder = (gapminder
 ## {}
 
 ```{python}
+#| echo: true
+
 # build in plotnine graph
 
 # step 1: data

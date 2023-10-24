@@ -23,45 +23,41 @@ format:
     theme: [simple, custom.scss]
 ---
 
-
 ## Plans for Today
 
 <br>
 
--   Discuss your final project. 
+-   Discuss your final project.
 
 -   Numpy
 
 -   Intro do Pandas
-    
-    -  Series
-    
-    -  Acesssing Pandas elements
 
-    - Creating DataFrames
-  
+    -   Series
+
+    -   Acesssing Pandas elements
+
+    -   Creating DataFrames
 
 ## Final Project
 
+::: incremental
+-   **What is it?** A data science project, applying concepts learned throughout the course.
 
-:::{.incremental}
-- **What is it?** A data science project, applying concepts learned throughout the course.
+-   Involves collecting data, cleaning and analyzing it, and presenting your findings
 
-- Involves collecting data, cleaning and analyzing it, and presenting your findings
+-   The project is composed of three parts:
 
-- The project is composed of three parts:
+    -   a 2 page project proposal: (which should be discussed and approved by me)
 
-  - a 2 page project proposal: (which should be discussed and approved by me)
+    -   an in-class presentation,
 
-  - an in-class presentation,
-
-  - A 10-page project report.
-
+    -   A 10-page project report.
 :::
 
 ## Deadlines and Logistics
 
-<br> 
+<br>
 
 | **Requirement**  | **Due**     | **Length**    | **Percentage** |
 |------------------|-------------|---------------|----------------|
@@ -69,36 +65,33 @@ format:
 | Presentation     | December 5  | 10-15 minutes | 10%            |
 | Project Report   | December 12 | 10 pages      | 25%            |
 
+<br>
 
-<br> 
+::: incremental
+-   Groups of three students. You pick your groups.
 
-:::{.incremental}
+-   Before October 26, you should have meet with me to discuss your proposal.
 
-- Groups of three students. You pick your groups. 
+-   At lest one hour before our meeting, send me a draft of your proposal.
 
-- Before October 26, you should have meet with me to discuss your proposal. 
+-   Send me an email with your group and when you are going to my office hours.
 
-- At lest one hour before our meeting, send me a draft of your proposal. 
-
-- Send me an email with your group and when you are going to my office hours. 
-
-- Our meeting should be before October 26
+-   Our meeting should be before October 26
 :::
 
-# More information: [https://tiagoventura.github.io/ppol5203_fall_2023/finalproject.html](https://tiagoventura.github.io/ppol5203_fall_2023/finalproject.html)
-  
+# More information: <https://tiagoventura.github.io/ppol5203_fall_2023/finalproject.html>
+
 # Numpy
 
 ## Motivating Numpy
 
-So far, all our datatypes are geared towards kind of unidimensional data. 
+So far, all our datatypes are geared towards kind of unidimensional data.
 
+-   string: sequence of words
 
-- string: sequence of words
+-   list: sequence of heterogenous elements
 
-- list: sequence of heterogenous elements
-
-- dictionaries: key-value combinations. 
+-   dictionaries: key-value combinations.
 
 ## Nested Lists
 
@@ -160,33 +153,33 @@ source: [Python Programming for Data Science](https://www.tomasbeuzen.com/python
 
 ## Why Pandas?
 
-:::{.incremental}
+::: incremental
+-   `numpy` offers a great flexibility and efficiency when dealing with data matrices.
 
-- `numpy` offers a great flexibility and efficiency when dealing with data matrices. 
+-   Great for Mathematical operations.
 
-- Great for Mathematical operations. 
+-   Bad for data wrangling tasks (Numpy only accepts the same data type)
 
-- Bad for data wrangling tasks (Numpy only accepts the same data type)
+-   The `pandas` package was designed to deal with this limitation by providing data structures to deal with retangular heterogenous data type.
 
-- The `pandas` package was designed to deal with this limitation by providing data structures to deal with retangular heterogenous data type. 
-
-- Main Data Structure: Series and DataFrames
-
+-   Main Data Structure: Series and DataFrames
 :::
 
 ## Pandas Series
 
-A `pandas` series is a **one-dimensional** labeled array. 
+A `pandas` series is a **one-dimensional** labeled array.
 
-:::{.incremental}
-- Capable of holding different data types (e.g. integer, boolean, strings, etc.). 
+::: incremental
+-   Capable of holding different data types (e.g. integer, boolean, strings, etc.).
 
-- It holds two key components: 
+-   It holds two key components:
 
-  - **index**: names in the axis
-  - **values**: values in the series
-*
-- At it's core, a `Pandas` `Series` is nothing but a **column** in an excel sheet or an R `data.frame`.  
+    -   **index**: names in the axis
+    -   **values**: values in the series
+
+-   
+
+-   At it's core, a `Pandas` `Series` is nothing but a **column** in an excel sheet or an R `data.frame`.\
 :::
 
 ## Pandas Series Constructor
@@ -198,26 +191,25 @@ s = pd.Series(["Argentina", "France", "Germany","Spain", "Italy", "Brazil"],
 print(s)
 ```
 
-You can feed to the constructor: 
+You can feed to the constructor:
 
-- list
+-   list
 
-- dictionaries
+-   dictionaries
 
-- scalar values
+-   scalar values
 
-- ndarray
-
+-   ndarray
 
 ## Pandas DataFrames
 
 A pandas`DataFrame` is a two dimensional, relational data structure with the capacity to handle heterogeneous data types.
 
-- **relational**: each column value contained within a row entry corresponds with the same observation.
+-   **relational**: each column value contained within a row entry corresponds with the same observation.
 
-- **two dimensional**: a matrix data structure
+-   **two dimensional**: a matrix data structure
 
-- **heterogeneous**: different data types can be contained across each column series. 
+-   **heterogeneous**: different data types can be contained across each column series.
 
 ## Constructor
 
@@ -233,16 +225,15 @@ print(df)
 
 # Pandas DataFrames vs R Dataframes
 
-## Important concepts: 
+## Important concepts:
 
-- Indexing for Accessing Data Frames in Python
-  - No implict indexing (**d[1,2]**) will throw you an error. 
-  - .iloc[] = use the numerical index position to call to locations in the DataFrame.
-  - .loc[] = use the labels to call to the location in the data frame.
-  
-- Creating Dataframes
-  - row-wise: using a list of dictionaries
-  - column-wise: using a dictionaries of lists
+-   Indexing for Accessing Data Frames in Python
+    -   No implict indexing (**d\[1,2\]**) will throw you an error.
+    -   .iloc\[\] = use the numerical index position to call to locations in the DataFrame.
+    -   .loc\[\] = use the labels to call to the location in the data frame.
+-   Creating Dataframes
+    -   row-wise: using a list of dictionaries
+    -   column-wise: using a dictionaries of lists
 
 # [Notebook for Pandas](/lecture_notes/week-05/_week_5a_intro_to_pandas.html)
 
