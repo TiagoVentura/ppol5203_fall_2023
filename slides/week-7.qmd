@@ -23,7 +23,6 @@ format:
     theme: [simple, custom.scss]
 ---
 
-
 ## Plans for Today
 
 <br>
@@ -33,7 +32,6 @@ format:
 -   Joining and Tidying Data
 
 -   Data Visualization: Principles and Practice
-
 
 ## Datacamp
 
@@ -45,34 +43,29 @@ knitr::include_graphics("week7_figs/datacamp.png")
 
 # Readings for this week are very important!!
 
-
-# [Pandas Notebook Join and Tidy]("https://tiagoventura.github.io/ppol5203_fall_2023/weeks/week-07.html")
-
+# [Pandas Notebook Join and Tidy](%22https://tiagoventura.github.io/ppol5203_fall_2023/weeks/week-07.html%22)
 
 # Data Visualization
 
 ## TLDR
 
-- Visualization matters! A figure is almost always better than a table
+-   Visualization matters! A figure is almost always better than a table
 
-- You have a full-semester ahead of you for Data Visualization
+-   You have a full-semester ahead of you for Data Visualization
 
-- Here -> cover the basics. 
+-   Here -\> cover the basics.
 
-  - focus more on grammar of graphics and `plotnine` - a ggplot2 implementation in Python
-  
-  - skimp through native Python libraries (`matplotlib` and `seaborn`)
-  
-  
-  
+    -   focus more on grammar of graphics and `plotnine` - a ggplot2 implementation in Python
+
+    -   skimp through native Python libraries (`matplotlib` and `seaborn`)
+
 ## What do you see?
 
-- How many variables?
+-   How many variables?
 
-- How are these variables represented in the figure?
+-   How are these variables represented in the figure?
 
-- What are the non-data related information presented in the graph?
-
+-   What are the non-data related information presented in the graph?
 
 ```{r}
 knitr::include_graphics("week7_figs/global_res_no_band.png")
@@ -80,7 +73,7 @@ knitr::include_graphics("week7_figs/global_res_no_band.png")
 
 ## Aesthetics
 
-The key aspect on data visualization is **to take data points** and convert them **visual elements**. 
+The key aspect on data visualization is **to take data points** and convert them **visual elements**.
 
 > All data visualizations map data values into quantifiable features of the resulting graphic. We refer to these features as aesthetics. *Fundamentals of Data Visualization, Claus Wilke*
 
@@ -94,18 +87,15 @@ knitr::include_graphics("https://clauswilke.com/dataviz/aesthetic_mapping_files/
 knitr::include_graphics("https://clauswilke.com/dataviz/coordinate_systems_axes_files/figure-html/cartesian-coord-1.png")
 ```
 
-
 ## More dimensions
 
-### We often want map more variables into the graph. We do this exploring new aesthetics. 
-
+### We often want map more variables into the graph. We do this exploring new aesthetics.
 
 ```{r}
 knitr::include_graphics("week7_figs/global_no_aes.png")
 ```
 
 ## Color Aesthetics to Distinguish
-
 
 ```{r}
 knitr::include_graphics("week7_figs/global_color_to_distinguish.png")
@@ -117,7 +107,6 @@ knitr::include_graphics("week7_figs/global_color_to_distinguish.png")
 knitr::include_graphics("week7_figs/global_color_to_highlight.png")
 ```
 
-
 ## To represent visually a sequence of data points
 
 ```{r}
@@ -126,38 +115,36 @@ knitr::include_graphics("week7_figs/global_color_to_values.png")
 
 ## Grammar of Graphics
 
-**Grammar**: set of structural rules that dictate how words in a language can be combined to form meaningful sentences. 
+**Grammar**: set of structural rules that dictate how words in a language can be combined to form meaningful sentences.
 
 **Grammar of Graphics**: brings a similar effort to establish structural rules to data visualizations
 
 **Implementation**:
 
-- `ggplot2` in R
+-   `ggplot2` in R
 
-- `plotnine` in Python
-
+-   `plotnine` in Python
 
 ## Major Components of the Grammar of Graphics
 
+-   plotnine/ggplot2 graphs have three key steps
 
-- plotnine/ggplot2 graphs have three key steps
+    -   Data Step: The raw data that you want to plot.
 
-    - Data Step: The raw data that you want to plot.
+    -   Geometries step: The geometric shapes that will represent the data.
 
-    - Geometries step: The geometric shapes that will represent the data.
+    -   Aesthetics \<aes()\> step: Aesthetics of the geometric and statistical objects, such as position, color, size, shape, and transparency
 
-     - Aesthetics <aes()> step: Aesthetics of the geometric and statistical objects, such as position, color, size, shape, and transparency
+-   Additional:
 
-- Additional: 
+    -   Facets: to produce create subplots based on specific variable
 
-    - Facets: to produce create subplots based on specific variable
+    -   annotations: labels, titles, subtitles, captions.
 
-    - annotations: labels, titles, subtitles, captions.
+    -   Coordinates & Scales: some additional functions to adjust aesthetics you are mapping (change colors, size, alpha, scale of x and y coordinates)
 
-     - Coordinates & Scales: some additional functions to adjust aesthetics you are mapping (change colors, size, alpha, scale of x and y coordinates)
+    -   Theme: Control the finer presentation details like font size, background color, grid line styles, etc.
 
-    - Theme: Control the finer presentation details like font size, background color, grid line styles, etc.
-    
 ## Gapminder
 
 ```{python}
@@ -179,25 +166,17 @@ gapminder = (gapminder
 
 ```
 
-## {.centered}
+##  {.centered}
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br> <br> <br> <br> <br> <br> <br> <br>
 
-### `ggplot` (data = `<DATA>`){.centered}
+### `ggplot` (data = `<DATA>`) {.centered}
 
 ### `+`{.centered}
 
 ### `geom_<representation>` (aes (`<aesthethics>`) ) {.centered}
 
-
-## {}
+## 
 
 ```{python}
 #| echo: true
@@ -217,38 +196,34 @@ ggplot(data=gapminder) +
 
 ```
 
+##  {.centered}
 
+<br> <br>
 
-## {.centered}
+### `ggplot`(data = `<DATA>`)
 
-<br>
-<br>
-
-### `ggplot`(data = `<DATA>`)  
-
-### `+` 
+### `+`
 
 ### `geom_<representation>`(aes(`<aesthethics>`))
 
-### `+` 
+### `+`
 
 ### `geom_<representation>`(aes(`<aesthethics>`))
 
-### `+` 
+### `+`
 
 ### `scale_<aesthetics>`()
 
-### `+` 
+### `+`
 
 ### `theme_<>`
 
-### `+` 
+### `+`
 
 ### `facet_<>`
 
-### `+` 
+### `+`
 
 ### `labels`
-
 
 # Notebook for Data Viz - Practice!

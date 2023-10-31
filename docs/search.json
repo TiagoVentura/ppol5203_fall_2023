@@ -4,14 +4,28 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nNumpy and Intro to Pandas\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Data Wrangling\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nJoining, Tidying and Visualizing Data\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nScraping\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nIntroduction to Statistical Learning\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nText as Data II: Topics + Supervised Models\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Week\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nNumpy and Intro to Pandas\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Data Wrangling\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nJoining, Tidying and Visualizing Data\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nScraping\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nApis + Selenium\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nText as Data I: Description and Topics\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "schedule.html#weekly-schedule",
     "href": "schedule.html#weekly-schedule",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nNumpy and Intro to Pandas\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Data Wrangling\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nJoining, Tidying and Visualizing Data\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nScraping\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nIntroduction to Statistical Learning\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nText as Data II: Topics + Supervised Models\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Week\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nNumpy and Intro to Pandas\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Data Wrangling\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nJoining, Tidying and Visualizing Data\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nScraping\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nApis + Selenium\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nText as Data I: Description and Topics\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "problem_sets/ps04/ps04.html",
+    "href": "problem_sets/ps04/ps04.html",
+    "title": "Problem Set 04",
+    "section": "",
+    "text": "Github Classroom Link"
+  },
+  {
+    "objectID": "problem_sets/ps04/ps04.html#materials",
+    "href": "problem_sets/ps04/ps04.html#materials",
+    "title": "Problem Set 04",
+    "section": "",
+    "text": "Github Classroom Link"
   },
   {
     "objectID": "problem_sets/ps02/ps02.html",
@@ -74,7 +88,7 @@
     "href": "slides/week-8.html#what-is-a-website",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "What is a website?",
-    "text": "What is a website?\nA website in general is a combination of HTML, CSS, XML, PHP, and Javascript.\n\n&lt;html&gt;\n&lt;head&gt;\n  &lt;title&gt; Michael Cohen's Email &lt;/title&gt;\n  &lt;script&gt;\n    var foot = bar;\n  &lt;script&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;div id=\"payments\"&gt;\n  &lt;h2&gt;Second heading&lt;/h2&gt;\n  &lt;p class='slick'&gt;information about &lt;br/&gt;&lt;i&gt;payments&lt;/i&gt;&lt;/p&gt;\n  &lt;p&gt;Just &lt;a href=\"http://www.google.com\"&gt;google it!&lt;/a&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n We will care mostly about HTMLs and CSSs."
+    "text": "What is a website?\nA website in general is a combination of HTML, CSS, XML, PHP, and Javascript.\n&lt;html&gt;\n&lt;head&gt;\n  &lt;title&gt; Michael Cohen's Email &lt;/title&gt;\n  &lt;script&gt;\n    var foot = bar;\n  &lt;script&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;div id=\"payments\"&gt;\n  &lt;h2&gt;Second heading&lt;/h2&gt;\n  &lt;p class='slick'&gt;information about &lt;br/&gt;&lt;i&gt;payments&lt;/i&gt;&lt;/p&gt;\n  &lt;p&gt;Just &lt;a href=\"http://www.google.com\"&gt;google it!&lt;/a&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n We will care mostly about HTMLs and CSSs."
   },
   {
     "objectID": "slides/week-8.html#understanding-the-tags",
@@ -103,6 +117,132 @@
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Ethical Challenges on scraping",
     "text": "Ethical Challenges on scraping\nWebscraping is legal as long as the scraped data is publicly available and the scraping activity does not harm the website and the people from whom information is being scraped.\nHere is a list of good practices for scraping:\n\nDon’t hit servers too often and on peak hours\nSlow down your code to the speed humans would manually do\nUse data responsibly (As academics often do)\nRespect robots.txt\n\n\n# Put the system to sleep by that random unit\nimport time\ntime.sleep(random.uniform(1,5))"
+  },
+  {
+    "objectID": "slides/week-10.html#plans-for-today",
+    "href": "slides/week-10.html#plans-for-today",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Plans for Today",
+    "text": "Plans for Today\n\nIntroduction to Machine Learning\n\nStatistical Models\nInference vs Predictive Modelling\nStatistical Learning:\n\nSupervised vs Unsupervised\nRegression vs Classification\nBias and Variance Trade-off\nTraining models\n\nApplication of ML in Social Sciences\nCoding"
+  },
+  {
+    "objectID": "slides/week-10.html#some-questions-we-are-interested-as-social-scientist",
+    "href": "slides/week-10.html#some-questions-we-are-interested-as-social-scientist",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Some questions we are interested as social scientist…",
+    "text": "Some questions we are interested as social scientist…\n\nWhich factors affect the likelihood of a country backslide to autocracy?\nWhy countries go to war?\nDetect corruption or fraud in elections using official documents\nPredict/detect the sentiment/toxicity/presence of misinformation on a social media post\nEstimating socio-demographics of a region where census data is not available"
+  },
+  {
+    "objectID": "slides/week-10.html#statistical-models",
+    "href": "slides/week-10.html#statistical-models",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Statistical Models",
+    "text": "Statistical Models\nAll these questions are complex. To answer them, we build models:\n\nA model is “a simplified representation of reality created to serve a purpose.” (Provost & Fawcett 2013)\n\nBy definition:\n\nmodels are simplification of a reality\nhighlight key aspects of our outcome of interest\nare all wrong, but some are useful"
+  },
+  {
+    "objectID": "slides/week-10.html#a-model-and-its-components",
+    "href": "slides/week-10.html#a-model-and-its-components",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "A Model and its components",
+    "text": "A Model and its components\nThe aim is to model the relationship between the outcome and some set of features features\n\\[ y = f(X) + \\sigma\\]\nWhere:\n\n\\(y\\) is the outcome/dependent/response variable\n\\(X\\) is a matrix of predictors/features/independent variables\n\\(f()\\) is some fixed but unknown function mapping X to y. The signal in the data\n\\(\\sigma\\) is some random error term. The “noise” in the data."
+  },
+  {
+    "objectID": "slides/week-10.html#statistical-learning",
+    "href": "slides/week-10.html#statistical-learning",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Statistical Learning",
+    "text": "Statistical Learning\nStatistical learning refers to a set of methods/approaches for estimating \\(f(.)\\)\n\\[ \\hat{y} = \\hat{f}(X) + \\sigma\\]\nWhere \\(\\hat{f}(X)\\) is an approximation of the “true” functional form, \\(f(X)\\) and \\(\\hat{y}\\) is the predicted value of a true value y.\nWhen we build models, the aim is to find a \\(\\hat{f}(X)\\) that minimizes the reducible error in the model:"
+  },
+  {
+    "objectID": "slides/week-10.html#reducible-vs.-irreducible-error",
+    "href": "slides/week-10.html#reducible-vs.-irreducible-error",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Reducible vs. Irreducible Error",
+    "text": "Reducible vs. Irreducible Error\n\\[E(y - \\hat{y})^2\\] \\[E[f(X) + \\epsilon -  \\hat{f}(X)]^2\\]\n\\[\\underbrace{E[f(X) -\\hat{f}(X)]^2}_{\\text{Reducible}} + \\underbrace{var(\\epsilon)}_{\\text{Irreducible}}\\]\nThe “reducible” error is the systematic signal. We can reduce this error by using different functional forms, better data, or a mixture of those two.\nThe “irreducible” error is associated with the random noise around \\(y\\).\nStatistical learning is concerned with minimizing the reducible error. However, our predictions will never be perfect given the irreducible error.\nThere is a lower bound on how accurate we can be."
+  },
+  {
+    "objectID": "slides/week-10.html#inference-social-science-vs-prediction-machine-learning",
+    "href": "slides/week-10.html#inference-social-science-vs-prediction-machine-learning",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Inference (Social Science) vs Prediction (Machine Learning)",
+    "text": "Inference (Social Science) vs Prediction (Machine Learning)\nTwo reasons we want to estimate \\(f(\\cdot)\\):\n\nInference\n\nGoal is interpretation\n\nWhich predictors are associated with the response?\nWhat is the relationship (parameters) between the response and the predictors?\nIs the relationship causal?\n\n Key limitation:\n\nusing functional forms that are easy to interpret (e.g. lines) might be far away from the true function form of \\(f(X)\\).\n\nClassic Social Science Approach\n\n\n\\[ y_i = \\beta_1*education_i + beta_2*gender_i + \\sigma_i \\]"
+  },
+  {
+    "objectID": "slides/week-10.html#inference-social-science-vs-prediction-machine-learning-1",
+    "href": "slides/week-10.html#inference-social-science-vs-prediction-machine-learning-1",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Inference (Social Science) vs Prediction (Machine Learning)",
+    "text": "Inference (Social Science) vs Prediction (Machine Learning)\n\nPrediction\n\nGoal is to predict values of the outcome, \\(\\hat{y}\\)\n\\(\\hat{f}(X)\\) is treated as a black box\n\nmodel doesn’t need to be interpretable as long as it provides an accurate prediction of \\(y\\).\n\n Key limitation:\n\nInterpretation: it is difficult to know which variables are doing the heavy lifting and the exact influence of \\(x\\) on \\(y\\).\n\nThis is the Machine Learning tradition, or, statistical learning"
+  },
+  {
+    "objectID": "slides/week-10.html#supervised-and-unsupervised-learning",
+    "href": "slides/week-10.html#supervised-and-unsupervised-learning",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Supervised and Unsupervised Learning",
+    "text": "Supervised and Unsupervised Learning\n\nSupervised Learning\n\nfor each observation of the predictor measurement \\(x_i\\) there is an associated response measurement \\(y_i\\). In essence, there is an outcome we are aiming to accurately predict or understand.\nuse regression and classification methods"
+  },
+  {
+    "objectID": "slides/week-10.html#unsupervised",
+    "href": "slides/week-10.html#unsupervised",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Unsupervised",
+    "text": "Unsupervised\n\nUnsupervised Learning\n\nwe observe a vector of measurements \\(x_i\\) but no associated response \\(y_i\\).\n“unsupervised” because we lack a response variable that can supervise our analysis."
+  },
+  {
+    "objectID": "slides/week-10.html#interpretation-vs-flexibility",
+    "href": "slides/week-10.html#interpretation-vs-flexibility",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Interpretation vs Flexibility",
+    "text": "Interpretation vs Flexibility\n\n\n\n“There is no free lunch in statistics”\n\n\nNo one method dominates all others over all possible data sets.\nIt is an important task to decide for any given set of data which method produces the best results\nBalance between model interpretation and model flexibility"
+  },
+  {
+    "objectID": "slides/week-10.html#building-models-over-fitting-vs-under-fitting",
+    "href": "slides/week-10.html#building-models-over-fitting-vs-under-fitting",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Building Models: Over-Fitting vs Under-Fitting",
+    "text": "Building Models: Over-Fitting vs Under-Fitting\nFor inference work (in you stats class), you get some data, and you estimate a model using the entire data. This is not what we do in machine learning.\nWhat does learning mean?\n\nMain objective: predict data accurately by learning from previous seen\nGoal:\ncapture signal in the best way possible \\(f(X)\\)\nIgnore noise (irreducible error)"
+  },
+  {
+    "objectID": "slides/week-10.html#challenge-avoid-overfitting-the-data",
+    "href": "slides/week-10.html#challenge-avoid-overfitting-the-data",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Challenge: avoid overfitting the data",
+    "text": "Challenge: avoid overfitting the data"
+  },
+  {
+    "objectID": "slides/week-10.html#train-the-model",
+    "href": "slides/week-10.html#train-the-model",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Train the model",
+    "text": "Train the model\nThe purpose of training the model is to capture signal and ignore noise.\nTo do so:\n\nDefine a accuracy metric:\n\nIn the regression setting, the most common accuracy metric is mean squared error (MSE).\n\\(MSE = \\frac{\\sum^N_{i=1} (y_i - \\hat{f}(X_i))^2}{N}\\)\n\nTrain-Test Split\n\nSplit your data between training and test\nTraining data: find the best model and tune the parameters of these models\nTest data: assess the accuracy of your model.\n\nSelect the model based on smaller out of sample predictive accuracy"
+  },
+  {
+    "objectID": "slides/week-10.html#bias-and-variance-trade-off",
+    "href": "slides/week-10.html#bias-and-variance-trade-off",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Bias and Variance Trade-off",
+    "text": "Bias and Variance Trade-off\n\n\nhigh variance: new data, new pattern.\nhigh bias: rigid pattern, doesn’t reflect the data\nTrade-off: as we reduce bias, we risk overfiting. Trainning properly is key"
+  },
+  {
+    "objectID": "slides/week-10.html#cross-validation",
+    "href": "slides/week-10.html#cross-validation",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Cross-Validation",
+    "text": "Cross-Validation\nIf you go back and forth between training and test to decide which model to use, you might also be overfiting. This is the idea of data leakage.\n\nWe can use re-sampling techniques to generate estimates for the test error.\n“Re-sampling” involves repeatedly drawing samples from a training set and refitting a model of interest on each sample in order to obtain additional information about the fitted model.\nWe can use re-sampling techniques to generate estimates for the test error."
+  },
+  {
+    "objectID": "slides/week-10.html#k-fold-cross-validation",
+    "href": "slides/week-10.html#k-fold-cross-validation",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "K-Fold Cross Validation",
+    "text": "K-Fold Cross Validation\n\nK-Fold Cross Validation Involves randomly dividing the data into \\(k\\) groups (or folds). Model is trained on \\(k-1\\) folds, then test on the remaining fold.\nProcess is repeated \\(k\\) times, each time using a new fold. Offers \\(k\\) estimates of the test error, which we average."
+  },
+  {
+    "objectID": "slides/week-10.html#important-concepts",
+    "href": "slides/week-10.html#important-concepts",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Important Concepts",
+    "text": "Important Concepts\n\nInference vs Prediction\nPrediction: black-box function, highly flexible to reduce error.\nLearning: train the model in seen data. Test and calculate metrics in seen\nAvoid overfitting and data leakage by using resampling methods.\n\n\n\nData science I: Foundations"
   },
   {
     "objectID": "slides/week-3.html#plans-for-today",
@@ -144,7 +284,7 @@
     "href": "slides/week-3.html#what-happens-upon-assignment",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "What happens upon assignment?",
-    "text": "What happens upon assignment?\nAction 1: A reference is assigned to an object, with an id number in memory\n\nid(x)\n\n5415674888"
+    "text": "What happens upon assignment?\nAction 1: A reference is assigned to an object, with an id number in memory\n\nid(x)\n\n4643628040"
   },
   {
     "objectID": "slides/week-3.html#section-1",
@@ -623,284 +763,46 @@
     "text": "Instructors and TAs\n\nInstructor: Professor Tiago Ventura\n\nPronouns: He/Him\nEmail: tv186@georgetown.edu\nOffice hours:\n\nTime: Every Thursday, 4pm - 6pm\nLocation: Old North, 312\n\n\n\n\n\n\n\n\nWhen should I go to your office hours?\n\n\n\n\n\n\nYou are all welcome to the office hours. You can come to the office hours to:\n\ndrink some coffee;\ntalk about soccer;\nAsk what I am doing research at;\nAsk any question about our class.\n\nAll are valid options! And no need to schedule time with me!\n\n\nTA: Sierra Sikorski (DSPP, Second Year)\n\nEmail: sps126@georgetown.edu@georgetown.edu\nOffice Hours:\n\nWednesdays, 12:30 to 1:30 pm, at Old North Lounge\nThursday, 1:00pm to 2:00 pm, via Zoom\n\n\n\n\nCourse Infra-structure\nClass Website: This class website will be used throughout the course and should be checked on a regular basis for lecture materials and required readings.\nClass Slack Channel: The class also has a dedicated slack channel. The channel serves as an open forum to discuss, collaborate, pose problems/questions, and offer solutions. Students are encouraged to pose any questions they have there as this will provide the professor and TA the means of answering the question so that all can see the response. If you’re unfamiliar with, please consult the following start-up tutorial https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-members. Please follow the invite link to be added to the Slack channel.\nCanvas: A Canvas site http://canvas.georgetown.edu will be used throughout the course and should be checked on a regular basis for announcements. Materials will be posted here, and not on canvas, or distributed in class or by e-mail. Support for Canvas is available at (202) 687-4949\nDatacamp: As part of this course, you will have access to a DataCamp classroom that you can use to take Datacamp modules for free. Datacamp courses can be a useful tool for you to practice the concepts we see in class. Although I will not assign specific courses for you,, you can use Datacamp courses to review the topics we cover in class. The lecture notes will cover in details all our in-class discussions. Datacamp courses will be considered additional material."
   },
   {
-    "objectID": "lecture_notes/week-01/course_infrastructure.html",
-    "href": "lecture_notes/week-01/course_infrastructure.html",
-    "title": "Week 1: Course Infrastructure",
+    "objectID": "lecture_notes/week-01/intro-to-quarto.html",
+    "href": "lecture_notes/week-01/intro-to-quarto.html",
+    "title": "Week 1: Introduction to Quarto for Python",
     "section": "",
-    "text": "Throughout the semester, we will use a combination of tools. This a summary of the main tools:\n\nCommandLine: primarily to interact with git, install programs and run a few scripts\nPython3: for programming taks\nGit/Github: for version control, reproucibility and for sharing materials\nJupyter Notebooks: as a main IDE to work with Python\nQuarto via RStudio: as a secondary IDE (you can make your primary if you prefer) to coding in Python/R/SQL\nSlack: for communication.\n\nLet’s cover how to set up each of these tools in your local machines.\n\n\n\n\n\n\nWarning\n\n\n\nIf you run into issues, please reach out to the Teaching Assistant for assistance\n\n\n\n\nAt times, we’ll use a unix-based commandline. The commandline will feature into our discussion on using git and also running Python programs. If you use a Mac or a Linux operating system, then a functioning commandline comes with your operating system. For Apple machines, this is the Terminal.\nFor Windows (specifically Windows 10), you can enable Linux Bash shell. The following offers a tutorial on how to do this.\nIf you’re using a version of Windows that pre-dates version 10, then Git Bash offers a program will allow you to use git commands from your windows machine.\nLater in the first class, we will cover some concepts of working with the commandline. You can get a full notebook with a intro to commandline in the materials for week 1\n\n\n\nWe’ll use Python3 throughout this course. Below are instructions for downloading Python3 using commandline packages manager (Homebrew for mac, Chocolatey for windows).\n\nInstalling Python3 using Homebrew on a Mac (Apple)\nInstalling Python3 using Chocolatey on a PC (Windows)\n\nAn alternative way to install Python3 is to download an Anaconda distribution. I will use pip rather than conda in the instruction for downloading Python modules. These are simply two ways of downloading and managing open-source software packages. Choose which ever works best for you\nMost computers already have python3 installed. You can check if that is your case through your commandline\npython3 --version\nOn some versions of Windows, you may need to use py instead of python3:\npy --version\nIn either case, the output of this command should be something like Python 3.8.5\n\n\n\nOnce you have Python3 on your computer, you can install a Jupyter Notebook. If you downloaded Python3 using Anaconda, then Jupyter Notebook comes with the distribution and requires no further installation on your part. If you are not using Anaconda, you can install Jupyter notebook running the following code using your commandline.\n# on your command line\npip install jupyter\nYou can then activate a Jupyter Notebook from the commandline by typing:\n# on your command line\njupyter notebook\n\n\nHere is my workflow to open Jupyter Notebooks using the commandline.\n\nOpen the terminal\nNavigate (using cd) to the folder you want to be the root of your jupyter notebook\nOpen the notebook (jupyter notebook)\n\nIt looks like this if I were to open a notebook in the folder I have for this course\n# open terminal\ncd ppol_5203\njupyter notebook\n\n\n\nIf you installed Python using Anaconda distribution system (here: https://www.anaconda.com/products/individual). You can open Jupyter through a point-and-click system. It take forever, but it works!\nIn the lecture notes, you can also find a Introduction to Jupyter notebook. We will cover this in the first class of the course.\n\n\n\n\nA quick digression of the R vs Python debate\nFor some of your classes in the Data Science and Public Policy Masters, you will be using R. Some data scientists and computational social scientists have strong beleifs as to which langugae is better. I, and the DSPP faculty, do not subscribe to that view. Most techniques that are relevent for applied data science can be done in either language.\nIn my personal opinion, R outperforms Python in data manipulation tasks, visualization and statistical modeling. This is because R started out as a statistical programming environment, and that heritage is still visible. Meanwhile, Python started our a general purpose programming language, which was heavily adopted by computer scientists, which means Python outperforms on abstraction, machine learning tasks, working with more complex data types.\nMost importantly, you will be using more one language compared to the other conditional on your career path and the type of tasks you end up working with. If you end up in a team full of computer scientists, it is more likely Python will be your favored language. If you move to work more with social scientists, R will probably be more heavily used. There is no need to chose now. Learn both and broad your horizons. As general programming languages, learning both requires almost the same amount of effort of learning one in isolation.\nBack to the course infrastructure\nIn your classes that are focused on using R, RStudio will be your main IDE. However, RStudio isn’t just for R. It can handle a number of different languages. We can use Python in RStudio using the reticulate package.\nI create a full notebook to teach you how to use Python in Rstudio. Check the intro do quarto notebook. Let’s cover some of the installation steps here:\nTo install RStudio, download from the following link . reticulate is an R package that allows one run a Python REPL in the R console. In addition, it allows one to read in and use Python code, and pass data between R and and Python. The following provides instructions on installing reticulate.\nWith reticulate, you can use Rstudio as a IDE for Python. Another option is to use Quarto (the next-generation version of R Markdown) as an unified framework to generate notebooks with text + code. If you’re an R Markdown user, you will see how Quarto is just an extension of the capabilities that were previously provided by R Markdown. Now, instead of .rmd files, we have .qmd files. Quarto is already installed with RStudio.\n\n\n\nWe’ll go over more Git/GitHub instructions during the second class session. Before that session:\n\nInstall Git if it’s not installed already\nCreate a GitHub account if you don’t have one already (any email and free subscription is fine)\n\n\n\n\nOur course will make use of Slack for internal communication. Enter in our workspace with this link: (https://join.slack.com/t/ppol5203fall2023/shared_invite/zt-1z99dee8l-jxY3HCwfEkxY1H6ZUNedEA).\nWhen should you use slack?\n\nInteract with the TAs\nAsk questions to your colleagues\nShare links that are interesting to the discussions in class.\n\nWhen I should not use slack?\n\nIf you have a question you believe will require a longer conversation, I prefer if you can stop by at my office hours\n\nRemember, you don’t need to let me know you are going to my office hours. Just stop by!\nIf you’re new to Slack, check out this tutorial. In the first class, I’ll send out the invitation for everyone to join Slack and we’ll discuss how to use it."
+    "text": "The purpose of this notebook is to show case the use of Quarto notebooks. It will cover:\n\nBrief introduction to Quarto Notebooks\nRunning R with Quarto Notebooks\nRunning Python with Quarto Notebooks + reticulate\n\nSee Quarto’s website for a more in-depth coverage of the framework."
   },
   {
-    "objectID": "lecture_notes/week-01/course_infrastructure.html#commandline",
-    "href": "lecture_notes/week-01/course_infrastructure.html#commandline",
-    "title": "Week 1: Course Infrastructure",
+    "objectID": "lecture_notes/week-01/intro-to-quarto.html#my-personal-tldr-about-quarto",
+    "href": "lecture_notes/week-01/intro-to-quarto.html#my-personal-tldr-about-quarto",
+    "title": "Week 1: Introduction to Quarto for Python",
+    "section": "My personal TLDR about Quarto",
+    "text": "My personal TLDR about Quarto\nQuarto was developed by Posit (the new name of RStudio). It represents the effort of RStudio to become a language agnostic IDE for Data Science.\nQuarto main promise is to allow data scientists to run many different languages using the same notebook structure. For the purpose of our course, we will use mostly Jupyter Notebooks, since those are still dominant among Python developers.\nAs you are learning Python and R at the same time throughout your DSPP courses, I advice you to take a look at Quarto. You might find it a useful tool to run both R and Python."
+  },
+  {
+    "objectID": "lecture_notes/week-01/intro-to-quarto.html#quick-tutorial-for-rstudio",
+    "href": "lecture_notes/week-01/intro-to-quarto.html#quick-tutorial-for-rstudio",
+    "title": "Week 1: Introduction to Quarto for Python",
+    "section": "Quick tutorial for RStudio",
+    "text": "Quick tutorial for RStudio\nThis is what RStudio looks like when you open it for the first time.\n\n\n\n\n\nTop left pane (input/script)\nThis is your code editor. Here you enter code in any file type (.py, .r, .qmd) you are working on. If not working with notebooks, this is just gonna be a plain text file but with a extension that run the commands.\nFor example, enter 2 + 2 in your script and run a line of code by pressing command + enter (Mac) or Ctrl + enter (PC). This is a huge advantage of Rstudio over Jupyter. You can run your code line by line, instead of running the entire cell.\nBottom left pane (output/console)\nThis is the console. It is pretty much like when you open Python/R from the Command line.\nIn the console, the prompt &gt; looks like a greater than symbol. If your prompt begins to look like a + symbol by mistake, simply click in your console and press the esc key on your keyboard as many times as necessary to return to the prompt.\nRstudio uses + when code is broken up across multiple lines and is still expecting more code. A line of code does not usually end until Rstudio finds an appropriate stop parameter or punctuation that completes some code such as a closed round parenthesis ), square bracket ], curly brace }, or quotation mark '.\nIf the output in your console gets too messy, you can clear it by pressing control + l on both Mac and PC. This will not erase any saved data - it will simply make your console easier to read.\nTop right pane (global environment)\nThis is your environment pane. All objects you create will be displayed here.\nBottom right pane (files, plots, packages, and help)\nHere you find useful tabs for navigating your file system, displaying plots, installing packages, and viewing help pages. Press the control key and a number (1 through 9) on your keyboard to shortcut between these panes and tabs."
+  },
+  {
+    "objectID": "lecture_notes/week-01/minimal_example_python.html",
+    "href": "lecture_notes/week-01/minimal_example_python.html",
+    "title": "Minimal Example Python",
     "section": "",
-    "text": "At times, we’ll use a unix-based commandline. The commandline will feature into our discussion on using git and also running Python programs. If you use a Mac or a Linux operating system, then a functioning commandline comes with your operating system. For Apple machines, this is the Terminal.\nFor Windows (specifically Windows 10), you can enable Linux Bash shell. The following offers a tutorial on how to do this.\nIf you’re using a version of Windows that pre-dates version 10, then Git Bash offers a program will allow you to use git commands from your windows machine.\nLater in the first class, we will cover some concepts of working with the commandline. You can get a full notebook with a intro to commandline in the materials for week 1"
+    "text": "Here you add your text as markdown."
   },
   {
-    "objectID": "lecture_notes/week-01/course_infrastructure.html#python3",
-    "href": "lecture_notes/week-01/course_infrastructure.html#python3",
-    "title": "Week 1: Course Infrastructure",
+    "objectID": "lecture_notes/week-01/minimal_example_python.html#minimal-example-of-using-python-with-quarto",
+    "href": "lecture_notes/week-01/minimal_example_python.html#minimal-example-of-using-python-with-quarto",
+    "title": "Minimal Example Python",
     "section": "",
-    "text": "We’ll use Python3 throughout this course. Below are instructions for downloading Python3 using commandline packages manager (Homebrew for mac, Chocolatey for windows).\n\nInstalling Python3 using Homebrew on a Mac (Apple)\nInstalling Python3 using Chocolatey on a PC (Windows)\n\nAn alternative way to install Python3 is to download an Anaconda distribution. I will use pip rather than conda in the instruction for downloading Python modules. These are simply two ways of downloading and managing open-source software packages. Choose which ever works best for you\nMost computers already have python3 installed. You can check if that is your case through your commandline\npython3 --version\nOn some versions of Windows, you may need to use py instead of python3:\npy --version\nIn either case, the output of this command should be something like Python 3.8.5"
+    "text": "Here you add your text as markdown."
   },
   {
-    "objectID": "lecture_notes/week-01/course_infrastructure.html#jupyter-notebooks",
-    "href": "lecture_notes/week-01/course_infrastructure.html#jupyter-notebooks",
-    "title": "Week 1: Course Infrastructure",
-    "section": "",
-    "text": "Once you have Python3 on your computer, you can install a Jupyter Notebook. If you downloaded Python3 using Anaconda, then Jupyter Notebook comes with the distribution and requires no further installation on your part. If you are not using Anaconda, you can install Jupyter notebook running the following code using your commandline.\n# on your command line\npip install jupyter\nYou can then activate a Jupyter Notebook from the commandline by typing:\n# on your command line\njupyter notebook\n\n\nHere is my workflow to open Jupyter Notebooks using the commandline.\n\nOpen the terminal\nNavigate (using cd) to the folder you want to be the root of your jupyter notebook\nOpen the notebook (jupyter notebook)\n\nIt looks like this if I were to open a notebook in the folder I have for this course\n# open terminal\ncd ppol_5203\njupyter notebook\n\n\n\nIf you installed Python using Anaconda distribution system (here: https://www.anaconda.com/products/individual). You can open Jupyter through a point-and-click system. It take forever, but it works!\nIn the lecture notes, you can also find a Introduction to Jupyter notebook. We will cover this in the first class of the course."
-  },
-  {
-    "objectID": "lecture_notes/week-01/course_infrastructure.html#rstudio-reticulatequarto",
-    "href": "lecture_notes/week-01/course_infrastructure.html#rstudio-reticulatequarto",
-    "title": "Week 1: Course Infrastructure",
-    "section": "",
-    "text": "A quick digression of the R vs Python debate\nFor some of your classes in the Data Science and Public Policy Masters, you will be using R. Some data scientists and computational social scientists have strong beleifs as to which langugae is better. I, and the DSPP faculty, do not subscribe to that view. Most techniques that are relevent for applied data science can be done in either language.\nIn my personal opinion, R outperforms Python in data manipulation tasks, visualization and statistical modeling. This is because R started out as a statistical programming environment, and that heritage is still visible. Meanwhile, Python started our a general purpose programming language, which was heavily adopted by computer scientists, which means Python outperforms on abstraction, machine learning tasks, working with more complex data types.\nMost importantly, you will be using more one language compared to the other conditional on your career path and the type of tasks you end up working with. If you end up in a team full of computer scientists, it is more likely Python will be your favored language. If you move to work more with social scientists, R will probably be more heavily used. There is no need to chose now. Learn both and broad your horizons. As general programming languages, learning both requires almost the same amount of effort of learning one in isolation.\nBack to the course infrastructure\nIn your classes that are focused on using R, RStudio will be your main IDE. However, RStudio isn’t just for R. It can handle a number of different languages. We can use Python in RStudio using the reticulate package.\nI create a full notebook to teach you how to use Python in Rstudio. Check the intro do quarto notebook. Let’s cover some of the installation steps here:\nTo install RStudio, download from the following link . reticulate is an R package that allows one run a Python REPL in the R console. In addition, it allows one to read in and use Python code, and pass data between R and and Python. The following provides instructions on installing reticulate.\nWith reticulate, you can use Rstudio as a IDE for Python. Another option is to use Quarto (the next-generation version of R Markdown) as an unified framework to generate notebooks with text + code. If you’re an R Markdown user, you will see how Quarto is just an extension of the capabilities that were previously provided by R Markdown. Now, instead of .rmd files, we have .qmd files. Quarto is already installed with RStudio."
-  },
-  {
-    "objectID": "lecture_notes/week-01/course_infrastructure.html#git",
-    "href": "lecture_notes/week-01/course_infrastructure.html#git",
-    "title": "Week 1: Course Infrastructure",
-    "section": "",
-    "text": "We’ll go over more Git/GitHub instructions during the second class session. Before that session:\n\nInstall Git if it’s not installed already\nCreate a GitHub account if you don’t have one already (any email and free subscription is fine)"
-  },
-  {
-    "objectID": "lecture_notes/week-01/course_infrastructure.html#slack",
-    "href": "lecture_notes/week-01/course_infrastructure.html#slack",
-    "title": "Week 1: Course Infrastructure",
-    "section": "",
-    "text": "Our course will make use of Slack for internal communication. Enter in our workspace with this link: (https://join.slack.com/t/ppol5203fall2023/shared_invite/zt-1z99dee8l-jxY3HCwfEkxY1H6ZUNedEA).\nWhen should you use slack?\n\nInteract with the TAs\nAsk questions to your colleagues\nShare links that are interesting to the discussions in class.\n\nWhen I should not use slack?\n\nIf you have a question you believe will require a longer conversation, I prefer if you can stop by at my office hours\n\nRemember, you don’t need to let me know you are going to my office hours. Just stop by!\nIf you’re new to Slack, check out this tutorial. In the first class, I’ll send out the invitation for everyone to join Slack and we’ll discuss how to use it."
-  },
-  {
-    "objectID": "problemset.html",
-    "href": "problemset.html",
-    "title": "Problem Sets",
-    "section": "",
-    "text": "Problem Set\n\n\nContent\n\n\nDate Assigned\n\n\nDue Date\n\n\n\n\n\n\nProblem Set 1\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\n09/12/2023\n\n\nBefore EOD Friday Week 3\n\n\n\n\nProblem Set 02\n\n\nCore Programming Concepts in Python\n\n\n10/03/2023\n\n\nBefore EOD Friday Week 6\n\n\n\n\nProblem Set 03\n\n\nData Wrangling in Pandas\n\n\n10/17/2023\n\n\nBefore EOD Friday Week 8\n\n\n\n\nProblem Set 04\n\n\nUnestructure data, Scrapping, and more pandas\n\n\n10/31/2023\n\n\nBefore EOD Friday Week 9\n\n\n\n\nProblem Set 05\n\n\nWorking with text data\n\n\n11/14/2023\n\n\nBefore EOD Friday Week 11\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "weeks/week-14.html",
-    "href": "weeks/week-14.html",
-    "title": "Week 14",
-    "section": "",
-    "text": "Lectures Notes:\n\n\nSlides\n\n\nReadings"
-  },
-  {
-    "objectID": "weeks/week-03.html",
-    "href": "weeks/week-03.html",
-    "title": "Week 03",
-    "section": "",
-    "text": "Intro to Python - OOP, Data Types, and Collectors: html,  Jupyter Notebook \nIntro to Python II - Control Statements and Functions: html,  Jupyter Notebook"
-  },
-  {
-    "objectID": "weeks/week-03.html#lectures-notes",
-    "href": "weeks/week-03.html#lectures-notes",
-    "title": "Week 03",
-    "section": "",
-    "text": "Intro to Python - OOP, Data Types, and Collectors: html,  Jupyter Notebook \nIntro to Python II - Control Statements and Functions: html,  Jupyter Notebook"
-  },
-  {
-    "objectID": "weeks/week-03.html#slides",
-    "href": "weeks/week-03.html#slides",
-    "title": "Week 03",
-    "section": "Slides",
-    "text": "Slides\nWeek 3 - Intro do Python: OOP, Control Statements and Functions"
-  },
-  {
-    "objectID": "weeks/week-03.html#in-class-exercise",
-    "href": "weeks/week-03.html#in-class-exercise",
-    "title": "Week 03",
-    "section": "In-Class Exercise",
-    "text": "In-Class Exercise\nSee slides or notebook for the exercise\n\nsolutions"
-  },
-  {
-    "objectID": "weeks/week-03.html#required-readings",
-    "href": "weeks/week-03.html#required-readings",
-    "title": "Week 03",
-    "section": "Required Readings",
-    "text": "Required Readings\nFrom Miller, Brad, and David Ranum, Problem Solving with Algorithms and Data Structures using Python\n\nGetting Started with Data\nControl Structure\nException Handling\nDefining Functions\n\nFrom Wes McKinney, Python for Data Analysis\n\nChapter 2: Python Language Basics, IPython, and Jupyter Notebooks\nChapter 2: Built-In Data Structures, Functions, and Files\n\nMutable vs Immutable Objects in Python - Mohan, Megha"
-  },
-  {
-    "objectID": "weeks/week-03.html#additional-code",
-    "href": "weeks/week-03.html#additional-code",
-    "title": "Week 03",
-    "section": "Additional Code",
-    "text": "Additional Code\n\nData Carpentry\n\nPython Fundamentals\nRepeated Actions with Loops\nMaking Choices\nCreating Functions\nStoring Multiple Values in Lists"
-  },
-  {
-    "objectID": "weeks/week-12.html",
-    "href": "weeks/week-12.html",
-    "title": "Week 12",
-    "section": "",
-    "text": "Lectures Notes:\n\n\nSlides\n\nTBD\n\n\n\nReadings"
-  },
-  {
-    "objectID": "weeks/week-07.html",
-    "href": "weeks/week-07.html",
-    "title": "Week 07",
-    "section": "",
-    "text": "Pandas - Joining Data : html –  Jupyter Notebook \nData Visualization: html –  Jupyter Notebook \n\n\n\nDownload the datasets  here \n\n\n\n\nJoining, Tidying and Visualizing Data"
-  },
-  {
-    "objectID": "weeks/week-07.html#datasets",
-    "href": "weeks/week-07.html#datasets",
-    "title": "Week 07",
-    "section": "",
-    "text": "Download the datasets  here"
-  },
-  {
-    "objectID": "weeks/week-07.html#slides",
-    "href": "weeks/week-07.html#slides",
-    "title": "Week 07",
-    "section": "",
-    "text": "Joining, Tidying and Visualizing Data"
-  },
-  {
-    "objectID": "weeks/week-05.html",
-    "href": "weeks/week-05.html",
-    "title": "Week 05",
-    "section": "",
-    "text": "Today, we will go over three notebooks:\n\nData as Nested lists - html –  Jupyter Notebook \nNumpy: html –  Jupyter Notebook \nIntro do Pandas: html –  Jupyter Notebook"
-  },
-  {
-    "objectID": "weeks/week-05.html#lectures-notes",
-    "href": "weeks/week-05.html#lectures-notes",
-    "title": "Week 05",
-    "section": "",
-    "text": "Today, we will go over three notebooks:\n\nData as Nested lists - html –  Jupyter Notebook \nNumpy: html –  Jupyter Notebook \nIntro do Pandas: html –  Jupyter Notebook"
-  },
-  {
-    "objectID": "weeks/week-05.html#datasets",
-    "href": "weeks/week-05.html#datasets",
-    "title": "Week 05",
-    "section": "Datasets",
-    "text": "Datasets\nDownload the datasets  here"
-  },
-  {
-    "objectID": "weeks/week-05.html#slides",
-    "href": "weeks/week-05.html#slides",
-    "title": "Week 05",
-    "section": "Slides",
-    "text": "Slides\n\nNumpy and Intro do Pandas"
-  },
-  {
-    "objectID": "weeks/week-05.html#readings",
-    "href": "weeks/week-05.html#readings",
-    "title": "Week 05",
-    "section": "Readings",
-    "text": "Readings\n\nSuggested Reading for Numpy\nPDS VanderPlas\n\nCh. 2: Introduction to Numpy - Python Data Science Handbook - VanderPlas, Jake\n\n\nSuggested Readings for Pandas\n\nPDS VanderPlas\nCh. 4: Data Manipulation with Pandas\nTidy Data in Python\nTidy Data by Hadley Wickham in R\n\nAnd all our lecture notes!\n\nAdditional Resources and Suggested Materials\n\nPython Pandas Tutorial: A Complete Introduction for Beginners\nData Wrangling with Pandas Cheat Sheet - pandas.pydata.org\ndplyr-style Data Manipulation with Pipes in Python - Allen, Akinkunle\nPython Pandas vs. R Dplyr - The Full Cheatsheet - Martin Šiklar\nMethods Chaining in Pandas\n\nExercises in Pandas"
-  },
-  {
-    "objectID": "weeks/week-10.html",
-    "href": "weeks/week-10.html",
-    "title": "Week 10",
-    "section": "",
-    "text": "Lectures Notes:\n\n\nSlides\n\n\nReadings"
-  },
-  {
-    "objectID": "weeks/week-09.html",
-    "href": "weeks/week-09.html",
-    "title": "Week 09",
-    "section": "",
-    "text": "Lectures Notes:\n\n\nSlides\n\n\nReadings"
-  },
-  {
-    "objectID": "weeks/week-08.html",
-    "href": "weeks/week-08.html",
-    "title": "Week 08",
-    "section": "",
-    "text": "Lectures Notes:\n\nParsing Unstructured Data: Scraping Static Websites: html –  Jupyter Notebook \n\n\n\nSlides\n\nParsing Unstructured Data: Scraping Static Websites\n\n\n\nReadings\n\nOn HTMLs\n\ntags\nAnchors and Elements\nInspecting HTML elements\nCSS Selector Reference - w3schools.com\n\nSelector Gadget\nWeb Scraping\n\nTutorial: A Practical Introduction to Web Scraping in Python\nTutorial: Python Web Scraping Using BeautifulSoup - dataquest.io\nUltimate Guide to Web Scraping with Python Part 1: Requests and BeautifulSoup - LearnDataSci - Martin, Brendan\nOn the legality of webscraping\n\nWeb Scraping and Crawling are Perfectly Legal, Right?\n\nrobots.txt\n\nChanges in the APIs\n\nhttps://inews.co.uk/news/twitter-researchers-delete-data-unless-pay-2364535\nhttps://www.reddit.com/r/modnews/comments/134tjpe/reddit_data_api_update_changes_to_pushshift_access/\nhttps://www.tiktok.com/legal/page/global/terms-of-service-research-api/en\nhttps://www.bloomberg.com/news/articles/2022-06-23/meta-pulls-support-for-tool-used-to-keep-misinformation-in-check?leadSource=uverify%20wall"
-  },
-  {
-    "objectID": "weeks/week-04.html",
-    "href": "weeks/week-04.html",
-    "title": "Week 04",
-    "section": "",
-    "text": "We will cover these notebooks\nFinish from last week:\n\nIntro to Python II - Control Statements and Functions: html,  Jupyter Notebook \n\nFrom this week:\n\nComprehension and Generators: html –  Jupyter Notebook \nFile Management: html –  Jupyter Notebook \nData as Nested lists - html –  Jupyter Notebook \nNumpy: html –  Jupyter Notebook"
-  },
-  {
-    "objectID": "weeks/week-04.html#lectures-notes",
-    "href": "weeks/week-04.html#lectures-notes",
-    "title": "Week 04",
-    "section": "",
-    "text": "We will cover these notebooks\nFinish from last week:\n\nIntro to Python II - Control Statements and Functions: html,  Jupyter Notebook \n\nFrom this week:\n\nComprehension and Generators: html –  Jupyter Notebook \nFile Management: html –  Jupyter Notebook \nData as Nested lists - html –  Jupyter Notebook \nNumpy: html –  Jupyter Notebook"
-  },
-  {
-    "objectID": "weeks/week-04.html#datasets",
-    "href": "weeks/week-04.html#datasets",
-    "title": "Week 04",
-    "section": "Datasets",
-    "text": "Datasets\nDownload the datasets  here"
-  },
-  {
-    "objectID": "weeks/week-04.html#slides",
-    "href": "weeks/week-04.html#slides",
-    "title": "Week 04",
-    "section": "Slides",
-    "text": "Slides\n\nControl Statements, Comprehensions, Nested Lists, and Numpy"
-  },
-  {
-    "objectID": "weeks/week-04.html#readings",
-    "href": "weeks/week-04.html#readings",
-    "title": "Week 04",
-    "section": "Readings",
-    "text": "Readings\n\nRequired Readings\nPDS VanderPlas\n\nCh. 2: Introduction to Numpy - Python Data Science Handbook - VanderPlas, Jake\n\nPDA Wes McKinney, Chapter 3\n\nList, Set, and Dictionary Comprehensions\nFile Management System\nChapter 4: Numpy\n\nAdditional Readings\n\nfor-loop-vs-list-comprehension-vs-high-order-functions"
-  },
-  {
-    "objectID": "weeks/week-11.html",
-    "href": "weeks/week-11.html",
-    "title": "Week 11",
-    "section": "",
-    "text": "Lectures Notes:\n\n\nSlides\n\n\nReadings"
-  },
-  {
-    "objectID": "weeks/week-13.html",
-    "href": "weeks/week-13.html",
-    "title": "Week 13",
-    "section": "",
-    "text": "Lectures Notes:\n\n\nSlides\n\n\nReadings"
-  },
-  {
-    "objectID": "weeks/week-06.html",
-    "href": "weeks/week-06.html",
-    "title": "Week 06",
-    "section": "",
-    "text": "Today, we will go over three notebooks and you have a additional notebook to work by yourselves:\n\nPandas - Data Loading and Writing: html –  Jupyter Notebook \nPandas - data wrangling: html –  Jupyter Notebook \nPandas - Joining Data : html –  Jupyter Notebook \nPandas Miscellaneous: html –  Jupyter Notebook \n\n\n\nDownload the datasets  here \n\n\n\n\nPandas: Data Wrangling\n\n\n\n\nSuggested Readings for Pandas\n\nPDS VanderPlas\nCh. 4: Data Manipulation with Pandas\nTidy Data in Python\nTidy Data by Hadley Wickham in R\n\nAnd all our lecture notes!\n\nAdditional Resources and Suggested Materials\n\nPython Pandas Tutorial: A Complete Introduction for Beginners\nData Wrangling with Pandas Cheat Sheet - pandas.pydata.org\ndplyr-style Data Manipulation with Pipes in Python - Allen, Akinkunle\nPython Pandas vs. R Dplyr - The Full Cheatsheet - Martin Šiklar\nMethods Chaining in Pandas\nThe Pandas Assign Method and Chaining\n\nExercises in Pandas"
-  },
-  {
-    "objectID": "weeks/week-06.html#datasets",
-    "href": "weeks/week-06.html#datasets",
-    "title": "Week 06",
-    "section": "",
-    "text": "Download the datasets  here"
-  },
-  {
-    "objectID": "weeks/week-06.html#slides",
-    "href": "weeks/week-06.html#slides",
-    "title": "Week 06",
-    "section": "",
-    "text": "Pandas: Data Wrangling"
-  },
-  {
-    "objectID": "weeks/week-06.html#readings",
-    "href": "weeks/week-06.html#readings",
-    "title": "Week 06",
-    "section": "",
-    "text": "Suggested Readings for Pandas\n\nPDS VanderPlas\nCh. 4: Data Manipulation with Pandas\nTidy Data in Python\nTidy Data by Hadley Wickham in R\n\nAnd all our lecture notes!\n\nAdditional Resources and Suggested Materials\n\nPython Pandas Tutorial: A Complete Introduction for Beginners\nData Wrangling with Pandas Cheat Sheet - pandas.pydata.org\ndplyr-style Data Manipulation with Pipes in Python - Allen, Akinkunle\nPython Pandas vs. R Dplyr - The Full Cheatsheet - Martin Šiklar\nMethods Chaining in Pandas\nThe Pandas Assign Method and Chaining\n\nExercises in Pandas"
-  },
-  {
-    "objectID": "weeks/week-02.html",
-    "href": "weeks/week-02.html",
-    "title": "Week 02",
-    "section": "",
-    "text": "Lecture Notes\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub: html,  notebook \n\n\n\nSlides\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\n\nPractice Exercises\n\nLink for practice exercise: https://classroom.github.com/a/ei8s3KRJ\nSolutions\n\n\n\nReadings\nRequired Readings\n\nThe Plain Person’s Guide to Plain Text Social Science - Healy, Kieran\n\nCh. 1: Introduction;\nCh. 2: Keep a Record;\nCh. 3: Write and Edit;\nCh. 4: Reproduce Work.\n\nPro Git - Chacon & Straub\n\nCh. 1: Getting Started; Read 1.1 - 1.3\nCh. 2: Git Basics; Only read 2.1 - 2.5\nCh. 3: Git Branching\n\n\nAdditional Resources and Suggested Materials\n\nMore on Git/Github in Pro Git:\n\nRead 1.4 - 1.7 for help on installation and commandline\nRead Ch. 6 for more information regarding Git + Github.\n\nCh. 13 Detect Git from RStudio -Happy Git with R - Bryan, Jenny & Jim Hester"
-  },
-  {
-    "objectID": "weeks/week-01.html",
-    "href": "weeks/week-01.html",
-    "title": "Week 01",
-    "section": "",
-    "text": "Lectures Notes:\n\nInstructions for setting up the course infra-structure.\nUsing Jupyter Notebooks: html,  notebook \nUsing Quarto for Python and R html,  notebook \nBasics of Command Line: html,  notebook \n\n\n\nSlides\n\nWeek 01:Introduction, Installations, IDEs, Command line\n\n\n\nReadings\nThe readings for this week will be a mix of:\nA more general introduction to data science from a applied perspective (which you can call Data Science and Public Policy, Data Science for Public Good, or Computational Social Science in academic spaces)\nRequired Readings\n\nBit by Bit: Social Research in the Digital Age By Mathew Salganik\nIntroduction\nObserving Behavior\nA Three-Step Guide to Training Computational Social Science Ph.D. Students for Academic and Non-Academic Careers - By Aniket Kesari, Jae Yeon Kim, Sono Shah, Taylor Brown, Tiago Ventura and Tina Law\n\nBest Practices in Programming, IDEs and Files Management:\nRequired Readings\n\nJupyter Notebook for Beginners: A tutorial Pryke, Benjamin - www.dataquest.io\nUsing Python with RStudio and reticulate: here and here\n\nAdditional\n\nMore on RStudio + Reticulate\nR & Python: A Love Storsy - rstudio.com\nRStudio 1.2 Preview: Reticulated Python\nOn using LaTex to write math in markdown - docx2latex.com"
+    "objectID": "lecture_notes/week-01/minimal_example_python.html#code",
+    "href": "lecture_notes/week-01/minimal_example_python.html#code",
+    "title": "Minimal Example Python",
+    "section": "Code",
+    "text": "Code\nYou will use the same code block for any language. You just need to change language inside of the brackets {}\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport scipy.stats as stats\nimport math\n\nmu = 0\nvariance = 1\nsigma = math.sqrt(variance)\nx = np.linspace(mu - 3*sigma, mu + 3*sigma, 100)\nplt.plot(x, stats.norm.pdf(x, mu, sigma))\nplt.show()"
   },
   {
     "objectID": "finalproject.html",
@@ -959,46 +861,340 @@
     "text": "Example of final projects from previous DSPP Years\nHere you can download some examples from projects from last year of DSPP students. Those are great projects, and involve both skills students learned in class + skills learned in other classes (like causal inference techniques)\nPPOL 5203 Projects 2022"
   },
   {
-    "objectID": "lecture_notes/week-01/minimal_example_python.html",
-    "href": "lecture_notes/week-01/minimal_example_python.html",
-    "title": "Minimal Example Python",
+    "objectID": "weeks/week-01.html",
+    "href": "weeks/week-01.html",
+    "title": "Week 01",
     "section": "",
-    "text": "Here you add your text as markdown."
+    "text": "Lectures Notes:\n\nInstructions for setting up the course infra-structure.\nUsing Jupyter Notebooks: html,  notebook \nUsing Quarto for Python and R html,  notebook \nBasics of Command Line: html,  notebook \n\n\n\nSlides\n\nWeek 01:Introduction, Installations, IDEs, Command line\n\n\n\nReadings\nThe readings for this week will be a mix of:\nA more general introduction to data science from a applied perspective (which you can call Data Science and Public Policy, Data Science for Public Good, or Computational Social Science in academic spaces)\nRequired Readings\n\nBit by Bit: Social Research in the Digital Age By Mathew Salganik\nIntroduction\nObserving Behavior\nA Three-Step Guide to Training Computational Social Science Ph.D. Students for Academic and Non-Academic Careers - By Aniket Kesari, Jae Yeon Kim, Sono Shah, Taylor Brown, Tiago Ventura and Tina Law\n\nBest Practices in Programming, IDEs and Files Management:\nRequired Readings\n\nJupyter Notebook for Beginners: A tutorial Pryke, Benjamin - www.dataquest.io\nUsing Python with RStudio and reticulate: here and here\n\nAdditional\n\nMore on RStudio + Reticulate\nR & Python: A Love Storsy - rstudio.com\nRStudio 1.2 Preview: Reticulated Python\nOn using LaTex to write math in markdown - docx2latex.com"
   },
   {
-    "objectID": "lecture_notes/week-01/minimal_example_python.html#minimal-example-of-using-python-with-quarto",
-    "href": "lecture_notes/week-01/minimal_example_python.html#minimal-example-of-using-python-with-quarto",
-    "title": "Minimal Example Python",
+    "objectID": "weeks/week-02.html",
+    "href": "weeks/week-02.html",
+    "title": "Week 02",
     "section": "",
-    "text": "Here you add your text as markdown."
+    "text": "Lecture Notes\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub: html,  notebook \n\n\n\nSlides\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\n\nPractice Exercises\n\nLink for practice exercise: https://classroom.github.com/a/ei8s3KRJ\nSolutions\n\n\n\nReadings\nRequired Readings\n\nThe Plain Person’s Guide to Plain Text Social Science - Healy, Kieran\n\nCh. 1: Introduction;\nCh. 2: Keep a Record;\nCh. 3: Write and Edit;\nCh. 4: Reproduce Work.\n\nPro Git - Chacon & Straub\n\nCh. 1: Getting Started; Read 1.1 - 1.3\nCh. 2: Git Basics; Only read 2.1 - 2.5\nCh. 3: Git Branching\n\n\nAdditional Resources and Suggested Materials\n\nMore on Git/Github in Pro Git:\n\nRead 1.4 - 1.7 for help on installation and commandline\nRead Ch. 6 for more information regarding Git + Github.\n\nCh. 13 Detect Git from RStudio -Happy Git with R - Bryan, Jenny & Jim Hester"
   },
   {
-    "objectID": "lecture_notes/week-01/minimal_example_python.html#code",
-    "href": "lecture_notes/week-01/minimal_example_python.html#code",
-    "title": "Minimal Example Python",
-    "section": "Code",
-    "text": "Code\nYou will use the same code block for any language. You just need to change language inside of the brackets {}\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport scipy.stats as stats\nimport math\n\nmu = 0\nvariance = 1\nsigma = math.sqrt(variance)\nx = np.linspace(mu - 3*sigma, mu + 3*sigma, 100)\nplt.plot(x, stats.norm.pdf(x, mu, sigma))\nplt.show()"
-  },
-  {
-    "objectID": "lecture_notes/week-01/intro-to-quarto.html",
-    "href": "lecture_notes/week-01/intro-to-quarto.html",
-    "title": "Week 1: Introduction to Quarto for Python",
+    "objectID": "weeks/week-06.html",
+    "href": "weeks/week-06.html",
+    "title": "Week 06",
     "section": "",
-    "text": "The purpose of this notebook is to show case the use of Quarto notebooks. It will cover:\n\nBrief introduction to Quarto Notebooks\nRunning R with Quarto Notebooks\nRunning Python with Quarto Notebooks + reticulate\n\nSee Quarto’s website for a more in-depth coverage of the framework."
+    "text": "Today, we will go over three notebooks and you have a additional notebook to work by yourselves:\n\nPandas - Data Loading and Writing: html –  Jupyter Notebook \nPandas - data wrangling: html –  Jupyter Notebook \nPandas - Joining Data : html –  Jupyter Notebook \nPandas Miscellaneous: html –  Jupyter Notebook \n\n\n\nDownload the datasets  here \n\n\n\n\nPandas: Data Wrangling\n\n\n\n\nSuggested Readings for Pandas\n\nPDS VanderPlas\nCh. 4: Data Manipulation with Pandas\nTidy Data in Python\nTidy Data by Hadley Wickham in R\n\nAnd all our lecture notes!\n\nAdditional Resources and Suggested Materials\n\nPython Pandas Tutorial: A Complete Introduction for Beginners\nData Wrangling with Pandas Cheat Sheet - pandas.pydata.org\ndplyr-style Data Manipulation with Pipes in Python - Allen, Akinkunle\nPython Pandas vs. R Dplyr - The Full Cheatsheet - Martin Šiklar\nMethods Chaining in Pandas\nThe Pandas Assign Method and Chaining\n\nExercises in Pandas"
   },
   {
-    "objectID": "lecture_notes/week-01/intro-to-quarto.html#my-personal-tldr-about-quarto",
-    "href": "lecture_notes/week-01/intro-to-quarto.html#my-personal-tldr-about-quarto",
-    "title": "Week 1: Introduction to Quarto for Python",
-    "section": "My personal TLDR about Quarto",
-    "text": "My personal TLDR about Quarto\nQuarto was developed by Posit (the new name of RStudio). It represents the effort of RStudio to become a language agnostic IDE for Data Science.\nQuarto main promise is to allow data scientists to run many different languages using the same notebook structure. For the purpose of our course, we will use mostly Jupyter Notebooks, since those are still dominant among Python developers.\nAs you are learning Python and R at the same time throughout your DSPP courses, I advice you to take a look at Quarto. You might find it a useful tool to run both R and Python."
+    "objectID": "weeks/week-06.html#datasets",
+    "href": "weeks/week-06.html#datasets",
+    "title": "Week 06",
+    "section": "",
+    "text": "Download the datasets  here"
   },
   {
-    "objectID": "lecture_notes/week-01/intro-to-quarto.html#quick-tutorial-for-rstudio",
-    "href": "lecture_notes/week-01/intro-to-quarto.html#quick-tutorial-for-rstudio",
-    "title": "Week 1: Introduction to Quarto for Python",
-    "section": "Quick tutorial for RStudio",
-    "text": "Quick tutorial for RStudio\nThis is what RStudio looks like when you open it for the first time.\n\n\n\n\n\nTop left pane (input/script)\nThis is your code editor. Here you enter code in any file type (.py, .r, .qmd) you are working on. If not working with notebooks, this is just gonna be a plain text file but with a extension that run the commands.\nFor example, enter 2 + 2 in your script and run a line of code by pressing command + enter (Mac) or Ctrl + enter (PC). This is a huge advantage of Rstudio over Jupyter. You can run your code line by line, instead of running the entire cell.\nBottom left pane (output/console)\nThis is the console. It is pretty much like when you open Python/R from the Command line.\nIn the console, the prompt &gt; looks like a greater than symbol. If your prompt begins to look like a + symbol by mistake, simply click in your console and press the esc key on your keyboard as many times as necessary to return to the prompt.\nRstudio uses + when code is broken up across multiple lines and is still expecting more code. A line of code does not usually end until Rstudio finds an appropriate stop parameter or punctuation that completes some code such as a closed round parenthesis ), square bracket ], curly brace }, or quotation mark '.\nIf the output in your console gets too messy, you can clear it by pressing control + l on both Mac and PC. This will not erase any saved data - it will simply make your console easier to read.\nTop right pane (global environment)\nThis is your environment pane. All objects you create will be displayed here.\nBottom right pane (files, plots, packages, and help)\nHere you find useful tabs for navigating your file system, displaying plots, installing packages, and viewing help pages. Press the control key and a number (1 through 9) on your keyboard to shortcut between these panes and tabs."
+    "objectID": "weeks/week-06.html#slides",
+    "href": "weeks/week-06.html#slides",
+    "title": "Week 06",
+    "section": "",
+    "text": "Pandas: Data Wrangling"
+  },
+  {
+    "objectID": "weeks/week-06.html#readings",
+    "href": "weeks/week-06.html#readings",
+    "title": "Week 06",
+    "section": "",
+    "text": "Suggested Readings for Pandas\n\nPDS VanderPlas\nCh. 4: Data Manipulation with Pandas\nTidy Data in Python\nTidy Data by Hadley Wickham in R\n\nAnd all our lecture notes!\n\nAdditional Resources and Suggested Materials\n\nPython Pandas Tutorial: A Complete Introduction for Beginners\nData Wrangling with Pandas Cheat Sheet - pandas.pydata.org\ndplyr-style Data Manipulation with Pipes in Python - Allen, Akinkunle\nPython Pandas vs. R Dplyr - The Full Cheatsheet - Martin Šiklar\nMethods Chaining in Pandas\nThe Pandas Assign Method and Chaining\n\nExercises in Pandas"
+  },
+  {
+    "objectID": "weeks/week-13.html",
+    "href": "weeks/week-13.html",
+    "title": "Week 13",
+    "section": "",
+    "text": "Lectures Notes:\n\n\nSlides\n\n\nReadings"
+  },
+  {
+    "objectID": "weeks/week-11.html",
+    "href": "weeks/week-11.html",
+    "title": "Week 11",
+    "section": "",
+    "text": "Text analysis I: Counting, Describing and Fiting Topics html –  Jupyter Notebook \n\n\nSlides\n\nText analysis I\n\n\n\nReadings\nRequired Reading:\n\nGrimmer, J., Roberts, M. E., & Stewart, B. M. (2022). Text as data: A new framework for machine learning and the social sciences. Princeton University Press. Chapter 2.\n\nAnd one of the three below:\n\nPolitical Science Perspective: Wilkerson, J. and Casas, A. (2017). Large-Scale Computerized Text Analysis in Political Science: Opportunities and Challenges. Annual Review of Political Science, 20, 529:544.\nEconomics Perspective: Gentzkow, Matthew, Bryan Kelly, and Matt Taddy. “Text as data.” Journal of Economic Literature 57, no. 3 (2019): 535-574.\nSociology Perspective: https://www.sciencedirect.com/science/article/pii/S0049089X22000904\n\nAdditional Readings:\n\nText Pre-Processing: Denny, M. J., & Spirling, A. (2018). Text preprocessing for unsupervised learning: why it matters, when it misleads, and what to do about it. Political Analysis, 26(2): 168-189.\nDescriptive Analysis of Text: https:Linder, Fridolin, Bruce Desmarais, Matthew Burgess, and Eugenia Giraudy. “Text as policy: Measuring policy similarity through bill text reuse.” Policy Studies Journal 48, no. 2 (2020): 546-574.\nTopic models : Roberts, Margaret E., et al. “Topic models for open ended survey responses with applications to experiments.” American Journal of Political Science 58 (2014): 1064-82"
+  },
+  {
+    "objectID": "weeks/week-04.html",
+    "href": "weeks/week-04.html",
+    "title": "Week 04",
+    "section": "",
+    "text": "We will cover these notebooks\nFinish from last week:\n\nIntro to Python II - Control Statements and Functions: html,  Jupyter Notebook \n\nFrom this week:\n\nComprehension and Generators: html –  Jupyter Notebook \nFile Management: html –  Jupyter Notebook \nData as Nested lists - html –  Jupyter Notebook \nNumpy: html –  Jupyter Notebook"
+  },
+  {
+    "objectID": "weeks/week-04.html#lectures-notes",
+    "href": "weeks/week-04.html#lectures-notes",
+    "title": "Week 04",
+    "section": "",
+    "text": "We will cover these notebooks\nFinish from last week:\n\nIntro to Python II - Control Statements and Functions: html,  Jupyter Notebook \n\nFrom this week:\n\nComprehension and Generators: html –  Jupyter Notebook \nFile Management: html –  Jupyter Notebook \nData as Nested lists - html –  Jupyter Notebook \nNumpy: html –  Jupyter Notebook"
+  },
+  {
+    "objectID": "weeks/week-04.html#datasets",
+    "href": "weeks/week-04.html#datasets",
+    "title": "Week 04",
+    "section": "Datasets",
+    "text": "Datasets\nDownload the datasets  here"
+  },
+  {
+    "objectID": "weeks/week-04.html#slides",
+    "href": "weeks/week-04.html#slides",
+    "title": "Week 04",
+    "section": "Slides",
+    "text": "Slides\n\nControl Statements, Comprehensions, Nested Lists, and Numpy"
+  },
+  {
+    "objectID": "weeks/week-04.html#readings",
+    "href": "weeks/week-04.html#readings",
+    "title": "Week 04",
+    "section": "Readings",
+    "text": "Readings\n\nRequired Readings\nPDS VanderPlas\n\nCh. 2: Introduction to Numpy - Python Data Science Handbook - VanderPlas, Jake\n\nPDA Wes McKinney, Chapter 3\n\nList, Set, and Dictionary Comprehensions\nFile Management System\nChapter 4: Numpy\n\nAdditional Readings\n\nfor-loop-vs-list-comprehension-vs-high-order-functions"
+  },
+  {
+    "objectID": "weeks/week-08.html",
+    "href": "weeks/week-08.html",
+    "title": "Week 08",
+    "section": "",
+    "text": "Lectures Notes:\n\nParsing Unstructured Data: Scraping Static Websites: html –  Jupyter Notebook \n\n\n\nSlides\n\nParsing Unstructured Data: Scraping Static Websites\n\n\n\nReadings\n\nOn HTMLs\n\ntags\nAnchors and Elements\nInspecting HTML elements\nCSS Selector Reference - w3schools.com\n\nSelector Gadget\nWeb Scraping\n\nTutorial: A Practical Introduction to Web Scraping in Python\nTutorial: Python Web Scraping Using BeautifulSoup - dataquest.io\nUltimate Guide to Web Scraping with Python Part 1: Requests and BeautifulSoup - LearnDataSci - Martin, Brendan\nOn the legality of webscraping\n\nWeb Scraping and Crawling are Perfectly Legal, Right?\n\nrobots.txt\n\nChanges in the APIs\n\nhttps://inews.co.uk/news/twitter-researchers-delete-data-unless-pay-2364535\nhttps://www.reddit.com/r/modnews/comments/134tjpe/reddit_data_api_update_changes_to_pushshift_access/\nhttps://www.tiktok.com/legal/page/global/terms-of-service-research-api/en\nhttps://www.bloomberg.com/news/articles/2022-06-23/meta-pulls-support-for-tool-used-to-keep-misinformation-in-check?leadSource=uverify%20wall"
+  },
+  {
+    "objectID": "weeks/week-09.html",
+    "href": "weeks/week-09.html",
+    "title": "Week 09",
+    "section": "",
+    "text": "Lectures Notes:\n\nAPIs html –  Jupyter Notebook \nSelenium html –  Jupyter Notebook \n\n\n\nSlides\n\nAcquiring data on the Web: APIs and Selenium\n\n\n\nReadings\nAPIs\n\nNice overview about APIs from Chris Bail here. (it is in R, so pay more attention to the concepts)\n\nSelenium\n\nTutorial Webscrapping using Selenium\nSet up your selenium environment: https://selenium-python.readthedocs.io/installation.html\nWeb Driver Manager library in Python: https://pypi.org/project/webdriver-manager/\nLocating elements in Selenium: https://selenium-python.readthedocs.io/locating-elements.html\n\nApplied Research\n\nTrielli, Daniel, and Nicholas Diakopoulos. “Search as news curator: The role of Google in shaping attention to news information.” In Proceedings of the 2019 CHI Conference on human factors in computing systems, pp. 1-15. 2019.\nHaroon, Muhammad, Anshuman Chhabra, Xin Liu, Prasant Mohapatra, Zubair Shafiq, and Magdalena Wojcieszak. “YouTube, the great radicalizer? Auditing and mitigating ideological biases in YouTube recommendations.” arXiv preprint arXiv:2203.10666 (2022)."
+  },
+  {
+    "objectID": "weeks/week-10.html",
+    "href": "weeks/week-10.html",
+    "title": "Week 10",
+    "section": "",
+    "text": "Text analysis I: Counting, Describing and Fiting Topics html –  Jupyter Notebook \n\n\nSlides\n\nText analysis I\n\n\n\nReadings\nRequired Reading:\n\nGrimmer, J., Roberts, M. E., & Stewart, B. M. (2022). Text as data: A new framework for machine learning and the social sciences. Princeton University Press. Chapter 2.\n\nAnd one of the three below:\n\nPolitical Science Perspective: Wilkerson, J. and Casas, A. (2017). Large-Scale Computerized Text Analysis in Political Science: Opportunities and Challenges. Annual Review of Political Science, 20, 529:544.\nEconomics Perspective: Gentzkow, Matthew, Bryan Kelly, and Matt Taddy. “Text as data.” Journal of Economic Literature 57, no. 3 (2019): 535-574.\nSociology Perspective: https://www.sciencedirect.com/science/article/pii/S0049089X22000904\n\nAdditional Readings:\n\nText Pre-Processing: Denny, M. J., & Spirling, A. (2018). Text preprocessing for unsupervised learning: why it matters, when it misleads, and what to do about it. Political Analysis, 26(2): 168-189.\nDescriptive Analysis of Text: TO ADD\nTopic models : Roberts, Margaret E., et al. “Topic models for open ended survey responses with applications to experiments.” American Journal of Political Science 58 (2014): 1064-82"
+  },
+  {
+    "objectID": "weeks/week-05.html",
+    "href": "weeks/week-05.html",
+    "title": "Week 05",
+    "section": "",
+    "text": "Today, we will go over three notebooks:\n\nData as Nested lists - html –  Jupyter Notebook \nNumpy: html –  Jupyter Notebook \nIntro do Pandas: html –  Jupyter Notebook"
+  },
+  {
+    "objectID": "weeks/week-05.html#lectures-notes",
+    "href": "weeks/week-05.html#lectures-notes",
+    "title": "Week 05",
+    "section": "",
+    "text": "Today, we will go over three notebooks:\n\nData as Nested lists - html –  Jupyter Notebook \nNumpy: html –  Jupyter Notebook \nIntro do Pandas: html –  Jupyter Notebook"
+  },
+  {
+    "objectID": "weeks/week-05.html#datasets",
+    "href": "weeks/week-05.html#datasets",
+    "title": "Week 05",
+    "section": "Datasets",
+    "text": "Datasets\nDownload the datasets  here"
+  },
+  {
+    "objectID": "weeks/week-05.html#slides",
+    "href": "weeks/week-05.html#slides",
+    "title": "Week 05",
+    "section": "Slides",
+    "text": "Slides\n\nNumpy and Intro do Pandas"
+  },
+  {
+    "objectID": "weeks/week-05.html#readings",
+    "href": "weeks/week-05.html#readings",
+    "title": "Week 05",
+    "section": "Readings",
+    "text": "Readings\n\nSuggested Reading for Numpy\nPDS VanderPlas\n\nCh. 2: Introduction to Numpy - Python Data Science Handbook - VanderPlas, Jake\n\n\nSuggested Readings for Pandas\n\nPDS VanderPlas\nCh. 4: Data Manipulation with Pandas\nTidy Data in Python\nTidy Data by Hadley Wickham in R\n\nAnd all our lecture notes!\n\nAdditional Resources and Suggested Materials\n\nPython Pandas Tutorial: A Complete Introduction for Beginners\nData Wrangling with Pandas Cheat Sheet - pandas.pydata.org\ndplyr-style Data Manipulation with Pipes in Python - Allen, Akinkunle\nPython Pandas vs. R Dplyr - The Full Cheatsheet - Martin Šiklar\nMethods Chaining in Pandas\n\nExercises in Pandas"
+  },
+  {
+    "objectID": "weeks/week-07.html",
+    "href": "weeks/week-07.html",
+    "title": "Week 07",
+    "section": "",
+    "text": "Pandas - Joining Data : html –  Jupyter Notebook \nData Visualization: html –  Jupyter Notebook \n\n\n\nDownload the datasets  here \n\n\n\n\nJoining, Tidying and Visualizing Data"
+  },
+  {
+    "objectID": "weeks/week-07.html#datasets",
+    "href": "weeks/week-07.html#datasets",
+    "title": "Week 07",
+    "section": "",
+    "text": "Download the datasets  here"
+  },
+  {
+    "objectID": "weeks/week-07.html#slides",
+    "href": "weeks/week-07.html#slides",
+    "title": "Week 07",
+    "section": "",
+    "text": "Joining, Tidying and Visualizing Data"
+  },
+  {
+    "objectID": "weeks/week-12.html",
+    "href": "weeks/week-12.html",
+    "title": "Week 12",
+    "section": "",
+    "text": "Lectures Notes:\n\n\nSlides\n\nTBD\n\n\n\nReadings\n\nDictionary Methods: Rathje, Steve, Jay J. Van Bavel, and Sander Van Der Linden. “Out-group animosity drives engagement on social media.” Proceedings of the National Academy of Sciences 118, no. 26 (2021): e2024292118\nToxicity using Google Perspective API: Ventura, Tiago, Kevin Munger, Katherine McCabe, and Keng-Chi Chang. “Connective effervescence and streaming chat during political debates.” Journal of Quantitative Description: Digital Media 1 (2021).\nUsing ChatGPT to Scale Politicians: Wu, Patrick Y., Jonathan Nagler, Joshua A. Tucker, and Solomon Messing. “Large Language Models Can Be Used to Estimate the Latent Positions of Politicians."
+  },
+  {
+    "objectID": "weeks/week-03.html",
+    "href": "weeks/week-03.html",
+    "title": "Week 03",
+    "section": "",
+    "text": "Intro to Python - OOP, Data Types, and Collectors: html,  Jupyter Notebook \nIntro to Python II - Control Statements and Functions: html,  Jupyter Notebook"
+  },
+  {
+    "objectID": "weeks/week-03.html#lectures-notes",
+    "href": "weeks/week-03.html#lectures-notes",
+    "title": "Week 03",
+    "section": "",
+    "text": "Intro to Python - OOP, Data Types, and Collectors: html,  Jupyter Notebook \nIntro to Python II - Control Statements and Functions: html,  Jupyter Notebook"
+  },
+  {
+    "objectID": "weeks/week-03.html#slides",
+    "href": "weeks/week-03.html#slides",
+    "title": "Week 03",
+    "section": "Slides",
+    "text": "Slides\nWeek 3 - Intro do Python: OOP, Control Statements and Functions"
+  },
+  {
+    "objectID": "weeks/week-03.html#in-class-exercise",
+    "href": "weeks/week-03.html#in-class-exercise",
+    "title": "Week 03",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\nSee slides or notebook for the exercise\n\nsolutions"
+  },
+  {
+    "objectID": "weeks/week-03.html#required-readings",
+    "href": "weeks/week-03.html#required-readings",
+    "title": "Week 03",
+    "section": "Required Readings",
+    "text": "Required Readings\nFrom Miller, Brad, and David Ranum, Problem Solving with Algorithms and Data Structures using Python\n\nGetting Started with Data\nControl Structure\nException Handling\nDefining Functions\n\nFrom Wes McKinney, Python for Data Analysis\n\nChapter 2: Python Language Basics, IPython, and Jupyter Notebooks\nChapter 2: Built-In Data Structures, Functions, and Files\n\nMutable vs Immutable Objects in Python - Mohan, Megha"
+  },
+  {
+    "objectID": "weeks/week-03.html#additional-code",
+    "href": "weeks/week-03.html#additional-code",
+    "title": "Week 03",
+    "section": "Additional Code",
+    "text": "Additional Code\n\nData Carpentry\n\nPython Fundamentals\nRepeated Actions with Loops\nMaking Choices\nCreating Functions\nStoring Multiple Values in Lists"
+  },
+  {
+    "objectID": "weeks/week-14.html",
+    "href": "weeks/week-14.html",
+    "title": "Week 14",
+    "section": "",
+    "text": "Lectures Notes:\n\n\nSlides\n\n\nReadings"
+  },
+  {
+    "objectID": "problemset.html",
+    "href": "problemset.html",
+    "title": "Problem Sets",
+    "section": "",
+    "text": "Problem Set\n\n\nContent\n\n\nDate Assigned\n\n\nDue Date\n\n\n\n\n\n\nProblem Set 1\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\n09/12/2023\n\n\nBefore EOD Friday Week 3\n\n\n\n\nProblem Set 02\n\n\nCore Programming Concepts in Python\n\n\n10/03/2023\n\n\nBefore EOD Friday Week 6\n\n\n\n\nProblem Set 03\n\n\nData Wrangling in Pandas\n\n\n10/17/2023\n\n\nBefore EOD Friday Week 8\n\n\n\n\nProblem Set 04\n\n\nUnestructure data, Scrapping, and more pandas\n\n\n10/31/2023\n\n\nBefore EOD Friday Week 9\n\n\n\n\nProblem Set 05\n\n\nWorking with text data\n\n\n11/14/2023\n\n\nBefore EOD Friday Week 11\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lecture_notes/week-01/course_infrastructure.html",
+    "href": "lecture_notes/week-01/course_infrastructure.html",
+    "title": "Week 1: Course Infrastructure",
+    "section": "",
+    "text": "Throughout the semester, we will use a combination of tools. This a summary of the main tools:\n\nCommandLine: primarily to interact with git, install programs and run a few scripts\nPython3: for programming taks\nGit/Github: for version control, reproucibility and for sharing materials\nJupyter Notebooks: as a main IDE to work with Python\nQuarto via RStudio: as a secondary IDE (you can make your primary if you prefer) to coding in Python/R/SQL\nSlack: for communication.\n\nLet’s cover how to set up each of these tools in your local machines.\n\n\n\n\n\n\nWarning\n\n\n\nIf you run into issues, please reach out to the Teaching Assistant for assistance\n\n\n\n\nAt times, we’ll use a unix-based commandline. The commandline will feature into our discussion on using git and also running Python programs. If you use a Mac or a Linux operating system, then a functioning commandline comes with your operating system. For Apple machines, this is the Terminal.\nFor Windows (specifically Windows 10), you can enable Linux Bash shell. The following offers a tutorial on how to do this.\nIf you’re using a version of Windows that pre-dates version 10, then Git Bash offers a program will allow you to use git commands from your windows machine.\nLater in the first class, we will cover some concepts of working with the commandline. You can get a full notebook with a intro to commandline in the materials for week 1\n\n\n\nWe’ll use Python3 throughout this course. Below are instructions for downloading Python3 using commandline packages manager (Homebrew for mac, Chocolatey for windows).\n\nInstalling Python3 using Homebrew on a Mac (Apple)\nInstalling Python3 using Chocolatey on a PC (Windows)\n\nAn alternative way to install Python3 is to download an Anaconda distribution. I will use pip rather than conda in the instruction for downloading Python modules. These are simply two ways of downloading and managing open-source software packages. Choose which ever works best for you\nMost computers already have python3 installed. You can check if that is your case through your commandline\npython3 --version\nOn some versions of Windows, you may need to use py instead of python3:\npy --version\nIn either case, the output of this command should be something like Python 3.8.5\n\n\n\nOnce you have Python3 on your computer, you can install a Jupyter Notebook. If you downloaded Python3 using Anaconda, then Jupyter Notebook comes with the distribution and requires no further installation on your part. If you are not using Anaconda, you can install Jupyter notebook running the following code using your commandline.\n# on your command line\npip install jupyter\nYou can then activate a Jupyter Notebook from the commandline by typing:\n# on your command line\njupyter notebook\n\n\nHere is my workflow to open Jupyter Notebooks using the commandline.\n\nOpen the terminal\nNavigate (using cd) to the folder you want to be the root of your jupyter notebook\nOpen the notebook (jupyter notebook)\n\nIt looks like this if I were to open a notebook in the folder I have for this course\n# open terminal\ncd ppol_5203\njupyter notebook\n\n\n\nIf you installed Python using Anaconda distribution system (here: https://www.anaconda.com/products/individual). You can open Jupyter through a point-and-click system. It take forever, but it works!\nIn the lecture notes, you can also find a Introduction to Jupyter notebook. We will cover this in the first class of the course.\n\n\n\n\nA quick digression of the R vs Python debate\nFor some of your classes in the Data Science and Public Policy Masters, you will be using R. Some data scientists and computational social scientists have strong beleifs as to which langugae is better. I, and the DSPP faculty, do not subscribe to that view. Most techniques that are relevent for applied data science can be done in either language.\nIn my personal opinion, R outperforms Python in data manipulation tasks, visualization and statistical modeling. This is because R started out as a statistical programming environment, and that heritage is still visible. Meanwhile, Python started our a general purpose programming language, which was heavily adopted by computer scientists, which means Python outperforms on abstraction, machine learning tasks, working with more complex data types.\nMost importantly, you will be using more one language compared to the other conditional on your career path and the type of tasks you end up working with. If you end up in a team full of computer scientists, it is more likely Python will be your favored language. If you move to work more with social scientists, R will probably be more heavily used. There is no need to chose now. Learn both and broad your horizons. As general programming languages, learning both requires almost the same amount of effort of learning one in isolation.\nBack to the course infrastructure\nIn your classes that are focused on using R, RStudio will be your main IDE. However, RStudio isn’t just for R. It can handle a number of different languages. We can use Python in RStudio using the reticulate package.\nI create a full notebook to teach you how to use Python in Rstudio. Check the intro do quarto notebook. Let’s cover some of the installation steps here:\nTo install RStudio, download from the following link . reticulate is an R package that allows one run a Python REPL in the R console. In addition, it allows one to read in and use Python code, and pass data between R and and Python. The following provides instructions on installing reticulate.\nWith reticulate, you can use Rstudio as a IDE for Python. Another option is to use Quarto (the next-generation version of R Markdown) as an unified framework to generate notebooks with text + code. If you’re an R Markdown user, you will see how Quarto is just an extension of the capabilities that were previously provided by R Markdown. Now, instead of .rmd files, we have .qmd files. Quarto is already installed with RStudio.\n\n\n\nWe’ll go over more Git/GitHub instructions during the second class session. Before that session:\n\nInstall Git if it’s not installed already\nCreate a GitHub account if you don’t have one already (any email and free subscription is fine)\n\n\n\n\nOur course will make use of Slack for internal communication. Enter in our workspace with this link: (https://join.slack.com/t/ppol5203fall2023/shared_invite/zt-1z99dee8l-jxY3HCwfEkxY1H6ZUNedEA).\nWhen should you use slack?\n\nInteract with the TAs\nAsk questions to your colleagues\nShare links that are interesting to the discussions in class.\n\nWhen I should not use slack?\n\nIf you have a question you believe will require a longer conversation, I prefer if you can stop by at my office hours\n\nRemember, you don’t need to let me know you are going to my office hours. Just stop by!\nIf you’re new to Slack, check out this tutorial. In the first class, I’ll send out the invitation for everyone to join Slack and we’ll discuss how to use it."
+  },
+  {
+    "objectID": "lecture_notes/week-01/course_infrastructure.html#commandline",
+    "href": "lecture_notes/week-01/course_infrastructure.html#commandline",
+    "title": "Week 1: Course Infrastructure",
+    "section": "",
+    "text": "At times, we’ll use a unix-based commandline. The commandline will feature into our discussion on using git and also running Python programs. If you use a Mac or a Linux operating system, then a functioning commandline comes with your operating system. For Apple machines, this is the Terminal.\nFor Windows (specifically Windows 10), you can enable Linux Bash shell. The following offers a tutorial on how to do this.\nIf you’re using a version of Windows that pre-dates version 10, then Git Bash offers a program will allow you to use git commands from your windows machine.\nLater in the first class, we will cover some concepts of working with the commandline. You can get a full notebook with a intro to commandline in the materials for week 1"
+  },
+  {
+    "objectID": "lecture_notes/week-01/course_infrastructure.html#python3",
+    "href": "lecture_notes/week-01/course_infrastructure.html#python3",
+    "title": "Week 1: Course Infrastructure",
+    "section": "",
+    "text": "We’ll use Python3 throughout this course. Below are instructions for downloading Python3 using commandline packages manager (Homebrew for mac, Chocolatey for windows).\n\nInstalling Python3 using Homebrew on a Mac (Apple)\nInstalling Python3 using Chocolatey on a PC (Windows)\n\nAn alternative way to install Python3 is to download an Anaconda distribution. I will use pip rather than conda in the instruction for downloading Python modules. These are simply two ways of downloading and managing open-source software packages. Choose which ever works best for you\nMost computers already have python3 installed. You can check if that is your case through your commandline\npython3 --version\nOn some versions of Windows, you may need to use py instead of python3:\npy --version\nIn either case, the output of this command should be something like Python 3.8.5"
+  },
+  {
+    "objectID": "lecture_notes/week-01/course_infrastructure.html#jupyter-notebooks",
+    "href": "lecture_notes/week-01/course_infrastructure.html#jupyter-notebooks",
+    "title": "Week 1: Course Infrastructure",
+    "section": "",
+    "text": "Once you have Python3 on your computer, you can install a Jupyter Notebook. If you downloaded Python3 using Anaconda, then Jupyter Notebook comes with the distribution and requires no further installation on your part. If you are not using Anaconda, you can install Jupyter notebook running the following code using your commandline.\n# on your command line\npip install jupyter\nYou can then activate a Jupyter Notebook from the commandline by typing:\n# on your command line\njupyter notebook\n\n\nHere is my workflow to open Jupyter Notebooks using the commandline.\n\nOpen the terminal\nNavigate (using cd) to the folder you want to be the root of your jupyter notebook\nOpen the notebook (jupyter notebook)\n\nIt looks like this if I were to open a notebook in the folder I have for this course\n# open terminal\ncd ppol_5203\njupyter notebook\n\n\n\nIf you installed Python using Anaconda distribution system (here: https://www.anaconda.com/products/individual). You can open Jupyter through a point-and-click system. It take forever, but it works!\nIn the lecture notes, you can also find a Introduction to Jupyter notebook. We will cover this in the first class of the course."
+  },
+  {
+    "objectID": "lecture_notes/week-01/course_infrastructure.html#rstudio-reticulatequarto",
+    "href": "lecture_notes/week-01/course_infrastructure.html#rstudio-reticulatequarto",
+    "title": "Week 1: Course Infrastructure",
+    "section": "",
+    "text": "A quick digression of the R vs Python debate\nFor some of your classes in the Data Science and Public Policy Masters, you will be using R. Some data scientists and computational social scientists have strong beleifs as to which langugae is better. I, and the DSPP faculty, do not subscribe to that view. Most techniques that are relevent for applied data science can be done in either language.\nIn my personal opinion, R outperforms Python in data manipulation tasks, visualization and statistical modeling. This is because R started out as a statistical programming environment, and that heritage is still visible. Meanwhile, Python started our a general purpose programming language, which was heavily adopted by computer scientists, which means Python outperforms on abstraction, machine learning tasks, working with more complex data types.\nMost importantly, you will be using more one language compared to the other conditional on your career path and the type of tasks you end up working with. If you end up in a team full of computer scientists, it is more likely Python will be your favored language. If you move to work more with social scientists, R will probably be more heavily used. There is no need to chose now. Learn both and broad your horizons. As general programming languages, learning both requires almost the same amount of effort of learning one in isolation.\nBack to the course infrastructure\nIn your classes that are focused on using R, RStudio will be your main IDE. However, RStudio isn’t just for R. It can handle a number of different languages. We can use Python in RStudio using the reticulate package.\nI create a full notebook to teach you how to use Python in Rstudio. Check the intro do quarto notebook. Let’s cover some of the installation steps here:\nTo install RStudio, download from the following link . reticulate is an R package that allows one run a Python REPL in the R console. In addition, it allows one to read in and use Python code, and pass data between R and and Python. The following provides instructions on installing reticulate.\nWith reticulate, you can use Rstudio as a IDE for Python. Another option is to use Quarto (the next-generation version of R Markdown) as an unified framework to generate notebooks with text + code. If you’re an R Markdown user, you will see how Quarto is just an extension of the capabilities that were previously provided by R Markdown. Now, instead of .rmd files, we have .qmd files. Quarto is already installed with RStudio."
+  },
+  {
+    "objectID": "lecture_notes/week-01/course_infrastructure.html#git",
+    "href": "lecture_notes/week-01/course_infrastructure.html#git",
+    "title": "Week 1: Course Infrastructure",
+    "section": "",
+    "text": "We’ll go over more Git/GitHub instructions during the second class session. Before that session:\n\nInstall Git if it’s not installed already\nCreate a GitHub account if you don’t have one already (any email and free subscription is fine)"
+  },
+  {
+    "objectID": "lecture_notes/week-01/course_infrastructure.html#slack",
+    "href": "lecture_notes/week-01/course_infrastructure.html#slack",
+    "title": "Week 1: Course Infrastructure",
+    "section": "",
+    "text": "Our course will make use of Slack for internal communication. Enter in our workspace with this link: (https://join.slack.com/t/ppol5203fall2023/shared_invite/zt-1z99dee8l-jxY3HCwfEkxY1H6ZUNedEA).\nWhen should you use slack?\n\nInteract with the TAs\nAsk questions to your colleagues\nShare links that are interesting to the discussions in class.\n\nWhen I should not use slack?\n\nIf you have a question you believe will require a longer conversation, I prefer if you can stop by at my office hours\n\nRemember, you don’t need to let me know you are going to my office hours. Just stop by!\nIf you’re new to Slack, check out this tutorial. In the first class, I’ll send out the invitation for everyone to join Slack and we’ll discuss how to use it."
+  },
+  {
+    "objectID": "lecture_notes/week-09/Untitled.html",
+    "href": "lecture_notes/week-09/Untitled.html",
+    "title": "PPOL 5203 - Data Science I: Foundations",
+    "section": "",
+    "text": "from selenium import webdriver\nfrom webdriver_manager.chrome import ChromeDriverManager\n\n\n# selenium 4\nfrom selenium import webdriver\nfrom selenium.webdriver.firefox.service import Service as FirefoxService\nfrom webdriver_manager.firefox import GeckoDriverManager\n\ndriver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))\n\nWebDriverException: Message: Service /Users/tb186/.wdm/drivers/chromedriver/mac64/118.0.5993.70/chromedriver-mac-arm64/chromedriver unexpectedly exited. Status code was: -9\n\n\n\n!pip install webdriver-manager\n\nRequirement already satisfied: webdriver-manager in /Users/tb186/anaconda3/lib/python3.11/site-packages (4.0.1)\nRequirement already satisfied: requests in /Users/tb186/anaconda3/lib/python3.11/site-packages (from webdriver-manager) (2.31.0)\nRequirement already satisfied: python-dotenv in /Users/tb186/anaconda3/lib/python3.11/site-packages (from webdriver-manager) (1.0.0)\nRequirement already satisfied: packaging in /Users/tb186/anaconda3/lib/python3.11/site-packages (from webdriver-manager) (23.0)\nRequirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /Users/tb186/anaconda3/lib/python3.11/site-packages (from requests-&gt;webdriver-manager) (2.0.4)\nRequirement already satisfied: idna&lt;4,&gt;=2.5 in /Users/tb186/anaconda3/lib/python3.11/site-packages (from requests-&gt;webdriver-manager) (3.4)\nRequirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /Users/tb186/anaconda3/lib/python3.11/site-packages (from requests-&gt;webdriver-manager) (1.26.16)\nRequirement already satisfied: certifi&gt;=2017.4.17 in /Users/tb186/anaconda3/lib/python3.11/site-packages (from requests-&gt;webdriver-manager) (2023.7.22)"
+  },
+  {
+    "objectID": "lecture_notes/week-10/week-9-models.html",
+    "href": "lecture_notes/week-10/week-9-models.html",
+    "title": "Learning Goals",
+    "section": "",
+    "text": "PPOL 5203 Data Science I: Foundations   Inferential Models and Machine Learning Tiago Ventura"
+  },
+  {
+    "objectID": "lecture_notes/week-10/week-9-models.html#introdutory-notes",
+    "href": "lecture_notes/week-10/week-9-models.html#introdutory-notes",
+    "title": "Learning Goals",
+    "section": "",
+    "text": "In Data Science II, you will learn all there is to be learned about predictive modeling and machine learning. You will spend every week going through a different type of model and understanding the mathematics behind it.\nThe purpose of this class is to provide you with a agnostic overview of inferential and predictive workflow of building models in Python. These are my broader goals on having this class in DS I:\n\nFor inferential models, my goal is to show you how to use Python to estimate the models you are learning at Statistics I.\nFor the predictive modeling, I want to go give you a foundational introduction to Machine Learning. In case you get an interview for an internship before you start Data Science II, this class should make you feel confortable describing the components of a machine learning pipeline, even though you have not been properly introduced properly to each different model.\n\nLet’s go!"
+  },
+  {
+    "objectID": "lecture_notes/week-10/week-9-models.html#datasets",
+    "href": "lecture_notes/week-10/week-9-models.html#datasets",
+    "title": "Learning Goals",
+    "section": "",
+    "text": "We will work with a Diabetes dataset provided by the sklearn library. Here you can find a full description of the dataset.\nSome basic information:\n\nNumber of cases: 442\nNumber of variables: First 10 columns are numeric predictive values\nOutcome (Target in ML): Column 11 is a quantitative measure of disease progression one year after baseline\nAttribute Information:\n\nage: age in years\nsex:\nbmi: body mass index\nbp: average blood pressure\ns1 tc:, total serum cholesterol\ns2 ldl:, low-density lipoproteins\ns3 hdl:, high-density lipoproteins\ns4 tch:, total cholesterol / HDL\ns5 ltg:, possibly log of serum triglycerides level\ns6 glu:, blood sugar level\n\n\n\n# load dataset\nimport numpy as np\nimport pandas as pd\nfrom sklearn import datasets\n\n# load the dataset as a pandas dataframe\ndiabetes = datasets.load_diabetes(as_frame=True)[\"frame\"]\n\n\n\n\nten features (independent variables)\none outcome (target variable)\n\n\n# check the data\ndiabetes.head()\n\n\n\n\n\n\n\n\nage\nsex\nbmi\nbp\ns1\ns2\ns3\ns4\ns5\ns6\ntarget\n\n\n\n\n0\n0.038076\n0.050680\n0.061696\n0.021872\n-0.044223\n-0.034821\n-0.043401\n-0.002592\n0.019907\n-0.017646\n151.0\n\n\n1\n-0.001882\n-0.044642\n-0.051474\n-0.026328\n-0.008449\n-0.019163\n0.074412\n-0.039493\n-0.068332\n-0.092204\n75.0\n\n\n2\n0.085299\n0.050680\n0.044451\n-0.005670\n-0.045599\n-0.034194\n-0.032356\n-0.002592\n0.002861\n-0.025930\n141.0\n\n\n3\n-0.089063\n-0.044642\n-0.011595\n-0.036656\n0.012191\n0.024991\n-0.036038\n0.034309\n0.022688\n-0.009362\n206.0\n\n\n4\n0.005383\n-0.044642\n-0.036385\n0.021872\n0.003935\n0.015596\n0.008142\n-0.002592\n-0.031988\n-0.046641\n135.0"
+  },
+  {
+    "objectID": "lecture_notes/week-10/week-9-models.html#inferential-models",
+    "href": "lecture_notes/week-10/week-9-models.html#inferential-models",
+    "title": "Learning Goals",
+    "section": "",
+    "text": "As we discussed in class, the goal of inferential models is interpretation. These are the models we often build on social science problems. We often ask:\n\nWhich predictors are associated with the response?\nWhat is the relationship (parameters) between the response and the predictors?\nIs the relationship causal?\n\nTo work with inference, we will use the library statsmodels which will allow us to estimate and easily retrive parameters for a wide set of models.\n\n# import library for models\nimport statsmodels.api as sm\nimport statsmodels.formula.api as smf\n\n# library for plotting\nfrom plotnine import *\n\n\n\n\n# estimate the model using R style formula\nmodel_ols_r = smf.ols(formula='target ~ age + sex + bmi + bp', data=diabetes).fit()\n\n\n# or using a more pythonic way\nX = sm.add_constant(diabetes[[\"age\", \"sex\", \"bmi\", \"bp\"]])\ny = diabetes[[\"target\"]]\nmodel_ols_py = sm.OLS(y, X).fit()\n\n\n\n\n\nprint(model_ols_py.summary())\n\n                            OLS Regression Results                            \n==============================================================================\nDep. Variable:                 target   R-squared:                       0.400\nModel:                            OLS   Adj. R-squared:                  0.395\nMethod:                 Least Squares   F-statistic:                     72.91\nDate:                Sat, 28 Oct 2023   Prob (F-statistic):           2.70e-47\nTime:                        10:55:19   Log-Likelihood:                -2434.2\nNo. Observations:                 442   AIC:                             4878.\nDf Residuals:                     437   BIC:                             4899.\nDf Model:                           4                                         \nCovariance Type:            nonrobust                                         \n==============================================================================\n                 coef    std err          t      P&gt;|t|      [0.025      0.975]\n------------------------------------------------------------------------------\nconst        152.1335      2.853     53.329      0.000     146.527     157.740\nage           37.2406     64.117      0.581      0.562     -88.776     163.258\nsex         -106.5762     62.125     -1.716      0.087    -228.677      15.525\nbmi          787.1817     65.424     12.032      0.000     658.597     915.766\nbp           416.6725     69.495      5.996      0.000     280.087     553.258\n==============================================================================\nOmnibus:                        9.858   Durbin-Watson:                   1.933\nProb(Omnibus):                  0.007   Jarque-Bera (JB):                6.464\nSkew:                           0.146   Prob(JB):                       0.0395\nKurtosis:                       2.485   Cond. No.                         28.4\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.\n\n\n\n\n\n\nmodel_ols_int= smf.ols(formula='target ~ age + sex + bmi + bp + age*bmi', data=diabetes).fit()\nprint(model_ols_int.summary())\n\n                            OLS Regression Results                            \n==============================================================================\nDep. Variable:                 target   R-squared:                       0.407\nModel:                            OLS   Adj. R-squared:                  0.400\nMethod:                 Least Squares   F-statistic:                     59.77\nDate:                Sat, 28 Oct 2023   Prob (F-statistic):           2.40e-47\nTime:                        10:56:18   Log-Likelihood:                -2431.8\nNo. Observations:                 442   AIC:                             4876.\nDf Residuals:                     436   BIC:                             4900.\nDf Model:                           5                                         \nCovariance Type:            nonrobust                                         \n==============================================================================\n                 coef    std err          t      P&gt;|t|      [0.025      0.975]\n------------------------------------------------------------------------------\nIntercept    150.9570      2.892     52.203      0.000     145.274     156.640\nage           52.4516     64.228      0.817      0.415     -73.783     178.686\nsex         -102.7047     61.887     -1.660      0.098    -224.339      18.930\nbmi          813.1607     66.233     12.277      0.000     682.985     943.336\nbp           413.1195     69.219      5.968      0.000     277.075     549.164\nage:bmi     2809.4786   1291.944      2.175      0.030     270.265    5348.692\n==============================================================================\nOmnibus:                        8.252   Durbin-Watson:                   1.934\nProb(Omnibus):                  0.016   Jarque-Bera (JB):                6.273\nSkew:                           0.184   Prob(JB):                       0.0434\nKurtosis:                       2.547   Cond. No.                         455.\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.\n\n\n\n\n\nThe API for stats.model is the same for different types of models. So the learning costs of estimating different models are quite low. Let’s estimate a logit model now.\n\n# estimate the model using R style formula\ndiabetes[\"target_bin\"] = np.where(diabetes[\"target\"]&gt; np.mean(diabetes[\"target\"]), 1, 0)\n\n# model\nmodel_logit = smf.logit(formula='target_bin ~ age + sex + bmi + bp', data=diabetes).fit()\n\n# see output\nprint(model_logit.summary())\n\nOptimization terminated successfully.\n         Current function value: 0.536502\n         Iterations 6\n                           Logit Regression Results                           \n==============================================================================\nDep. Variable:             target_bin   No. Observations:                  442\nModel:                          Logit   Df Residuals:                      437\nMethod:                           MLE   Df Model:                            4\nDate:                Sat, 28 Oct 2023   Pseudo R-squ.:                  0.2182\nTime:                        10:58:51   Log-Likelihood:                -237.13\nconverged:                       True   LL-Null:                       -303.31\nCovariance Type:            nonrobust   LLR p-value:                 1.229e-27\n==============================================================================\n                 coef    std err          z      P&gt;|z|      [0.025      0.975]\n------------------------------------------------------------------------------\nIntercept     -0.2809      0.113     -2.495      0.013      -0.502      -0.060\nage            1.1068      2.569      0.431      0.667      -3.929       6.142\nsex           -3.7533      2.459     -1.526      0.127      -8.573       1.066\nbmi           19.5943      2.852      6.871      0.000      14.005      25.183\nbp            14.6430      2.875      5.092      0.000       9.007      20.279\n==============================================================================\n\n\n\n\n\nIf we are interested in understanding relationships, a huge part of fitting inferential models consists on presenting the results as understanble quantities of interests. statsmodels has a set of functions that allow us to easily analyze the model.\n\n\n\n# get parameters\nparams = model_ols.params\npd.DataFrame(params).rename(columns={0:\"coef\"})\n\n\n\n\n\n\n\n\nterm\n\n\n\n\nIntercept\n152.133484\n\n\nage\n37.240607\n\n\nsex\n-106.576199\n\n\nbmi\n787.181650\n\n\nbp\n416.672511\n\n\n\n\n\n\n\n\n# confidence intervals\nmodel_ols.conf_int().rename(columns={0:\"lower\", 1:\"upper\"})\n\n\n\n\n\n\n\n\nlower\nupper\n\n\n\n\nIntercept\n146.526670\n157.740298\n\n\nage\n-88.776333\n163.257546\n\n\nsex\n-228.677180\n15.524781\n\n\nbmi\n658.596846\n915.766454\n\n\nbp\n280.087493\n553.257528\n\n\n\n\n\n\n\n\n# p-values\npd.DataFrame(model_ols.pvalues).rename(columns={0:\"p-values\"})\n\n\n\n\n\n\n\n\np-values\n\n\n\n\nIntercept\n2.048854e-193\n\n\nage\n5.616622e-01\n\n\nsex\n8.696030e-02\n\n\nbmi\n5.342370e-29\n\n\nbp\n4.245775e-09\n\n\n\n\n\n\n\n\n# function to get a tidy data frame with results\n\ndef tidy_ols(model):\n    \"\"\"\n    input: ols stats model\n    output: tidy pandas dataframe with models parameters\n    \n    \"\"\"\n    # parameters\n    params = pd.DataFrame(model.params).rename(columns={0:\"coef\"})\n    \n    # confidence intervals\n    coinf = model.conf_int().rename(columns={0:\"lower\", 1:\"upper\"})\n    \n    # p-values\n    pvalues = pd.DataFrame(model.pvalues).rename(columns={0:\"p-values\"})\n    \n    return pd.concat([params, coinf, pvalues], axis=1).reset_index()\n\n\n# run the function\nols_tidy = tidy_ols(model_ols)\n\n# see\nols_tidy.head()\n\n\n\n\n\n\n\n\nindex\ncoef\nlower\nupper\np-values\n\n\n\n\n0\nIntercept\n152.133484\n146.526670\n157.740298\n2.048854e-193\n\n\n1\nage\n37.240607\n-88.776333\n163.257546\n5.616622e-01\n\n\n2\nsex\n-106.576199\n-228.677180\n15.524781\n8.696030e-02\n\n\n3\nbmi\n787.181650\n658.596846\n915.766454\n5.342370e-29\n\n\n4\nbp\n416.672511\n280.087493\n553.257528\n4.245775e-09\n\n\n\n\n\n\n\n\n\n\n\n# Plot\nplot = (ggplot(ols_tidy, aes(y='coef', x='index'))\n        + geom_point(aes(y='coef'), size=3, fill=\"red\", color=\"\")\n        + geom_errorbar(aes(ymin=\"lower\", ymax=\"upper\"), width=0.01, size=2, alpha=.3)\n        + theme_light()\n       )\nplot\n\n\n\n\n&lt;Figure Size: (640 x 480)&gt;"
+  },
+  {
+    "objectID": "lecture_notes/week-10/week-9-models.html#pratice",
+    "href": "lecture_notes/week-10/week-9-models.html#pratice",
+    "title": "Learning Goals",
+    "section": "",
+    "text": "Time for you to practice.\n\nEstimate a different OLS model using the stats.models api. Add any variable you want to examine the effects\nBuild a plot with:\n\nPoints with the predicted outcomes for all observations based on your model (y-axis)\nPoints with observed valeus (x-axis)\nLine with the perfect fit between y and x\n\n\nTips:\n\nYou can get the fitted values with model.fittedvalues\nthe perfect fit comes with a 45 degree line geom_abline(intercept = 0, slope = 1, size = 0.5)\n\nRead more here for other diagnostics: https://www.statsmodels.org/stable/examples/notebooks/generated/ols.html\n\nimport matplotlib.pyplot as plt\n\ndiabetes[\"ols_pred\"] = model_ols.fittedvalues\n\n# plot\n(ggplot(diabetes, aes(y=\"ols_pred\", x=\"target\")) +\n geom_point() +\n geom_abline(intercept = 0, slope = 1, size = 0.5)\n \n)\n\n\n\n\n&lt;Figure Size: (640 x 480)&gt;"
+  },
+  {
+    "objectID": "lecture_notes/week-10/week-9-models.html#statistical-learning-with-sklearn",
+    "href": "lecture_notes/week-10/week-9-models.html#statistical-learning-with-sklearn",
+    "title": "Learning Goals",
+    "section": "",
+    "text": "As we discussed in the lecture, in the macinhe learning tradition, we are interest in predictive modeling, instead of understanding relationship. This is the key feature on machine learning.\n\nThe goal i is to predict values of the outcome, \\(\\hat{y}\\)\nModels are treated as a black box\nthe model doesn’t need to be interpretable as long as it provides an accurate prediction of \\(y\\)."
+  },
+  {
+    "objectID": "lecture_notes/week-10/week-9-models.html#machine-learning-workflow",
+    "href": "lecture_notes/week-10/week-9-models.html#machine-learning-workflow",
+    "title": "Learning Goals",
+    "section": "",
+    "text": "The figure below from Jorge Cimentada’s book Machine Learning for Social Science provides a nice summary of the traditional machine learning workiflow.\n\nIn words:\n\nStart with a dataset\nSplit between training and test\nDo some pre-processing\nTrain the model (with or without cross-validation)\nSelect best parameters (fine-tuning the model)\nEvaluate the model in the test set.\n\nAll these steps will be performed using the sklearn library. The documentation for sklearn is super rich. So I strongly encourage you to check their website and their tutorials: https://scikit-learn.org/stable/tutorial/index.html\n\n\n\n\n\n# load dataset\nimport numpy as np\nimport pandas as pd\nfrom sklearn import datasets\n\n# load the dataset as a pandas dataframe\ndiabetes = datasets.load_diabetes(as_frame=True)[\"frame\"]\n\n# features\nX = diabetes.drop(columns=\"target\")\n\n# target\ny = diabetes[\"target\"]\n\n\n\n\n\n# import function\nfrom sklearn.model_selection import train_test_split\n\n# split\nX_train, X_test, y_train, y_test = train_test_split(X, y, \n                                                    test_size=0.15, \n                                                    random_state = 417)\n\n\n\n\n\n# any missing? \nX.isna().sum()\n\nage    0\nsex    0\nbmi    0\nbp     0\ns1     0\ns2     0\ns3     0\ns4     0\ns5     0\ns6     0\ndtype: int64\n\n\n\n# stardandization?\nX.describe().loc[[\"mean\", \"std\"],:]\n\n\n\n\n\n\n\n\nage\nsex\nbmi\nbp\ns1\ns2\ns3\ns4\ns5\ns6\n\n\n\n\nmean\n-2.511817e-19\n1.230790e-17\n-2.245564e-16\n-4.797570e-17\n-1.381499e-17\n3.918434e-17\n-5.777179e-18\n-9.042540e-18\n9.293722e-17\n1.130318e-17\n\n\nstd\n4.761905e-02\n4.761905e-02\n4.761905e-02\n4.761905e-02\n4.761905e-02\n4.761905e-02\n4.761905e-02\n4.761905e-02\n4.761905e-02\n4.761905e-02\n\n\n\n\n\n\n\n\n# any categorical?\nX.dtypes\n\nage    float64\nsex    float64\nbmi    float64\nbp     float64\ns1     float64\ns2     float64\ns3     float64\ns4     float64\ns5     float64\ns6     float64\ndtype: object\n\n\nthis dataset is pretty much cleaned for us, we can skip pre-processing steps\n\n\n\nIMPORTANT: The modeling API follows the same frame work (despite the model). You can fit many different models with very similar code. Let’s start with a simple OLS.\n\n# import model \nfrom sklearn.linear_model import LinearRegression\n\n# Instantiate the modeling object\nmodel = LinearRegression()\n\n# Fit the model\nmodel.fit(X_train,y_train)\n\nLinearRegression()In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.LinearRegressionLinearRegression()\n\n\n\n\n\n\n# Fit statistic (metric for how wrong we are) -- R^2\nmodel.score(X_test,y_test)\n\n\n\n## if you want to calculate the mean squared error\nfrom sklearn.metrics import mean_squared_error\n\n# predicted values\nyhat = model.predict(X_test)\n\n## estimate\nmean_squared_error(y_test, yhat)\n\n3325.658847637309\n\n\n\n\n\n\nOur performance with the simple linear regression was not great. Let’s see if we get better using more complex models. We will try three different families of models. Again, you will learn about these models in DS II\n\nElastic-net: linear model with regularization parameters.\nSupport Vector Machines: a supervised model that allows more non-linearity between the parametes\nDecision Tree: A model that uses a set of boolean rules in a non-parametric fashion that splits your data in multiple groups for supervised tasks.\n\n\n# setup for models\nfrom sklearn.linear_model import ElasticNet\nfrom sklearn.svm import SVR\nfrom sklearn.tree import DecisionTreeRegressor\n\n# setup for metrics\nfrom sklearn.metrics import mean_squared_error\n\n\n# setup for dataset\nfrom sklearn import datasets\n\n\n# load the dataset as a pandas dataframe\ndiabetes = datasets.load_diabetes(as_frame=True)[\"frame\"]\n\n# features\nX = diabetes.drop(columns=\"target\")\n\n# target\ny = diabetes[\"target\"]\n\n# split\nX_train, X_test, y_train, y_test = train_test_split(X, y, \n                                                    test_size=0.15, \n                                                    random_state = 417)\n\n\n# linear model\n\n# Instantiate the modeling object\nmodel_ols = LinearRegression()\n\n# Fit the model\nmodel_ols.fit(X_train,y_train)\n\n# predic and calculate MSE\ny_pred_ols = model_ols.predict(X_test)\nmse_ols = mean_squared_error(y_test, y_pred_ols)\n\n\n# Initialize and train the Elastic Net model\n# alpha and l1_ratio are hyper parameter (learning is here!)\nelastic_net = ElasticNet(alpha=0.01, l1_ratio=1)  \nelastic_net.fit(X_train, y_train)\n\n# Predict and calculate MSE\ny_pred_en = elastic_net.predict(X_test)\nmse_en = mean_squared_error(y_test, y_pred_en)\n\n\n# Initialize and train the SVM model\nsvm = SVR(kernel='linear')  # Using linear kernel for demonstration\nsvm.fit(X_train, y_train)\n\n# Predict and calculate MSE\ny_pred_svm = svm.predict(X_test)\nmse_svm = mean_squared_error(y_test, y_pred_svm)\n\n\n# Initialize and train the Decision Tree model\ntree = DecisionTreeRegressor(random_state=0,  max_depth=5)\ntree.fit(X_train, y_train)\n\n# Predict and calculate MSE\ny_pred_tree = tree.predict(X_test)\nmse_tree = mean_squared_error(y_test, y_pred_tree)\n\n\npd.DataFrame({\"values\":[mse_ols, mse_en,mse_svm, mse_tree], \n               \"models\":[\"ols\", \"elastic-net\", \"svm\", \"tree\"]}).sort_values(\"values\")\n\n\n\n\n\n\n\n\nvalues\nmodels\n\n\n\n\n1\n3324.324519\nelastic-net\n\n\n0\n3325.658848\nols\n\n\n3\n5184.585555\ntree\n\n\n2\n7071.125649\nsvm\n\n\n\n\n\n\n\n\n\n\n\n# linear model\n\n# Instantiate the modeling object\nmodel_ols = LinearRegression()\n\n# Fit the model\nmodel_ols.fit(X_train,y_train)\n\n# predic and calculate MSE\ny_pred_ols = model_ols.predict(X_train)\nmse_ols = mean_squared_error(y_train, y_pred_ols)\n\n\n# Initialize and train the Elastic Net model\n# alpha is a hyper parameter (learning is here!)\nelastic_net = ElasticNet(alpha=0.01, l1_ratio=1)  \nelastic_net.fit(X_train, y_train)\n\n# Predict and calculate MSE\ny_pred_en = elastic_net.predict(X_train)\nmse_en = mean_squared_error(y_train, y_pred_en)\n\n\n# Initialize and train the SVM model\nsvm = SVR(kernel='linear')  # Using linear kernel for demonstration\nsvm.fit(X_train, y_train)\n\n# Predict and calculate MSE\ny_pred_svm = svm.predict(X_train)\nmse_svm = mean_squared_error(y_train, y_pred_svm)\n\n\n# Initialize and train the Decision Tree model\ntree = DecisionTreeRegressor(random_state=0,  max_depth=5)\ntree.fit(X_train, y_train)\n\n# Predict and calculate MSE\ny_pred_tree = tree.predict(X_train)\nmse_tree = mean_squared_error(y_train, y_pred_tree)\n\n\npd.DataFrame({\"values\":[mse_ols, mse_en,mse_svm, mse_tree], \n               \"models\":[\"ols\", \"elastic-net\", \"svm\", \"tree\"]}).sort_values(\"values\")\n\n\n\n\n\n\n\n\nvalues\nmodels\n\n\n\n\n3\n2005.933021\ntree\n\n\n0\n2793.124358\nols\n\n\n1\n2802.447120\nelastic-net\n\n\n2\n5765.841372\nsvm\n\n\n\n\n\n\n\n\n\n\nAs you saw above, more advanced machine learning models have hyper-parameters.\nHyperparameters are parameters that are not learned directly from the data but are set in advance before the training process begins, bur their best-values can be learned with training. Examples include the learning rate in gradient descent in deep-learning, the depth of a decision tree, or the number of neighbors in a k-nearest neighbors algorithm.\nThe way we choose the values for hyper-parameters is by looking at the performance of the models.\n\n\n\nIf we were to find the best-values for hyperparameters looking always to the test-set, we would be pretty much training the model on the test set. Remember, we should always avoid this. The test set should be unseen data, and we should keep its integrity. This process is commonly described as data leakage\nFor this reason, when training machine learning models, we often rely on resampling methods, such as cross-validation. These methods allow us to fine tune our models by taking multiple samples of the training data, and training the model multiple times.\nRead here a nice and shor introduction to cross-validation: https://neptune.ai/blog/cross-validation-in-machine-learning-how-to-do-it-right\n\n# lets see the mechanics first\nfrom sklearn.model_selection import train_test_split # Train-test split\nfrom sklearn.model_selection import LeaveOneOut # Leave One Out Cross Validation\nfrom sklearn.model_selection import KFold # K-fold Cross validation\n\n# Intialize the K-Folds (splits)\nkf = KFold(n_splits=5)\n\n# Split the data\nk_splits = kf.split(X_train)\n\n# Let's look at the splits\nn_models =0\nfor train, test in k_splits:\n    print(f\"N Obs. to train on = {train.shape[0]}, N obs to test on = {test.shape[0]}\") #\n    n_models += 1 # Count the number of models\n\nprint(f\"Total numbers of models run = {n_models}\")\n\nN Obs. to train on = 300, N obs to test on = 75\nN Obs. to train on = 300, N obs to test on = 75\nN Obs. to train on = 300, N obs to test on = 75\nN Obs. to train on = 300, N obs to test on = 75\nN Obs. to train on = 300, N obs to test on = 75\nTotal numbers of models run = 5\n\n\nLet’s implement using sklearn. We actually don’t need a loop!\n\n# split the data\nfrom sklearn.model_selection import train_test_split\n\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n\n\nfrom sklearn.linear_model import ElasticNet\nfrom sklearn.model_selection import GridSearchCV\n\n# Define hyperparameters to tune\nparams = {\n    'alpha': [0.1, 0.5, 1, 2, 5],\n    'l1_ratio': [0, 0.25, 0.5, 0.75, 1]\n}\n\nelastic_net = ElasticNet()\n\n# Grid search with 5-fold cross-validation\ngrid_en = GridSearchCV(elastic_net, params, cv=5, scoring='r2')\ngrid_en.fit(X_train, y_train)\n\n# Best parameters and corresponding MSE\nprint(\"Best Elastic Net parameters:\", grid_en.best_params_)\nprint(\"Best MSE:\", grid_en.best_score_)\n\nBest Elastic Net parameters: {'alpha': 0.1, 'l1_ratio': 1}\nBest MSE: 0.4749866909033266\n\n\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.312e+05, tolerance: 1.722e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.202e+05, tolerance: 1.695e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.401e+05, tolerance: 1.729e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.566e+05, tolerance: 1.768e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.600e+05, tolerance: 1.781e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.546e+05, tolerance: 1.722e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.415e+05, tolerance: 1.695e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.595e+05, tolerance: 1.729e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.782e+05, tolerance: 1.768e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.841e+05, tolerance: 1.781e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.577e+05, tolerance: 1.722e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.444e+05, tolerance: 1.695e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.621e+05, tolerance: 1.729e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.811e+05, tolerance: 1.768e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.874e+05, tolerance: 1.781e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.593e+05, tolerance: 1.722e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.458e+05, tolerance: 1.695e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.634e+05, tolerance: 1.729e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.826e+05, tolerance: 1.768e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.890e+05, tolerance: 1.781e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.603e+05, tolerance: 1.722e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.467e+05, tolerance: 1.695e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.642e+05, tolerance: 1.729e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.835e+05, tolerance: 1.768e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n/Users/tb186/anaconda3/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.900e+05, tolerance: 1.781e+02 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.\n\n\n\nfrom sklearn.tree import DecisionTreeRegressor\n\nparams = {\n    'max_depth': [None, 2, 4, 6, 8, 10],\n    'min_samples_split': [2, 5, 10]\n}\n\ntree = DecisionTreeRegressor()\n\ngrid_tree = GridSearchCV(tree, params, cv=5, scoring='r2')\ngrid_tree.fit(X_train, y_train)\n\nprint(\"Best Decision Tree parameters:\", grid_tree.best_params_)\nprint(\"Best MSE:\", grid_tree.best_score_)\n\nBest Decision Tree parameters: {'max_depth': 2, 'min_samples_split': 2}\nBest MSE: 0.30384791044330417\n\n\n\nfrom sklearn.neighbors import KNeighborsRegressor\n\nparams = {\n    'n_neighbors': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n}\n\nknn = KNeighborsRegressor()\n\ngrid_knn = GridSearchCV(knn, params, cv=5, scoring='r2')\ngrid_knn.fit(X_train, y_train)\n\nprint(\"Best KNN parameters:\", grid_knn.best_params_)\nprint(\"Best MSE:\", grid_knn.best_score_)\n\nBest KNN parameters: {'n_neighbors': 8}\nBest MSE: 0.42592316067619407\n\n\n\n# Select the best model based on cross-validation results\nbest_model = min([grid_en, grid_tree, grid_knn], key=lambda x: -x.best_score_)\n\n\n# which model?\nbest_model.best_estimator_\n\nElasticNet(alpha=0.1, l1_ratio=1)In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.ElasticNetElasticNet(alpha=0.1, l1_ratio=1)\n\n\n\n# Predict on the test set\ny_pred = best_model.predict(X_test)\n\n# Calculate the test set MSE\nmse_test = mean_squared_error(y_test, y_pred)\nprint(f\"Test set MSE for the best model: {mse_test:.2f}\")\n\nTest set MSE for the best model: 3411.11\n\n\nAll of this only touches the top of the iceberg on Machine Learning. If you want to go ahead and learn more before DS II, I would suggest you to:\n\nRead Introduction to Statistical Learning in Python\nWork through the tutorials on sklearn webpage"
   },
   {
     "objectID": "slides/week-6.html#plans-for-today",
@@ -1624,11 +1820,172 @@
     "text": "Homework.\nYour homework will be posted today on slack and canvas.\n\nSame structure of the in-class exercise.\nDeadline: September 22, midnight EST.\nQuestions? Come to my/Sierra office hours, ask on slack.\n\n\n\nData science I: Foundations"
   },
   {
+    "objectID": "slides/week-11.html#plans-for-today",
+    "href": "slides/week-11.html#plans-for-today",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Plans for Today",
+    "text": "Plans for Today\nIntroduction to Text Analysis/Natural Language Processing\n-   Motivation\n\n-   Overal Workflow\n\n-   Overview of Text Analysis Methods\n\n\n    -   Pre-Process Text\n    -   Descriptive Analysis and Comparisons\n    -   Unsupervised Learning with Text: \n         - Topic Models\n    -   Supervised Learning with Text (Next Week)\n         - Dictionary Methods\n         - Machine Learning Pre-Trained Models\n         - Applications of LLMs (Large Languague models)"
+  },
+  {
+    "objectID": "slides/week-11.html#motivation",
+    "href": "slides/week-11.html#motivation",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Motivation",
+    "text": "Motivation"
+  },
+  {
+    "objectID": "slides/week-11.html#official-documents-congressional-speeches-bills-press-releases-transcripts-from-all-over-the-world",
+    "href": "slides/week-11.html#official-documents-congressional-speeches-bills-press-releases-transcripts-from-all-over-the-world",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Official Documents: Congressional Speeches, Bills, Press Releases, Transcripts, from all over the world!!",
+    "text": "Official Documents: Congressional Speeches, Bills, Press Releases, Transcripts, from all over the world!!"
+  },
+  {
+    "objectID": "slides/week-11.html#social-media",
+    "href": "slides/week-11.html#social-media",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Social Media",
+    "text": "Social Media"
+  },
+  {
+    "objectID": "slides/week-11.html#online-media-news-comments-blogs-etc",
+    "href": "slides/week-11.html#online-media-news-comments-blogs-etc",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Online Media: News, Comments, Blogs, etc…",
+    "text": "Online Media: News, Comments, Blogs, etc…"
+  },
+  {
+    "objectID": "slides/week-11.html#why-to-analyze-data",
+    "href": "slides/week-11.html#why-to-analyze-data",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Why to Analyze Data?",
+    "text": "Why to Analyze Data?\n\nHumans are great at understanding the meaning of a sentence or a document in-depth\nComputers are bettr at understanding patterns, classify and describe content across millions of documents\n\nPrinciples of Text Analysis:\n\nSubstantive knowledge is essential\nText analysis augments humans – does not replace us\nAll text models are wrong – but some are useful\nThe best method depends on the task\nAlway validate your models!"
+  },
+  {
+    "objectID": "slides/week-11.html#workflow",
+    "href": "slides/week-11.html#workflow",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Workflow",
+    "text": "Workflow\n\nAcquire textual data:\n\nExisting corpora; scraped data; digitized text\n\nPreprocess the data:\n\nBag-of-words\nReduce noise, capture signal\n\nApply method appropriate to research goal:\n\nDescriptive Analysis:\n\nCount Words, Readability; similarity;\n\nClassify documents into unknown categories\n\nDocument clustering\nTopic models\n\nClassify documents into known categories\n\nDictionary methods\nSupervised machine learning\nTransfer-Learning - use models trained in text for other purposes\n\nScale documents on latent dimension:\n\nideology of the text"
+  },
+  {
+    "objectID": "slides/week-11.html#already-did-it",
+    "href": "slides/week-11.html#already-did-it",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Already did it!",
+    "text": "Already did it!\n\nAcquire textual data:\n\nExisting corpora; scraped data; digitized text"
+  },
+  {
+    "objectID": "slides/week-11.html#today",
+    "href": "slides/week-11.html#today",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Today!",
+    "text": "Today!\n\nPreprocess the data:\n\nBag-of-words\nReduce noise, capture signal\n\nApply methods appropriate to research goal:\n\nDescriptive Analysis:\n\nCount Words, Readability; similarity;\n\nClassify documents into unknown categories\n\nTopic models"
+  },
+  {
+    "objectID": "slides/week-11.html#next-week",
+    "href": "slides/week-11.html#next-week",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Next Week:",
+    "text": "Next Week:\n\nClassify documents into known categories\n\nDictionary methods\nSupervised machine learning\nTransfer-Learning - use models trained in text for other purposes"
+  },
+  {
+    "objectID": "slides/week-11.html#bag-of-words-assumption",
+    "href": "slides/week-11.html#bag-of-words-assumption",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Bag-of-Words Assumption",
+    "text": "Bag-of-Words Assumption\n\nRepresent text as an unordered set of words in a document. While order is ignored, frequency matters!\n\nPre-Processing Steps\n\nTokenize: break out larger chuncks of text in words (unigram) or n-grams\nLowercase: convert all to lower case\nRemove Noise: stopwords, numbers, punctuation, function words\nStemming: chops off the ends of words\nLemmatization: doing things properly with the use of a vocabulary and morphological analysis of words"
+  },
+  {
+    "objectID": "slides/week-11.html#from-text-to-numbers-bag-of-words-document-feature-matrix",
+    "href": "slides/week-11.html#from-text-to-numbers-bag-of-words-document-feature-matrix",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "From Text to Numbers: Bag-of-Words & Document-Feature Matrix",
+    "text": "From Text to Numbers: Bag-of-Words & Document-Feature Matrix"
+  },
+  {
+    "objectID": "slides/week-11.html#sparse-vs-dense-representation-word-embeddings",
+    "href": "slides/week-11.html#sparse-vs-dense-representation-word-embeddings",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Sparse vs Dense Representation (Word Embeddings)",
+    "text": "Sparse vs Dense Representation (Word Embeddings)"
+  },
+  {
+    "objectID": "slides/week-11.html#similarity-between-documents",
+    "href": "slides/week-11.html#similarity-between-documents",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Similarity between documents",
+    "text": "Similarity between documents\n\nEvery row in the Document-Feature Matrix (or in a Word Embedding Matrix) is a (many other possible) numerical representation of the document.\nThese vectors can be judged using metrics of similarity\n\nCosine Similarity:\n\\[\\text{Sim}(A, B) = \\frac{{A \\cdot B}}{{\\|A\\| \\|B\\|}}\\]\nWhere:\n\nThe \\(\\cdot\\) here means a dot product: \\(\\sum_j \\mathbf{y_a} \\cdot \\mathbf{y_b}\\)\nThe vector norm \\(\\mathbf{||y_a||} = \\sqrt{\\sum \\mathbf{y_{aj}^2}}\\)"
+  },
+  {
+    "objectID": "slides/week-11.html#application-text-reuse-in-congressional-bills",
+    "href": "slides/week-11.html#application-text-reuse-in-congressional-bills",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Application: Text Reuse in Congressional Bills",
+    "text": "Application: Text Reuse in Congressional Bills"
+  },
+  {
+    "objectID": "slides/week-11.html#unsupervised-learning-topic-models",
+    "href": "slides/week-11.html#unsupervised-learning-topic-models",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Unsupervised Learning: Topic Models",
+    "text": "Unsupervised Learning: Topic Models\n\n\nData science I: Foundations"
+  },
+  {
     "objectID": "slides/week-9.html#plans-for-today",
     "href": "slides/week-9.html#plans-for-today",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Plans for Today",
-    "text": "Plans for Today\n\nIntroduction to Machine Learning\n\nApplications\nWhy do we build models in social science?\nInference vs Predictive Modelling\nStatistical Learning:\n\nSupervised vs Unsupervised\nRegression vs Classification\nBias and Variance Trade-off\nTraining models\n\nCoding: many many many models\n\n\n\n\nData science I: Foundations"
+    "text": "Plans for Today\n\nAPIs\n\nA simple API - Bored API\nMore complex with Credentials: Yelp\nCredentials + Wrapper: Youtube\n\nSelenium for Dynamic Websites and Audit Studies\n\nExample of my own research: algorithmic bias in chinese social media websites"
+  },
+  {
+    "objectID": "slides/week-9.html#apis-101",
+    "href": "slides/week-9.html#apis-101",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "APIs 101",
+    "text": "APIs 101\n\nAPIs: Application Programming Interface\nHow does it work: online server create to facilitate information exchange between data users and the data holders\nUse Cases:\n\nAccess data shared by Companies and NGOs\nProcess our data in Algorithms developed by third parties\n\nWe will focus today on the first component."
+  },
+  {
+    "objectID": "slides/week-9.html#api-components",
+    "href": "slides/week-9.html#api-components",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "API Components",
+    "text": "API Components\nAn API is just an URL. See the example below:\nhttp://mywebsite.com/endpoint?key&param_1&param_2\n\nMain Components:\nhttp://mywebsite.com//: API root. The domain of your api/\nendpoint: An endpoint is a server route for retrieving specific data from an API\nkey: credentials that some websites ask for you to create before you can query the api.\n?param_1&param_2 parameters. Those are filters that you can input in apis requests."
+  },
+  {
+    "objectID": "slides/week-9.html#making-an-api-request",
+    "href": "slides/week-9.html#making-an-api-request",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Making an API Request",
+    "text": "Making an API Request\nIn order to work with APIs, we need tools to access the web. In Python, the most common library for making requests and working with APIs is the requests library.\n\nget(): to receive information from the API\npost(): to send information to the API – think about the use of ChatGPT for classification of text."
+  },
+  {
+    "objectID": "slides/week-9.html#step-by-step",
+    "href": "slides/week-9.html#step-by-step",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Step-by-Step",
+    "text": "Step-by-Step\nWhen using an API, our work will often involve the following steps:\n\nStep 1: Look at the API documentation and endpoints, and construct a query of interest\nStep 2: Use requests.get(querystring) to call the API\nStep 3: Examine the response\nStep 4: Extract your data and save it."
+  },
+  {
+    "objectID": "slides/week-9.html#in-class-example",
+    "href": "slides/week-9.html#in-class-example",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "In-Class Example",
+    "text": "In-Class Example\nWe will work with three different types of APIs today:\n\nBored API: API that does not require authentication and does not have a wrapper\nYelp API: API that does require auhtentical and does not have a wrapper\nYoutube API: API that does require auhtentical and does have a wrapper\nWrapper:a set of functions or methods (full library) that provide a simplified interface to interact with an underlying API."
+  },
+  {
+    "objectID": "slides/week-9.html#static-vs-dynamic-websites",
+    "href": "slides/week-9.html#static-vs-dynamic-websites",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Static vs Dynamic Websites",
+    "text": "Static vs Dynamic Websites\n\nStatic web pages: when the browser and the source code content match each other. Collect data via:\n\nstring methods and regex\nbeautifulsoup\nscrapy\n\nDynamic web pages: when the content we are viewing in our browser does not match the content we see in the HTML source code we are retrieving from the site. How to scrape?\n\nScrape the content directly from the JavaScript\nScrape the website as we view it in our browser — using Python packages capable of executing the JavaScript."
+  },
+  {
+    "objectID": "slides/week-9.html#selenium-1",
+    "href": "slides/week-9.html#selenium-1",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Selenium",
+    "text": "Selenium\nSelenium is an open source tool which is used for automating web browser.\n\nworks by automating browsers to execute JavaScript to display a web page\nallow us to interact with web pages programmatically\ncollect data as we see in the web (after running the correspondin java script)\n\nDrawback: selenium is a bit of a pain to install. So part of your homework will simply have selenium setup!"
   },
   {
     "objectID": "problem_sets/ps01/ps01.html",
@@ -1649,14 +2006,14 @@
     "href": "problem_sets/ps03/ps03.html",
     "title": "Problem Set 03",
     "section": "",
-    "text": "Github Classroom Link\n\nCheck datacamp"
+    "text": "Github Classroom Link"
   },
   {
     "objectID": "problem_sets/ps03/ps03.html#materials",
     "href": "problem_sets/ps03/ps03.html#materials",
     "title": "Problem Set 03",
     "section": "",
-    "text": "Github Classroom Link\n\nCheck datacamp"
+    "text": "Github Classroom Link"
   },
   {
     "objectID": "syllabus.html",
@@ -1719,7 +2076,7 @@
     "href": "syllabus.html#weekly-schedule",
     "title": "Syllabus: PPOL 5203 - Data Science I: Foundations",
     "section": "Weekly Schedule",
-    "text": "Weekly Schedule\n\n\n\n\n\n\nWeek\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nNumpy and Intro to Pandas\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Data Wrangling\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nJoining, Tidying and Visualizing Data\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nScraping\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nIntroduction to Statistical Learning\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nText as Data II: Topics + Supervised Models\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Weekly Schedule\n\n\n\n\n\n\nWeek\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nNumpy and Intro to Pandas\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Data Wrangling\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nJoining, Tidying and Visualizing Data\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nScraping\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nApis + Selenium\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nText as Data I: Description and Topics\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "syllabus.html#course-requirements",

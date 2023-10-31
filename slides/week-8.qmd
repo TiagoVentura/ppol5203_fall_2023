@@ -11,8 +11,8 @@ format:
     transition: slide
     background-transition: fade
     code-line-numbers: false
-    width: 1600
-    height: 1200
+    #width: 1600
+    #height: 1200
     center: false
     slide-number: true
     incremental: false
@@ -121,8 +121,6 @@ Consider the following developments from the past 12 months:
 ## What is a website?
 
 A website in general is a combination of HTML, CSS, XML, PHP, and Javascript.
-
-<br><br>
 
 ```         
 <html>

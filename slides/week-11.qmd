@@ -1,0 +1,210 @@
+---
+title: "<span style = 'font-size: 100%;'> PPOL 5203 - Data Science I: Foundations </span>"
+subtitle: "<span style = 'font-size: 100%;'> Week 10: Text-As-Data I: Description and Topics </span>"
+author: "Professor: Tiago Ventura"
+date: "11/14/2023"
+execute: 
+  echo: false
+  error: true
+format:
+  revealjs: 
+    transition: slide
+    background-transition: fade
+    code-line-numbers: false
+    width: 1400
+    height: 800
+    center: false
+    slide-number: true
+    incremental: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    footer: "Data science I: Foundations"
+    theme: [simple, custom.scss]
+---
+
+## Plans for Today
+
+**Introduction to Text Analysis/Natural Language Processing**
+
+    -   Motivation
+
+    -   Overal Workflow
+
+    -   Overview of Text Analysis Methods
+    
+
+        -   Pre-Process Text
+        -   Descriptive Analysis and Comparisons
+        -   Unsupervised Learning with Text: 
+             - Topic Models
+        -   Supervised Learning with Text (Next Week)
+             - Dictionary Methods
+             - Machine Learning Pre-Trained Models
+             - Applications of LLMs (Large Languague models)
+        
+        
+ 
+## Motivation
+
+```{r}
+knitr::include_graphics("http://media3.washingtonpost.com/wp-dyn/content/graphic/2011/02/11/GR2011021100614.jpg")
+```
+
+# A significant part of how we produce and store data comes is text
+
+
+## Official Documents: Congressional Speeches, Bills, Press Releases, Transcripts, from all over the world!!
+
+
+```{r  echo=FALSE, out.width = "80%", fig.align="center"}
+knitr::include_graphics("https://www.brookings.edu/wp-content/uploads/2018/11/RTS10VM4.jpg") 
+```
+
+## Social Media
+
+```{r  echo=FALSE, out.width = "80%", fig.align="center"}
+knitr::include_graphics("week1_figs/redes.png") 
+```
+
+
+## Online Media: News, Comments, Blogs, etc...
+
+```{r  echo=FALSE, out.width = "80%", fig.align="center"}
+knitr::include_graphics("https://miro.medium.com/v2/resize:fit:1400/1*t2u_0FHoQSpBK8i7j1NOBg.png") 
+```
+
+## Why to Analyze Data?
+
+- Humans are great at understanding the meaning of a sentence or a document in-depth
+
+- Computers are bettr at understanding patterns, classify and describe content across millions of documents
+
+### Principles of Text Analysis: 
+
+- Substantive knowledge is essential
+
+- Text analysis augments humans – does not replace us
+
+- All text models are wrong – but some are useful
+
+- The best method depends on the task
+
+- Alway validate your models!
+
+## Workflow
+
+-  **Acquire textual data:**
+   + Existing corpora; scraped data; digitized text
+
+- **Preprocess the data:**
+
+   + Bag-of-words
+   + Reduce noise, capture signal
+   
+- **Apply method appropriate to research goal:**
+
+   + Descriptive Analysis: 
+      +  Count Words, Readability; similarity;
+      
+  + Classify documents into unknown categories 
+     + Document clustering
+     + Topic models
+      
+   + Classify documents into known categories
+      + Dictionary methods
+      + Supervised machine learning
+      + Transfer-Learning - use models trained in text for other purposes
+  
+   + Scale documents on latent dimension:
+      + ideology of the text
+
+## Already did it!
+
+-  **Acquire textual data:**
+   + Existing corpora; scraped data; digitized text
+
+    
+## Today!
+
+- **Preprocess the data:**
+
+   + Bag-of-words
+   + Reduce noise, capture signal
+   
+- **Apply methods appropriate to research goal:**
+
+   + Descriptive Analysis: 
+      +  Count Words, Readability; similarity;
+      
+  + Classify documents into unknown categories 
+     + Topic models
+     
+## Next Week:
+
+   + Classify documents into known categories
+      + Dictionary methods
+      + Supervised machine learning
+      + Transfer-Learning - use models trained in text for other purposes
+
+# Very quick introdution! Want learn more? Register in my class next Spring!
+
+## Bag-of-Words Assumption
+
+- Represent text as an unordered set of words in a document. While order is ignored, frequency matters!
+
+### Pre-Processing Steps
+
+- Tokenize: break out larger chuncks of text in words (unigram) or n-grams
+
+- Lowercase: convert all to lower case
+
+- Remove Noise: stopwords, numbers, punctuation, function words
+
+- Stemming:  chops off the ends of words
+
+- Lemmatization: doing things properly with the use of a vocabulary and morphological analysis of words
+
+## From Text to Numbers: Bag-of-Words & Document-Feature Matrix
+
+<br>
+
+```{r  echo=FALSE, out.width = "80%", fig.align="center"}
+knitr::include_graphics("https://www.mzes.uni-mannheim.de/socialsciencedatalab/article/advancing-text-mining/figures/dfm.png") 
+```
+
+## Sparse vs Dense Representation (Word Embeddings)
+
+<br>
+
+```{r  echo=FALSE, out.width = "80%", fig.align="center"}
+knitr::include_graphics("https://cdn.sanity.io/images/vr8gru94/production/96a71c0c08ba669c5a5a3af564cbffee81af9c6d-1920x1080.png") 
+```
+
+# Text-as-Data methods
+
+## Similarity between documents
+
+- Every row in the Document-Feature Matrix (or in a Word Embedding Matrix) is a (**many other possible**) numerical representation of the document. 
+
+- These vectors can be judged using metrics of similarity
+
+**Cosine Similarity**:
+
+$$\text{Sim}(A, B) = \frac{{A \cdot B}}{{\|A\| \|B\|}}$$
+
+Where: 
+
+- The $\cdot$ here means a dot product: $\sum_j \mathbf{y_a} \cdot \mathbf{y_b}$
+- The vector norm $\mathbf{||y_a||} = \sqrt{\sum \mathbf{y_{aj}^2}}$
+
+## Application: Text Reuse in Congressional Bills
+
+
+```{r  echo=FALSE, out.width = "80%", fig.align="center"}
+knitr::include_graphics("sim.png") 
+```
+
+# [Notebook: Pre-Processing, DFM and Similarity]()
+
+## Unsupervised Learning: Topic Models
