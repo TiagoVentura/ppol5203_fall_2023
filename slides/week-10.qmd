@@ -37,37 +37,36 @@ format:
         -   Regression vs Classification
         -   Bias and Variance Trade-off
         -   Training models
-        
-    -  Application of ML in Social Sciences
-    
-    -  Coding
 
+    -   Application of ML in Social Sciences
+
+    -   Coding
 
 ## Some questions we are interested as social scientist...
 
-- [Which factors affect the likelihood of a country backslide to autocracy?](https://muse.jhu.edu/article/16730)
+-   [Which factors affect the likelihood of a country backslide to autocracy?](https://muse.jhu.edu/article/16730)
 
-- [Why countries go to war?](https://www.math.fsu.edu/~mesterto/NewCourses/MAP5932/2016/PDF/PDF13/Fearon1995aExplanationsForWar.pdf)
+-   [Why countries go to war?](https://www.math.fsu.edu/~mesterto/NewCourses/MAP5932/2016/PDF/PDF13/Fearon1995aExplanationsForWar.pdf)
 
-- [Detect corruption or fraud in elections using official documents](https://www.cambridge.org/core/journals/political-analysis/article/fraudulent-democracy-an-analysis-of-argentinas-infamous-decade-using-supervised-machine-learning/EF5F7AC3A74E7F89494E478A05BFA8BC)
+-   [Detect corruption or fraud in elections using official documents](https://www.cambridge.org/core/journals/political-analysis/article/fraudulent-democracy-an-analysis-of-argentinas-infamous-decade-using-supervised-machine-learning/EF5F7AC3A74E7F89494E478A05BFA8BC)
 
-- [Predict/detect the sentiment/toxicity/presence of misinformation on a social media post](https://dl.acm.org/doi/abs/10.1007/978-3-031-26390-3_14)
+-   [Predict/detect the sentiment/toxicity/presence of misinformation on a social media post](https://dl.acm.org/doi/abs/10.1007/978-3-031-26390-3_14)
 
-- [Estimating socio-demographics of a region where census data is not available](https://www.unhcr.org/innovation/wp-content/uploads/2016/11/blumenstock-science-2015.pdf)
+-   [Estimating socio-demographics of a region where census data is not available](https://www.unhcr.org/innovation/wp-content/uploads/2016/11/blumenstock-science-2015.pdf)
 
 ## Statistical Models
 
-All these questions are complex. To answer them, we build models: 
+All these questions are complex. To answer them, we build models:
 
-> A model is “a simplified representation of reality created to serve a purpose.” (Provost & Fawcett 2013)
+> A model is "a simplified representation of reality created to serve a purpose." (Provost & Fawcett 2013)
 
-By definition: 
+By definition:
 
-- models are simplification of a reality
+-   models are simplification of a reality
 
-- highlight key aspects of our outcome of interest
+-   highlight key aspects of our outcome of interest
 
-- are all wrong, but some are useful
+-   are all wrong, but some are useful
 
 ## A Model and its components
 
@@ -77,13 +76,13 @@ $$ y = f(X) + \sigma$$
 
 **Where:**
 
-- $y$ is the outcome/dependent/response variable
+-   $y$ is the outcome/dependent/response variable
 
-- $X$ is a matrix of predictors/features/independent variables
+-   $X$ is a matrix of predictors/features/independent variables
 
-- $f()$ is some fixed but unknown function mapping X to y. The signal in the data
+-   $f()$ is some fixed but unknown function mapping X to y. The signal in the data
 
-- $\sigma$  is some random error term. The "noise" in the data.
+-   $\sigma$ is some random error term. The "noise" in the data.
 
 ## Statistical Learning
 
@@ -91,73 +90,70 @@ Statistical learning refers to a set of methods/approaches for estimating $f(.)$
 
 $$ \hat{y} = \hat{f}(X) + \sigma$$
 
-
-Where $\hat{f}(X)$ is an approximation of the "true" functional form, $f(X)$ and $\hat{y}$ is the predicted value of a true value y. 
+Where $\hat{f}(X)$ is an approximation of the "true" functional form, $f(X)$ and $\hat{y}$ is the predicted value of a true value y.
 
 When we build models, the aim is to find a $\hat{f}(X)$ that minimizes the reducible error in the model:
 
 ## Reducible vs. Irreducible Error
 
-$$E(y - \hat{y})^2$$
-$$E[f(X) + \epsilon -  \hat{f}(X)]^2$$
+$$E(y - \hat{y})^2$$ $$E[f(X) + \epsilon -  \hat{f}(X)]^2$$
 
 $$\underbrace{E[f(X) -\hat{f}(X)]^2}_{\text{Reducible}} + \underbrace{var(\epsilon)}_{\text{Irreducible}}$$
 
-The **"reducible" error** is the systematic **signal**. We can reduce this error by using different functional forms, better data, or a mixture of those two. 
+The **"reducible" error** is the systematic **signal**. We can reduce this error by using different functional forms, better data, or a mixture of those two.
 
-The **"irreducible" error** is associated with the random **noise** around $y$. 
+The **"irreducible" error** is associated with the random **noise** around $y$.
 
-Statistical learning is concerned with minimizing the reducible error. However, our predictions  will never be perfect given the irreducible error. 
+Statistical learning is concerned with minimizing the reducible error. However, our predictions will never be perfect given the irreducible error.
 
 There is a lower bound on how accurate we can be.
 
 ## Inference (Social Science) vs Prediction (Machine Learning)
 
-Two reasons we want to estimate $f(\cdot)$: 
+Two reasons we want to estimate $f(\cdot)$:
 
-- **Inference**
+-   **Inference**
 
-  + Goal is **_interpretation_**
-  
-      - _Which predictors are associated with the response?_
-      - _What is the relationship (parameters) between the response and the predictors?_
-      - _Is the relationship causal?_
-      
-  + **<font color = "darkred"> Key limitation</font>**: 
-  
-      - using functional forms that are easy to interpret (e.g. lines) might be far away from the true function form of $f(X)$.
-      
-  + **Classic Social Science Approach** 
-  
+    -   Goal is ***interpretation***
+
+        -   *Which predictors are associated with the response?*
+        -   *What is the relationship (parameters) between the response and the predictors?*
+        -   *Is the relationship causal?*
+
+    -   <font color = "darkred"> Key limitation</font>:
+
+        -   using functional forms that are easy to interpret (e.g. lines) might be far away from the true function form of $f(X)$.
+
+    -   **Classic Social Science Approach**
+
 $$ y_i = \beta_1*education_i + beta_2*gender_i + \sigma_i $$
-  
 
 ## Inference (Social Science) vs Prediction (Machine Learning)
 
-- **Prediction**
+-   **Prediction**
 
-  + Goal is to **_predict_** values of the outcome, $\hat{y}$
-  
-  + $\hat{f}(X)$ is treated as a **_black box_**
-      + model doesn't need to be interpretable as long as it provides an accurate prediction of $y$.
-  
-  + **<font color = "darkred"> Key limitation</font>**: 
-  
-      - *Interpretation*: it is difficult to know which variables are doing the heavy lifting and the exact influence of $x$ on $y$.
-      
-  + **This is the Machine Learning tradition, or, statistical learning**    
- 
+    -   Goal is to ***predict*** values of the outcome, $\hat{y}$
+
+    -   $\hat{f}(X)$ is treated as a ***black box***
+
+        -   model doesn't need to be interpretable as long as it provides an accurate prediction of $y$.
+
+    -   <font color = "darkred"> Key limitation</font>:
+
+        -   *Interpretation*: it is difficult to know which variables are doing the heavy lifting and the exact influence of $x$ on $y$.
+
+    -   **This is the Machine Learning tradition, or, statistical learning**
 
 # Statistical Learning
 
 ## Supervised and Unsupervised Learning
 
-- <u>**Supervised Learning**</u> 
+-   <u>**Supervised Learning**</u>
 
-  - for each observation of the predictor measurement $x_i$ there is an associated response measurement $y_i$. In essence, there is an _outcome_ we are aiming to accurately predict or understand.
-  
-  - use regression and classification methods
-  
+    -   for each observation of the predictor measurement $x_i$ there is an associated response measurement $y_i$. In essence, there is an *outcome* we are aiming to accurately predict or understand.
+
+    -   use regression and classification methods
+
 ```{r,echo=F,fig.align="center",fig.width=7,fig.height=4}
 require(tidyverse)
 require(caret)
@@ -176,12 +172,12 @@ tibble(x,y) %>%
 
 ## Unsupervised
 
-- <u>**Unsupervised Learning**</u>  
+-   <u>**Unsupervised Learning**</u>
 
-  - we observe a vector of measurements $x_i$ but _no_ associated response $y_i$.
-  
-  - "unsupervised" because we lack a response variable that can supervise our analysis.
-  
+    -   we observe a vector of measurements $x_i$ but *no* associated response $y_i$.
+
+    -   "unsupervised" because we lack a response variable that can supervise our analysis.
+
 ```{r,echo=F,fig.align="center",fig.width=7,fig.height=4}
 set.seed(123)
 n = 50
@@ -199,40 +195,37 @@ bind_rows(x1,x2,x3) %>%
 
 ## Interpretation vs Flexibility
 
-:::: columns
+::: columns
 ::: {.column width="50%"}
-
 > "There is no free lunch in statistics"
 
-- No one method dominates all others over all possible data sets. 
+-   No one method dominates all others over all possible data sets.
 
-- It is an important task to decide for any given set of data which method produces the best results
+-   It is an important task to decide for any given set of data which method produces the best results
 
-- Balance between  model interpretation and model flexibility
+-   Balance between model interpretation and model flexibility
 :::
-::: {.column width="50%"}
 
+::: {.column width="50%"}
 ```{r out.width="120%"}
 knitr::include_graphics("week10_figs/interpret-vs-flexible.png")
 ```
-
 :::
 :::
-
 
 ## Building Models: Over-Fitting vs Under-Fitting
 
-For inference work (in you stats class), you get some data, and you estimate a model using the entire data. This is not what we do in machine learning. 
+For inference work (in you stats class), you get some data, and you estimate a model using the entire data. This is not what we do in machine learning.
 
-#### What does learning mean? 
+#### What does learning mean?
 
-- **Main objective:** predict data accurately by learning from **previous seen**
+-   **Main objective:** predict data accurately by learning from **previous seen**
 
-- **Goal:** 
+-   **Goal:**
 
- - capture signal in the best way possible $f(X)$ 
- - Ignore noise (irreducible error) 
+-   capture signal in the best way possible $f(X)$
 
+-   Ignore noise (irreducible error)
 
 ## Challenge: avoid overfitting the data
 
@@ -289,27 +282,26 @@ goodfit <-
 bad_fit + overfit + goodfit
 ```
 
-
 ## Train the model
 
 The purpose of training the model is to **capture signal** and **ignore noise**.
 
-To do so: 
+To do so:
 
-- Define a accuracy metric: 
+-   Define a accuracy metric:
 
-  - In the regression setting, the most common accuracy metric is _mean squared error_ (MSE).
-  - $MSE = \frac{\sum^N_{i=1} (y_i - \hat{f}(X_i))^2}{N}$
+    -   In the regression setting, the most common accuracy metric is *mean squared error* (MSE).
+    -   $MSE = \frac{\sum^N_{i=1} (y_i - \hat{f}(X_i))^2}{N}$
 
-- Train-Test Split
+-   Train-Test Split
 
-  - Split your data between training and test
-  
-  - Training data: find the best model and tune the parameters of these models
-  
-  - Test data: assess the accuracy of your model. 
-  
-- Select the model based on smaller **out of sample predictive accuracy**
+    -   Split your data between training and test
+
+    -   Training data: find the best model and tune the parameters of these models
+
+    -   Test data: assess the accuracy of your model.
+
+-   Select the model based on smaller **out of sample predictive accuracy**
 
 ## Bias and Variance Trade-off
 
@@ -317,48 +309,38 @@ To do so:
 knitr::include_graphics("week10_figs/interpret-vs-flexible.png")
 ```
 
+-   **high variance**: new data, new pattern.
 
-- **high variance**: new data, new pattern.
+-   **high bias**: rigid pattern, doesn't reflect the data
 
-- **high bias**: rigid pattern, doesn't reflect the data 
-
-- **Trade-off**: as we reduce bias, we risk overfiting. Trainning properly is key
+-   **Trade-off**: as we reduce bias, we risk overfiting. Trainning properly is key
 
 ## Cross-Validation
 
 If you go back and forth between training and test to decide which model to use, you might also be overfiting. This is the idea of data leakage.
 
-- We can use re-sampling techniques to generate estimates for the test error.
+-   We can use re-sampling techniques to generate estimates for the test error.
 
-- "Re-sampling" involves repeatedly drawing samples from a training set and refitting a model of interest on each sample in order to obtain additional information about the fitted model.
+-   "Re-sampling" involves repeatedly drawing samples from a training set and refitting a model of interest on each sample in order to obtain additional information about the fitted model.
 
-- We can use re-sampling techniques to generate estimates for the test error.
+-   We can use re-sampling techniques to generate estimates for the test error.
 
 ## K-Fold Cross Validation
 
-- K-Fold Cross Validation Involves randomly dividing the data into $k$ groups (or folds). Model is trained on $k-1$ folds, then test on the remaining fold. 
+-   K-Fold Cross Validation Involves randomly dividing the data into $k$ groups (or folds). Model is trained on $k-1$ folds, then test on the remaining fold.
 
-- Process is repeated $k$ times, each time using a new fold. Offers $k$ estimates of the test error, which we average. 
-
+-   Process is repeated $k$ times, each time using a new fold. Offers $k$ estimates of the test error, which we average.
 
 ```{r out.width="100%"}
 knitr::include_graphics("week10_figs/KfoldCV.gif")
 ```
 
-
 ## Important Concepts
 
-- Inference vs Prediction
+-   Inference vs Prediction
 
-- Prediction: black-box function, highly flexible to reduce error. 
+-   Prediction: black-box function, highly flexible to reduce error.
 
-- Learning: train the model in seen data. Test and calculate metrics in seen
+-   Learning: train the model in seen data. Test and calculate metrics in seen
 
-- Avoid overfitting and data leakage by using resampling methods. 
-
-
-
-
-
-
-
+-   Avoid overfitting and data leakage by using resampling methods.

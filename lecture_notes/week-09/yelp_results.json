@@ -7,7 +7,7 @@
             "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/1X06-J7i2bggZpAxuf6kJg/o.jpg",
             "is_closed": false,
             "url": "https://www.yelp.com/biz/fogo-de-chao-brazilian-steakhouse-washington-10?adjust_creative=GJK5eaHUqVE8eGMl0w0Pfg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=GJK5eaHUqVE8eGMl0w0Pfg",
-            "review_count": 2226,
+            "review_count": 2228,
             "categories": [
                 {
                     "alias": "brazilian",
@@ -24,8 +24,8 @@
                 "longitude": -77.0273284769837
             },
             "transactions": [
-                "pickup",
-                "delivery"
+                "delivery",
+                "pickup"
             ],
             "price": "$$$",
             "location": {
@@ -73,8 +73,8 @@
                 "longitude": -77.04351
             },
             "transactions": [
-                "pickup",
-                "delivery"
+                "delivery",
+                "pickup"
             ],
             "price": "$$",
             "location": {
@@ -118,8 +118,8 @@
                 "longitude": -77.04225252972181
             },
             "transactions": [
-                "pickup",
-                "delivery"
+                "delivery",
+                "pickup"
             ],
             "price": "$$",
             "location": {
@@ -209,8 +209,8 @@
                 "longitude": -77.103832
             },
             "transactions": [
-                "pickup",
-                "delivery"
+                "delivery",
+                "pickup"
             ],
             "price": "$$",
             "location": {
@@ -245,7 +245,7 @@
                 },
                 {
                     "alias": "newamerican",
-                    "title": "American (New)"
+                    "title": "New American"
                 },
                 {
                     "alias": "desserts",
@@ -258,8 +258,8 @@
                 "longitude": -77.058927310067
             },
             "transactions": [
-                "pickup",
-                "delivery"
+                "delivery",
+                "pickup"
             ],
             "price": "$$$",
             "location": {
@@ -307,8 +307,8 @@
                 "longitude": -77.032106
             },
             "transactions": [
-                "pickup",
-                "delivery"
+                "delivery",
+                "pickup"
             ],
             "price": "$$",
             "location": {
@@ -400,8 +400,8 @@
                 "longitude": -77.0414300693839
             },
             "transactions": [
-                "pickup",
-                "delivery"
+                "delivery",
+                "pickup"
             ],
             "price": "$$",
             "location": {
@@ -436,7 +436,7 @@
                 },
                 {
                     "alias": "tradamerican",
-                    "title": "American (Traditional)"
+                    "title": "American"
                 }
             ],
             "rating": 3.5,
@@ -445,8 +445,8 @@
                 "longitude": -77.0401812
             },
             "transactions": [
-                "pickup",
-                "delivery"
+                "delivery",
+                "pickup"
             ],
             "price": "$$$$",
             "location": {
@@ -494,8 +494,8 @@
                 "longitude": -77.04235
             },
             "transactions": [
-                "pickup",
-                "delivery"
+                "delivery",
+                "pickup"
             ],
             "price": "$$",
             "location": {
