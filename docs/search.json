@@ -996,9 +996,9 @@
   {
     "objectID": "lecture_notes/week-10/solution_in_class.html",
     "href": "lecture_notes/week-10/solution_in_class.html",
-    "title": "PPOL 5203 - Data Science I: Foundations",
+    "title": "Practice",
     "section": "",
-    "text": "import matplotlib.pyplot as plt\n\ndiabetes[\"ols_pred\"] = model_ols.fittedvalues\n\n# plot\n(ggplot(diabetes, aes(y=\"ols_pred\", x=\"target\")) +\n geom_point() +\n geom_abline(intercept = 0, slope = 1, size = 0.5)\n \n)"
+    "text": "import matplotlib.pyplot as plt\n\ndiabetes[\"ols_pred\"] = model_ols.fittedvalues\n\n# plot\n(ggplot(diabetes, aes(y=\"ols_pred\", x=\"target\")) +\n geom_point() +\n geom_abline(intercept = 0, slope = 1, size = 0.5)\n \n)\nIn groups, read the sklearn documentation or check the slide with models I show you in class.\nPick a additional model from the sklearn. Compare this model with the three models I showed you in this notebook\nFeel free to copy and paste the code above, and add your new model and compare the results."
   },
   {
     "objectID": "weeks/week-09.html",
@@ -1055,5 +1055,12 @@
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Model Accuracy: Out-Sample Prediction",
     "text": "Model Accuracy: Out-Sample Prediction\n\n\n\n\n\n\n\nsource: Dr. Eric Dunford’s PPOL564 slides"
+  },
+  {
+    "objectID": "lecture_notes/week-10/solution_in_class.html#add-your-code",
+    "href": "lecture_notes/week-10/solution_in_class.html#add-your-code",
+    "title": "Practice",
+    "section": "add your code",
+    "text": "add your code"
   }
 ]
