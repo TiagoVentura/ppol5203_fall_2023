@@ -13181,7 +13181,7 @@ Tiago Ventura </center> <h1></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[160]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># load dataset</span>
@@ -13211,7 +13211,7 @@ Tiago Ventura </center> <h1></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[161]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># check the data</span>
@@ -13228,7 +13228,7 @@ Tiago Ventura </center> <h1></p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[3]:</div>
+    <div class="prompt output_prompt">Out[161]:</div>
 
 
 
@@ -13360,7 +13360,7 @@ Tiago Ventura </center> <h1></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[101]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># import library for models</span>
@@ -13385,7 +13385,7 @@ Tiago Ventura </center> <h1></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[102]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># estimate the model using R style formula</span>
@@ -13399,7 +13399,7 @@ Tiago Ventura </center> <h1></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[103]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># or using a more pythonic way</span>
@@ -13422,7 +13422,7 @@ Tiago Ventura </center> <h1></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[104]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">model_ols</span><span class="o">.</span><span class="n">summary</span><span class="p">())</span>
@@ -13447,8 +13447,8 @@ Tiago Ventura </center> <h1></p>
 Dep. Variable:                 target   R-squared:                       0.400
 Model:                            OLS   Adj. R-squared:                  0.395
 Method:                 Least Squares   F-statistic:                     72.91
-Date:                Mon, 06 Nov 2023   Prob (F-statistic):           2.70e-47
-Time:                        16:58:14   Log-Likelihood:                -2434.2
+Date:                Tue, 07 Nov 2023   Prob (F-statistic):           2.70e-47
+Time:                        13:58:38   Log-Likelihood:                -2434.2
 No. Observations:                 442   AIC:                             4878.
 Df Residuals:                     437   BIC:                             4899.
 Df Model:                           4                                         
@@ -13487,7 +13487,7 @@ Notes:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[105]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">model_ols_int</span><span class="o">=</span> <span class="n">smf</span><span class="o">.</span><span class="n">ols</span><span class="p">(</span><span class="n">formula</span><span class="o">=</span><span class="s1">'target ~ age + sex + bmi + bp + age*bmi'</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">diabetes</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">()</span>
@@ -13513,8 +13513,8 @@ Notes:
 Dep. Variable:                 target   R-squared:                       0.407
 Model:                            OLS   Adj. R-squared:                  0.400
 Method:                 Least Squares   F-statistic:                     59.77
-Date:                Mon, 06 Nov 2023   Prob (F-statistic):           2.40e-47
-Time:                        16:57:16   Log-Likelihood:                -2431.8
+Date:                Tue, 07 Nov 2023   Prob (F-statistic):           2.40e-47
+Time:                        13:58:41   Log-Likelihood:                -2431.8
 No. Observations:                 442   AIC:                             4876.
 Df Residuals:                     436   BIC:                             4900.
 Df Model:                           5                                         
@@ -13555,7 +13555,7 @@ Notes:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[106]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># estimate the model using R style formula</span>
@@ -13590,8 +13590,8 @@ Notes:
 Dep. Variable:             target_bin   No. Observations:                  442
 Model:                          Logit   Df Residuals:                      437
 Method:                           MLE   Df Model:                            4
-Date:                Mon, 06 Nov 2023   Pseudo R-squ.:                  0.2182
-Time:                        16:57:01   Log-Likelihood:                -237.13
+Date:                Tue, 07 Nov 2023   Pseudo R-squ.:                  0.2182
+Time:                        13:58:47   Log-Likelihood:                -237.13
 converged:                       True   LL-Null:                       -303.31
 Covariance Type:            nonrobust   LLR p-value:                 1.229e-27
 ==============================================================================
@@ -13621,7 +13621,7 @@ bp            14.6430      2.875      5.092      0.000       9.007      20.279
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[107]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># get parameters</span>
@@ -13639,7 +13639,7 @@ bp            14.6430      2.875      5.092      0.000       9.007      20.279
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[24]:</div>
+    <div class="prompt output_prompt">Out[107]:</div>
 
 
 
@@ -13697,7 +13697,7 @@ bp            14.6430      2.875      5.092      0.000       9.007      20.279
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[108]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># confidence intervals</span>
@@ -13714,7 +13714,7 @@ bp            14.6430      2.875      5.092      0.000       9.007      20.279
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[25]:</div>
+    <div class="prompt output_prompt">Out[108]:</div>
 
 
 
@@ -13778,7 +13778,7 @@ bp            14.6430      2.875      5.092      0.000       9.007      20.279
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[109]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># p-values</span>
@@ -13795,7 +13795,7 @@ bp            14.6430      2.875      5.092      0.000       9.007      20.279
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[26]:</div>
+    <div class="prompt output_prompt">Out[109]:</div>
 
 
 
@@ -13853,7 +13853,7 @@ bp            14.6430      2.875      5.092      0.000       9.007      20.279
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[110]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># function to get a tidy data frame with results</span>
@@ -13883,7 +13883,7 @@ bp            14.6430      2.875      5.092      0.000       9.007      20.279
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[111]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># run the function</span>
@@ -13903,7 +13903,7 @@ bp            14.6430      2.875      5.092      0.000       9.007      20.279
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[30]:</div>
+    <div class="prompt output_prompt">Out[111]:</div>
 
 
 
@@ -13992,7 +13992,7 @@ bp            14.6430      2.875      5.092      0.000       9.007      20.279
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[112]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Plot</span>
@@ -14030,7 +14030,7 @@ height=480
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[31]:</div>
+    <div class="prompt output_prompt">Out[112]:</div>
 
 
 
@@ -14075,10 +14075,23 @@ height=480
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Add your code here</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Statistical-learning-with-sklearn">Statistical learning with sklearn<a class="anchor-link" href="#Statistical-learning-with-sklearn">&#182;</a></h2><p>As we discussed in the lecture, in the macinhe learning tradition, we are interest in predictive modeling, instead of understanding relationship. This is the key feature on machine learning.</p>
+<h2 id="Statistical-learning-with-sklearn">Statistical learning with sklearn<a class="anchor-link" href="#Statistical-learning-with-sklearn">&#182;</a></h2><p>As we discussed in the lecture, in the machine learning tradition, we are interest in predictive modeling, instead of understanding relationship. These are the key features on machine learning models:</p>
 <ul>
 <li><p>The goal i is to <strong><em>predict</em></strong> values of the outcome, $\hat{y}$</p>
 </li>
@@ -14133,7 +14146,7 @@ height=480
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[116]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># load dataset</span>
@@ -14159,7 +14172,14 @@ height=480
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Split-between-training-and-test">Split between training and test<a class="anchor-link" href="#Split-between-training-and-test">&#182;</a></h4>
+<h4 id="Split-between-training-and-test">Split between training and test<a class="anchor-link" href="#Split-between-training-and-test">&#182;</a></h4><ul>
+<li><p><code>train_test_split</code> method:</p>
+<ul>
+<li>returns: train and test for X and y</li>
+</ul>
+</li>
+</ul>
+
 </div>
 </div>
 </div>
@@ -14171,7 +14191,7 @@ height=480
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># import function</span>
 <span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
 
-<span class="c1"># split</span>
+<span class="c1"># s</span>
 <span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> 
                                                     <span class="n">test_size</span><span class="o">=</span><span class="mf">0.15</span><span class="p">,</span> 
                                                     <span class="n">random_state</span> <span class="o">=</span> <span class="mi">417</span><span class="p">)</span>
@@ -14185,7 +14205,7 @@ height=480
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Pre-processing">Pre-processing<a class="anchor-link" href="#Pre-processing">&#182;</a></h4>
+<h3 id="Pre-processing">Pre-processing<a class="anchor-link" href="#Pre-processing">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -14370,7 +14390,8 @@ dtype: object</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>this dataset is pretty much cleaned for us, we can skip pre-processing steps</p>
+<p>This dataset is pretty much cleaned for us, we can skip pre-processing steps.</p>
+<p>If you want see more about pre-processing steps with <code>skelearn</code>, check here: <a href="https://scikit-learn.org/stable/modules/preprocessing.html">https://scikit-learn.org/stable/modules/preprocessing.html</a></p>
 
 </div>
 </div>
@@ -14378,14 +14399,14 @@ dtype: object</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Train-the-model">Train the model<a class="anchor-link" href="#Train-the-model">&#182;</a></h4><p><strong>IMPORTANT</strong>: The modeling API follows the same frame work (despite the model). You can fit many different models with very similar code. Let's start with a simple OLS.</p>
+<h3 id="Train-the-model">Train the model<a class="anchor-link" href="#Train-the-model">&#182;</a></h3><p><strong>IMPORTANT</strong>: The modeling API follows the same framework (despite the model). You can fit many different models with very similar code. Let's start with a simple OLS.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[118]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># import model </span>
@@ -14408,11 +14429,11 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[39]:</div>
+    <div class="prompt output_prompt">Out[118]:</div>
 
 
 
-<div class="output_html rendered_html output_subarea output_execute_result"><style>#sk-container-id-1 {color: black;}#sk-container-id-1 pre{padding: 0;}#sk-container-id-1 div.sk-toggleable {background-color: white;}#sk-container-id-1 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-1 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-1 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-1 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-1 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-1 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-1 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-1 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-1 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-1 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-1 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-1 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-1 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-1 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-1 div.sk-item {position: relative;z-index: 1;}#sk-container-id-1 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-1 div.sk-item::before, #sk-container-id-1 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-1 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-1 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-1 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-1 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-1 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-1 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-1 div.sk-label-container {text-align: center;}#sk-container-id-1 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-1 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-1" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>LinearRegression()</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-1" type="checkbox" checked><label for="sk-estimator-id-1" class="sk-toggleable__label sk-toggleable__label-arrow">LinearRegression</label><div class="sk-toggleable__content"><pre>LinearRegression()</pre></div></div></div></div></div></div>
+<div class="output_html rendered_html output_subarea output_execute_result"><style>#sk-container-id-4 {color: black;}#sk-container-id-4 pre{padding: 0;}#sk-container-id-4 div.sk-toggleable {background-color: white;}#sk-container-id-4 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-4 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-4 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-4 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-4 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-4 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-4 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-4 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-4 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-4 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-4 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-4 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-4 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-4 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-4 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-4 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-4 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-4 div.sk-item {position: relative;z-index: 1;}#sk-container-id-4 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-4 div.sk-item::before, #sk-container-id-4 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-4 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-4 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-4 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-4 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-4 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-4 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-4 div.sk-label-container {text-align: center;}#sk-container-id-4 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-4 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-4" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>LinearRegression()</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-4" type="checkbox" checked><label for="sk-estimator-id-4" class="sk-toggleable__label sk-toggleable__label-arrow">LinearRegression</label><div class="sk-toggleable__content"><pre>LinearRegression()</pre></div></div></div></div></div></div>
 
 </div>
 
@@ -14429,7 +14450,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[119]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Fit statistic (metric for how wrong we are) -- R^2</span>
@@ -14446,13 +14467,13 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[40]:</div>
+    <div class="prompt output_prompt">Out[119]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.4799898648936971</pre>
+<pre>0.45260276297191937</pre>
 </div>
 
 </div>
@@ -14463,7 +14484,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[121]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## if you want to calculate the mean squared error</span>
@@ -14472,7 +14493,7 @@ dtype: object</pre>
 <span class="c1"># predicted values</span>
 <span class="n">yhat</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
 
-<span class="c1">## estimate</span>
+<span class="c1">## estimate out of sample predictions</span>
 <span class="n">mean_squared_error</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">yhat</span><span class="p">)</span>
 </pre></div>
 
@@ -14486,13 +14507,13 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[41]:</div>
+    <div class="prompt output_prompt">Out[121]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>3325.658847637309</pre>
+<pre>2900.193628493482</pre>
 </div>
 
 </div>
@@ -14506,9 +14527,9 @@ dtype: object</pre>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Many,-many-models,-and-an-API-to-rule-them-all!">Many, many models, and an API to rule them all!<a class="anchor-link" href="#Many,-many-models,-and-an-API-to-rule-them-all!">&#182;</a></h3><p>Our performance with the simple linear regression was not great. Let's see if we get better using more complex models. We will try three different families of models. Again, you will learn about these models in DS II</p>
 <ul>
-<li>Elastic-net: linear model with regularization parameters. </li>
-<li>Support Vector Machines: a supervised model that allows more non-linearity between the parametes</li>
-<li>Decision Tree: A model that uses a set of boolean rules in a non-parametric fashion that splits your data in multiple groups for supervised tasks. </li>
+<li><strong>Elastic-net:</strong> linear model with regularization parameters. </li>
+<li><strong>Support Vector Machine</strong>: a supervised model that allows more non-linearity between the parameters</li>
+<li><strong>Decision Tree:</strong> A model that uses a set of boolean rules in a non-parametric fashion that splits your data in multiple groups for supervised tasks. </li>
 </ul>
 
 </div>
@@ -14516,7 +14537,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[158]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># setup for models</span>
@@ -14526,6 +14547,7 @@ dtype: object</pre>
 
 <span class="c1"># setup for metrics</span>
 <span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_squared_error</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">r2_score</span>
 
 
 <span class="c1"># setup for dataset</span>
@@ -14539,7 +14561,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[123]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># load the dataset as a pandas dataframe</span>
@@ -14565,13 +14587,13 @@ dtype: object</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="linear-model">linear model<a class="anchor-link" href="#linear-model">&#182;</a></h3>
+<h3 id="Linear-model">Linear model<a class="anchor-link" href="#Linear-model">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[252]:</div>
+<div class="prompt input_prompt">In&nbsp;[124]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># linear model</span>
@@ -14601,7 +14623,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[253]:</div>
+<div class="prompt input_prompt">In&nbsp;[125]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Initialize and train the Elastic Net model</span>
@@ -14628,7 +14650,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[254]:</div>
+<div class="prompt input_prompt">In&nbsp;[126]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Initialize and train the SVM model</span>
@@ -14654,7 +14676,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[255]:</div>
+<div class="prompt input_prompt">In&nbsp;[127]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Initialize and train the Decision Tree model</span>
@@ -14671,9 +14693,17 @@ dtype: object</pre>
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Out-of-sample-predictions">Out-of-sample predictions<a class="anchor-link" href="#Out-of-sample-predictions">&#182;</a></h2><p>This is really important: <strong>we always evaluate the models using out of sample, unseen data.</strong></p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[256]:</div>
+<div class="prompt input_prompt">In&nbsp;[130]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">"values"</span><span class="p">:[</span><span class="n">mse_ols</span><span class="p">,</span> <span class="n">mse_en</span><span class="p">,</span><span class="n">mse_svm</span><span class="p">,</span> <span class="n">mse_tree</span><span class="p">],</span> 
@@ -14690,7 +14720,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[256]:</div>
+    <div class="prompt output_prompt">Out[130]:</div>
 
 
 
@@ -14756,7 +14786,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[131]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># linear model</span>
@@ -14779,7 +14809,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[132]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Initialize and train the Elastic Net model</span>
@@ -14799,7 +14829,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[133]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Initialize and train the SVM model</span>
@@ -14818,11 +14848,11 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[138]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Initialize and train the Decision Tree model</span>
-<span class="n">tree</span> <span class="o">=</span> <span class="n">DecisionTreeRegressor</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>  <span class="n">max_depth</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">tree</span> <span class="o">=</span> <span class="n">DecisionTreeRegressor</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>  <span class="n">max_depth</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
 <span class="n">tree</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 
 <span class="c1"># Predict and calculate MSE</span>
@@ -14837,7 +14867,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[139]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">"values"</span><span class="p">:[</span><span class="n">mse_ols</span><span class="p">,</span> <span class="n">mse_en</span><span class="p">,</span><span class="n">mse_svm</span><span class="p">,</span> <span class="n">mse_tree</span><span class="p">],</span> 
@@ -14854,7 +14884,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[48]:</div>
+    <div class="prompt output_prompt">Out[139]:</div>
 
 
 
@@ -14883,7 +14913,7 @@ dtype: object</pre>
   <tbody>
     <tr>
       <th>3</th>
-      <td>2005.933021</td>
+      <td>0.006667</td>
       <td>tree</td>
     </tr>
     <tr>
@@ -14914,6 +14944,17 @@ dtype: object</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Practice">Practice<a class="anchor-link" href="#Practice">&#182;</a></h2><p>Breakout in groups. Discuss among yourselves:</p>
+<ul>
+<li><strong>Why do tree-based models do so much better in the training data compared to the test data</strong>?</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Hyper-Parameter-Tunning-and-Cross-Validation">Hyper-Parameter Tunning and Cross Validation<a class="anchor-link" href="#Hyper-Parameter-Tunning-and-Cross-Validation">&#182;</a></h3><p>As you saw above, more advanced machine learning models have hyper-parameters.</p>
 <p>Hyperparameters are parameters that are not learned directly from the data but are set in advance before the training process begins, bur their best-values can be learned with training. Examples include the learning rate in gradient descent in deep-learning, the depth of a decision tree, or the number of neighbors in a k-nearest neighbors algorithm.</p>
 <p>The way we choose the values for hyper-parameters is by looking at the performance of the models.</p>
@@ -14926,7 +14967,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[141]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># lets see the mechanics first</span>
@@ -14963,84 +15004,13 @@ dtype: object</pre>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>N Obs. to train on = 282, N obs to test on = 71
-N Obs. to train on = 282, N obs to test on = 71
-N Obs. to train on = 282, N obs to test on = 71
-N Obs. to train on = 283, N obs to test on = 70
-N Obs. to train on = 283, N obs to test on = 70
+<pre>N Obs. to train on = 300, N obs to test on = 75
+N Obs. to train on = 300, N obs to test on = 75
+N Obs. to train on = 300, N obs to test on = 75
+N Obs. to train on = 300, N obs to test on = 75
+N Obs. to train on = 300, N obs to test on = 75
 Total numbers of models run = 5
 </pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[79]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X</span><span class="p">[</span><span class="mi">71</span><span class="p">]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">KeyError</span>                                  Traceback (most recent call last)
-File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas/core/indexes/base.py:3802</span>, in <span class="ansi-cyan-fg">Index.get_loc</span><span class="ansi-blue-fg">(self, key, method, tolerance)</span>
-<span class="ansi-green-intense-fg ansi-bold">   3801</span> <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
-<span class="ansi-green-fg">-&gt; 3802</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_engine<span style="color: rgb(98,98,98)">.</span>get_loc(casted_key)
-<span class="ansi-green-intense-fg ansi-bold">   3803</span> <span class="ansi-bold" style="color: rgb(0,135,0)">except</span> <span class="ansi-bold" style="color: rgb(215,95,95)">KeyError</span> <span class="ansi-bold" style="color: rgb(0,135,0)">as</span> err:
-
-File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas/_libs/index.pyx:138</span>, in <span class="ansi-cyan-fg">pandas._libs.index.IndexEngine.get_loc</span><span class="ansi-blue-fg">()</span>
-
-File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas/_libs/index.pyx:165</span>, in <span class="ansi-cyan-fg">pandas._libs.index.IndexEngine.get_loc</span><span class="ansi-blue-fg">()</span>
-
-File <span class="ansi-green-fg">pandas/_libs/hashtable_class_helper.pxi:5745</span>, in <span class="ansi-cyan-fg">pandas._libs.hashtable.PyObjectHashTable.get_item</span><span class="ansi-blue-fg">()</span>
-
-File <span class="ansi-green-fg">pandas/_libs/hashtable_class_helper.pxi:5753</span>, in <span class="ansi-cyan-fg">pandas._libs.hashtable.PyObjectHashTable.get_item</span><span class="ansi-blue-fg">()</span>
-
-<span class="ansi-red-fg">KeyError</span>: 71
-
-The above exception was the direct cause of the following exception:
-
-<span class="ansi-red-fg">KeyError</span>                                  Traceback (most recent call last)
-Cell <span class="ansi-green-fg">In[79], line 1</span>
-<span class="ansi-green-fg">----&gt; 1</span> X[<span style="color: rgb(98,98,98)">71</span>]
-
-File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas/core/frame.py:3807</span>, in <span class="ansi-cyan-fg">DataFrame.__getitem__</span><span class="ansi-blue-fg">(self, key)</span>
-<span class="ansi-green-intense-fg ansi-bold">   3805</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>columns<span style="color: rgb(98,98,98)">.</span>nlevels <span style="color: rgb(98,98,98)">&gt;</span> <span style="color: rgb(98,98,98)">1</span>:
-<span class="ansi-green-intense-fg ansi-bold">   3806</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_getitem_multilevel(key)
-<span class="ansi-green-fg">-&gt; 3807</span> indexer <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>columns<span style="color: rgb(98,98,98)">.</span>get_loc(key)
-<span class="ansi-green-intense-fg ansi-bold">   3808</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> is_integer(indexer):
-<span class="ansi-green-intense-fg ansi-bold">   3809</span>     indexer <span style="color: rgb(98,98,98)">=</span> [indexer]
-
-File <span class="ansi-green-fg">~/anaconda3/lib/python3.11/site-packages/pandas/core/indexes/base.py:3804</span>, in <span class="ansi-cyan-fg">Index.get_loc</span><span class="ansi-blue-fg">(self, key, method, tolerance)</span>
-<span class="ansi-green-intense-fg ansi-bold">   3802</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_engine<span style="color: rgb(98,98,98)">.</span>get_loc(casted_key)
-<span class="ansi-green-intense-fg ansi-bold">   3803</span> <span class="ansi-bold" style="color: rgb(0,135,0)">except</span> <span class="ansi-bold" style="color: rgb(215,95,95)">KeyError</span> <span class="ansi-bold" style="color: rgb(0,135,0)">as</span> err:
-<span class="ansi-green-fg">-&gt; 3804</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">raise</span> <span class="ansi-bold" style="color: rgb(215,95,95)">KeyError</span>(key) <span class="ansi-bold" style="color: rgb(0,135,0)">from</span> <span class="ansi-bold" style="color: rgb(0,0,255)">err</span>
-<span class="ansi-green-intense-fg ansi-bold">   3805</span> <span class="ansi-bold" style="color: rgb(0,135,0)">except</span> <span class="ansi-bold" style="color: rgb(215,95,95)">TypeError</span>:
-<span class="ansi-green-intense-fg ansi-bold">   3806</span>     <span style="color: rgb(95,135,135)"># If we have a listlike key, _check_indexing_error will raise</span>
-<span class="ansi-green-intense-fg ansi-bold">   3807</span>     <span style="color: rgb(95,135,135)">#  InvalidIndexError. Otherwise we fall through and re-raise</span>
-<span class="ansi-green-intense-fg ansi-bold">   3808</span>     <span style="color: rgb(95,135,135)">#  the TypeError.</span>
-<span class="ansi-green-intense-fg ansi-bold">   3809</span>     <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_check_indexing_error(key)
-
-<span class="ansi-red-fg">KeyError</span>: 71</pre>
 </div>
 </div>
 
@@ -15101,7 +15071,7 @@ Fold 5:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="prompt input_prompt">In&nbsp;[143]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># see data</span>
@@ -15118,7 +15088,7 @@ Fold 5:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[88]:</div>
+    <div class="prompt output_prompt">Out[143]:</div>
 
 
 
@@ -15310,6 +15280,14 @@ Fold 5:
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>we could iterate over these with a loop....</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Easy-implementation-with-sklearn">Easy implementation with sklearn<a class="anchor-link" href="#Easy-implementation-with-sklearn">&#182;</a></h3>
 </div>
 </div>
@@ -15324,7 +15302,7 @@ Fold 5:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[149]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># split the data</span>
@@ -15347,7 +15325,7 @@ Fold 5:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[90]:</div>
+<div class="prompt input_prompt">In&nbsp;[150]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">ElasticNet</span>
@@ -15432,7 +15410,7 @@ Best MSE: 0.45551049830889384
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[92]:</div>
+<div class="prompt input_prompt">In&nbsp;[151]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.tree</span> <span class="kn">import</span> <span class="n">DecisionTreeRegressor</span>
@@ -15477,7 +15455,7 @@ Best MSE: 0.35160918571106714
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[91]:</div>
+<div class="prompt input_prompt">In&nbsp;[152]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.neighbors</span> <span class="kn">import</span> <span class="n">KNeighborsRegressor</span>
@@ -15521,7 +15499,7 @@ Best MSE: 0.37833624073149236
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[93]:</div>
+<div class="prompt input_prompt">In&nbsp;[153]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Select the best model based on cross-validation results</span>
@@ -15535,7 +15513,7 @@ Best MSE: 0.37833624073149236
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[95]:</div>
+<div class="prompt input_prompt">In&nbsp;[154]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># which model?</span>
@@ -15555,7 +15533,7 @@ Best MSE: 0.37833624073149236
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[95]:</div>
+    <div class="prompt output_prompt">Out[154]:</div>
 
 
 
@@ -15572,14 +15550,14 @@ Best MSE: 0.37833624073149236
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="prompt input_prompt">In&nbsp;[159]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Predict on the test set</span>
 <span class="n">y_pred</span> <span class="o">=</span> <span class="n">best_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
 
 <span class="c1"># Calculate the test set MSE</span>
-<span class="n">mse_test</span> <span class="o">=</span> <span class="n">mean_squared_error</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+<span class="n">mse_test</span> <span class="o">=</span> <span class="n">r2_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Test set MSE for the best model: </span><span class="si">{</span><span class="n">mse_test</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
 
@@ -15597,7 +15575,7 @@ Best MSE: 0.37833624073149236
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Test set MSE for the best model: 2798.19
+<pre>Test set MSE for the best model: 0.47
 </pre>
 </div>
 </div>
@@ -15616,16 +15594,6 @@ Best MSE: 0.37833624073149236
 <li><p>Work through the <a href="https://scikit-learn.org/stable/index.html">tutorials on sklearn webpage</a></p>
 </li>
 </ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Practice">Practice<a class="anchor-link" href="#Practice">&#182;</a></h3><p>In groups, read the sklearn documentation or check the slide with models I show you in class.</p>
-<p>Pick a additional model from the sklearn. Compare this model with the three models I show you in this notebook</p>
-<p>Feel free to copy and paste the code above, and add your new model</p>
 
 </div>
 </div>
