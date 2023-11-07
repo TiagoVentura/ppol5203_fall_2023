@@ -341,142 +341,266 @@ Professor: Tiago Ventura
 
   <p class="date">2023-11-07</p>
 </section>
+<section>
+<section id="questions-about-the-homework" class="title-slide slide level1 center" data-background-color="#447099">
+<h1>Questions about the homework?</h1>
+
+</section>
 <section id="plans-for-today" class="slide level2">
 <h2>Plans for Today</h2>
 <ul>
-<li><p>Introduction to Machine Learning</p>
+<li class="fragment"><p>Introduction to Machine Learning</p>
 <ul>
-<li><p>Statistical Models</p></li>
-<li><p>Inference vs Predictive Modelling</p></li>
-<li><p>Statistical Learning:</p>
+<li class="fragment"><p>Statistical Learning</p></li>
+<li class="fragment"><p>Inference vs Predictive Modeling</p></li>
+<li class="fragment"><p>Machine Learning:</p>
 <ul>
-<li>Supervised vs Unsupervised</li>
-<li>Regression vs Classification</li>
-<li>Bias and Variance Trade-off</li>
-<li>Training models</li>
+<li class="fragment">Supervised vs Unsupervised</li>
+<li class="fragment">Regression vs Classification</li>
+<li class="fragment">Training models</li>
+<li class="fragment">Bias and Variance Trade-off</li>
 </ul></li>
-<li><p>Application of ML in Social Sciences</p></li>
-<li><p>Coding</p></li>
+<li class="fragment"><p>Coding</p></li>
 </ul></li>
 </ul>
+</section></section>
+<section>
+<section id="logistics" class="title-slide slide level1 center">
+<h1>Logistics</h1>
+
 </section>
-<section id="some-questions-we-are-interested-as-social-scientist" class="slide level2">
-<h2>Some questions we are interested as social scientist…</h2>
+<section id="feedback-survey" class="slide level2">
+<h2>Feedback survey</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="continue-doing">Continue Doing</h3>
+<div>
 <ul>
-<li><p><a href="https://muse.jhu.edu/article/16730">Which factors affect the likelihood of a country backslide to autocracy?</a></p></li>
-<li><p><a href="https://www.math.fsu.edu/~mesterto/NewCourses/MAP5932/2016/PDF/PDF13/Fearon1995aExplanationsForWar.pdf">Why countries go to war?</a></p></li>
-<li><p><a href="https://www.cambridge.org/core/journals/political-analysis/article/fraudulent-democracy-an-analysis-of-argentinas-infamous-decade-using-supervised-machine-learning/EF5F7AC3A74E7F89494E478A05BFA8BC">Detect corruption or fraud in elections using official documents</a></p></li>
-<li><p><a href="https://dl.acm.org/doi/abs/10.1007/978-3-031-26390-3_14">Predict/detect the sentiment/toxicity/presence of misinformation on a social media post</a></p></li>
-<li><p><a href="https://www.unhcr.org/innovation/wp-content/uploads/2016/11/blumenstock-science-2015.pdf">Estimating socio-demographics of a region where census data is not available</a></p></li>
+<li><p>small in-class practice with break</p></li>
+<li><p>notebooks (you’ll seem to love them!)</p></li>
 </ul>
+</div>
+<h3 id="stop-doing">Stop doing</h3>
+<div>
+<ul>
+<li><p>we’re doing great!</p></li>
+<li><p>super long problem sets</p></li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+<h3 id="start-doing">Start doing</h3>
+<div>
+<ul>
+<li><p>talk about past assignments</p>
+<ul>
+<li>Use office hours for this. Happy to discuss question if you have. But will not go over the entire assignment</li>
+</ul></li>
+<li><p>readings could be posted at least 4 days</p>
+<ul>
+<li>my bad!</li>
+</ul></li>
+<li><p>More clarity in problem set questions.</p>
+<ul>
+<li>Yes. Ask questions on slack if something is not clear.</li>
+</ul></li>
+<li><p>Work in groups.</p>
+<ul>
+<li>please feel free to do it. Agree it works best.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="problem-set-4" class="slide level2">
+<h2>Problem Set 4</h2>
+<ul>
+<li class="fragment"><p>Congress.gov is blocking scrappers</p>
+<ul>
+<li class="fragment"><p>Question 1 and 2 cannot be solved with <code>beautifulsoup</code></p>
+<ul>
+<li class="fragment"><p>Solve with Selenium</p></li>
+<li class="fragment"><p>Solve Replacement Question</p></li>
+<li class="fragment"><p>Already have extra 10pts</p></li>
+</ul></li>
+</ul></li>
+<li class="fragment"><p>Very flexible with deadline in the previous assignment. Start this problem set early, lot of moving pieces on this homework.</p>
+<ul>
+<li class="fragment"><p>No general extensions</p></li>
+<li class="fragment"><p>you will lose points for finishing late.</p></li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="statistical-learning" class="title-slide slide level1 center">
+<h1>Statistical Learning</h1>
+
 </section>
 <section id="statistical-models" class="slide level2">
 <h2>Statistical Models</h2>
-<p>All these questions are complex. To answer them, we build models:</p>
+<p>Social Scientists are often interested in very complex questions. To answer them, we build models:</p>
 <blockquote>
-<p>A model is “a simplified representation of reality created to serve a purpose.” (Provost &amp; Fawcett 2013)</p>
+<p>A model is “a simplified representation of the reality created to serve a purpose.” (Provost &amp; Fawcett 2013)</p>
 </blockquote>
 <p>By definition:</p>
 <ul>
-<li><p>models are simplification of a reality</p></li>
-<li><p>highlight key aspects of our outcome of interest</p></li>
-<li><p>are all wrong, but some are useful</p></li>
+<li class="fragment"><p>models are simplification</p></li>
+<li class="fragment"><p>models highlight key aspects of our outcome of interest</p></li>
+<li class="fragment"><p>models are all wrong, but some are useful</p></li>
 </ul>
 </section>
-<section id="a-model-and-its-components" class="slide level2">
-<h2>A Model and its components</h2>
-<p>The aim is to model the relationship between the outcome and some set of features features</p>
+<section id="models-components" class="slide level2">
+<h2>Model’s Components</h2>
+<p>The aim is to model the relationship between the outcome and some set of variables:</p>
 <p><span class="math display">\[ y = f(X) + \sigma\]</span></p>
 <p><strong>Where:</strong></p>
 <ul>
-<li><p><span class="math inline">\(y\)</span> is the outcome/dependent/response variable</p></li>
-<li><p><span class="math inline">\(X\)</span> is a matrix of predictors/features/independent variables</p></li>
-<li><p><span class="math inline">\(f()\)</span> is some fixed but unknown function mapping X to y. The signal in the data</p></li>
-<li><p><span class="math inline">\(\sigma\)</span> is some random error term. The “noise” in the data.</p></li>
+<li class="fragment"><p><span class="math inline">\(y\)</span> is the outcome/dependent/response variable</p></li>
+<li class="fragment"><p><span class="math inline">\(X\)</span> is a matrix of predictors/features/independent variables</p></li>
+<li class="fragment"><p><span class="math inline">\(f()\)</span> is some fixed but unknown function mapping X to y. The signal in the data</p></li>
+<li class="fragment"><p><span class="math inline">\(\sigma\)</span> is some random error term. The “noise” in the data.</p></li>
 </ul>
 </section>
-<section id="statistical-learning" class="slide level2">
+<section id="statistical-learning-1" class="slide level2">
 <h2>Statistical Learning</h2>
 <p>Statistical learning refers to a set of methods/approaches for estimating <span class="math inline">\(f(.)\)</span></p>
-<p><span class="math display">\[ \hat{y} = \hat{f}(X) + \sigma\]</span></p>
-<p>Where <span class="math inline">\(\hat{f}(X)\)</span> is an approximation of the “true” functional form, <span class="math inline">\(f(X)\)</span> and <span class="math inline">\(\hat{y}\)</span> is the predicted value of a true value y.</p>
-<p>When we build models, the aim is to find a <span class="math inline">\(\hat{f}(X)\)</span> that minimizes the reducible error in the model:</p>
+<p><span class="math display">\[ \hat{y} = \hat{f}(X)\]</span></p>
+<ul>
+<li class="fragment"><p>Where <span class="math inline">\(\hat{f}(X)\)</span> is an approximation of the “true” functional form, <span class="math inline">\(f(X)\)</span></p></li>
+<li class="fragment"><p><span class="math inline">\(\hat{y}\)</span> is the predicted value of a true value y.</p></li>
+<li class="fragment"><p>When we build models, the aim is to find a <span class="math inline">\(\hat{f}(X)\)</span> that minimizes the error in the model.</p></li>
+</ul>
 </section>
 <section id="reducible-vs.-irreducible-error" class="slide level2">
 <h2>Reducible vs.&nbsp;Irreducible Error</h2>
-<p><span class="math display">\[E(y - \hat{y})^2\]</span> <span class="math display">\[E[f(X) + \epsilon -  \hat{f}(X)]^2\]</span></p>
+<p><span class="math display">\[E(y - \hat{y})^2\]</span> <span class="math display">\[E[f(X) + \epsilon -  \hat{f}(X) ]^2\]</span></p>
 <p><span class="math display">\[\underbrace{E[f(X) -\hat{f}(X)]^2}_{\text{Reducible}} + \underbrace{var(\epsilon)}_{\text{Irreducible}}\]</span></p>
-<p>The <strong>“reducible” error</strong> is the systematic <strong>signal</strong>. We can reduce this error by using different functional forms, better data, or a mixture of those two.</p>
-<p>The <strong>“irreducible” error</strong> is associated with the random <strong>noise</strong> around <span class="math inline">\(y\)</span>.</p>
-<p>Statistical learning is concerned with minimizing the reducible error. However, our predictions will never be perfect given the irreducible error.</p>
-<p>There is a lower bound on how accurate we can be.</p>
+<ul>
+<li class="fragment"><p>The <strong>“reducible” error</strong> is the systematic <strong>signal</strong>. We can reduce this error by using different functional forms, better data, or a mixture of those two.</p></li>
+<li class="fragment"><p>The <strong>“irreducible” error</strong> is associated with the random <strong>noise</strong> around <span class="math inline">\(y\)</span>.</p></li>
+<li class="fragment"><p>Statistical learning is concerned with minimizing the reducible error. However, our predictions will never be perfect given the irreducible error.</p></li>
+</ul>
 </section>
 <section id="inference-social-science-vs-prediction-machine-learning" class="slide level2">
 <h2>Inference (Social Science) vs Prediction (Machine Learning)</h2>
 <p>Two reasons we want to estimate <span class="math inline">\(f(\cdot)\)</span>:</p>
 <ul>
-<li><p><strong>Inference</strong></p>
+<li class="fragment"><p><strong>Inference</strong></p>
 <ul>
-<li><p>Goal is <strong><em>interpretation</em></strong></p>
+<li class="fragment"><p>Goal is <strong><em>interpretation</em></strong></p>
 <ul>
-<li><em>Which predictors are associated with the response?</em></li>
-<li><em>What is the relationship (parameters) between the response and the predictors?</em></li>
-<li><em>Is the relationship causal?</em></li>
+<li class="fragment"><em>Which predictors are associated with the response?</em></li>
+<li class="fragment"><em>What is the relationship (parameters) between the response and the predictors?</em></li>
+<li class="fragment"><em>Is the relationship causal?</em></li>
 </ul></li>
-<li><p><font color="darkred"> Key limitation</font>:</p>
+<li class="fragment"><p><font color="darkred"> Key limitation</font>:</p>
 <ul>
-<li>using functional forms that are easy to interpret (e.g.&nbsp;lines) might be far away from the true function form of <span class="math inline">\(f(X)\)</span>.</li>
+<li class="fragment">using functional forms that are easy to interpret (e.g.&nbsp;lines) might be far away from the true function form of <span class="math inline">\(f(X)\)</span>.</li>
 </ul></li>
-<li><p><strong>Classic Social Science Approach</strong></p></li>
+<li class="fragment"><p><strong>Classic Social Science Approach</strong></p></li>
+<li class="fragment"><p><span class="math display">\[ y_i = \beta_1*education_i + beta_2*gender_i + \sigma_i \]</span></p></li>
 </ul></li>
 </ul>
-<p><span class="math display">\[ y_i = \beta_1*education_i + beta_2*gender_i + \sigma_i \]</span></p>
 </section>
 <section id="inference-social-science-vs-prediction-machine-learning-1" class="slide level2">
 <h2>Inference (Social Science) vs Prediction (Machine Learning)</h2>
 <ul>
-<li><p><strong>Prediction</strong></p>
+<li class="fragment"><p><strong>Prediction</strong></p>
 <ul>
-<li><p>Goal is to <strong><em>predict</em></strong> values of the outcome, <span class="math inline">\(\hat{y}\)</span></p></li>
-<li><p><span class="math inline">\(\hat{f}(X)\)</span> is treated as a <strong><em>black box</em></strong></p>
+<li class="fragment"><p>Goal is to <strong><em>predict</em></strong> values of the outcome, <span class="math inline">\(\hat{y}\)</span></p></li>
+<li class="fragment"><p><span class="math inline">\(\hat{f}(X)\)</span> is treated as a <strong><em>black box</em></strong></p>
 <ul>
-<li>model doesn’t need to be interpretable as long as it provides an accurate prediction of <span class="math inline">\(y\)</span>.</li>
+<li class="fragment">model doesn’t need to be interpretable as long as it provides an accurate prediction of <span class="math inline">\(y\)</span>.</li>
 </ul></li>
-<li><p><font color="darkred"> Key limitation</font>:</p>
+<li class="fragment"><p><font color="darkred"> Key limitation</font>:</p>
 <ul>
-<li><em>Interpretation</em>: it is difficult to know which variables are doing the heavy lifting and the exact influence of <span class="math inline">\(x\)</span> on <span class="math inline">\(y\)</span>.</li>
+<li class="fragment"><em>Interpretation</em>: it is difficult to know which variables are doing the heavy lifting and the exact influence of <span class="math inline">\(x\)</span> on <span class="math inline">\(y\)</span>.</li>
 </ul></li>
-<li><p><strong>This is the Machine Learning tradition, or, statistical learning</strong></p></li>
+<li class="fragment"><p><strong>This is the Machine Learning tradition/predictive modeling/AI</strong></p></li>
 </ul></li>
 </ul>
-</section>
+</section></section>
 <section>
-<section id="statistical-learning-1" class="title-slide slide level1 center">
-<h1>Statistical Learning</h1>
+<section id="machine-learning" class="title-slide slide level1 center">
+<h1>Machine Learning</h1>
 
 </section>
 <section id="supervised-and-unsupervised-learning" class="slide level2">
 <h2>Supervised and Unsupervised Learning</h2>
 <ul>
-<li><p><u><strong>Supervised Learning</strong></u></p>
+<li class="fragment"><p><u><strong>Supervised Learning (DS II)</strong></u></p>
 <ul>
-<li><p>for each observation of the predictor measurement <span class="math inline">\(x_i\)</span> there is an associated response measurement <span class="math inline">\(y_i\)</span>. In essence, there is an <em>outcome</em> we are aiming to accurately predict or understand.</p></li>
-<li><p>use regression and classification methods</p></li>
+<li class="fragment"><p>for each observation of the predictor measurement <span class="math inline">\(x_i\)</span> there is an associated response measurement <span class="math inline">\(y_i\)</span>. In essence, there is an <em>outcome</em> we are aiming to accurately predict or understand.</p></li>
+<li class="fragment"><p>use regression and classification methods</p></li>
 </ul></li>
 </ul>
-
-<img data-src="week-10_files/figure-revealjs/unnamed-chunk-1-1.png" width="672" class="r-stretch quarto-figure-center"></section>
+<div class="fragment">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="week-10_files/figure-revealjs/unnamed-chunk-1-1.png" width="1152"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
 <section id="unsupervised" class="slide level2">
 <h2>Unsupervised</h2>
 <ul>
-<li><p><u><strong>Unsupervised Learning</strong></u></p>
+<li class="fragment"><p><u><strong>Unsupervised Learning (DS III)</strong></u></p>
 <ul>
-<li><p>we observe a vector of measurements <span class="math inline">\(x_i\)</span> but <em>no</em> associated response <span class="math inline">\(y_i\)</span>.</p></li>
-<li><p>“unsupervised” because we lack a response variable that can supervise our analysis.</p></li>
+<li class="fragment"><p>we observe a vector of measurements <span class="math inline">\(x_i\)</span> but <em>no</em> associated response <span class="math inline">\(y_i\)</span>.</p></li>
+<li class="fragment"><p>“unsupervised” because we lack a response variable that can supervise our analysis.</p></li>
 </ul></li>
 </ul>
-
-<img data-src="week-10_files/figure-revealjs/unnamed-chunk-2-1.png" width="672" class="r-stretch quarto-figure-center"></section>
+<div class="fragment">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="week-10_files/figure-revealjs/unnamed-chunk-2-1.png" width="1152"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="supervised-learning-regression" class="slide level2">
+<h2>Supervised Learning: Regression</h2>
+<p><em>Outcomes</em> come in many forms. How the outcome is distributed will determine the methods we use.</p>
+<ul>
+<li class="fragment"><p><strong>Quantitative</strong> outcome</p>
+<ul>
+<li class="fragment"><p>a continuous/interval-based outcome: e.g.&nbsp;housing price, number of bills passed, stock market prices, etc.</p></li>
+<li class="fragment"><p>Regression Methods: linear, penalization, generalized additive models (GAMs)</p></li>
+<li class="fragment"><p>Both parametric and non-parametric ways of approximating <span class="math inline">\(f(\cdot)\)</span></p></li>
+</ul></li>
+</ul>
+</section>
+<section id="supervised-learning-classification" class="slide level2">
+<h2>Supervised Learning: Classification</h2>
+<p><em>Outcomes</em> come in many forms. How the outcome is distributed will determine the methods we use.</p>
+<ul>
+<li class="fragment"><p><strong>Qualitative</strong> outcome</p>
+<ul>
+<li class="fragment"><p>a discrete outcome</p>
+<ul>
+<li class="fragment"><p><em>Binary</em>: War/No War; Sick/Not Sick</p></li>
+<li class="fragment"><p><em>Ordered</em>: Don’t Support, Neutral, Support</p></li>
+<li class="fragment"><p><em>Categorical</em>: Cat, Dog, Bus, …</p></li>
+</ul></li>
+<li class="fragment"><p>Classification Methods: logistic regression, naive Bayes, support vector machines, neural networks</p></li>
+</ul></li>
+<li class="fragment"><p>Some methods can be used on either outcome type</p>
+<ul>
+<li class="fragment">K nearest neighbors</li>
+<li class="fragment">tree-based methods (random forest, gradient boosting)</li>
+</ul></li>
+<li class="fragment"><p>Every model has specific <strong>tuning parameters</strong> that we can use to optimize performance.</p></li>
+</ul>
+</section>
 <section id="interpretation-vs-flexibility" class="slide level2">
 <h2>Interpretation vs Flexibility</h2>
 <div class="columns">
@@ -485,9 +609,9 @@ Professor: Tiago Ventura
 <p>“There is no free lunch in statistics”</p>
 </blockquote>
 <ul>
-<li><p>No one method dominates all others over all possible data sets.</p></li>
-<li><p>It is an important task to decide for any given set of data which method produces the best results</p></li>
-<li><p>Balance between model interpretation and model flexibility</p></li>
+<li class="fragment"><p>No one method dominates all others over all possible data sets.</p></li>
+<li class="fragment"><p>It is an important task to decide for any given set of data which method produces the best results</p></li>
+<li class="fragment"><p>Balance between model interpretation and model flexibility</p></li>
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="cell">
@@ -498,73 +622,118 @@ Professor: Tiago Ventura
 </div>
 </div>
 </section>
-<section id="building-models-over-fitting-vs-under-fitting" class="slide level2">
-<h2>Building Models: Over-Fitting vs Under-Fitting</h2>
+<section id="building-ml-model-what-does-learning-mean" class="slide level2">
+<h2>Building ML Model: What does learning mean?</h2>
 <p>For inference work (in you stats class), you get some data, and you estimate a model using the entire data. This is not what we do in machine learning.</p>
-<h4 id="what-does-learning-mean">What does learning mean?</h4>
 <ul>
-<li><p><strong>Main objective:</strong> predict data accurately by learning from <strong>previous seen</strong></p></li>
-<li><p><strong>Goal:</strong></p></li>
-<li><p>capture signal in the best way possible <span class="math inline">\(f(X)\)</span></p></li>
-<li><p>Ignore noise (irreducible error)</p></li>
+<li class="fragment"><p><strong>Main objective:</strong> predict data accurately by learning from <strong>previous seen</strong></p></li>
+<li class="fragment"><p><strong>Goal:</strong></p>
+<ul>
+<li class="fragment"><p>capture signal in the best way possible <span class="math inline">\(f(X)\)</span></p></li>
+<li class="fragment"><p>Ignore noise (irreducible error)</p></li>
+</ul></li>
 </ul>
 </section>
-<section id="challenge-avoid-overfitting-the-data" class="slide level2">
-<h2>Challenge: avoid overfitting the data</h2>
-
-<img data-src="week-10_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
 <section id="train-the-model" class="slide level2">
 <h2>Train the model</h2>
 <p>The purpose of training the model is to <strong>capture signal</strong> and <strong>ignore noise</strong>.</p>
 <p>To do so:</p>
 <ul>
-<li><p>Define a accuracy metric:</p>
+<li class="fragment"><p>Define a accuracy metric:</p>
 <ul>
-<li>In the regression setting, the most common accuracy metric is <em>mean squared error</em> (MSE).</li>
-<li><span class="math inline">\(MSE = \frac{\sum^N_{i=1} (y_i - \hat{f}(X_i))^2}{N}\)</span></li>
+<li class="fragment">In the regression setting, the most common accuracy metric is <em>mean squared error</em> (MSE).</li>
+<li class="fragment"><span class="math inline">\(Mean Squared Error = \frac{\sum^N_{i=1} (y_i - \hat{f}(X_i))^2}{N}\)</span></li>
 </ul></li>
-<li><p>Train-Test Split</p>
+<li class="fragment"><p>Train-Test Split</p>
 <ul>
-<li><p>Split your data between training and test</p></li>
-<li><p>Training data: find the best model and tune the parameters of these models</p></li>
-<li><p>Test data: assess the accuracy of your model.</p></li>
+<li class="fragment"><p>Split your data between training and test</p></li>
+<li class="fragment"><p>Training data: find the best model and tune the parameters of these models</p></li>
+<li class="fragment"><p>Test data: assess the accuracy of your model.</p></li>
 </ul></li>
-<li><p>Select the model based on smaller <strong>out of sample predictive accuracy</strong></p></li>
+<li class="fragment"><p>Select the model based on smaller <strong>out of sample predictive accuracy</strong>. What is learned?</p>
+<ul>
+<li class="fragment"><p>Model type</p></li>
+<li class="fragment"><p>Features (variables)</p></li>
+<li class="fragment"><p>Hyper-Parameters</p></li>
+</ul></li>
 </ul>
 </section>
+<section id="workflow" class="slide level2">
+<h2>Workflow</h2>
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="https://cimentadaj.github.io/ml_socsci/img/socsci_wflow3_smaller.svg"></p>
+</div>
+</div>
+
+<aside><div>
+<p>source: https://cimentadaj.github.io/ml_socsci/</p>
+</div></aside></section>
+<section id="challenge-avoid-overfitting-the-data" class="slide level2">
+<h2>Challenge: avoid overfitting the data</h2>
+
+<img data-src="week-10_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
+<section id="mse-training-data" class="slide level2">
+<h2>MSE Training Data</h2>
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="week-10_files/figure-revealjs/unnamed-chunk-6-1.png" width="960"></p>
+</div>
+</div>
+
+<aside><div>
+<p><strong>source: Dr.&nbsp;Eric Dunford’s PPOL564 slides</strong></p>
+</div></aside></section>
+<section id="model-accuracy-out-sample-prediction" class="slide level2">
+<h2>Model Accuracy: Out-Sample Prediction</h2>
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="week-10_files/figure-revealjs/unnamed-chunk-7-1.png" width="960"></p>
+</div>
+</div>
+
+<aside><div>
+<p><strong>source: Dr.&nbsp;Eric Dunford’s PPOL564 slides</strong></p>
+</div></aside></section>
 <section id="bias-and-variance-trade-off" class="slide level2">
 <h2>Bias and Variance Trade-off</h2>
 
 <img data-src="week10_figs/interpret-vs-flexible.png" style="width:100.0%" class="r-stretch"><ul>
-<li><p><strong>high variance</strong>: new data, new pattern.</p></li>
-<li><p><strong>high bias</strong>: rigid pattern, doesn’t reflect the data</p></li>
-<li><p><strong>Trade-off</strong>: as we reduce bias, we risk overfiting. Trainning properly is key</p></li>
+<li class="fragment"><p><strong>high variance</strong>: new data, new pattern.</p></li>
+<li class="fragment"><p><strong>high bias</strong>: rigid pattern, doesn’t reflect the data</p></li>
+<li class="fragment"><p><strong>Trade-off</strong>: as we reduce bias, we risk overfiting. Trainning properly is key</p></li>
 </ul>
 </section>
 <section id="cross-validation" class="slide level2">
 <h2>Cross-Validation</h2>
 <p>If you go back and forth between training and test to decide which model to use, you might also be overfiting. This is the idea of data leakage.</p>
 <ul>
-<li><p>We can use re-sampling techniques to generate estimates for the test error.</p></li>
-<li><p>“Re-sampling” involves repeatedly drawing samples from a training set and refitting a model of interest on each sample in order to obtain additional information about the fitted model.</p></li>
-<li><p>We can use re-sampling techniques to generate estimates for the test error.</p></li>
+<li class="fragment"><p>We can use re-sampling techniques to generate estimates for the test error.</p></li>
+<li class="fragment"><p>“Re-sampling” involves repeatedly drawing samples from a training set and refitting a model of interest on each sample in order to obtain additional information about the fitted model.</p></li>
+<li class="fragment"><p>We can use re-sampling techniques to generate estimates for the test error.</p></li>
 </ul>
 </section>
 <section id="k-fold-cross-validation" class="slide level2">
 <h2>K-Fold Cross Validation</h2>
 <ul>
-<li><p>K-Fold Cross Validation Involves randomly dividing the data into <span class="math inline">\(k\)</span> groups (or folds). Model is trained on <span class="math inline">\(k-1\)</span> folds, then test on the remaining fold.</p></li>
-<li><p>Process is repeated <span class="math inline">\(k\)</span> times, each time using a new fold. Offers <span class="math inline">\(k\)</span> estimates of the test error, which we average.</p></li>
+<li class="fragment"><p>K-Fold Cross Validation involves randomly dividing the data into <span class="math inline">\(k\)</span> groups (or folds). Model is trained on <span class="math inline">\(k-1\)</span> folds, then test on the remaining fold.</p></li>
+<li class="fragment"><p>Process is repeated <span class="math inline">\(k\)</span> times, each time using a new fold. Offers <span class="math inline">\(k\)</span> estimates of the test error, which we average.</p></li>
 </ul>
-
-<img data-src="week10_figs/KfoldCV.gif" style="width:100.0%" class="r-stretch"></section>
+<div class="fragment">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="week10_figs/KfoldCV.gif" style="width:100.0%"></p>
+</div>
+</div>
+</div>
+</section>
 <section id="important-concepts" class="slide level2">
 <h2>Important Concepts</h2>
 <ul>
-<li><p>Inference vs Prediction</p></li>
-<li><p>Prediction: black-box function, highly flexible to reduce error.</p></li>
-<li><p>Learning: train the model in seen data. Test and calculate metrics in seen</p></li>
-<li><p>Avoid overfitting and data leakage by using resampling methods.</p></li>
+<li class="fragment"><p>Inference vs Prediction</p></li>
+<li class="fragment"><p>Prediction: black-box function, highly flexible to reduce error.</p></li>
+<li class="fragment"><p>Learning: train the model in seen data. Test and calculate metrics in seen</p></li>
+<li class="fragment"><p>Avoid overfiting and data leakage by using resampling methods.</p></li>
 </ul>
 
 <div class="footer footer-default">

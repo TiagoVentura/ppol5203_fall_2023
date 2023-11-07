@@ -1,6 +1,6 @@
 ---
 title: "Week 13"
-subtitle: "SQL + Spark"
+subtitle: "SQL"
 description: ""
 author: "Tiago Ventura"
 date: "11/28/2023"

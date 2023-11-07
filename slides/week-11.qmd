@@ -27,24 +27,26 @@ format:
 
 **Introduction to Text Analysis/Natural Language Processing**
 
-    -   Motivation
+```         
+-   Motivation
 
-    -   Overal Workflow
+-   Overal Workflow
 
-    -   Overview of Text Analysis Methods
+-   Overview of Text Analysis Methods
+
+
+    -   Pre-Process Text
+    -   Descriptive Analysis and Comparisons
+    -   Unsupervised Learning with Text: 
+         - Topic Models
+    -   Supervised Learning with Text (Next Week)
+         - Dictionary Methods
+         - Machine Learning Pre-Trained Models
+         - Applications of LLMs (Large Languague models)
     
+    
+```
 
-        -   Pre-Process Text
-        -   Descriptive Analysis and Comparisons
-        -   Unsupervised Learning with Text: 
-             - Topic Models
-        -   Supervised Learning with Text (Next Week)
-             - Dictionary Methods
-             - Machine Learning Pre-Trained Models
-             - Applications of LLMs (Large Languague models)
-        
-        
- 
 ## Motivation
 
 ```{r}
@@ -53,9 +55,7 @@ knitr::include_graphics("http://media3.washingtonpost.com/wp-dyn/content/graphic
 
 # A significant part of how we produce and store data comes is text
 
-
 ## Official Documents: Congressional Speeches, Bills, Press Releases, Transcripts, from all over the world!!
-
 
 ```{r  echo=FALSE, out.width = "80%", fig.align="center"}
 knitr::include_graphics("https://www.brookings.edu/wp-content/uploads/2018/11/RTS10VM4.jpg") 
@@ -67,7 +67,6 @@ knitr::include_graphics("https://www.brookings.edu/wp-content/uploads/2018/11/RT
 knitr::include_graphics("week1_figs/redes.png") 
 ```
 
-
 ## Online Media: News, Comments, Blogs, etc...
 
 ```{r  echo=FALSE, out.width = "80%", fig.align="center"}
@@ -76,94 +75,90 @@ knitr::include_graphics("https://miro.medium.com/v2/resize:fit:1400/1*t2u_0FHoQS
 
 ## Why to Analyze Data?
 
-- Humans are great at understanding the meaning of a sentence or a document in-depth
+-   Humans are great at understanding the meaning of a sentence or a document in-depth
 
-- Computers are bettr at understanding patterns, classify and describe content across millions of documents
+-   Computers are bettr at understanding patterns, classify and describe content across millions of documents
 
-### Principles of Text Analysis: 
+### Principles of Text Analysis:
 
-- Substantive knowledge is essential
+-   Substantive knowledge is essential
 
-- Text analysis augments humans – does not replace us
+-   Text analysis augments humans -- does not replace us
 
-- All text models are wrong – but some are useful
+-   All text models are wrong -- but some are useful
 
-- The best method depends on the task
+-   The best method depends on the task
 
-- Alway validate your models!
+-   Alway validate your models!
 
 ## Workflow
 
--  **Acquire textual data:**
-   + Existing corpora; scraped data; digitized text
+-   **Acquire textual data:**
 
-- **Preprocess the data:**
+    -   Existing corpora; scraped data; digitized text
 
-   + Bag-of-words
-   + Reduce noise, capture signal
-   
-- **Apply method appropriate to research goal:**
+-   **Preprocess the data:**
 
-   + Descriptive Analysis: 
-      +  Count Words, Readability; similarity;
-      
-  + Classify documents into unknown categories 
-     + Document clustering
-     + Topic models
-      
-   + Classify documents into known categories
-      + Dictionary methods
-      + Supervised machine learning
-      + Transfer-Learning - use models trained in text for other purposes
-  
-   + Scale documents on latent dimension:
-      + ideology of the text
+    -   Bag-of-words
+    -   Reduce noise, capture signal
+
+-   **Apply method appropriate to research goal:**
+
+    -   Descriptive Analysis:
+        -   Count Words, Readability; similarity;
+    -   Classify documents into unknown categories
+        -   Document clustering
+        -   Topic models
+    -   Classify documents into known categories
+        -   Dictionary methods
+        -   Supervised machine learning
+        -   Transfer-Learning - use models trained in text for other purposes
+    -   Scale documents on latent dimension:
+        -   ideology of the text
 
 ## Already did it!
 
--  **Acquire textual data:**
-   + Existing corpora; scraped data; digitized text
+-   **Acquire textual data:**
+    -   Existing corpora; scraped data; digitized text
 
-    
 ## Today!
 
-- **Preprocess the data:**
+-   **Preprocess the data:**
 
-   + Bag-of-words
-   + Reduce noise, capture signal
-   
-- **Apply methods appropriate to research goal:**
+    -   Bag-of-words
+    -   Reduce noise, capture signal
 
-   + Descriptive Analysis: 
-      +  Count Words, Readability; similarity;
-      
-  + Classify documents into unknown categories 
-     + Topic models
-     
+-   **Apply methods appropriate to research goal:**
+
+    -   Descriptive Analysis:
+        -   Count Words, Readability; similarity;
+    -   Classify documents into unknown categories
+        -   Topic models
+
 ## Next Week:
 
-   + Classify documents into known categories
-      + Dictionary methods
-      + Supervised machine learning
-      + Transfer-Learning - use models trained in text for other purposes
+-   Classify documents into known categories
+    -   Dictionary methods
+    -   Supervised machine learning
+    -   Transfer-Learning - use models trained in text for other purposes
 
 # Very quick introdution! Want learn more? Register in my class next Spring!
 
 ## Bag-of-Words Assumption
 
-- Represent text as an unordered set of words in a document. While order is ignored, frequency matters!
+-   Represent text as an unordered set of words in a document. While order is ignored, frequency matters!
 
 ### Pre-Processing Steps
 
-- Tokenize: break out larger chuncks of text in words (unigram) or n-grams
+-   Tokenize: break out larger chuncks of text in words (unigram) or n-grams
 
-- Lowercase: convert all to lower case
+-   Lowercase: convert all to lower case
 
-- Remove Noise: stopwords, numbers, punctuation, function words
+-   Remove Noise: stopwords, numbers, punctuation, function words
 
-- Stemming:  chops off the ends of words
+-   Stemming: chops off the ends of words
 
-- Lemmatization: doing things properly with the use of a vocabulary and morphological analysis of words
+-   Lemmatization: doing things properly with the use of a vocabulary and morphological analysis of words
 
 ## From Text to Numbers: Bag-of-Words & Document-Feature Matrix
 
@@ -185,21 +180,20 @@ knitr::include_graphics("https://cdn.sanity.io/images/vr8gru94/production/96a71c
 
 ## Similarity between documents
 
-- Every row in the Document-Feature Matrix (or in a Word Embedding Matrix) is a (**many other possible**) numerical representation of the document. 
+-   Every row in the Document-Feature Matrix (or in a Word Embedding Matrix) is a (**many other possible**) numerical representation of the document.
 
-- These vectors can be judged using metrics of similarity
+-   These vectors can be judged using metrics of similarity
 
 **Cosine Similarity**:
 
 $$\text{Sim}(A, B) = \frac{{A \cdot B}}{{\|A\| \|B\|}}$$
 
-Where: 
+Where:
 
-- The $\cdot$ here means a dot product: $\sum_j \mathbf{y_a} \cdot \mathbf{y_b}$
-- The vector norm $\mathbf{||y_a||} = \sqrt{\sum \mathbf{y_{aj}^2}}$
+-   The $\cdot$ here means a dot product: $\sum_j \mathbf{a_j} \cdot \mathbf{b_j}$
+-   The vector norm $\mathbf{||A||} = \sqrt{\sum \mathbf{{a_j}^2}}$
 
 ## Application: Text Reuse in Congressional Bills
-
 
 ```{r  echo=FALSE, out.width = "80%", fig.align="center"}
 knitr::include_graphics("sim.png") 
@@ -207,4 +201,54 @@ knitr::include_graphics("sim.png")
 
 # [Notebook: Pre-Processing, DFM and Similarity]()
 
-## Unsupervised Learning: Topic Models
+## Topic Models: LDA Approach
+
+**Intuition:** Capture words that are more likely to occur together across a set of documents. Assign these words a probability of being part of a cluster (topic). Assign documents a probability of being associated of these clusters. 
+
+- **Statistical Model**: Latent Dirichlet Allocation + Generative Statistical Modeling
+
+   + **Documents:**  random mixture over latent topics
+   
+   + **Topics:** probability distribution over words
+   
+- **Mathematical Models:**
+
+   + For each document: 
+      + Randomly choose a distribution over topics.
+      + For each word in the document
+          + a. Randomly choose a topic from the distribution over topics in step #1.
+          + b. Randomly choose a word from the corresponding distribution over  the vocabulary.
+          
+- **Moving from random to good topics:** algorithm changes the assignment of words to topics in every iteration, and maximimize co-occurrence of words          
+
+
+## Abstract the Math
+
+```{r  echo=FALSE, out.width = "80%", fig.align="center"}
+knitr::include_graphics("https://www.analyticsvidhya.com/wp-content/uploads/2016/08/Modeling1.png") 
+```
+
+:::{.aside}
+*source:* https://www.cs.columbia.edu/~blei/papers/Blei2012.pdf
+:::
+
+## Many different types of topic models
+
+- **Structural topic model:** allow (1) topic prevalence, (2) topic
+content to vary as a function of document-level covariates (e.g., how
+do topics vary over time or documents produced in 1990 talk about
+something differently than documents produced in 2020?);
+implemented in stm in R (Roberts, Stewart, Tingley, Benoit)
+
+- **Correlated topic model:** way to explore between-topic relationships
+(Blei and Lafferty, 2017); implemented in topicmodels in R; possibly
+somewhere in Python as well!
+
+- **Keyword-assisted topic model:** seed topic model with keywords to
+try to increase the face validity of topics to what you’re trying to
+measure; implemented in keyATM in R (Eshima, Imai, Sasaki, 2019)
+
+- **BertTopic:** BERTopic is a topic modeling technique that leverages transformers and TF-IDF to create dense clusters of words. 
+
+# [Notebook: Topic Models]()
+

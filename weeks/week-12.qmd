@@ -1,6 +1,6 @@
 ---
 title: "Week 12"
-subtitle: "Training Machines and collecting data with Selenium"
+subtitle: "Text as Data II: Supervised Learning"
 description: ""
 author: "Tiago Ventura"
 date: "11/21/2023"

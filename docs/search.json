@@ -18,14 +18,14 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nNumpy and Intro to Pandas\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Data Wrangling\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nJoining, Tidying and Visualizing Data\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nScraping\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nApis + Selenium\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nStatistical Learning\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Week\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nNumpy and Intro to Pandas\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Data Wrangling\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nJoining, Tidying and Visualizing Data\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nScraping\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nApis + Selenium\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nStatistical Learning\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nText as Data I: Discovery and Topics\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nText as Data II: Supervised Learning\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "schedule.html#weekly-schedule",
     "href": "schedule.html#weekly-schedule",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nNumpy and Intro to Pandas\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Data Wrangling\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nJoining, Tidying and Visualizing Data\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nScraping\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nApis + Selenium\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nStatistical Learning\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Week\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nNumpy and Intro to Pandas\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Data Wrangling\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nJoining, Tidying and Visualizing Data\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nScraping\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nApis + Selenium\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nStatistical Learning\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nText as Data I: Discovery and Topics\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nText as Data II: Supervised Learning\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "syllabus.html",
@@ -88,7 +88,7 @@
     "href": "syllabus.html#weekly-schedule",
     "title": "Syllabus: PPOL 5203 - Data Science I: Foundations",
     "section": "Weekly Schedule",
-    "text": "Weekly Schedule\n\n\n\n\n\n\nWeek\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nNumpy and Intro to Pandas\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Data Wrangling\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nJoining, Tidying and Visualizing Data\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nScraping\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nApis + Selenium\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nStatistical Learning\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nInvited Speaker: Introduction to Algorithms + Coding Interviews\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nTraining Machines and collecting data with Selenium\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL + Spark\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Weekly Schedule\n\n\n\n\n\n\nWeek\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\nWeek 01\n\n\nIntroduction, Installations, IDEs, Command line\n\n\nAugust 29, 2023\n\n\n\n\nWeek 02\n\n\nVersion Control, Workflow and Reproducibility: Or a bit of Git & GitHub\n\n\nSeptember 12, 2023\n\n\n\n\nWeek 03\n\n\nIntro to Python - OOP, Data Types, Control Statements and Functions\n\n\nSeptember 19, 2023\n\n\n\n\nWeek 04\n\n\nPython II: Control Statements, Comprehensions, Nested Lists, and Numpy\n\n\nSeptember 26, 2023\n\n\n\n\nWeek 05\n\n\nNumpy and Intro to Pandas\n\n\nOctober 03, 2023\n\n\n\n\nWeek 06\n\n\nPandas II: Data Wrangling\n\n\nOctober 10, 2023\n\n\n\n\nWeek 07\n\n\nJoining, Tidying and Visualizing Data\n\n\nOctober 17, 2023\n\n\n\n\nWeek 08\n\n\nScraping\n\n\nOctober 24, 2023\n\n\n\n\nWeek 09\n\n\nApis + Selenium\n\n\nOctober 31, 2023\n\n\n\n\nWeek 10\n\n\nStatistical Learning\n\n\nNovember 07, 2023\n\n\n\n\nWeek 11\n\n\nText as Data I: Discovery and Topics\n\n\nNovember 14, 2023\n\n\n\n\nWeek 12\n\n\nText as Data II: Supervised Learning\n\n\nNovember 21, 2023\n\n\n\n\nWeek 13\n\n\nSQL\n\n\nNovember 28, 2023\n\n\n\n\nWeek 14\n\n\nPresentations of Final Projects\n\n\nDecember 05, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "syllabus.html#course-requirements",
@@ -130,7 +130,7 @@
     "href": "slides/week-10.html#plans-for-today",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Plans for Today",
-    "text": "Plans for Today\n\nIntroduction to Machine Learning\n\nStatistical Models\nInference vs Predictive Modelling\nStatistical Learning:\n\nSupervised vs Unsupervised\nRegression vs Classification\nBias and Variance Trade-off\nTraining models\n\nApplication of ML in Social Sciences\nCoding"
+    "text": "Plans for Today\n\nIntroduction to Machine Learning\n\nStatistical Learning\nInference vs Predictive Modeling\nMachine Learning:\n\nSupervised vs Unsupervised\nRegression vs Classification\nTraining models\nBias and Variance Trade-off\n\nCoding"
   },
   {
     "objectID": "slides/week-10.html#some-questions-we-are-interested-as-social-scientist",
@@ -144,7 +144,7 @@
     "href": "slides/week-10.html#statistical-models",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Statistical Models",
-    "text": "Statistical Models\nAll these questions are complex. To answer them, we build models:\n\nA model is “a simplified representation of reality created to serve a purpose.” (Provost & Fawcett 2013)\n\nBy definition:\n\nmodels are simplification of a reality\nhighlight key aspects of our outcome of interest\nare all wrong, but some are useful"
+    "text": "Statistical Models\nSocial Scientists are often interested in very complex questions. To answer them, we build models:\n\nA model is “a simplified representation of the reality created to serve a purpose.” (Provost & Fawcett 2013)\n\nBy definition:\n\nmodels are simplification\nmodels highlight key aspects of our outcome of interest\nmodels are all wrong, but some are useful"
   },
   {
     "objectID": "slides/week-10.html#a-model-and-its-components",
@@ -158,42 +158,42 @@
     "href": "slides/week-10.html#statistical-learning",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Statistical Learning",
-    "text": "Statistical Learning\nStatistical learning refers to a set of methods/approaches for estimating \\(f(.)\\)\n\\[ \\hat{y} = \\hat{f}(X) + \\sigma\\]\nWhere \\(\\hat{f}(X)\\) is an approximation of the “true” functional form, \\(f(X)\\) and \\(\\hat{y}\\) is the predicted value of a true value y.\nWhen we build models, the aim is to find a \\(\\hat{f}(X)\\) that minimizes the reducible error in the model:"
+    "text": "Statistical Learning\nStatistical learning refers to a set of methods/approaches for estimating \\(f(.)\\)\n\\[ \\hat{y} = \\hat{f}(X) + \\sigma\\]\n\nWhere \\(\\hat{f}(X)\\) is an approximation of the “true” functional form, \\(f(X)\\)\n\\(\\hat{y}\\) is the predicted value of a true value y.\nWhen we build models, the aim is to find a \\(\\hat{f}(X)\\) that minimizes the error in the model."
   },
   {
     "objectID": "slides/week-10.html#reducible-vs.-irreducible-error",
     "href": "slides/week-10.html#reducible-vs.-irreducible-error",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Reducible vs. Irreducible Error",
-    "text": "Reducible vs. Irreducible Error\n\\[E(y - \\hat{y})^2\\] \\[E[f(X) + \\epsilon -  \\hat{f}(X)]^2\\]\n\\[\\underbrace{E[f(X) -\\hat{f}(X)]^2}_{\\text{Reducible}} + \\underbrace{var(\\epsilon)}_{\\text{Irreducible}}\\]\nThe “reducible” error is the systematic signal. We can reduce this error by using different functional forms, better data, or a mixture of those two.\nThe “irreducible” error is associated with the random noise around \\(y\\).\nStatistical learning is concerned with minimizing the reducible error. However, our predictions will never be perfect given the irreducible error.\nThere is a lower bound on how accurate we can be."
+    "text": "Reducible vs. Irreducible Error\n\\[E(y - \\hat{y})^2\\] \\[E[f(X) + \\epsilon -  \\hat{f}(X) ]^2\\]\n\\[\\underbrace{E[f(X) -\\hat{f}(X)]^2}_{\\text{Reducible}} + \\underbrace{var(\\epsilon)}_{\\text{Irreducible}}\\]\n\nThe “reducible” error is the systematic signal. We can reduce this error by using different functional forms, better data, or a mixture of those two.\nThe “irreducible” error is associated with the random noise around \\(y\\).\nStatistical learning is concerned with minimizing the reducible error. However, our predictions will never be perfect given the irreducible error."
   },
   {
     "objectID": "slides/week-10.html#inference-social-science-vs-prediction-machine-learning",
     "href": "slides/week-10.html#inference-social-science-vs-prediction-machine-learning",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Inference (Social Science) vs Prediction (Machine Learning)",
-    "text": "Inference (Social Science) vs Prediction (Machine Learning)\nTwo reasons we want to estimate \\(f(\\cdot)\\):\n\nInference\n\nGoal is interpretation\n\nWhich predictors are associated with the response?\nWhat is the relationship (parameters) between the response and the predictors?\nIs the relationship causal?\n\n Key limitation:\n\nusing functional forms that are easy to interpret (e.g. lines) might be far away from the true function form of \\(f(X)\\).\n\nClassic Social Science Approach\n\n\n\\[ y_i = \\beta_1*education_i + beta_2*gender_i + \\sigma_i \\]"
+    "text": "Inference (Social Science) vs Prediction (Machine Learning)\nTwo reasons we want to estimate \\(f(\\cdot)\\):\n\nInference\n\nGoal is interpretation\n\nWhich predictors are associated with the response?\nWhat is the relationship (parameters) between the response and the predictors?\nIs the relationship causal?\n\n Key limitation:\n\nusing functional forms that are easy to interpret (e.g. lines) might be far away from the true function form of \\(f(X)\\).\n\nClassic Social Science Approach\n\\[ y_i = \\beta_1*education_i + beta_2*gender_i + \\sigma_i \\]"
   },
   {
     "objectID": "slides/week-10.html#inference-social-science-vs-prediction-machine-learning-1",
     "href": "slides/week-10.html#inference-social-science-vs-prediction-machine-learning-1",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Inference (Social Science) vs Prediction (Machine Learning)",
-    "text": "Inference (Social Science) vs Prediction (Machine Learning)\n\nPrediction\n\nGoal is to predict values of the outcome, \\(\\hat{y}\\)\n\\(\\hat{f}(X)\\) is treated as a black box\n\nmodel doesn’t need to be interpretable as long as it provides an accurate prediction of \\(y\\).\n\n Key limitation:\n\nInterpretation: it is difficult to know which variables are doing the heavy lifting and the exact influence of \\(x\\) on \\(y\\).\n\nThis is the Machine Learning tradition, or, statistical learning"
+    "text": "Inference (Social Science) vs Prediction (Machine Learning)\n\nPrediction\n\nGoal is to predict values of the outcome, \\(\\hat{y}\\)\n\\(\\hat{f}(X)\\) is treated as a black box\n\nmodel doesn’t need to be interpretable as long as it provides an accurate prediction of \\(y\\).\n\n Key limitation:\n\nInterpretation: it is difficult to know which variables are doing the heavy lifting and the exact influence of \\(x\\) on \\(y\\).\n\nThis is the Machine Learning tradition/predictive modeling/AI"
   },
   {
     "objectID": "slides/week-10.html#supervised-and-unsupervised-learning",
     "href": "slides/week-10.html#supervised-and-unsupervised-learning",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Supervised and Unsupervised Learning",
-    "text": "Supervised and Unsupervised Learning\n\nSupervised Learning\n\nfor each observation of the predictor measurement \\(x_i\\) there is an associated response measurement \\(y_i\\). In essence, there is an outcome we are aiming to accurately predict or understand.\nuse regression and classification methods"
+    "text": "Supervised and Unsupervised Learning\n\nSupervised Learning (DS II)\n\nfor each observation of the predictor measurement \\(x_i\\) there is an associated response measurement \\(y_i\\). In essence, there is an outcome we are aiming to accurately predict or understand.\nuse regression and classification methods"
   },
   {
     "objectID": "slides/week-10.html#unsupervised",
     "href": "slides/week-10.html#unsupervised",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Unsupervised",
-    "text": "Unsupervised\n\nUnsupervised Learning\n\nwe observe a vector of measurements \\(x_i\\) but no associated response \\(y_i\\).\n“unsupervised” because we lack a response variable that can supervise our analysis."
+    "text": "Unsupervised\n\nUnsupervised Learning (DS III)\n\nwe observe a vector of measurements \\(x_i\\) but no associated response \\(y_i\\).\n“unsupervised” because we lack a response variable that can supervise our analysis."
   },
   {
     "objectID": "slides/week-10.html#interpretation-vs-flexibility",
@@ -221,7 +221,7 @@
     "href": "slides/week-10.html#train-the-model",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Train the model",
-    "text": "Train the model\nThe purpose of training the model is to capture signal and ignore noise.\nTo do so:\n\nDefine a accuracy metric:\n\nIn the regression setting, the most common accuracy metric is mean squared error (MSE).\n\\(MSE = \\frac{\\sum^N_{i=1} (y_i - \\hat{f}(X_i))^2}{N}\\)\n\nTrain-Test Split\n\nSplit your data between training and test\nTraining data: find the best model and tune the parameters of these models\nTest data: assess the accuracy of your model.\n\nSelect the model based on smaller out of sample predictive accuracy"
+    "text": "Train the model\nThe purpose of training the model is to capture signal and ignore noise.\nTo do so:\n\nDefine a accuracy metric:\n\nIn the regression setting, the most common accuracy metric is mean squared error (MSE).\n\\(Mean Squared Error = \\frac{\\sum^N_{i=1} (y_i - \\hat{f}(X_i))^2}{N}\\)\n\nTrain-Test Split\n\nSplit your data between training and test\nTraining data: find the best model and tune the parameters of these models\nTest data: assess the accuracy of your model.\n\nSelect the model based on smaller out of sample predictive accuracy. What is learned?\n\nModel type\nFeatures (variables)\nHyper-Parameters"
   },
   {
     "objectID": "slides/week-10.html#bias-and-variance-trade-off",
@@ -242,14 +242,14 @@
     "href": "slides/week-10.html#k-fold-cross-validation",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "K-Fold Cross Validation",
-    "text": "K-Fold Cross Validation\n\nK-Fold Cross Validation Involves randomly dividing the data into \\(k\\) groups (or folds). Model is trained on \\(k-1\\) folds, then test on the remaining fold.\nProcess is repeated \\(k\\) times, each time using a new fold. Offers \\(k\\) estimates of the test error, which we average."
+    "text": "K-Fold Cross Validation\n\nK-Fold Cross Validation involves randomly dividing the data into \\(k\\) groups (or folds). Model is trained on \\(k-1\\) folds, then test on the remaining fold.\nProcess is repeated \\(k\\) times, each time using a new fold. Offers \\(k\\) estimates of the test error, which we average."
   },
   {
     "objectID": "slides/week-10.html#important-concepts",
     "href": "slides/week-10.html#important-concepts",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Important Concepts",
-    "text": "Important Concepts\n\nInference vs Prediction\nPrediction: black-box function, highly flexible to reduce error.\nLearning: train the model in seen data. Test and calculate metrics in seen\nAvoid overfitting and data leakage by using resampling methods.\n\n\n\nData science I: Foundations"
+    "text": "Important Concepts\n\nInference vs Prediction\nPrediction: black-box function, highly flexible to reduce error.\nLearning: train the model in seen data. Test and calculate metrics in seen\nAvoid overfiting and data leakage by using resampling methods.\n\n\n\nData science I: Foundations"
   },
   {
     "objectID": "problemset.html",
@@ -872,7 +872,7 @@
     "href": "slides/week-11.html#similarity-between-documents",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Similarity between documents",
-    "text": "Similarity between documents\n\nEvery row in the Document-Feature Matrix (or in a Word Embedding Matrix) is a (many other possible) numerical representation of the document.\nThese vectors can be judged using metrics of similarity\n\nCosine Similarity:\n\\[\\text{Sim}(A, B) = \\frac{{A \\cdot B}}{{\\|A\\| \\|B\\|}}\\]\nWhere:\n\nThe \\(\\cdot\\) here means a dot product: \\(\\sum_j \\mathbf{y_a} \\cdot \\mathbf{y_b}\\)\nThe vector norm \\(\\mathbf{||y_a||} = \\sqrt{\\sum \\mathbf{y_{aj}^2}}\\)"
+    "text": "Similarity between documents\n\nEvery row in the Document-Feature Matrix (or in a Word Embedding Matrix) is a (many other possible) numerical representation of the document.\nThese vectors can be judged using metrics of similarity\n\nCosine Similarity:\n\\[\\text{Sim}(A, B) = \\frac{{A \\cdot B}}{{\\|A\\| \\|B\\|}}\\]\nWhere:\n\nThe \\(\\cdot\\) here means a dot product: \\(\\sum_j \\mathbf{a_j} \\cdot \\mathbf{b_j}\\)\nThe vector norm \\(\\mathbf{||A||} = \\sqrt{\\sum \\mathbf{{a_j}^2}}\\)"
   },
   {
     "objectID": "slides/week-11.html#application-text-reuse-in-congressional-bills",
@@ -915,5 +915,145 @@
     "title": "Problem Set 03",
     "section": "",
     "text": "Github Classroom Link"
+  },
+  {
+    "objectID": "weeks/week-14.html",
+    "href": "weeks/week-14.html",
+    "title": "Week 14",
+    "section": "",
+    "text": "Lectures Notes:\n\n\nSlides\n\n\nReadings"
+  },
+  {
+    "objectID": "weeks/week-12.html",
+    "href": "weeks/week-12.html",
+    "title": "Week 12",
+    "section": "",
+    "text": "Lectures Notes:\n\n\nSlides\n\nTBD\n\n\n\nReadings\n\nDictionary Methods: Rathje, Steve, Jay J. Van Bavel, and Sander Van Der Linden. “Out-group animosity drives engagement on social media.” Proceedings of the National Academy of Sciences 118, no. 26 (2021): e2024292118\nToxicity using Google Perspective API: Ventura, Tiago, Kevin Munger, Katherine McCabe, and Keng-Chi Chang. “Connective effervescence and streaming chat during political debates.” Journal of Quantitative Description: Digital Media 1 (2021).\nUsing ChatGPT to Scale Politicians: Wu, Patrick Y., Jonathan Nagler, Joshua A. Tucker, and Solomon Messing. “Large Language Models Can Be Used to Estimate the Latent Positions of Politicians."
+  },
+  {
+    "objectID": "weeks/week-11.html",
+    "href": "weeks/week-11.html",
+    "title": "Week 11",
+    "section": "",
+    "text": "Text analysis I: Counting, Describing and Fiting Topics html –  Jupyter Notebook \n\n\nSlides\n\nText analysis I\n\n\n\nReadings\nRequired Reading:\n\nGrimmer, J., Roberts, M. E., & Stewart, B. M. (2022). Text as data: A new framework for machine learning and the social sciences. Princeton University Press. Chapter 2.\n\nOr one of the three below:\n\nPolitical Science Perspective: Wilkerson, J. and Casas, A. (2017). Large-Scale Computerized Text Analysis in Political Science: Opportunities and Challenges. Annual Review of Political Science, 20, 529:544.\nEconomics Perspective: Gentzkow, Matthew, Bryan Kelly, and Matt Taddy. “Text as data.” Journal of Economic Literature 57, no. 3 (2019): 535-574.\nSociology Perspective: https://www.sciencedirect.com/science/article/pii/S0049089X22000904\n\nTopic Models: Read the foundational LDA Paper: https://www.cs.columbia.edu/~blei/papers/Blei2012.pdf\nAdditional Readings:\n\nText Pre-Processing: Denny, M. J., & Spirling, A. (2018). Text preprocessing for unsupervised learning: why it matters, when it misleads, and what to do about it. Political Analysis, 26(2): 168-189.\nDescriptive Analysis of Text: https:Linder, Fridolin, Bruce Desmarais, Matthew Burgess, and Eugenia Giraudy. “Text as policy: Measuring policy similarity through bill text reuse.” Policy Studies Journal 48, no. 2 (2020): 546-574.\nTopic models : Roberts, Margaret E., et al. “Topic models for open ended survey responses with applications to experiments.” American Journal of Political Science 58 (2014): 1064-82"
+  },
+  {
+    "objectID": "weeks/week-13.html",
+    "href": "weeks/week-13.html",
+    "title": "Week 13",
+    "section": "",
+    "text": "Lectures Notes:\n\n\nSlides\n\n\nReadings"
+  },
+  {
+    "objectID": "slides/week-10.html#feedback-survey",
+    "href": "slides/week-10.html#feedback-survey",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Feedback survey",
+    "text": "Feedback survey\n\n\nContinue Doing\n\n\nsmall in-class practice with break\nnotebooks (you’ll seem to love them!)\n\n\nStop doing\n\n\nwe’re doing great!\nsuper long problem sets\n\n\n\nStart doing\n\n\ntalk about past assignments\n\nUse office hours for this. Happy to discuss question if you have. But will not go over the entire assignment\n\nreadings could be posted at least 4 days\n\nmy bad!\n\nMore clarity in problem set questions.\n\nYes. Ask questions on slack if something is not clear.\n\nWork in groups.\n\nplease feel free to do it. Agree it works best."
+  },
+  {
+    "objectID": "slides/week-10.html#problem-set-4",
+    "href": "slides/week-10.html#problem-set-4",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Problem Set 4",
+    "text": "Problem Set 4\n\nCongress.gov is blocking scrappers\n\nQuestion 1 and 2 cannot be solved with beautifulsoup\n\nSolve with Selenium\nSolve Replacement Question\nAlready have extra 10pts\n\n\nVery flexible with deadline in the previous assignment. Start this problem set early, lot of moving pieces on this homework.\n\nNo general extensions\nyou will lose points for finishing late."
+  },
+  {
+    "objectID": "slides/week-11.html#topic-models-lda-approach",
+    "href": "slides/week-11.html#topic-models-lda-approach",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Topic Models: LDA Approach",
+    "text": "Topic Models: LDA Approach\nIntuition: Capture words that are more likely to occur together across a set of documents. Assign these words a probability of being part of a cluster (topic). Assign documents a probability of being associated of these clusters.\n\nStatistical Model: Latent Dirichlet Allocation + Generative Statistical Modeling\n\nDocuments: random mixture over latent topics\nTopics: probability distribution over words\n\nMathematical Models:\n\nFor each document:\n\nRandomly choose a distribution over topics.\nFor each word in the document\n\n\nRandomly choose a topic from the distribution over topics in step #1.\n\n\nRandomly choose a word from the corresponding distribution over the vocabulary.\n\n\n\n\nMoving from random to good topics: algorithm changes the assignment of words to topics in every iteration, and maximimize co-occurrence of words"
+  },
+  {
+    "objectID": "slides/week-11.html#abstract-the-math",
+    "href": "slides/week-11.html#abstract-the-math",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Abstract the Math",
+    "text": "Abstract the Math\n\n\n\n\n\n\n\n\n\n\n\nsource: https://www.cs.columbia.edu/~blei/papers/Blei2012.pdf"
+  },
+  {
+    "objectID": "slides/week-10.html#models-components",
+    "href": "slides/week-10.html#models-components",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Model’s Components",
+    "text": "Model’s Components\nThe aim is to model the relationship between the outcome and some set of variables:\n\\[ y = f(X) + \\sigma\\]\nWhere:\n\n\\(y\\) is the outcome/dependent/response variable\n\\(X\\) is a matrix of predictors/features/independent variables\n\\(f()\\) is some fixed but unknown function mapping X to y. The signal in the data\n\\(\\sigma\\) is some random error term. The “noise” in the data."
+  },
+  {
+    "objectID": "slides/week-10.html#building-machine-learning-model",
+    "href": "slides/week-10.html#building-machine-learning-model",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Building Machine Learning Model",
+    "text": "Building Machine Learning Model\nFor inference work (in you stats class), you get some data, and you estimate a model using the entire data. This is not what we do in machine learning.\nWhat does learning mean?\n\nMain objective: predict data accurately by learning from previous seen\nGoal:\n\ncapture signal in the best way possible \\(f(X)\\)\nIgnore noise (irreducible error)"
+  },
+  {
+    "objectID": "slides/week-11.html#many-different-types-of-topic-models",
+    "href": "slides/week-11.html#many-different-types-of-topic-models",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Many different types of topic models",
+    "text": "Many different types of topic models\n\nStructural topic model: allow (1) topic prevalence, (2) topic content to vary as a function of document-level covariates (e.g., how do topics vary over time or documents produced in 1990 talk about something differently than documents produced in 2020?); implemented in stm in R (Roberts, Stewart, Tingley, Benoit)\nCorrelated topic model: way to explore between-topic relationships (Blei and Lafferty, 2017); implemented in topicmodels in R; possibly somewhere in Python as well!\nKeyword-assisted topic model: seed topic model with keywords to try to increase the face validity of topics to what you’re trying to measure; implemented in keyATM in R (Eshima, Imai, Sasaki, 2019)\nBertTopic: BERTopic is a topic modeling technique that leverages transformers and TF-IDF to create dense clusters of words."
+  },
+  {
+    "objectID": "lecture_notes/week-10/solution_in_class.html",
+    "href": "lecture_notes/week-10/solution_in_class.html",
+    "title": "PPOL 5203 - Data Science I: Foundations",
+    "section": "",
+    "text": "import matplotlib.pyplot as plt\n\ndiabetes[\"ols_pred\"] = model_ols.fittedvalues\n\n# plot\n(ggplot(diabetes, aes(y=\"ols_pred\", x=\"target\")) +\n geom_point() +\n geom_abline(intercept = 0, slope = 1, size = 0.5)\n \n)"
+  },
+  {
+    "objectID": "weeks/week-09.html",
+    "href": "weeks/week-09.html",
+    "title": "Week 09",
+    "section": "",
+    "text": "Lectures Notes:\n\nAPIs html –  Jupyter Notebook \nSelenium html –  Jupyter Notebook \n\n\n\nSlides\n\nAcquiring data on the Web: APIs and Selenium\n\n\n\nReadings\nAPIs\n\nNice overview about APIs from Chris Bail here. (it is in R, so pay more attention to the concepts)\n\nSelenium\n\nTutorial Webscrapping using Selenium\nSet up your selenium environment: https://selenium-python.readthedocs.io/installation.html\nWeb Driver Manager library in Python: https://pypi.org/project/webdriver-manager/\nLocating elements in Selenium: https://selenium-python.readthedocs.io/locating-elements.html\n\nApplied Research\n\nTrielli, Daniel, and Nicholas Diakopoulos. “Search as news curator: The role of Google in shaping attention to news information.” In Proceedings of the 2019 CHI Conference on human factors in computing systems, pp. 1-15. 2019.\nHaroon, Muhammad, Anshuman Chhabra, Xin Liu, Prasant Mohapatra, Zubair Shafiq, and Magdalena Wojcieszak. “YouTube, the great radicalizer? Auditing and mitigating ideological biases in YouTube recommendations.” arXiv preprint arXiv:2203.10666 (2022)."
+  },
+  {
+    "objectID": "slides/week-10.html#workflow",
+    "href": "slides/week-10.html#workflow",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Workflow",
+    "text": "Workflow\n\n\n\n\n\n\n\nsource: https://cimentadaj.github.io/ml_socsci/"
+  },
+  {
+    "objectID": "slides/week-10.html#supervised-learning-regression",
+    "href": "slides/week-10.html#supervised-learning-regression",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Supervised Learning: Regression",
+    "text": "Supervised Learning: Regression\nOutcomes come in many forms. How the outcome is distributed will determine the methods we use.\n\nQuantitative outcome\n\na continuous/interval-based outcome: e.g. housing price, number of bills passed, stock market prices, etc.\nRegression Methods: linear, penalization, generalized additive models (GAMs)\nBoth parametric and non-parametric ways of approximating \\(f(\\cdot)\\)"
+  },
+  {
+    "objectID": "slides/week-10.html#supervised-learning-classification",
+    "href": "slides/week-10.html#supervised-learning-classification",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Supervised Learning: Classification",
+    "text": "Supervised Learning: Classification\nOutcomes come in many forms. How the outcome is distributed will determine the methods we use.\n\nQualitative outcome\n\na discrete outcome\n\nBinary: War/No War; Sick/Not Sick\nOrdered: Don’t Support, Neutral, Support\nCategorical: Cat, Dog, Bus, …\n\nClassification Methods: logistic regression, naive Bayes, support vector machines, neural networks\n\nSome methods can be used on either outcome type\n\nK nearest neighbors\ntree-based methods (random forest, gradient boosting)\n\nEvery model has specific tuning parameters that we can use to optimize performance."
+  },
+  {
+    "objectID": "slides/week-10.html#statistical-learning-1",
+    "href": "slides/week-10.html#statistical-learning-1",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Statistical Learning",
+    "text": "Statistical Learning\nStatistical learning refers to a set of methods/approaches for estimating \\(f(.)\\)\n\\[ \\hat{y} = \\hat{f}(X)\\]\n\nWhere \\(\\hat{f}(X)\\) is an approximation of the “true” functional form, \\(f(X)\\)\n\\(\\hat{y}\\) is the predicted value of a true value y.\nWhen we build models, the aim is to find a \\(\\hat{f}(X)\\) that minimizes the error in the model."
+  },
+  {
+    "objectID": "slides/week-10.html#building-ml-model-what-does-learning-mean",
+    "href": "slides/week-10.html#building-ml-model-what-does-learning-mean",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Building ML Model: What does learning mean?",
+    "text": "Building ML Model: What does learning mean?\nFor inference work (in you stats class), you get some data, and you estimate a model using the entire data. This is not what we do in machine learning.\n\nMain objective: predict data accurately by learning from previous seen\nGoal:\n\ncapture signal in the best way possible \\(f(X)\\)\nIgnore noise (irreducible error)"
+  },
+  {
+    "objectID": "slides/week-10.html#mse-training-data",
+    "href": "slides/week-10.html#mse-training-data",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "MSE Training Data",
+    "text": "MSE Training Data\n\n\n\n\n\n\n\nsource: Dr. Eric Dunford’s PPOL564 slides"
+  },
+  {
+    "objectID": "slides/week-10.html#model-accuracy-out-sample-prediction",
+    "href": "slides/week-10.html#model-accuracy-out-sample-prediction",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Model Accuracy: Out-Sample Prediction",
+    "text": "Model Accuracy: Out-Sample Prediction\n\n\n\n\n\n\n\nsource: Dr. Eric Dunford’s PPOL564 slides"
   }
 ]

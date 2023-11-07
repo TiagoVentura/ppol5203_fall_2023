@@ -15,7 +15,7 @@ format:
     height: 800
     center: false
     slide-number: true
-    incremental: false
+    incremental: true
     chalkboard: 
       buttons: false
     preview-links: auto
@@ -23,54 +23,116 @@ format:
     theme: [simple, custom.scss]
 ---
 
+# Questions about the homework? {background-color="#447099"}
+
+
 ## Plans for Today
 
 -   Introduction to Machine Learning
 
-    -   Statistical Models
+    -   Statistical Learning
 
-    -   Inference vs Predictive Modelling
+    -   Inference vs Predictive Modeling
 
-    -   Statistical Learning:
+    -   Machine Learning:
 
         -   Supervised vs Unsupervised
         -   Regression vs Classification
-        -   Bias and Variance Trade-off
         -   Training models
-
-    -   Application of ML in Social Sciences
+        -   Bias and Variance Trade-off
 
     -   Coding
 
-## Some questions we are interested as social scientist...
+# Logistics
 
--   [Which factors affect the likelihood of a country backslide to autocracy?](https://muse.jhu.edu/article/16730)
+## Feedback survey
 
--   [Why countries go to war?](https://www.math.fsu.edu/~mesterto/NewCourses/MAP5932/2016/PDF/PDF13/Fearon1995aExplanationsForWar.pdf)
+::: columns
+::: {.column width="50%"}
 
--   [Detect corruption or fraud in elections using official documents](https://www.cambridge.org/core/journals/political-analysis/article/fraudulent-democracy-an-analysis-of-argentinas-infamous-decade-using-supervised-machine-learning/EF5F7AC3A74E7F89494E478A05BFA8BC)
+### Continue Doing
 
--   [Predict/detect the sentiment/toxicity/presence of misinformation on a social media post](https://dl.acm.org/doi/abs/10.1007/978-3-031-26390-3_14)
+::: {.nonincremental}
 
--   [Estimating socio-demographics of a region where census data is not available](https://www.unhcr.org/innovation/wp-content/uploads/2016/11/blumenstock-science-2015.pdf)
+-   small in-class practice with break
+
+-   notebooks (you'll seem to love them!)
+
+:::
+
+### Stop doing
+
+::: {.nonincremental}
+
+-   we're doing great!
+
+-   super long problem sets
+:::
+
+:::
+
+::: {.column width="50%"}
+### Start doing
+
+::: {.nonincremental}
+
+-   talk about past assignments
+
+    -   Use office hours for this. Happy to discuss question if you have. But will not go over the entire assignment
+
+-   readings could be posted at least 4 days
+
+    -   my bad!
+
+-   More clarity in problem set questions.
+
+    -   Yes. Ask questions on slack if something is not clear. 
+
+-   Work in groups.
+
+    -   please feel free to do it. Agree it works best.
+:::
+:::
+:::
+
+## Problem Set 4
+
+-   Congress.gov is blocking scrappers
+
+    -   Question 1 and 2 cannot be solved with `beautifulsoup`
+
+        -   Solve with Selenium
+
+        -   Solve Replacement Question
+
+        -   Already have extra 10pts
+
+-   Very flexible with deadline in the previous assignment. Start this problem set early, lot of moving pieces on this homework.
+
+    -   No general extensions
+
+    -   you will lose points for finishing late.
+
+
+# Statistical Learning
 
 ## Statistical Models
 
-All these questions are complex. To answer them, we build models:
+Social Scientists are often interested in very complex questions. To answer them, we build models:
 
-> A model is "a simplified representation of reality created to serve a purpose." (Provost & Fawcett 2013)
+> A model is "a simplified representation of the reality created to serve a purpose." (Provost & Fawcett 2013)
 
 By definition:
 
--   models are simplification of a reality
+-   models are simplification
 
--   highlight key aspects of our outcome of interest
+-   models highlight key aspects of our outcome of interest
 
--   are all wrong, but some are useful
+-   models are all wrong, but some are useful
 
-## A Model and its components
+## Model's Components
 
-The aim is to model the relationship between the outcome and some set of features features
+The aim is to model the relationship between the outcome and some set of variables:
 
 $$ y = f(X) + \sigma$$
 
@@ -88,25 +150,25 @@ $$ y = f(X) + \sigma$$
 
 Statistical learning refers to a set of methods/approaches for estimating $f(.)$
 
-$$ \hat{y} = \hat{f}(X) + \sigma$$
+$$ \hat{y} = \hat{f}(X)$$
 
-Where $\hat{f}(X)$ is an approximation of the "true" functional form, $f(X)$ and $\hat{y}$ is the predicted value of a true value y.
+- Where $\hat{f}(X)$ is an approximation of the "true" functional form, $f(X)$ 
 
-When we build models, the aim is to find a $\hat{f}(X)$ that minimizes the reducible error in the model:
+- $\hat{y}$ is the predicted value of a true value y.
+
+- When we build models, the aim is to find a $\hat{f}(X)$ that minimizes the error in the model.
 
 ## Reducible vs. Irreducible Error
 
-$$E(y - \hat{y})^2$$ $$E[f(X) + \epsilon -  \hat{f}(X)]^2$$
+$$E(y - \hat{y})^2$$ $$E[f(X) + \epsilon -  \hat{f}(X) ]^2$$
 
 $$\underbrace{E[f(X) -\hat{f}(X)]^2}_{\text{Reducible}} + \underbrace{var(\epsilon)}_{\text{Irreducible}}$$
 
-The **"reducible" error** is the systematic **signal**. We can reduce this error by using different functional forms, better data, or a mixture of those two.
+- The **"reducible" error** is the systematic **signal**. We can reduce this error by using different functional forms, better data, or a mixture of those two.
 
-The **"irreducible" error** is associated with the random **noise** around $y$.
+- The **"irreducible" error** is associated with the random **noise** around $y$.
 
-Statistical learning is concerned with minimizing the reducible error. However, our predictions will never be perfect given the irreducible error.
-
-There is a lower bound on how accurate we can be.
+- Statistical learning is concerned with minimizing the reducible error. However, our predictions will never be perfect given the irreducible error.
 
 ## Inference (Social Science) vs Prediction (Machine Learning)
 
@@ -126,7 +188,7 @@ Two reasons we want to estimate $f(\cdot)$:
 
     -   **Classic Social Science Approach**
 
-$$ y_i = \beta_1*education_i + beta_2*gender_i + \sigma_i $$
+    - $$ y_i = \beta_1*education_i + beta_2*gender_i + \sigma_i $$
 
 ## Inference (Social Science) vs Prediction (Machine Learning)
 
@@ -142,19 +204,20 @@ $$ y_i = \beta_1*education_i + beta_2*gender_i + \sigma_i $$
 
         -   *Interpretation*: it is difficult to know which variables are doing the heavy lifting and the exact influence of $x$ on $y$.
 
-    -   **This is the Machine Learning tradition, or, statistical learning**
+    -   **This is the Machine Learning tradition/predictive modeling/AI**
 
-# Statistical Learning
+# Machine Learning
 
 ## Supervised and Unsupervised Learning
 
--   <u>**Supervised Learning**</u>
+-   <u>**Supervised Learning (DS II)**</u>
 
     -   for each observation of the predictor measurement $x_i$ there is an associated response measurement $y_i$. In essence, there is an *outcome* we are aiming to accurately predict or understand.
 
     -   use regression and classification methods
 
-```{r,echo=F,fig.align="center",fig.width=7,fig.height=4}
+:::{.fragment}
+```{r,echo=F,fig.align="center",fig.width=12}
 require(tidyverse)
 require(caret)
 require(recipes)
@@ -169,16 +232,18 @@ tibble(x,y) %>%
   theme(legend.position = "none",
         axis.title = element_text(size=18))
 ```
+:::
 
 ## Unsupervised
 
--   <u>**Unsupervised Learning**</u>
+-   <u>**Unsupervised Learning (DS III)**</u>
 
     -   we observe a vector of measurements $x_i$ but *no* associated response $y_i$.
 
     -   "unsupervised" because we lack a response variable that can supervise our analysis.
 
-```{r,echo=F,fig.align="center",fig.width=7,fig.height=4}
+::: {.fragment}
+```{r,echo=F,fig.align="center",fig.width=12}
 set.seed(123)
 n = 50
 sigma = matrix(c(1,0,0,1),ncol=2,nrow=2)
@@ -192,6 +257,46 @@ bind_rows(x1,x2,x3) %>%
   theme(legend.position = "none",
         axis.title = element_text(size=18))
 ```
+::: 
+
+##  Supervised Learning: Regression
+
+_Outcomes_ come in many forms. How the outcome is distributed will determine the methods we use. 
+
+- **Quantitative** outcome
+
+  + a continuous/interval-based outcome: e.g. housing price, number of bills passed, stock market prices, etc.
+  
+  + Regression Methods: linear, penalization, generalized additive models (GAMs) 
+  
+  + Both parametric and non-parametric ways of approximating $f(\cdot)$
+
+
+---
+
+##  Supervised Learning: Classification
+
+_Outcomes_ come in many forms. How the outcome is distributed will determine the methods we use. 
+
+- **Qualitative** outcome
+
+  + a discrete outcome
+  
+      + _Binary_: War/No War; Sick/Not Sick
+      
+      + _Ordered_: Don't Support, Neutral, Support
+      
+      + _Categorical_: Cat, Dog, Bus, ... 
+      
+  + Classification Methods: logistic regression, naive Bayes, support vector machines, neural networks
+
+- Some methods can be used on either outcome type
+  - K nearest neighbors
+  - tree-based methods (random forest, gradient boosting)
+
+- Every model has specific **tuning parameters** that we can use to optimize performance. 
+ 
+---
 
 ## Interpretation vs Flexibility
 
@@ -213,19 +318,58 @@ knitr::include_graphics("week10_figs/interpret-vs-flexible.png")
 :::
 :::
 
-## Building Models: Over-Fitting vs Under-Fitting
+## Building ML Model: What does learning mean?
 
 For inference work (in you stats class), you get some data, and you estimate a model using the entire data. This is not what we do in machine learning.
-
-#### What does learning mean?
 
 -   **Main objective:** predict data accurately by learning from **previous seen**
 
 -   **Goal:**
 
--   capture signal in the best way possible $f(X)$
+    -   capture signal in the best way possible $f(X)$
 
--   Ignore noise (irreducible error)
+    -   Ignore noise (irreducible error)
+
+
+## Train the model
+
+The purpose of training the model is to **capture signal** and **ignore noise**.
+
+To do so:
+
+-   Define a accuracy metric:
+
+    - In the regression setting, the most common accuracy metric is *mean squared error* (MSE).
+    -   $Mean Squared Error = \frac{\sum^N_{i=1} (y_i - \hat{f}(X_i))^2}{N}$
+
+-   Train-Test Split
+
+    -   Split your data between training and test
+
+    -   Training data: find the best model and tune the parameters of these models
+
+    -   Test data: assess the accuracy of your model.
+
+-   Select the model based on smaller **out of sample predictive accuracy**. What is learned?
+
+     - Model type
+     
+     - Features (variables)
+     
+     - Hyper-Parameters
+
+## Workflow
+
+
+```{r}
+knitr::include_graphics("https://cimentadaj.github.io/ml_socsci/img/socsci_wflow3_smaller.svg")
+```
+
+
+:::{.aside}
+
+source: https://cimentadaj.github.io/ml_socsci/
+:::
 
 ## Challenge: avoid overfitting the data
 
@@ -282,26 +426,95 @@ goodfit <-
 bad_fit + overfit + goodfit
 ```
 
-## Train the model
+## MSE Training Data
 
-The purpose of training the model is to **capture signal** and **ignore noise**.
+```{r}
+library(tidyverse)
+set.seed(123)
+N = 100
+x <- rnorm(N)
+X <- splines::bs(x,degree=7)
+B <- runif(7,-5,5) 
+y <- X%*%B + rnorm(N,mean = 0,.2)
+D = tibble(x,y = as.numeric(y))
 
-To do so:
 
--   Define a accuracy metric:
+modA = lm(y ~ x,data = D)
+D$yhatA = predict(modA,D)
+modD = lm(y ~ poly(x,21),data = D)
+D$yhatD = predict(modD,D)
+modB = lm(y ~ poly(x,2),data = D)
+D$yhatB = predict(modB,D)
+modC = lm(y ~ poly(x,5),data = D)
+D$yhatC = predict(modC,D)
+mse = function(y,yh) { mean((y-yh)^2) }
 
-    -   In the regression setting, the most common accuracy metric is *mean squared error* (MSE).
-    -   $MSE = \frac{\sum^N_{i=1} (y_i - \hat{f}(X_i))^2}{N}$
+D %>% 
+  gather(mod,yh,-y,-x) %>% 
+  mutate(mod = str_remove(mod,"yhat")) %>% 
+  group_by(mod) %>% 
+  mutate(mse =mean((y-yh)^2),
+         mse_txt = str_glue("Model {mod}\nMSE = {round(mse,3)}")) %>% 
+  ggplot(aes(x,y)) +
+  geom_point(alpha=.7,size=3,color="grey30") +
+  geom_line(aes(x,yh),color="blue",size=2,alpha=.6) +
+  theme_bw() +
+  facet_wrap(~mse_txt) +
+  theme(legend.position = "none",
+        axis.title = element_text(size=18),
+        axis.text = element_text(size=20),
+        strip.text = element_text(size=24),
+        text = element_text(family="serif"))
 
--   Train-Test Split
 
-    -   Split your data between training and test
+```
+:::{.aside}
+**source: Dr. Eric Dunford's PPOL564 slides**
+:::
 
-    -   Training data: find the best model and tune the parameters of these models
+## Model Accuracy: Out-Sample Prediction
 
-    -   Test data: assess the accuracy of your model.
+```{r}
+set.seed(321)
+N = 100
+x <- rnorm(N)
+X <- splines::bs(x,degree=7)
+# Use the same betas
+y <- X%*%B + rnorm(N,mean = 0,.5)
+D2 = tibble(x,y = as.numeric(y))
 
--   Select the model based on smaller **out of sample predictive accuracy**
+D2$yhatA = predict(modA,D2)
+D2$yhatB = predict(modB,D2)
+D2$yhatC = predict(modC,D2)
+D2$yhatD = predict(modD,D2)
+
+# Define Sets
+D$set = "Training Set"
+D2$set = "Test Set"
+
+D2 %>% 
+  gather(mod,yh,-y,-x,-set) %>% 
+  mutate(mod = str_remove(mod,"yhat")) %>% 
+  group_by(mod) %>% 
+  mutate(mse =mean((y-yh)^2),
+         mse_txt = str_glue("Model {mod}\nMSE = {round(mse,3)}")) %>% 
+  ggplot(aes(x,y)) +
+  geom_point(alpha=.7,size=3,color='forestgreen') +
+  geom_line(aes(x,yh),color="blue",size=2,alpha=.6) +
+  theme_bw() +
+  facet_wrap(~mse_txt,scale="free") +
+  # ylim(-5,5) +
+  theme(legend.position = "none",
+        axis.title = element_text(size=18),
+        axis.text = element_text(size=20),
+        strip.text = element_text(size=24),
+        text = element_text(family="serif"))
+
+
+```
+:::{.aside}
+**source: Dr. Eric Dunford's PPOL564 slides**
+:::
 
 ## Bias and Variance Trade-off
 
@@ -315,6 +528,8 @@ knitr::include_graphics("week10_figs/interpret-vs-flexible.png")
 
 -   **Trade-off**: as we reduce bias, we risk overfiting. Trainning properly is key
 
+
+
 ## Cross-Validation
 
 If you go back and forth between training and test to decide which model to use, you might also be overfiting. This is the idea of data leakage.
@@ -327,13 +542,16 @@ If you go back and forth between training and test to decide which model to use,
 
 ## K-Fold Cross Validation
 
--   K-Fold Cross Validation Involves randomly dividing the data into $k$ groups (or folds). Model is trained on $k-1$ folds, then test on the remaining fold.
+- K-Fold Cross Validation involves randomly dividing the data into $k$ groups (or folds). Model is trained on $k-1$ folds, then test on the remaining fold.
 
--   Process is repeated $k$ times, each time using a new fold. Offers $k$ estimates of the test error, which we average.
+- Process is repeated $k$ times, each time using a new fold. Offers $k$ estimates of the test error, which we average.
+
+:::{.fragment}
 
 ```{r out.width="100%"}
 knitr::include_graphics("week10_figs/KfoldCV.gif")
 ```
+:::
 
 ## Important Concepts
 
@@ -343,4 +561,4 @@ knitr::include_graphics("week10_figs/KfoldCV.gif")
 
 -   Learning: train the model in seen data. Test and calculate metrics in seen
 
--   Avoid overfitting and data leakage by using resampling methods.
+-   Avoid overfiting and data leakage by using resampling methods.

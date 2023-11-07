@@ -67,7 +67,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked">
+<body class="nav-sidebar docked slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -244,13 +244,16 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#notebook-pre-processing-dfm-and-similarity" id="toc-notebook-pre-processing-dfm-and-similarity" class="nav-link" data-scroll-target="#notebook-pre-processing-dfm-and-similarity">Notebook: Pre-Processing, DFM and Similarity</a>
   <ul class="collapse">
-  <li><a href="#unsupervised-learning-topic-models" id="toc-unsupervised-learning-topic-models" class="nav-link" data-scroll-target="#unsupervised-learning-topic-models">Unsupervised Learning: Topic Models</a></li>
+  <li><a href="#topic-models-lda-approach" id="toc-topic-models-lda-approach" class="nav-link" data-scroll-target="#topic-models-lda-approach">Topic Models: LDA Approach</a></li>
+  <li><a href="#abstract-the-math" id="toc-abstract-the-math" class="nav-link" data-scroll-target="#abstract-the-math">Abstract the Math</a></li>
+  <li><a href="#many-different-types-of-topic-models" id="toc-many-different-types-of-topic-models" class="nav-link" data-scroll-target="#many-different-types-of-topic-models">Many different types of topic models</a></li>
   </ul></li>
+  <li><a href="#notebook-topic-models" id="toc-notebook-topic-models" class="nav-link" data-scroll-target="#notebook-topic-models">Notebook: Topic Models</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="week-11.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -501,8 +504,8 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="math display">\[\text{Sim}(A, B) = \frac{{A \cdot B}}{{\|A\| \|B\|}}\]</span></p>
 <p>Where:</p>
 <ul>
-<li>The <span class="math inline">\(\cdot\)</span> here means a dot product: <span class="math inline">\(\sum_j \mathbf{y_a} \cdot \mathbf{y_b}\)</span></li>
-<li>The vector norm <span class="math inline">\(\mathbf{||y_a||} = \sqrt{\sum \mathbf{y_{aj}^2}}\)</span></li>
+<li>The <span class="math inline">\(\cdot\)</span> here means a dot product: <span class="math inline">\(\sum_j \mathbf{a_j} \cdot \mathbf{b_j}\)</span></li>
+<li>The vector norm <span class="math inline">\(\mathbf{||A||} = \sqrt{\sum \mathbf{{a_j}^2}}\)</span></li>
 </ul>
 </section>
 <section id="application-text-reuse-in-congressional-bills" class="level2">
@@ -518,54 +521,68 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 </section>
-<section id="notebook-pre-processing-dfm-and-similarity" class="level1">
+<section id="notebook-pre-processing-dfm-and-similarity" class="level1 page-columns page-full">
 <h1><a href="">Notebook: Pre-Processing, DFM and Similarity</a></h1>
-<section id="unsupervised-learning-topic-models" class="level2">
-<h2 class="anchored" data-anchor-id="unsupervised-learning-topic-models">Unsupervised Learning: Topic Models</h2>
-
-
+<section id="topic-models-lda-approach" class="level2">
+<h2 class="anchored" data-anchor-id="topic-models-lda-approach">Topic Models: LDA Approach</h2>
+<p><strong>Intuition:</strong> Capture words that are more likely to occur together across a set of documents. Assign these words a probability of being part of a cluster (topic). Assign documents a probability of being associated of these clusters.</p>
+<ul>
+<li><p><strong>Statistical Model</strong>: Latent Dirichlet Allocation + Generative Statistical Modeling</p>
+<ul>
+<li><p><strong>Documents:</strong> random mixture over latent topics</p></li>
+<li><p><strong>Topics:</strong> probability distribution over words</p></li>
+</ul></li>
+<li><p><strong>Mathematical Models:</strong></p>
+<ul>
+<li>For each document:
+<ul>
+<li>Randomly choose a distribution over topics.</li>
+<li>For each word in the document
+<ul>
+<li><ol type="a">
+<li>Randomly choose a topic from the distribution over topics in step #1.</li>
+</ol></li>
+<li><ol start="2" type="a">
+<li>Randomly choose a word from the corresponding distribution over the vocabulary.</li>
+</ol></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Moving from random to good topics:</strong> algorithm changes the assignment of words to topics in every iteration, and maximimize co-occurrence of words</p></li>
+</ul>
 </section>
+<section id="abstract-the-math" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="abstract-the-math">Abstract the Math</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.analyticsvidhya.com/wp-content/uploads/2016/08/Modeling1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><em>source:</em> https://www.cs.columbia.edu/~blei/papers/Blei2012.pdf</p>
+</div></div></section>
+<section id="many-different-types-of-topic-models" class="level2">
+<h2 class="anchored" data-anchor-id="many-different-types-of-topic-models">Many different types of topic models</h2>
+<ul>
+<li><p><strong>Structural topic model:</strong> allow (1) topic prevalence, (2) topic content to vary as a function of document-level covariates (e.g., how do topics vary over time or documents produced in 1990 talk about something differently than documents produced in 2020?); implemented in stm in R (Roberts, Stewart, Tingley, Benoit)</p></li>
+<li><p><strong>Correlated topic model:</strong> way to explore between-topic relationships (Blei and Lafferty, 2017); implemented in topicmodels in R; possibly somewhere in Python as well!</p></li>
+<li><p><strong>Keyword-assisted topic model:</strong> seed topic model with keywords to try to increase the face validity of topics to what you’re trying to measure; implemented in keyATM in R (Eshima, Imai, Sasaki, 2019)</p></li>
+<li><p><strong>BertTopic:</strong> BERTopic is a topic modeling technique that leverages transformers and TF-IDF to create dense clusters of words.</p></li>
+</ul>
+</section>
+</section>
+<section id="notebook-topic-models" class="level1">
+<h1><a href="">Notebook: Topic Models</a></h1>
+
+
 </section>
 
 </main> <!-- /main -->
-
-<script>
-  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-  // slide changes (different for each slide format).
-  (function () {
-    // dispatch for htmlwidgets
-    function fireSlideEnter() {
-      const event = window.document.createEvent("Event");
-      event.initEvent("slideenter", true, true);
-      window.document.dispatchEvent(event);
-    }
-
-    function fireSlideChanged(previousSlide, currentSlide) {
-      fireSlideEnter();
-
-      // dispatch for shiny
-      if (window.jQuery) {
-        if (previousSlide) {
-          window.jQuery(previousSlide).trigger("hidden");
-        }
-        if (currentSlide) {
-          window.jQuery(currentSlide).trigger("shown");
-        }
-      }
-    }
-
-    // hookup for slidy
-    if (window.w3c_slidy) {
-      window.w3c_slidy.add_observer(function (slide_num) {
-        // slide_num starts at position 1
-        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-      });
-    }
-
-  })();
-</script>
-
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
