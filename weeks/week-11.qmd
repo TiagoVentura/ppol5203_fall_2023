@@ -34,6 +34,8 @@ date: "11/14/2023"
 tbl-colwidths: [10,50,40]
 ---
 
+# Lecture notes
+
 -   Text analysis I: Counting, Describing and Fiting Topics [html](/lecture_notes/week-11/_week-11_text.html) -- <a href="/lecture_notes/week-11/_week-11_text.ipynb" download> Jupyter Notebook </a>
 
 # Slides
@@ -44,7 +46,10 @@ tbl-colwidths: [10,50,40]
 
 **Required Reading:**
 
+There is a copy of this book in the library. Unfortunately there is no online version of this book. If you cannot get your hands on the book, plese read the articles suggested below. 
+
 -   Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). Text as data: A new framework for machine learning and the social sciences. Princeton University Press. Chapter 2.
+      
 
 Or one of the three below:
 
@@ -54,7 +59,7 @@ Or one of the three below:
 
 -   Sociology Perspective: <https://www.sciencedirect.com/science/article/pii/S0049089X22000904>
 
-Topic Models: Read the foundational LDA Paper: https://www.cs.columbia.edu/~blei/papers/Blei2012.pdf
+Topic Models: Read the foundational LDA Paper: https://www.cs.columbia.edu/\~blei/papers/Blei2012.pdf
 
 **Additional Readings:**
 
@@ -62,4 +67,4 @@ Topic Models: Read the foundational LDA Paper: https://www.cs.columbia.edu/~blei
 
 -   Descriptive Analysis of Text: https:[Linder, Fridolin, Bruce Desmarais, Matthew Burgess, and Eugenia Giraudy. "Text as policy: Measuring policy similarity through bill text reuse." *Policy Studies Journal* 48, no. 2 (2020): 546-574.](//onlinelibrary.wiley.com/doi/abs/10.1111/psj.12257)
 
--   Topic models : [Roberts, Margaret E., et al. "Topic models for open ended survey responses with applications to experiments." American Journal of Political Science 58 (2014): 1064-82](https://scholar.harvard.edu/files/dtingley/files/topicmodelsopenendedexperiments.pdf)
+-   Topic models : [David Blei, Probabilistic Topic Models](https://www.cs.columbia.edu/~blei/papers/Blei2012.pdf)
