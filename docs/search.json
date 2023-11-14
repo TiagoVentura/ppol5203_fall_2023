@@ -2182,5 +2182,12 @@
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Topic Models: LDA Approach",
     "text": "Topic Models: LDA Approach\nGenerative:\n\nFor each document:\nStep 1: Randomly choose a distribution over topics.\nStep 2: For each word in the document - a. Randomly choose a topic from the distribution over topics in step #1. - b. Randomly choose a word from the corresponding topic distribution over the vocabulary.\nInference:\nMoving from random to good topics.\n\nAlgorithm changes the assignment of words to topics in every iteration, and the distribution of topic. This process maximizes co-occurrence of words"
+  },
+  {
+    "objectID": "slides/week-11.html#plans-for-today-next-week",
+    "href": "slides/week-11.html#plans-for-today-next-week",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "Plans for Today + Next Week",
+    "text": "Plans for Today + Next Week\nIntroduction to Text Analysis/Natural Language Processing\n\nMotivation\nOveral Workflow\nOverview of Text Analysis Methods\n\nPre-Process Text\nDescriptive Analysis and Comparisons\nUnsupervised Learning with Text:\n\nTopic Models\n\nSupervised Learning with Text (Next Week)\n\nDictionary Methods\nMachine Learning Pre-Trained Models\nApplications of LLMs (Large Languague models)"
   }
 ]

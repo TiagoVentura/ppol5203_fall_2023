@@ -23,7 +23,7 @@ format:
     theme: [simple, custom.scss]
 ---
 
-## Plans for Today
+## Plans for Today + Next Week
 
 **Introduction to Text Analysis/Natural Language Processing**
 
