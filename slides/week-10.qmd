@@ -25,7 +25,6 @@ format:
 
 # Questions about the homework? {background-color="#447099"}
 
-
 ## Plans for Today
 
 -   Introduction to Machine Learning
@@ -49,33 +48,27 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
-
 ### Continue Doing
 
-::: {.nonincremental}
-
+::: nonincremental
 -   small in-class practice with break
 
 -   notebooks (you'll seem to love them!)
-
 :::
 
 ### Stop doing
 
-::: {.nonincremental}
-
+::: nonincremental
 -   we're doing great!
 
 -   super long problem sets
 :::
-
 :::
 
 ::: {.column width="50%"}
 ### Start doing
 
-::: {.nonincremental}
-
+::: nonincremental
 -   talk about past assignments
 
     -   Use office hours for this. Happy to discuss question if you have. But will not go over the entire assignment
@@ -86,12 +79,11 @@ format:
 
 -   More clarity in problem set questions.
 
-    -   Yes. Ask questions on slack if something is not clear. 
+    -   Yes. Ask questions on slack if something is not clear.
 
 -   Work in groups.
 
     -   please feel free to do it. Agree it works best.
-
 :::
 :::
 :::
@@ -113,7 +105,6 @@ format:
     -   No general extensions
 
     -   you will lose points for finishing late.
-
 
 # Statistical Learning
 
@@ -153,11 +144,11 @@ Statistical learning refers to a set of methods/approaches for estimating $f(.)$
 
 $$ \hat{y} = \hat{f}(X)$$
 
-- Where $\hat{f}(X)$ is an approximation of the "true" functional form, $f(X)$ 
+-   Where $\hat{f}(X)$ is an approximation of the "true" functional form, $f(X)$
 
-- $\hat{y}$ is the predicted value of a true value y.
+-   $\hat{y}$ is the predicted value of a true value y.
 
-- When we build models, the aim is to find a $\hat{f}(X)$ that minimizes the error in the model.
+-   When we build models, the aim is to find a $\hat{f}(X)$ that minimizes the error in the model.
 
 ## Reducible vs. Irreducible Error
 
@@ -165,11 +156,11 @@ $$E(y - \hat{y})^2$$ $$E[f(X) + \epsilon -  \hat{f}(X) ]^2$$
 
 $$\underbrace{E[f(X) -\hat{f}(X)]^2}_{\text{Reducible}} + \underbrace{var(\epsilon)}_{\text{Irreducible}}$$
 
-- The **"reducible" error** is the systematic **signal**. We can reduce this error by using different functional forms, better data, or a mixture of those two.
+-   The **"reducible" error** is the systematic **signal**. We can reduce this error by using different functional forms, better data, or a mixture of those two.
 
-- The **"irreducible" error** is associated with the random **noise** around $y$.
+-   The **"irreducible" error** is associated with the random **noise** around $y$.
 
-- Statistical learning is concerned with minimizing the reducible error. However, our predictions will never be perfect given the irreducible error.
+-   Statistical learning is concerned with minimizing the reducible error. However, our predictions will never be perfect given the irreducible error.
 
 ## Inference (Social Science) vs Prediction (Machine Learning)
 
@@ -189,7 +180,7 @@ Two reasons we want to estimate $f(\cdot)$:
 
     -   **Classic Social Science Approach**
 
-    - $$ y_i = \beta_1*education_i + beta_2*gender_i + \sigma_i $$
+    -   $$ y_i = \beta_1*education_i + beta_2*gender_i + \sigma_i $$
 
 ## Inference (Social Science) vs Prediction (Machine Learning)
 
@@ -217,7 +208,7 @@ Two reasons we want to estimate $f(\cdot)$:
 
     -   use regression and classification methods
 
-:::{.fragment}
+::: fragment
 ```{r,echo=F,fig.align="center",fig.width=12}
 require(tidyverse)
 require(caret)
@@ -243,7 +234,7 @@ tibble(x,y) %>%
 
     -   "unsupervised" because we lack a response variable that can supervise our analysis.
 
-::: {.fragment}
+::: fragment
 ```{r,echo=F,fig.align="center",fig.width=12}
 set.seed(123)
 n = 50
@@ -258,46 +249,46 @@ bind_rows(x1,x2,x3) %>%
   theme(legend.position = "none",
         axis.title = element_text(size=18))
 ```
-::: 
+:::
 
-##  Supervised Learning: Regression
+## Supervised Learning: Regression
 
-_Outcomes_ come in many forms. How the outcome is distributed will determine the methods we use. 
+*Outcomes* come in many forms. How the outcome is distributed will determine the methods we use.
 
-- **Quantitative** outcome
+-   **Quantitative** outcome
 
-  + a continuous/interval-based outcome: e.g. housing price, number of bills passed, stock market prices, etc.
-  
-  + Regression Methods: linear, penalization, generalized additive models (GAMs) 
-  
-  + Both parametric and non-parametric ways of approximating $f(\cdot)$
+    -   a continuous/interval-based outcome: e.g. housing price, number of bills passed, stock market prices, etc.
 
+    -   Regression Methods: linear, penalization, generalized additive models (GAMs)
 
----
+    -   Both parametric and non-parametric ways of approximating $f(\cdot)$
 
-##  Supervised Learning: Classification
+------------------------------------------------------------------------
 
-_Outcomes_ come in many forms. How the outcome is distributed will determine the methods we use. 
+## Supervised Learning: Classification
 
-- **Qualitative** outcome
+*Outcomes* come in many forms. How the outcome is distributed will determine the methods we use.
 
-  + a discrete outcome
-  
-      + _Binary_: War/No War; Sick/Not Sick
-      
-      + _Ordered_: Don't Support, Neutral, Support
-      
-      + _Categorical_: Cat, Dog, Bus, ... 
-      
-  + Classification Methods: logistic regression, naive Bayes, support vector machines, neural networks
+-   **Qualitative** outcome
 
-- Some methods can be used on either outcome type
-  - K nearest neighbors
-  - tree-based methods (random forest, gradient boosting)
+    -   a discrete outcome
 
-- Every model has specific **tuning parameters** that we can use to optimize performance. 
- 
----
+        -   *Binary*: War/No War; Sick/Not Sick
+
+        -   *Ordered*: Don't Support, Neutral, Support
+
+        -   *Categorical*: Cat, Dog, Bus, ...
+
+    -   Classification Methods: logistic regression, naive Bayes, support vector machines, neural networks
+
+-   Some methods can be used on either outcome type
+
+    -   K nearest neighbors
+    -   tree-based methods (random forest, gradient boosting)
+
+-   Every model has specific **tuning parameters** that we can use to optimize performance.
+
+------------------------------------------------------------------------
 
 ## Interpretation vs Flexibility
 
@@ -331,7 +322,6 @@ For inference work (in you stats class), you get some data, and you estimate a m
 
     -   Ignore noise (irreducible error)
 
-
 ## Train the model
 
 The purpose of training the model is to **capture signal** and **ignore noise**.
@@ -340,7 +330,7 @@ To do so:
 
 -   Define a accuracy metric:
 
-    - In the regression setting, the most common accuracy metric is *mean squared error* (MSE).
+    -   In the regression setting, the most common accuracy metric is *mean squared error* (MSE).
     -   $Mean Squared Error = \frac{\sum^N_{i=1} (y_i - \hat{f}(X_i))^2}{N}$
 
 -   Train-Test Split
@@ -353,22 +343,19 @@ To do so:
 
 -   Select the model based on smaller **out of sample predictive accuracy**. What is learned?
 
-     - Model type
-     
-     - Features (variables)
-     
-     - Hyper-Parameters
+    -   Model type
+
+    -   Features (variables)
+
+    -   Hyper-Parameters
 
 ## Workflow
-
 
 ```{r}
 knitr::include_graphics("https://cimentadaj.github.io/ml_socsci/img/socsci_wflow3_smaller.svg")
 ```
 
-
-:::{.aside}
-
+::: aside
 source: https://cimentadaj.github.io/ml_socsci/
 :::
 
@@ -469,7 +456,8 @@ D %>%
 
 
 ```
-:::{.aside}
+
+::: aside
 **source: Dr. Eric Dunford's PPOL564 slides**
 :::
 
@@ -513,7 +501,8 @@ D2 %>%
 
 
 ```
-:::{.aside}
+
+::: aside
 **source: Dr. Eric Dunford's PPOL564 slides**
 :::
 
@@ -529,8 +518,6 @@ knitr::include_graphics("week10_figs/interpret-vs-flexible.png")
 
 -   **Trade-off**: as we reduce bias, we risk overfiting. Trainning properly is key
 
-
-
 ## Cross-Validation
 
 If you go back and forth between training and test to decide which model to use, you might also be overfiting. This is the idea of data leakage.
@@ -543,12 +530,11 @@ If you go back and forth between training and test to decide which model to use,
 
 ## K-Fold Cross Validation
 
-- K-Fold Cross Validation involves randomly dividing the data into $k$ groups (or folds). Model is trained on $k-1$ folds, then test on the remaining fold.
+-   K-Fold Cross Validation involves randomly dividing the data into $k$ groups (or folds). Model is trained on $k-1$ folds, then test on the remaining fold.
 
-- Process is repeated $k$ times, each time using a new fold. Offers $k$ estimates of the test error, which we average.
+-   Process is repeated $k$ times, each time using a new fold. Offers $k$ estimates of the test error, which we average.
 
-:::{.fragment}
-
+::: fragment
 ```{r out.width="100%"}
 knitr::include_graphics("week10_figs/KfoldCV.gif")
 ```

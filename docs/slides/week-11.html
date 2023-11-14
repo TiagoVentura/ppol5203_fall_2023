@@ -344,33 +344,30 @@ Professor: Tiago Ventura
 <section id="plans-for-today" class="slide level2">
 <h2>Plans for Today</h2>
 <p><strong>Introduction to Text Analysis/Natural Language Processing</strong></p>
-<pre><code>-   Motivation
-
--   Overal Workflow
-
--   Overview of Text Analysis Methods
-
-
-    -   Pre-Process Text
-    -   Descriptive Analysis and Comparisons
-    -   Unsupervised Learning with Text: 
-         - Topic Models
-    -   Supervised Learning with Text (Next Week)
-         - Dictionary Methods
-         - Machine Learning Pre-Trained Models
-         - Applications of LLMs (Large Languague models)
-    
-    </code></pre>
+<ul>
+<li class="fragment"><p>Motivation</p></li>
+<li class="fragment"><p>Overal Workflow</p></li>
+<li class="fragment"><p>Overview of Text Analysis Methods</p>
+<ul>
+<li class="fragment">Pre-Process Text</li>
+<li class="fragment">Descriptive Analysis and Comparisons</li>
+<li class="fragment">Unsupervised Learning with Text:
+<ul>
+<li class="fragment">Topic Models</li>
+</ul></li>
+<li class="fragment">Supervised Learning with Text (Next Week)
+<ul>
+<li class="fragment">Dictionary Methods</li>
+<li class="fragment">Machine Learning Pre-Trained Models</li>
+<li class="fragment">Applications of LLMs (Large Languague models)</li>
+</ul></li>
+</ul></li>
+</ul>
 </section>
-<section id="motivation" class="slide level2">
-<h2>Motivation</h2>
+<section id="a-significant-part-of-how-we-produce-and-store-data-comes-in-text" class="slide level2">
+<h2>A significant part of how we produce and store data comes in text</h2>
 
 <img data-src="http://media3.washingtonpost.com/wp-dyn/content/graphic/2011/02/11/GR2011021100614.jpg" class="r-stretch"></section>
-<section>
-<section id="a-significant-part-of-how-we-produce-and-store-data-comes-is-text" class="title-slide slide level1 center">
-<h1>A significant part of how we produce and store data comes is text</h1>
-
-</section>
 <section id="official-documents-congressional-speeches-bills-press-releases-transcripts-from-all-over-the-world" class="slide level2">
 <h2>Official Documents: Congressional Speeches, Bills, Press Releases, Transcripts, from all over the world!!</h2>
 
@@ -383,53 +380,60 @@ Professor: Tiago Ventura
 <h2>Online Media: News, Comments, Blogs, etc…</h2>
 
 <img data-src="https://miro.medium.com/v2/resize:fit:1400/1*t2u_0FHoQSpBK8i7j1NOBg.png" style="width:80.0%" class="r-stretch quarto-figure-center"></section>
-<section id="why-to-analyze-data" class="slide level2">
-<h2>Why to Analyze Data?</h2>
+<section id="why-to-analyze-text" class="slide level2">
+<h2>Why to Analyze Text?</h2>
 <ul>
-<li><p>Humans are great at understanding the meaning of a sentence or a document in-depth</p></li>
-<li><p>Computers are bettr at understanding patterns, classify and describe content across millions of documents</p></li>
+<li class="fragment"><p>Humans are great at understanding the meaning of a sentence or a document in-depth</p></li>
+<li class="fragment"><p>Computers are better at understanding patterns, classify and describe content across millions of documents</p></li>
 </ul>
-<h3 id="principles-of-text-analysis">Principles of Text Analysis:</h3>
+</section>
+<section id="principles-of-text-analysis" class="slide level2">
+<h2>Principles of Text Analysis:</h2>
 <ul>
-<li><p>Substantive knowledge is essential</p></li>
-<li><p>Text analysis augments humans – does not replace us</p></li>
-<li><p>All text models are wrong – but some are useful</p></li>
-<li><p>The best method depends on the task</p></li>
-<li><p>Alway validate your models!</p></li>
+<li class="fragment"><p>Substantive knowledge is essential</p></li>
+<li class="fragment"><p>Text analysis augments humans – does not replace us</p></li>
+<li class="fragment"><p>All text models are wrong – but some are useful</p></li>
+<li class="fragment"><p>The best method depends on the task</p></li>
+<li class="fragment"><p>Alway validate your models!</p></li>
 </ul>
 </section>
 <section id="workflow" class="slide level2">
 <h2>Workflow</h2>
 <ul>
-<li><p><strong>Acquire textual data:</strong></p>
+<li class="fragment"><p><strong>Acquire textual data:</strong></p>
 <ul>
-<li>Existing corpora; scraped data; digitized text</li>
+<li class="fragment">Existing corpora; scraped data; digitized text</li>
 </ul></li>
-<li><p><strong>Preprocess the data:</strong></p>
+<li class="fragment"><p><strong>Preprocess the data:</strong></p>
 <ul>
-<li>Bag-of-words</li>
-<li>Reduce noise, capture signal</li>
+<li class="fragment">Bag-of-words</li>
+<li class="fragment">Reduce noise, capture signal</li>
 </ul></li>
-<li><p><strong>Apply method appropriate to research goal:</strong></p>
+</ul>
+</section>
+<section id="workflow-1" class="slide level2">
+<h2>Workflow</h2>
 <ul>
-<li>Descriptive Analysis:
+<li class="fragment"><p><strong>Apply method appropriate to research goal:</strong></p>
 <ul>
-<li>Count Words, Readability; similarity;</li>
+<li class="fragment">Descriptive Analysis:
+<ul>
+<li class="fragment">Count Words, Readability; similarity;</li>
 </ul></li>
-<li>Classify documents into unknown categories
+<li class="fragment">Classify documents into unknown categories
 <ul>
-<li>Document clustering</li>
-<li>Topic models</li>
+<li class="fragment">Document clustering</li>
+<li class="fragment">Topic models</li>
 </ul></li>
-<li>Classify documents into known categories
+<li class="fragment">Classify documents into known categories
 <ul>
-<li>Dictionary methods</li>
-<li>Supervised machine learning</li>
-<li>Transfer-Learning - use models trained in text for other purposes</li>
+<li class="fragment">Dictionary methods</li>
+<li class="fragment">Supervised machine learning</li>
+<li class="fragment">Transfer-Learning - use models trained in text for other purposes</li>
 </ul></li>
-<li>Scale documents on latent dimension:
+<li class="fragment">Scale documents on latent dimension:
 <ul>
-<li>ideology of the text</li>
+<li class="fragment">ideology of the text</li>
 </ul></li>
 </ul></li>
 </ul>
@@ -437,29 +441,29 @@ Professor: Tiago Ventura
 <section id="already-did-it" class="slide level2">
 <h2>Already did it!</h2>
 <ul>
-<li><strong>Acquire textual data:</strong>
+<li class="fragment"><strong>Acquire textual data:</strong>
 <ul>
-<li>Existing corpora; scraped data; digitized text</li>
+<li class="fragment">Existing corpora; scraped data; digitized text</li>
 </ul></li>
 </ul>
 </section>
 <section id="today" class="slide level2">
-<h2>Today!</h2>
+<h2>Today:</h2>
 <ul>
-<li><p><strong>Preprocess the data:</strong></p>
+<li class="fragment"><p><strong>Preprocess the data:</strong></p>
 <ul>
-<li>Bag-of-words</li>
-<li>Reduce noise, capture signal</li>
+<li class="fragment">Bag-of-words</li>
+<li class="fragment">Reduce noise, capture signal</li>
 </ul></li>
-<li><p><strong>Apply methods appropriate to research goal:</strong></p>
+<li class="fragment"><p><strong>Apply methods appropriate to research goal:</strong></p>
 <ul>
-<li>Descriptive Analysis:
+<li class="fragment">Descriptive Analysis:
 <ul>
-<li>Count Words, Readability; similarity;</li>
+<li class="fragment">Count Words, Readability; similarity;</li>
 </ul></li>
-<li>Classify documents into unknown categories
+<li class="fragment">Classify documents into unknown categories
 <ul>
-<li>Topic models</li>
+<li class="fragment">Topic models</li>
 </ul></li>
 </ul></li>
 </ul>
@@ -467,14 +471,14 @@ Professor: Tiago Ventura
 <section id="next-week" class="slide level2">
 <h2>Next Week:</h2>
 <ul>
-<li>Classify documents into known categories
+<li class="fragment">Classify documents into known categories
 <ul>
-<li>Dictionary methods</li>
-<li>Supervised machine learning</li>
-<li>Transfer-Learning - use models trained in text for other purposes</li>
+<li class="fragment">Dictionary methods</li>
+<li class="fragment">Supervised machine learning</li>
+<li class="fragment">Transfer-Learning - use models trained in text for other purposes</li>
 </ul></li>
 </ul>
-</section></section>
+</section>
 <section>
 <section id="very-quick-introdution-want-learn-more-register-in-my-class-next-spring" class="title-slide slide level1 center">
 <h1>Very quick introdution! Want learn more? Register in my class next Spring!</h1>
@@ -483,22 +487,32 @@ Professor: Tiago Ventura
 <section id="bag-of-words-assumption" class="slide level2">
 <h2>Bag-of-Words Assumption</h2>
 <ul>
-<li>Represent text as an unordered set of words in a document. While order is ignored, frequency matters!</li>
+<li class="fragment"><p>Represent text as an unordered set of words in a document.</p></li>
+<li class="fragment"><p>While order is ignored, frequency matters!</p></li>
 </ul>
-<h3 id="pre-processing-steps">Pre-Processing Steps</h3>
+<div class="fragment">
+<p><strong>From Text to Numbers: Bag-of-Words &amp; Document-Feature Matrix</strong></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://www.mzes.uni-mannheim.de/socialsciencedatalab/article/advancing-text-mining/figures/dfm.png" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="pre-processing-steps" class="slide level2">
+<h2>Pre-Processing Steps</h2>
 <ul>
-<li><p>Tokenize: break out larger chuncks of text in words (unigram) or n-grams</p></li>
-<li><p>Lowercase: convert all to lower case</p></li>
-<li><p>Remove Noise: stopwords, numbers, punctuation, function words</p></li>
-<li><p>Stemming: chops off the ends of words</p></li>
-<li><p>Lemmatization: doing things properly with the use of a vocabulary and morphological analysis of words</p></li>
+<li class="fragment"><p><strong>Tokenize:</strong> break out larger chuncks of text in words (unigram) or n-grams</p></li>
+<li class="fragment"><p><strong>Lowercase:</strong> convert all to lower case</p></li>
+<li class="fragment"><p><strong>Remove Noise:</strong> stopwords, numbers, punctuation, function words</p></li>
+<li class="fragment"><p><strong>Stemming:</strong> chops off the ends of words</p></li>
+<li class="fragment"><p><strong>Lemmatization:</strong> doing things properly with the use of a vocabulary and morphological analysis of words</p></li>
 </ul>
 </section>
-<section id="from-text-to-numbers-bag-of-words-document-feature-matrix" class="slide level2">
-<h2>From Text to Numbers: Bag-of-Words &amp; Document-Feature Matrix</h2>
-<p><br></p>
-
-<img data-src="https://www.mzes.uni-mannheim.de/socialsciencedatalab/article/advancing-text-mining/figures/dfm.png" style="width:80.0%" class="r-stretch quarto-figure-center"></section>
 <section id="sparse-vs-dense-representation-word-embeddings" class="slide level2">
 <h2>Sparse vs Dense Representation (Word Embeddings)</h2>
 <p><br></p>
@@ -512,52 +526,47 @@ Professor: Tiago Ventura
 <section id="similarity-between-documents" class="slide level2">
 <h2>Similarity between documents</h2>
 <ul>
-<li><p>Every row in the Document-Feature Matrix (or in a Word Embedding Matrix) is a (<strong>many other possible</strong>) numerical representation of the document.</p></li>
-<li><p>These vectors can be judged using metrics of similarity</p></li>
+<li class="fragment"><p>Every row in the Document-Feature Matrix (or in a Word Embedding Matrix) is a (<strong>many other possible</strong>) numerical representation of the document.</p></li>
+<li class="fragment"><p>These vectors can be judged using metrics of similarity</p></li>
 </ul>
+<div class="fragment">
 <p><strong>Cosine Similarity</strong>:</p>
 <p><span class="math display">\[\text{Sim}(A, B) = \frac{{A \cdot B}}{{\|A\| \|B\|}}\]</span></p>
-<p>Where:</p>
 <ul>
-<li>The <span class="math inline">\(\cdot\)</span> here means a dot product: <span class="math inline">\(\sum_j \mathbf{a_j} \cdot \mathbf{b_j}\)</span></li>
-<li>The vector norm <span class="math inline">\(\mathbf{||A||} = \sqrt{\sum \mathbf{{a_j}^2}}\)</span></li>
+<li class="fragment"><p>Where:</p>
+<ul>
+<li class="fragment">The <span class="math inline">\(\cdot\)</span> here means a dot product: <span class="math inline">\(\sum_j \mathbf{a_j} \cdot \mathbf{b_j}\)</span></li>
+<li class="fragment">The vector norm <span class="math inline">\(\mathbf{||A||} = \sqrt{\sum \mathbf{{a_j}^2}}\)</span></li>
+</ul></li>
 </ul>
+</div>
 </section>
 <section id="application-text-reuse-in-congressional-bills" class="slide level2">
 <h2>Application: Text Reuse in Congressional Bills</h2>
 
-<img data-src="sim.png" style="width:80.0%" class="r-stretch quarto-figure-center"></section></section>
-<section>
-<section id="notebook-pre-processing-dfm-and-similarity" class="title-slide slide level1 center">
-<h1><a href="">Notebook: Pre-Processing, DFM and Similarity</a></h1>
-
-</section>
+<img data-src="sim.png" style="width:80.0%" class="r-stretch quarto-figure-center"></section>
 <section id="topic-models-lda-approach" class="slide level2">
 <h2>Topic Models: LDA Approach</h2>
 <p><strong>Intuition:</strong> Capture words that are more likely to occur together across a set of documents. Assign these words a probability of being part of a cluster (topic). Assign documents a probability of being associated of these clusters.</p>
+</section>
+<section id="topic-models-lda-approach-1" class="slide level2">
+<h2>Topic Models: LDA Approach</h2>
+<p><strong>Statistical Model</strong>: Latent Dirichlet Allocation + Generative Statistical Modeling</p>
+<pre><code>-   **Documents:** random mixture over latent topics
+
+-   **Topics:** probability distribution over words</code></pre>
+</section>
+<section id="topic-models-lda-approach-2" class="slide level2">
+<h2>Topic Models: LDA Approach</h2>
+<p><strong>Generative:</strong></p>
 <ul>
-<li><p><strong>Statistical Model</strong>: Latent Dirichlet Allocation + Generative Statistical Modeling</p>
-<ul>
-<li><p><strong>Documents:</strong> random mixture over latent topics</p></li>
-<li><p><strong>Topics:</strong> probability distribution over words</p></li>
-</ul></li>
-<li><p><strong>Mathematical Models:</strong></p>
-<ul>
-<li>For each document:
-<ul>
-<li>Randomly choose a distribution over topics.</li>
-<li>For each word in the document
-<ul>
-<li><ol type="a">
-<li>Randomly choose a topic from the distribution over topics in step #1.</li>
-</ol></li>
-<li><ol start="2" type="a">
-<li>Randomly choose a word from the corresponding distribution over the vocabulary.</li>
-</ol></li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><p><strong>Moving from random to good topics:</strong> algorithm changes the assignment of words to topics in every iteration, and maximimize co-occurrence of words</p></li>
+<li class="fragment"><p>For each document:</p></li>
+<li class="fragment"><p>Step 1: Randomly choose a distribution over topics.</p></li>
+<li class="fragment"><p>Step 2: For each word in the document - a. Randomly choose a topic from the distribution over topics in step #1. - b. Randomly choose a word from the corresponding topic distribution over the vocabulary.</p></li>
+<li class="fragment"><p><strong>Inference:</strong></p></li>
+<li class="fragment"><p>Moving from random to good topics.<br>
+</p></li>
+<li class="fragment"><p>Algorithm changes the assignment of words to topics in every iteration, and the distribution of topic. This process maximizes co-occurrence of words</p></li>
 </ul>
 </section>
 <section id="abstract-the-math" class="slide level2">
@@ -578,14 +587,14 @@ Professor: Tiago Ventura
 <section id="many-different-types-of-topic-models" class="slide level2">
 <h2>Many different types of topic models</h2>
 <ul>
-<li><p><strong>Structural topic model:</strong> allow (1) topic prevalence, (2) topic content to vary as a function of document-level covariates (e.g., how do topics vary over time or documents produced in 1990 talk about something differently than documents produced in 2020?); implemented in stm in R (Roberts, Stewart, Tingley, Benoit)</p></li>
-<li><p><strong>Correlated topic model:</strong> way to explore between-topic relationships (Blei and Lafferty, 2017); implemented in topicmodels in R; possibly somewhere in Python as well!</p></li>
-<li><p><strong>Keyword-assisted topic model:</strong> seed topic model with keywords to try to increase the face validity of topics to what you’re trying to measure; implemented in keyATM in R (Eshima, Imai, Sasaki, 2019)</p></li>
-<li><p><strong>BertTopic:</strong> BERTopic is a topic modeling technique that leverages transformers and TF-IDF to create dense clusters of words.</p></li>
+<li class="fragment"><p><strong>Structural topic model:</strong> allow (1) topic prevalence, (2) topic content to vary as a function of document-level covariates (e.g., how do topics vary over time or documents produced in 1990 talk about something differently than documents produced in 2020?); implemented in stm in R (Roberts, Stewart, Tingley, Benoit)</p></li>
+<li class="fragment"><p><strong>Correlated topic model:</strong> way to explore between-topic relationships (Blei and Lafferty, 2017); implemented in topicmodels in R; possibly somewhere in Python as well!</p></li>
+<li class="fragment"><p><strong>Keyword-assisted topic model:</strong> seed topic model with keywords to try to increase the face validity of topics to what you’re trying to measure; implemented in keyATM in R (Eshima, Imai, Sasaki, 2019)</p></li>
+<li class="fragment"><p><strong>BertTopic:</strong> BERTopic is a topic modeling technique that leverages transformers and TF-IDF to create dense clusters of words.</p></li>
 </ul>
 </section></section>
-<section id="notebook-topic-models" class="title-slide slide level1 center">
-<h1><a href="">Notebook: Topic Models</a></h1>
+<section id="notebooks" class="title-slide slide level1 center">
+<h1>Notebooks</h1>
 
 <div class="footer footer-default">
 <p>Data science I: Foundations</p>

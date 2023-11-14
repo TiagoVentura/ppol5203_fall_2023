@@ -36,7 +36,7 @@ tbl-colwidths: [10,50,40]
 
 # Lecture notes
 
--   Text analysis I: Counting, Describing and Fiting Topics [html](/lecture_notes/week-11/_week-11_text.html) -- <a href="/lecture_notes/week-11/_week-11_text.ipynb" download> Jupyter Notebook </a>
+-   Text analysis I: Counting, Describing and Fitting Topics [html](/lecture_notes/week-11/_week_11_nlp_I.html) -- <a href="/lecture_notes/week-11/_week_11_nlp_I.ipynb" download> Jupyter Notebook </a>
 
 # Slides
 
@@ -59,12 +59,10 @@ Or one of the three below:
 
 -   Sociology Perspective: <https://www.sciencedirect.com/science/article/pii/S0049089X22000904>
 
-Topic Models: Read the foundational LDA Paper: https://www.cs.columbia.edu/\~blei/papers/Blei2012.pdf
-
 **Additional Readings:**
 
 -   Text Pre-Processing: [Denny, M. J., & Spirling, A. (2018). Text preprocessing for unsupervised learning: why it matters, when it misleads, and what to do about it. Political Analysis, 26(2): 168-189.](https://www.cambridge.org/core/journals/political-analysis/article/abs/text-preprocessing-for-unsupervised-learning-why-it-matters-when-it-misleads-and-what-to-do-about-it/AA7D4DE0AA6AB208502515AE3EC6989E)
 
--   Descriptive Analysis of Text: https:[Linder, Fridolin, Bruce Desmarais, Matthew Burgess, and Eugenia Giraudy. "Text as policy: Measuring policy similarity through bill text reuse." *Policy Studies Journal* 48, no. 2 (2020): 546-574.](//onlinelibrary.wiley.com/doi/abs/10.1111/psj.12257)
+-   Descriptive Analysis of Text: [Linder, Fridolin, Bruce Desmarais, Matthew Burgess, and Eugenia Giraudy. "Text as policy: Measuring policy similarity through bill text reuse." *Policy Studies Journal* 48, no. 2 (2020): 546-574.](//onlinelibrary.wiley.com/doi/abs/10.1111/psj.12257)
 
 -   Topic models : [David Blei, Probabilistic Topic Models](https://www.cs.columbia.edu/~blei/papers/Blei2012.pdf)
