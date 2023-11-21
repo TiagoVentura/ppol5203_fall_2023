@@ -122,15 +122,15 @@
     "objectID": "slides/week-10.html#plans-for-today",
     "href": "slides/week-10.html#plans-for-today",
     "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "Plans for Today",
-    "text": "Plans for Today\n\nIntroduction to Machine Learning\n\nStatistical Learning\nInference vs Predictive Modeling\nMachine Learning:\n\nSupervised vs Unsupervised\nRegression vs Classification\nTraining models\nBias and Variance Trade-off\n\nCoding"
+    "section": "",
+    "text": "Introduction to Machine Learning\n\nStatistical Learning\nInference vs Predictive Modeling\nMachine Learning:\n\nSupervised vs Unsupervised\nRegression vs Classification\nTraining models\nBias and Variance Trade-off\n\nCoding"
   },
   {
     "objectID": "slides/week-10.html#feedback-survey",
     "href": "slides/week-10.html#feedback-survey",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Feedback survey",
-    "text": "Feedback survey\n\n\nContinue Doing\n\n\nsmall in-class practice with break\nnotebooks (you’ll seem to love them!)\n\n\nStop doing\n\n\nwe’re doing great!\nsuper long problem sets\n\n\n\nStart doing\n\n\ntalk about past assignments\n\nUse office hours for this. Happy to discuss question if you have. But will not go over the entire assignment\n\nreadings could be posted at least 4 days\n\nmy bad!\n\nMore clarity in problem set questions.\n\nYes. Ask questions on slack if something is not clear.\n\nWork in groups.\n\nplease feel free to do it. Agree it works best."
+    "text": "Feedback survey\n\n\n\nContinue Doing\n\n\nsmall in-class practice with break\nnotebooks (you’ll seem to love them!)\n\n\n\n\nStop doing\n\n\nwe’re doing great!\nsuper long problem sets\n\n\n\n\n\nStart doing\n\n\ntalk about past assignments\n\nUse office hours for this. Happy to discuss question if you have. But will not go over the entire assignment\n\nreadings could be posted at least 4 days\n\nmy bad!\n\nMore clarity in problem set questions.\n\nYes. Ask questions on slack if something is not clear.\n\nWork in groups.\n\nplease feel free to do it. Agree it works best."
   },
   {
     "objectID": "slides/week-10.html#problem-set-4",
@@ -186,14 +186,14 @@
     "href": "slides/week-10.html#supervised-and-unsupervised-learning",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Supervised and Unsupervised Learning",
-    "text": "Supervised and Unsupervised Learning\n\nSupervised Learning (DS II)\n\nfor each observation of the predictor measurement \\(x_i\\) there is an associated response measurement \\(y_i\\). In essence, there is an outcome we are aiming to accurately predict or understand.\nuse regression and classification methods"
+    "text": "Supervised and Unsupervised Learning\n\nSupervised Learning (DS II)\n\nfor each observation of the predictor measurement \\(x_i\\) there is an associated response measurement \\(y_i\\). In essence, there is an outcome we are aiming to accurately predict or understand.\nuse regression and classification methods\n\n\n\n\n\nLoading required package: tidyverse\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.3     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\nLoading required package: caret\n\nLoading required package: lattice\n\n\nAttaching package: 'caret'\n\n\nThe following object is masked from 'package:purrr':\n\n    lift\n\n\nLoading required package: recipes\n\n\nAttaching package: 'recipes'\n\n\nThe following object is masked from 'package:stringr':\n\n    fixed\n\n\nThe following object is masked from 'package:stats':\n\n    step\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\n`geom_smooth()` using formula = 'y ~ x'"
   },
   {
     "objectID": "slides/week-10.html#unsupervised",
     "href": "slides/week-10.html#unsupervised",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Unsupervised",
-    "text": "Unsupervised\n\nUnsupervised Learning (DS III)\n\nwe observe a vector of measurements \\(x_i\\) but no associated response \\(y_i\\).\n“unsupervised” because we lack a response variable that can supervise our analysis."
+    "text": "Unsupervised\n\nUnsupervised Learning (DS III)\n\nwe observe a vector of measurements \\(x_i\\) but no associated response \\(y_i\\).\n“unsupervised” because we lack a response variable that can supervise our analysis.\n\n\n\n\n\nWarning: The `x` argument of `as_tibble.matrix()` must have unique column names if\n`.name_repair` is omitted as of tibble 2.0.0.\nℹ Using compatibility `.name_repair`."
   },
   {
     "objectID": "slides/week-10.html#supervised-learning-regression",
@@ -242,7 +242,7 @@
     "href": "slides/week-10.html#challenge-avoid-overfitting-the-data",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Challenge: avoid overfitting the data",
-    "text": "Challenge: avoid overfitting the data"
+    "text": "Challenge: avoid overfitting the data\n\n\n\nAttaching package: 'scales'\n\n\nThe following object is masked from 'package:purrr':\n\n    discard\n\n\nThe following object is masked from 'package:readr':\n\n    col_factor\n\n\n`geom_smooth()` using formula = 'y ~ x'\n`geom_smooth()` using formula = 'y ~ x'\n\n\nWarning in simpleLoess(y, x, w, span, degree = degree, parametric = parametric,\n: k-d tree limited by memory. ncmax= 500\n\n\nWarning in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x\nelse if (is.data.frame(newdata))\nas.matrix(model.frame(delete.response(terms(object)), : k-d tree limited by\nmemory. ncmax= 500\n\n\n`geom_smooth()` using formula = 'y ~ x'"
   },
   {
     "objectID": "slides/week-10.html#mse-training-data",
@@ -263,7 +263,7 @@
     "href": "slides/week-10.html#bias-and-variance-trade-off",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Bias and Variance Trade-off",
-    "text": "Bias and Variance Trade-off\n\n\nhigh variance: new data, new pattern.\nhigh bias: rigid pattern, doesn’t reflect the data\nTrade-off: as we reduce bias, we risk overfiting. Trainning properly is key"
+    "text": "Bias and Variance Trade-off\n\n\n\n\n\n\nhigh variance: new data, new pattern.\nhigh bias: rigid pattern, doesn’t reflect the data\nTrade-off: as we reduce bias, we risk overfiting. Trainning properly is key"
   },
   {
     "objectID": "slides/week-10.html#cross-validation",
@@ -284,7 +284,7 @@
     "href": "slides/week-10.html#important-concepts",
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Important Concepts",
-    "text": "Important Concepts\n\nInference vs Prediction\nPrediction: black-box function, highly flexible to reduce error.\nLearning: train the model in seen data. Test and calculate metrics in seen\nAvoid overfiting and data leakage by using resampling methods.\n\n\n\nData science I: Foundations"
+    "text": "Important Concepts\n\nInference vs Prediction\nPrediction: black-box function, highly flexible to reduce error.\nLearning: train the model in seen data. Test and calculate metrics in seen\nAvoid overfiting and data leakage by using resampling methods."
   },
   {
     "objectID": "slides/week-3.html#plans-for-today",
@@ -1075,7 +1075,7 @@
     "href": "weeks/week-12.html",
     "title": "Week 12",
     "section": "",
-    "text": "Lectures Notes:\n\n\nSlides\n\nTBD\n\n\n\nReadings\n\nDictionary Methods: Rathje, Steve, Jay J. Van Bavel, and Sander Van Der Linden. “Out-group animosity drives engagement on social media.” Proceedings of the National Academy of Sciences 118, no. 26 (2021): e2024292118\nToxicity using Google Perspective API: Ventura, Tiago, Kevin Munger, Katherine McCabe, and Keng-Chi Chang. “Connective effervescence and streaming chat during political debates.” Journal of Quantitative Description: Digital Media 1 (2021).\nUsing ChatGPT to Scale Politicians: Wu, Patrick Y., Jonathan Nagler, Joshua A. Tucker, and Solomon Messing. “Large Language Models Can Be Used to Estimate the Latent Positions of Politicians."
+    "text": "Lectures Notes:\n\nText analysis II:Unsupervised and Supervised models html –  Jupyter Notebook \n\n\n\nSlides\n\nText analysis II\n\n\n\nReadings\n\nTopic models : David Blei, Probabilistic Topic Models\nDictionary Methods: Rathje, Steve, Jay J. Van Bavel, and Sander Van Der Linden. “Out-group animosity drives engagement on social media.” Proceedings of the National Academy of Sciences 118, no. 26 (2021): e2024292118\nToxicity using Google Perspective API: Ventura, Tiago, Kevin Munger, Katherine McCabe, and Keng-Chi Chang. “Connective effervescence and streaming chat during political debates.” Journal of Quantitative Description: Digital Media 1 (2021).\nUsing ChatGPT to Scale Politicians: Wu, Patrick Y., Jonathan Nagler, Joshua A. Tucker, and Solomon Messing. “Large Language Models Can Be Used to Estimate the Latent Positions of Politicians."
   },
   {
     "objectID": "weeks/week-03.html",
@@ -1956,8 +1956,8 @@
     "objectID": "slides/week-9.html#plans-for-today",
     "href": "slides/week-9.html#plans-for-today",
     "title": " PPOL 5203 - Data Science I: Foundations ",
-    "section": "Plans for Today",
-    "text": "Plans for Today\n\nAPIs\n\nA simple API - Bored API\nMore complex with Credentials: Yelp\nCredentials + Wrapper: Youtube\n\nSelenium for Dynamic Websites and Audit Studies\n\nExample of my own research: algorithmic bias in chinese social media websites"
+    "section": "",
+    "text": "APIs\n\nA simple API - Bored API\nMore complex with Credentials: Yelp\nCredentials + Wrapper: Youtube\n\nSelenium for Dynamic Websites and Audit Studies\n\nExample of my own research: algorithmic bias in chinese social media websites"
   },
   {
     "objectID": "slides/week-9.html#apis-101",
@@ -2189,5 +2189,33 @@
     "title": " PPOL 5203 - Data Science I: Foundations ",
     "section": "Plans for Today + Next Week",
     "text": "Plans for Today + Next Week\nIntroduction to Text Analysis/Natural Language Processing\n\nMotivation\nOveral Workflow\nOverview of Text Analysis Methods\n\nPre-Process Text\nDescriptive Analysis and Comparisons\nUnsupervised Learning with Text:\n\nTopic Models\n\nSupervised Learning with Text (Next Week)\n\nDictionary Methods\nMachine Learning Pre-Trained Models\nApplications of LLMs (Large Languague models)"
+  },
+  {
+    "objectID": "slides/week-12.html#plans-for-today",
+    "href": "slides/week-12.html#plans-for-today",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "",
+    "text": "Introduction to Text Analysis/Natural Language Processing\n\nUnsupervised Learning with Text:\n\nTopic Models\n\nSupervised Learning with Text (Next Week)\n\nDictionary Methods\nMachine Learning Pre-Trained Models\nApplications of LLMs (Large Languague models)"
+  },
+  {
+    "objectID": "slides/week-9.html",
+    "href": "slides/week-9.html",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "",
+    "text": "APIs\n\nA simple API - Bored API\nMore complex with Credentials: Yelp\nCredentials + Wrapper: Youtube\n\nSelenium for Dynamic Websites and Audit Studies\n\nExample of my own research: algorithmic bias in chinese social media websites"
+  },
+  {
+    "objectID": "slides/week-10.html",
+    "href": "slides/week-10.html",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "",
+    "text": "Introduction to Machine Learning\n\nStatistical Learning\nInference vs Predictive Modeling\nMachine Learning:\n\nSupervised vs Unsupervised\nRegression vs Classification\nTraining models\nBias and Variance Trade-off\n\nCoding"
+  },
+  {
+    "objectID": "slides/week-12.html",
+    "href": "slides/week-12.html",
+    "title": " PPOL 5203 - Data Science I: Foundations ",
+    "section": "",
+    "text": "Introduction to Text Analysis/Natural Language Processing\n\nUnsupervised Learning with Text:\n\nTopic Models\n\nSupervised Learning with Text (Next Week)\n\nDictionary Methods\nMachine Learning Pre-Trained Models\nApplications of LLMs (Large Languague models)"
   }
 ]

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Professor: Tiago Ventura">
-<meta name="dcterms.date" content="2023-11-07">
+<meta name="dcterms.date" content="2023-11-14">
 
 <title>PPOL 5203 - Data Science I: Foundations -  PPOL 5203 - Data Science I: Foundations </title>
 <style>
@@ -223,23 +223,11 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#plans-for-today" id="toc-plans-for-today" class="nav-link active" data-scroll-target="#plans-for-today">Plans for Today</a></li>
-  <li><a href="#apis" id="toc-apis" class="nav-link" data-scroll-target="#apis">APIs</a>
-  <ul class="collapse">
-  <li><a href="#apis-101" id="toc-apis-101" class="nav-link" data-scroll-target="#apis-101">APIs 101</a></li>
-  <li><a href="#api-components" id="toc-api-components" class="nav-link" data-scroll-target="#api-components">API Components</a></li>
-  <li><a href="#making-an-api-request" id="toc-making-an-api-request" class="nav-link" data-scroll-target="#making-an-api-request">Making an API Request</a></li>
-  <li><a href="#step-by-step" id="toc-step-by-step" class="nav-link" data-scroll-target="#step-by-step">Step-by-Step</a></li>
-  <li><a href="#in-class-example" id="toc-in-class-example" class="nav-link" data-scroll-target="#in-class-example">In-Class Example</a></li>
-  </ul></li>
-  <li><a href="#notebook-for-apis" id="toc-notebook-for-apis" class="nav-link" data-scroll-target="#notebook-for-apis">Notebook for APIS</a></li>
-  <li><a href="#selenium" id="toc-selenium" class="nav-link" data-scroll-target="#selenium">Selenium</a>
-  <ul class="collapse">
-  <li><a href="#static-vs-dynamic-websites" id="toc-static-vs-dynamic-websites" class="nav-link" data-scroll-target="#static-vs-dynamic-websites">Static vs Dynamic Websites</a></li>
-  <li><a href="#selenium-1" id="toc-selenium-1" class="nav-link" data-scroll-target="#selenium-1">Selenium</a></li>
-  </ul></li>
-  <li><a href="#notebook-selenium" id="toc-notebook-selenium" class="nav-link" data-scroll-target="#notebook-selenium">Notebook Selenium</a></li>
+  <li><a href="#next-class-sql.-no-readings-just-some-fun." id="toc-next-class-sql.-no-readings-just-some-fun." class="nav-link" data-scroll-target="#next-class-sql.-no-readings-just-some-fun.">Next Class: SQL. No Readings, just some fun.</a></li>
+  <li><a href="#in-two-weeks-project-presentations.-your-final-project-in-slides" id="toc-in-two-weeks-project-presentations.-your-final-project-in-slides" class="nav-link" data-scroll-target="#in-two-weeks-project-presentations.-your-final-project-in-slides">In two weeks: Project Presentations. Your final project in slides!</a></li>
+  <li><a href="#notebook-for-text-analysis" id="toc-notebook-for-text-analysis" class="nav-link" data-scroll-target="#notebook-for-text-analysis">Notebook for Text Analysis</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="week-9.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="week-12.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -247,7 +235,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title"><span style="font-size: 100%;"> PPOL 5203 - Data Science I: Foundations </span></h1>
-<p class="subtitle lead"><span style="font-size: 100%;"> Week 09: Acquiring Digital Data: APIs and Selenium </span></p>
+<p class="subtitle lead"><span style="font-size: 100%;"> Week 11: Text-As-Data II: Topic Models + Classification </span></p>
 </div>
 
 
@@ -264,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 7, 2023</p>
+      <p class="date">November 14, 2023</p>
     </div>
   </div>
   
@@ -276,109 +264,28 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="plans-for-today" class="level2">
 <h2 class="anchored" data-anchor-id="plans-for-today">Plans for Today</h2>
+<p><strong>Introduction to Text Analysis/Natural Language Processing</strong></p>
 <ul>
-<li><p>APIs</p>
+<li>Unsupervised Learning with Text:
 <ul>
-<li><p>A simple API - Bored API</p></li>
-<li><p>More complex with Credentials: Yelp</p></li>
-<li><p>Credentials + Wrapper: Youtube</p></li>
+<li>Topic Models</li>
 </ul></li>
-<li><p>Selenium for Dynamic Websites and Audit Studies</p>
+<li>Supervised Learning with Text (Next Week)
 <ul>
-<li>Example of my own research: algorithmic bias in chinese social media websites</li>
-</ul></li>
-</ul>
-</section>
-<section id="apis" class="level1">
-<h1>APIs</h1>
-<section id="apis-101" class="level2">
-<h2 class="anchored" data-anchor-id="apis-101">APIs 101</h2>
-<ul>
-<li><p><strong>APIs</strong>: Application Programming Interface</p></li>
-<li><p><strong>How does it work:</strong> online server create to facilitate information exchange between data users and the data holders</p></li>
-<li><p><strong>Use Cases:</strong></p>
-<ul>
-<li>Access data shared by Companies and NGOs</li>
-<li>Process our data in Algorithms developed by third parties</li>
-</ul></li>
-<li><p>We will focus today on the first component.</p></li>
-</ul>
-</section>
-<section id="api-components" class="level2">
-<h2 class="anchored" data-anchor-id="api-components">API Components</h2>
-<p>An API is just an URL. See the example below:</p>
-<p>http://mywebsite.com/endpoint?key&amp;param_1&amp;param_2</p>
-<ul>
-<li><p>Main Components:</p></li>
-<li><p><strong>http://mywebsite.com//</strong>: API root. The domain of your api/</p></li>
-<li><p><strong>endpoint</strong>: An endpoint is a server route for retrieving specific data from an API</p></li>
-<li><p><strong>key</strong>: credentials that some websites ask for you to create before you can query the api.</p></li>
-<li><p><strong>?param_1&amp;param_2 parameters</strong>. Those are filters that you can input in apis requests.</p></li>
-</ul>
-</section>
-<section id="making-an-api-request" class="level2">
-<h2 class="anchored" data-anchor-id="making-an-api-request">Making an API Request</h2>
-<p>In order to work with APIs, we need tools to access the web. In Python, the most common library for making requests and working with APIs is the <code>requests</code> library.</p>
-<ul>
-<li><p><code>get()</code>: to receive information from the API</p></li>
-<li><p><code>post()</code>: to send information to the API – think about the use of ChatGPT for classification of text.</p></li>
-</ul>
-</section>
-<section id="step-by-step" class="level2">
-<h2 class="anchored" data-anchor-id="step-by-step">Step-by-Step</h2>
-<p>When using an API, our work will often involve the following steps:</p>
-<ul>
-<li><strong>Step 1:</strong> Look at the API documentation and endpoints, and construct a query of interest</li>
-<li><strong>Step 2:</strong> Use requests.get(querystring) to call the API</li>
-<li><strong>Step 3:</strong> Examine the response</li>
-<li><strong>Step 4:</strong> Extract your data and save it.</li>
-</ul>
-</section>
-<section id="in-class-example" class="level2">
-<h2 class="anchored" data-anchor-id="in-class-example">In-Class Example</h2>
-<p>We will work with three different types of APIs today:</p>
-<ul>
-<li><p>Bored API: API that does <strong>not</strong> require authentication and does <strong>not</strong> have a wrapper</p></li>
-<li><p>Yelp API: API that <strong>does</strong> require auhtentical and does <strong>not</strong> have a wrapper</p></li>
-<li><p>Youtube API: API that <strong>does</strong> require auhtentical and <strong>does</strong> have a wrapper</p></li>
-<li><p><strong>Wrapper:</strong>a set of functions or methods (full library) that provide a simplified interface to interact with an underlying API.</p></li>
-</ul>
-</section>
-</section>
-<section id="notebook-for-apis" class="level1">
-<h1><a href="../lecture_notes/week-09/_week-08_selenium.html">Notebook for APIS</a></h1>
-</section>
-<section id="selenium" class="level1">
-<h1>Selenium</h1>
-<section id="static-vs-dynamic-websites" class="level2">
-<h2 class="anchored" data-anchor-id="static-vs-dynamic-websites">Static vs Dynamic Websites</h2>
-<ul>
-<li><p><strong>Static web pages:</strong> when the browser and the source code content match each other. Collect data via:</p>
-<ul>
-<li>string methods and regex</li>
-<li>beautifulsoup</li>
-<li>scrapy</li>
-</ul></li>
-<li><p><strong>Dynamic web pages:</strong> when the content we are viewing in our browser does not match the content we see in the HTML source code we are retrieving from the site. How to scrape?</p>
-<ul>
-<li>Scrape the content directly from the JavaScript</li>
-<li>Scrape the website as we view it in our browser — using Python packages capable of executing the JavaScript.</li>
+<li>Dictionary Methods</li>
+<li>Machine Learning Pre-Trained Models</li>
+<li>Applications of LLMs (Large Languague models)</li>
 </ul></li>
 </ul>
 </section>
-<section id="selenium-1" class="level2">
-<h2 class="anchored" data-anchor-id="selenium-1">Selenium</h2>
-<p>Selenium is an open source tool which is used for automating web browser.</p>
-<ul>
-<li><p>works by automating browsers to execute JavaScript to display a web page</p></li>
-<li><p>allow us to interact with web pages programmatically</p></li>
-<li><p>collect data as we see in the web (after running the correspondin java script)</p></li>
-</ul>
-<p><strong>Drawback:</strong> selenium is a bit of a pain to install. So part of your homework will simply have selenium setup!</p>
+<section id="next-class-sql.-no-readings-just-some-fun." class="level1">
+<h1>Next Class: SQL. No Readings, just some fun.</h1>
 </section>
+<section id="in-two-weeks-project-presentations.-your-final-project-in-slides" class="level1" data-background-color="red">
+<h1 data-background-color="red">In two weeks: Project Presentations. Your final project in slides!</h1>
 </section>
-<section id="notebook-selenium" class="level1">
-<h1><a href="../lecture_notes/week-09/_week-08_selenium.html">Notebook Selenium</a></h1>
+<section id="notebook-for-text-analysis" class="level1">
+<h1><a href="">Notebook for Text Analysis</a></h1>
 
 
 </section>

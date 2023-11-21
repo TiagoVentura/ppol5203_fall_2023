@@ -1,0 +1,42 @@
+---
+title: "<span style = 'font-size: 100%;'> PPOL 5203 - Data Science I: Foundations </span>"
+subtitle: "<span style = 'font-size: 100%;'> Week 11: Text-As-Data II: Topic Models + Classification </span>"
+author: "Professor: Tiago Ventura"
+date: "11/14/2023"
+execute: 
+  echo: false
+  error: true
+format:
+  revealjs: 
+    transition: slide
+    background-transition: fade
+    code-line-numbers: false
+    width: 1600
+    height: 800
+    center: false
+    slide-number: true
+    incremental: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    footer: "Data science I: Foundations"
+    theme: [simple, custom.scss]
+---
+
+## Plans for Today 
+
+**Introduction to Text Analysis/Natural Language Processing**
+
+- Unsupervised Learning with Text:
+   -   Topic Models
+
+- Supervised Learning with Text (Next Week)
+  -   Dictionary Methods
+  -   Machine Learning Pre-Trained Models
+  -   Applications of LLMs (Large Languague models)
+
+# Next Class: SQL. No Readings, just some fun. 
+
+# In two weeks: Project Presentations. Your final project in slides! {background-color="red"}
+
+# [Notebook for Text Analysis]()
