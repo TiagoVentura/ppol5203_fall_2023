@@ -2,7 +2,7 @@
 title: "<span style = 'font-size: 100%;'> PPOL 5203 - Data Science I: Foundations </span>"
 subtitle: "<span style = 'font-size: 100%;'> Week 13: SQL </span>"
 author: "Professor: Tiago Ventura"
-date: "11/14/2023"
+date: "11/28/2023"
 execute: 
   echo: false
   error: true

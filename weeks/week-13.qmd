@@ -36,12 +36,12 @@ tbl-colwidths: [10,50,40]
 
 # Lectures Notes:
 
-- SQL [html](/lecture_notes/week-13/_week_13_sql.html ) -- <a href="/lecture_notes/week-13/_week_13_sql.ipynb " download> Jupyter Notebook </a>
+- SQL [html](/lecture_notes/week-13/_week_13_sql.html ) -- <a href="/lecture_notes/week-13/_week_13_sql.ipynb" download> Jupyter Notebook </a>
 
 
 # Slides
 
--   [SQL](/slides/week-12.html)
+-   [SQL](/slides/week-13.html)
 
 # Readings 
 
