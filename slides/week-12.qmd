@@ -23,19 +23,18 @@ format:
     theme: [simple, custom.scss]
 ---
 
-## Plans for Today 
+## Plans for Today
 
 **Introduction to Text Analysis/Natural Language Processing**
 
-- Unsupervised Learning with Text:
-   -   Topic Models
+-   Unsupervised Learning with Text:
+    -   Topic Models
+-   Supervised Learning with Text (Next Week)
+    -   Dictionary Methods
+    -   Machine Learning Pre-Trained Models
+    -   Applications of LLMs (Large Languague models)
 
-- Supervised Learning with Text (Next Week)
-  -   Dictionary Methods
-  -   Machine Learning Pre-Trained Models
-  -   Applications of LLMs (Large Languague models)
-
-# Next Class: SQL. No Readings, just some fun. 
+# Next Class: SQL. No Readings, just some fun.
 
 # In two weeks: Project Presentations. Your final project in slides! {background-color="red"}
 
