@@ -37,9 +37,9 @@ website:
           - href: weeks/week-04.qmd
             text: "Week 4: From Nested Collectors to DataFrames"
           - href: weeks/week-05.qmd
-            text: "Week 5: Numpy & Intro to Pandas"
+            text: "Week 5: Intro to Pandas"
           - href: weeks/week-06.qmd
-            text: "Week 6: Pandas II: Data Wrangling"
+            text: "Week 6: Pandas II"
           - href: weeks/week-07.qmd
             text: "Week 7: Joinining, Tidying and Visualizing Data"
           - href: weeks/week-08.qmd
@@ -54,8 +54,8 @@ website:
             text: "Week 12: Text as Data II"
           - href: weeks/week-13.qmd
             text: "Week 13: SQL"
-          # - href: weeks/week-14.qmd
-          #   text: "Week 14: Final Project Presentation"
+          - href: weeks/week-14.qmd
+          - text: "Week 14: Project Presentation"
           
           
       
