@@ -39,11 +39,11 @@ All lecture notes can be accessed in the lecture notes folder, as well as the sl
 
   -   [Instructions for setting up the course infra-structure](docs/lecture_notes/week-01/course_infrastructure.html).
 
-  -   Using Jupyter Notebooks: [html](/lecture_notes/week-01/_using-jupyter-notebooks.html), <a href="/lecture_notes/week-01/_using-jupyter-notebooks.ipynb" download> notebook </a>
+  -   Using Jupyter Notebooks: <a href="/lecture_notes/week-01/_using-jupyter-notebooks.ipynb" download> notebook </a>
 
-  -   Using Quarto for Python and R [html](docs/lecture_notes/week-01/intro-to-quarto.html), <a href="/lecture_notes/week-01/intro-to-quarto.qmd" download> notebook </a>
+  -   Using Quarto for Python and R  <a href="/lecture_notes/week-01/intro-to-quarto.qmd" download> notebook </a>
 
-  -   Basics of Command Line: [html](/lecture_notes/week-01/_basics_of_cmd.html), <a href="/lecture_notes/week-01/_basics_of_cmd.ipynb" download> notebook </a>
+  -   Basics of Command Line: <a href="/lecture_notes/week-01/_basics_of_cmd.ipynb" download> notebook </a>
 
 #### Slides
 
@@ -54,7 +54,7 @@ All lecture notes can be accessed in the lecture notes folder, as well as the sl
 
 #### Lecture Notes
 
--   Version Control, Workflow and Reproducibility: Or a bit of Git & GitHub: [html](/lecture_notes/week-02/_version_control_git.html), <a href="/lecture_notes/week-02/_version_control_git.ipynb" download> notebook </a>
+-   Version Control, Workflow and Reproducibility: Or a bit of Git & GitHub:  <a href="/lecture_notes/week-02/_version_control_git.ipynb" download> notebook </a>
 
 #### Slides
 
@@ -65,9 +65,9 @@ All lecture notes can be accessed in the lecture notes folder, as well as the sl
 
 #### Lectures Notes:
 
-- Intro to Python - OOP, Data Types, and Collectors: [html](/lecture_notes/week-03/_week-03_data_types.html), <a href="/lecture_notes/week-03/_week-03_data_types.ipynb" download> Jupyter Notebook </a>
+- Intro to Python - OOP, Data Types, and Collectors: <a href="/lecture_notes/week-03/_week-03_data_types.ipynb" download> Jupyter Notebook </a>
 
-- Intro to Python II - Control Statements and Functions: [html](/lecture_notes/week-03/_week-03_iter_control_functions.html), <a href="/lecture_notes/week-03/_week-03_iter_control_functions.ipynb" download> Jupyter Notebook </a>
+- Intro to Python II - Control Statements and Functions: <a href="/lecture_notes/week-03/_week-03_iter_control_functions.ipynb" download> Jupyter Notebook </a>
 
 #### Slides
 
@@ -78,11 +78,11 @@ All lecture notes can be accessed in the lecture notes folder, as well as the sl
 
 #### Lectures Notes:
 
--   Intro to Python II - Control Statements and Functions: [html](/lecture_notes/week-03/_week-03_iter_control_functions.html), <a href="/lecture_notes/week-03/_week-03_iter_control_functions.ipynb" download> Jupyter Notebook </a>
+-   Intro to Python II - Control Statements and Functions: <a href="/lecture_notes/week-03/_week-03_iter_control_functions.ipynb" download> Jupyter Notebook </a>
 
--   Comprehension and Generators: [html](/lecture_notes/week-04/_week_4_comprehension_generators.html) -- <a href="/lecture_notes/week-04/_week_4_comprehension_generators.ipynb" download> Jupyter Notebook </a>
+-   Comprehension and Generators: <a href="/lecture_notes/week-04/_week_4_comprehension_generators.ipynb" download> Jupyter Notebook </a>
 
--   File Management: [html](/lecture_notes/week-04/_week_4_file_management.html) -- <a href="/lecture_notes/week-04/_week_4_file_management.ipynb" download> Jupyter Notebook </a>
+-   File Management: <a href="/lecture_notes/week-04/_week_4_file_management.ipynb" download> Jupyter Notebook </a>
 
 #### Datasets
 
@@ -96,11 +96,11 @@ Download the datasets <a href="/lecture_notes/week-04/data_week4.zip" download> 
 
 #### Lectures Notes:
 
--   Data as Nested lists - [html](/lecture_notes/week-04/_week_4_nested_lists.html) -- <a href="/lecture_notes/week-04/_week_4_nested_lists.ipynb" download> Jupyter Notebook </a>
+-   Data as Nested lists  <a href="/lecture_notes/week-04/_week_4_nested_lists.ipynb" download> Jupyter Notebook </a>
 
--   Numpy: [html](/lecture_notes/week-04/_week_5_numpy_for_class.html) -- <a href="/lecture_notes/week-05/_week_5_numpy_for_class.ipynb" download> Jupyter Notebook </a>
+-   Numpy:  <a href="/lecture_notes/week-05/_week_5_numpy_for_class.ipynb" download> Jupyter Notebook </a>
 
--   Intro do Pandas: [html](/lecture_notes/week-05/_week_5a_intro_to_pandas.html) -- <a href="/lecture_notes/week-05/_week_5a_intro_to_pandas.ipynb" download> Jupyter Notebook </a>
+-   Intro do Pandas: <a href="/lecture_notes/week-05/_week_5a_intro_to_pandas.ipynb" download> Jupyter Notebook </a>
 
 #### Slides
 
@@ -111,13 +111,13 @@ Download the datasets <a href="/lecture_notes/week-04/data_week4.zip" download> 
 
 #### Lecture Notes
 
--   Pandas - Data Loading and Writing: [html](/lecture_notes/week-06/_week-6c-data_wrangling_pandas.html) -- <a href="/lecture_notes/week-06/_week-6c-data_wrangling_pandas.ipynb" download> Jupyter Notebook </a>
+-   Pandas - Data Loading and Writing: <a href="/lecture_notes/week-06/_week-6c-data_wrangling_pandas.ipynb" download> Jupyter Notebook </a>
 
--   Pandas - data wrangling: [html](/lecture_notes/week-06/_week-6b-pandas_data_loading.html) -- <a href="/lecture_notes/week-06/_week-6b-pandas_data_loading.ipynb" download> Jupyter Notebook </a>
+-   Pandas - data wrangling:  <a href="/lecture_notes/week-06/_week-6b-pandas_data_loading.ipynb" download> Jupyter Notebook </a>
 
--   Pandas - Joining Data : [html](/lecture_notes/week-06/_week-5c-joining_data.html) -- <a href="/lecture_notes/week-06/_week-5c-joining_data.ipynb" download> Jupyter Notebook </a>
+-   Pandas - Joining Data :  <a href="/lecture_notes/week-06/_week-5c-joining_data.ipynb" download> Jupyter Notebook </a>
 
--   Pandas Miscellaneous: [html](/lecture_notes/week-06/_week-6e-miscelanneous.html) -- <a href="/lecture_notes/week-06/_week-6e-miscelanneous.ipynb" download> Jupyter Notebook </a>
+-   Pandas Miscellaneous:  <a href="/lecture_notes/week-06/_week-6e-miscelanneous.ipynb" download> Jupyter Notebook </a>
 
 #### Datasets
 
@@ -132,9 +132,9 @@ Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> 
 
 #### Lectures Notes:
 
--   Pandas - Joining Data : [html](/lecture_notes/week-06/_week-5c-joining_data.html) -- <a href="/lecture_notes/week-06/_week-5c-joining_data.ipynb" download> Jupyter Notebook </a>
+-   Pandas - Joining Data : <a href="/lecture_notes/week-06/_week-5c-joining_data.ipynb" download> Jupyter Notebook </a>
 
--   Data Visualization: [html](/lecture_notes/week-07/_week-6-data-visualization.html) -- <a href="/lecture_notes/week-07/_week-6-data-visualization.ipynb" download> Jupyter Notebook </a>
+-   Data Visualization:  <a href="/lecture_notes/week-07/_week-6-data-visualization.ipynb" download> Jupyter Notebook </a>
 
 #### Datasets
 
@@ -149,7 +149,7 @@ Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> 
 
 #### Lectures Notes:
 
--   Parsing Unstructured Data: Scraping Static Websites: [html](/lecture_notes/week-08/_week-07_scraping_static.html) -- <a href="/lecture_notes/week-08/_week-07_scraping_static.ipynb" download> Jupyter Notebook </a>
+-   Parsing Unstructured Data: Scraping Static Websites:  <a href="/lecture_notes/week-08/_week-07_scraping_static.ipynb" download> Jupyter Notebook </a>
 
 #### Slides
 
@@ -160,9 +160,9 @@ Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> 
 
 #### Lectures Notes:
 
--   APIs [html](/lecture_notes/week-09/_week-08_apis.html) -- <a href="/lecture_notes/week-09/_week-08_apis.ipynb" download> Jupyter Notebook </a>
+-   APIs  <a href="/lecture_notes/week-09/_week-08_apis.ipynb" download> Jupyter Notebook </a>
 
--   Selenium [html](/lecture_notes/week-09/_week-08_selenium.html) -- <a href="/lecture_notes/week-09/_week-08_selenium.ipynb" download> Jupyter Notebook </a>
+-   Selenium  <a href="/lecture_notes/week-09/_week-08_selenium.ipynb" download> Jupyter Notebook </a>
 
 #### Slides
 
@@ -173,7 +173,7 @@ Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> 
 
 #### Lecture Notes
 
--   Statistical Learning: inference and predictions [html](/lecture_notes/week-10/_week-9-models.html) -- <a href="/lecture_notes/week-10/_week-9-models.ipynb" download> Jupyter Notebook </a>
+-   Statistical Learning: inference and predictions: <a href="/lecture_notes/week-10/_week-9-models.ipynb" download> Jupyter Notebook </a>
 
 #### Slides
 
@@ -184,7 +184,7 @@ Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> 
 
 #### Lecture notes
 
--   Text analysis I: Counting, Describing and Fitting Topics [html](/lecture_notes/week-11/_week_11_nlp_I.html) -- <a href="/lecture_notes/week-11/_week_11_nlp_I.ipynb" download> Jupyter Notebook </a>
+-   Text analysis I: Counting, Describing and Fitting Topics:  <a href="/lecture_notes/week-11/_week_11_nlp_I.ipynb" download> Jupyter Notebook </a>
 
 #### Slides
 
@@ -195,7 +195,7 @@ Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> 
 
 #### Lectures Notes:
 
--   Text analysis II: Unsupervised and Supervised models [html](/lecture_notes/week-12/_week_12_nlp_II.html) -- <a href="/lecture_notes/week-12/_week_12_nlp_II.ipynb" download> Jupyter Notebook </a>
+-   Text analysis II: Unsupervised and Supervised models: <a href="/lecture_notes/week-12/_week_12_nlp_II.ipynb" download> Jupyter Notebook </a>
 
 #### Slides
 
@@ -206,7 +206,7 @@ Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> 
 
 #### Lectures Notes:
 
-- SQL [html](/lecture_notes/week-13/_week_13_sql.html) -- <a href="/lecture_notes/week-13/_week_13_sql.ipynb" download> Jupyter Notebook </a>
+- SQL: <a href="/lecture_notes/week-13/_week_13_sql.ipynb" download> Jupyter Notebook </a>
 
 
 #### Slides
