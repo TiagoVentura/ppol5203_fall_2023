@@ -42,8 +42,7 @@ Today, we will go over three notebooks:
 
 -   Numpy: [html](/lecture_notes/week-04/_week_5_numpy_for_class.html) -- <a href="/lecture_notes/week-05/_week_5_numpy_for_class.ipynb" download> Jupyter Notebook </a>
 
-- Intro do Pandas: [html](/lecture_notes/week-05/_week_5a_intro_to_pandas.html) -- <a href="/lecture_notes/week-05/_week_5a_intro_to_pandas.ipynb" download> Jupyter Notebook </a> 
-
+-   Intro do Pandas: [html](/lecture_notes/week-05/_week_5a_intro_to_pandas.html) -- <a href="/lecture_notes/week-05/_week_5a_intro_to_pandas.ipynb" download> Jupyter Notebook </a>
 
 ## Datasets
 
@@ -60,7 +59,6 @@ Download the datasets <a href="/lecture_notes/week-04/data_week4.zip" download> 
 -   PDS VanderPlas
 
     -   [Ch. 2: Introduction to Numpy](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) - Python Data Science Handbook - VanderPlas, Jake
-
 
 **Suggested Readings for Pandas**
 
