@@ -33,7 +33,7 @@ This is not the first time this course is taught at DSPP. For this reason, sever
 
 All lecture notes can be accessed in the lecture notes folder, as well as the slides on the slides folder. Below I provide links for the materials for each week. 
 
-### Week 1: Introduction
+## Week 1: Introduction
 
 #### Lecture Notes
 
@@ -50,7 +50,7 @@ All lecture notes can be accessed in the lecture notes folder, as well as the sl
 [Introduction, Installations, IDEs, Command line](docs/slides/week-1.html)
 
 
-### Week 2: Version Control
+## Week 2: Version Control
 
 #### Lecture Notes
 
@@ -61,7 +61,7 @@ All lecture notes can be accessed in the lecture notes folder, as well as the sl
 -   [Version Control, Workflow and Reproducibility: Or a bit of Git & GitHub](docs/slides/week-2.html)
 
 
-### Week 3: Intro to Python - OOP, Data Types, and Collectors
+## Week 3: Intro to Python - OOP, Data Types, and Collectors
 
 #### Lectures Notes:
 
@@ -74,7 +74,7 @@ All lecture notes can be accessed in the lecture notes folder, as well as the sl
 - [Week 3 - Intro do Python: OOP, Data Types and Collectors ](docs/slides/week-3.html)
 
 
-### Week 4: Python II: Control Statements, Comprehensions, Nested Lists
+## Week 4: Python II: Control Statements, Comprehensions, Nested Lists
 
 #### Lectures Notes:
 
@@ -92,7 +92,7 @@ Download the datasets <a href="/lecture_notes/week-04/data_week4.zip" download> 
 
 -   [Control Statements, Comprehensions, Nested Lists, and Numpy](docs/slides/week-4.html)
 
-### Week 5: Numpy and Intro do Pandas
+## Week 5: Numpy and Intro do Pandas
 
 #### Lectures Notes:
 
@@ -107,7 +107,7 @@ Download the datasets <a href="/lecture_notes/week-04/data_week4.zip" download> 
 -   [Numpy and Intro do Pandas](docs/slides/week-5.html)
 
 
-### Week 6: Pandas - Data Wrangling
+## Week 6: Pandas - Data Wrangling
 
 #### Lecture Notes
 
@@ -128,7 +128,7 @@ Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> 
 -   [Pandas: Data Wrangling](docs/slides/week-6.html)
 
 
-### Week 7: Joining, Tidying and Visualizing Data
+## Week 7: Joining, Tidying and Visualizing Data
 
 #### Lectures Notes:
 
@@ -145,7 +145,7 @@ Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> 
 -   [Joining, Tidying and Visualizing Data](docs/slides/week-7.html)
 
 
-### Week 8: Parsing Unstructured Data: Scraping Static Websites
+## Week 8: Parsing Unstructured Data: Scraping Static Websites
 
 #### Lectures Notes:
 
@@ -156,7 +156,7 @@ Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> 
 -   [Parsing Unstructured Data: Scraping Static Websites](/slides/week-8.html)
 
 
-### Week 9: APIs and Selenium
+## Week 9: APIs and Selenium
 
 #### Lectures Notes:
 
@@ -169,7 +169,7 @@ Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> 
 -   [Acquiring data on the Web: APIs and Selenium](docs/slides/week-9.html)
 
 
-### Week 10: Intro to Statistical Learning
+## Week 10: Intro to Statistical Learning
 
 #### Lecture Notes
 
@@ -180,7 +180,7 @@ Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> 
 -   [Statistical Learning: inference and predictions](docs/slides/week-10.html)
 
 
-### Week 11: Text Analysis I
+## Week 11: Text Analysis I
 
 #### Lecture notes
 
@@ -191,7 +191,7 @@ Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> 
 -   [Text analysis I](docs/slides/week-11.html)
 
 
-### Week 12: Text Analysis II
+## Week 12: Text Analysis II
 
 #### Lectures Notes:
 
@@ -202,7 +202,7 @@ Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> 
 -   [Text analysis II](docs/slides/week-12.html)
 
 
-### Week 13: SQL
+## Week 13: SQL
 
 #### Lectures Notes:
 
@@ -214,5 +214,5 @@ Download the datasets <a href="/lecture_notes/week-06/data_week6.zip" download> 
 -   [SQL](docs/slides/week-13.html)
 
 
-### Week 14: Project Presentation
+## Week 14: Project Presentation
 
